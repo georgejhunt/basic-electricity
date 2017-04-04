@@ -1,0 +1,21 @@
+#!/bin/bash -x
+# provide config for the bash and python translation tools
+# use the BR- prefix for all variables, -- since our communication to python
+#  is exptremely easy via  environment variables
+
+# setup static varibles
+export BE_DIR=$(cd `dirname $0`;pwd)
+
+# make sure there is a build directory
+mkdir -p $BE_DIR/build
+
+# default the input directory
+if [ $# -lt 1 ]; then
+   export LIEC_DIR=/root/liec
+else
+   export LIEC_DIR="$1"
+fi
+
+# list of languages
+    export BE_LANGUAGES_LIST="es fr"
+

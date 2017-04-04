@@ -1,0 +1,18 @@
+#!/bin/bash -x
+# automate fetching of translation of url
+
+if [ $# -lt 1 ]; then
+   echo "Usage: $0 URL"
+   exit 1
+fi
+inLanguage=en
+outLanguage=es
+
+SNIP=${1##*\/}
+SNIP=${SNIP%.*}
+
+mkdir -p $SNIP
+cd $SNIP/
+
+wget --post-data " url=$1&sl=$inLanguage&tl=$outLanguage" http://itools.com/tool/google-translate-web-page-translator
+

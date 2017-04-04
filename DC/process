@@ -1,0 +1,18 @@
+#!/bin/bash
+# process all the sml files in matching liec directory
+
+source ../factory-settings
+
+# go over the list of languages
+for lang in $BE_LANGUAGES_LIST; do
+   # copy the whole source context to build directory
+   mkdir -p $LIEC_DIR/build/$lang
+   rsync -av $LIEC_DIR/DC $LIEC_DIR/build/$lang
+   #for sml in `ls $LIEC_SRC/*.sml`;do
+   LIST="basiccon about"
+   for sml in $LIST;do
+      #../scripts/xlate $sml.sml $lang 
+      echo  "../scripts/xlate $LIEC/build/$lang/DC/$sml.sml $lang" 
+   done
+done
+
