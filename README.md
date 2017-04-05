@@ -10,13 +10,13 @@ The html outputs are of particular interest me, as I have been working on an off
 
 In an earlier life, I taught high school electric shop, and my experience in a few developing countires, has caused me to lament that I could find no free, elementary electricity materials, in spanish or french.
 
-#### How To help in transation
+#### How To help in transation -- language skill mostly
 
 I lack a critical piece in this translation business -- the proficiency in another language. It would be wonderful to partner with native speakers, who shared the vision of excited 10 year olds wanting to discover how the world of electricity worked.
 
-* At the bare minimum, I'd be happy to receive email of corrected .pot files, which I could easily integrate into the repo for others to benefit from.
+* At the bare minimum, I'd be happy to receive email of corrected .pot files, which I could easily integrate into the repo for others to benefit from. Microsoft, and linux clients, can clone data from a github.com account.
 * A larger investment would involve getting a github account, cloning the repo, making edits, and then generating "pull requests" from your github account to mine.
-* Or once I'm no longer avilable, (I'm 75, and hoping that this will live on after I'm gone), local language experts can become their own country administrators. 
-* It is almost a trivial operation to consolidate github clones, into a master of all the clones, which is again more of an administrative task, and doesn't involve language expertise.
+* Or once I'm no longer avilable, (I'm 75, and hoping that this will live on after I'm gone), local language experts can become their own country administrators. (Github is pretty easy to use).
+* Github makes it easy to consolidate github clones, into a master of all child clones, which is again more of an administrative task, and doesn't involve language expertise.
 
 
