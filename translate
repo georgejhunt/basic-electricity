@@ -1,0 +1,43 @@
+#!/bin/bash 
+# process all the sml files specified in the lists passed from factory
+
+source ./factory-settings
+
+# go over the list of languages
+for lang in $BE_LANGUAGES_LIST; do
+   # copy the whole source context to build directory
+   mkdir -p $BE_LIEC_DIR/build/$lang
+   rsync -av $BE_LIEC_DIR/DC $LIEC_DIR/build/$lang
+   
+   # scan through source dirs looking for sml file
+   translate_this=
+
+   # if the sml list is empty, the user wants everything
+   if [ -z "$BE_LIST" ]; then
+      BE_list=`ls $BE_LIEC_DIR/*/*.sml`
+   fi
+
+   for smlfile in $BE_LIST;do
+      # first find the full path of the smlfile
+      for volume in $BE_VOLUMES; do
+        if [ -f $BE_LIEC_DIR/$volume/$smlfile ]; then
+           translate_this=$BE_LIEC_DIR/$volume/$smlfile
+           volumedir=$volume
+        else
+           # take care of a list of files with out .sml suffix
+           if [ -f $BE_LIEC_DIR/$volume/$smlfile.sml ]; then
+              translate_this=$BE_LIEC_DIR/$volume/$smlfile.sml
+              volumedir=$volume
+           fi  
+        fi 
+      done
+      if [ -z "$translate_this" ]; then
+          # log a failure to find
+          echo "failed to find $smlfile in $BE_VOLUMES" >>$BE_LOGFILE
+      else 
+         $BE_DIR/scripts/xlate $translate_this $volumedir $lang 
+         #echo  "$BE_DIR/scripts/xlate $translate_this $volumedir  $lang" 
+      fi
+   done
+done
+

@@ -1,0 +1,98 @@
+#!/bin/env python
+# -*- coding: utf-8 -*-
+# use (or create) Portable Objecet Template to localize *.sml file 
+# input parameters <full path of sml file> <volume> <language>
+
+import sys, os
+#from google.cloud import translate
+from googleapiclient.discovery import build
+
+import yaml
+import codecs
+
+cwd = os.getcwd()
+liec_dir = os.environ["BE_LIEC_DIR"]
+be_dir = os.environ["BE_DIR"]
+API_KEY = 'AIzaSyA--nrIgmsTPIYaZh4SojRPBTyzn96m5Sg'
+service = build('translate', 'v2', developerKey=API_KEY)
+
+def gtranslate(text,slang='en',tlang='es'):
+    return service.translations().list(
+           source=slang, 
+           target=tlang,
+           r=[text]
+           ).execute()
+
+if len(sys.argv) < 3:
+  print "input parameters <full path of sml file> <volume> <language>"
+  sys.exit(1)
+
+# target language is second parameter
+tlang = sys.argv[3]
+
+# split apart identifier from full path
+basename = os.path.basename(sys.argv[1])
+
+# Look to see if we already have translation going for this sml file
+inputFilename = be_dir + '/po-templates/' + basename +'.pot.' + tlang
+try: # to load the portable object translation file
+   fd = codecs.open(inputFilename,"r","utf-8")
+   po = yaml.load(fd)
+except:
+   po = {}
+   
+# open the english SubML source file
+fd = open (sys.argv[1],"r")
+raw = fd.read()
+
+tags = [ [ '<para>\n', '</para>\n' ], ]
+rawmap = []
+
+# iterate over the tag types that must be translated
+for j in range(len(tags)):
+    tag,tagend = tags[j]
+    index = 0
+    num_nibbles = 0
+
+    while index < len(raw) and index != len(tag)-1:
+         index = raw.find(tag,index) + len(tag)
+         if index != len(tag)-1:
+            endnibble = raw.find(tagend,index) 
+            if endnibble != -1:
+               english_text = (raw[index:endnibble])
+               if not english_text in po.keys():
+                  print english_text
+                  tr = gtranslate(english_text)
+                  asciistr = tr['translations'][0]['translatedText']
+                  po[english_text] = {"xlate":asciistr, "tag":tag}
+               else:
+                   asciistr = po[english_text]['xlate']
+               # recored the starting index, and end
+               rawmap.append([ index, endnibble ])
+               index = endnibble + len(tagend)
+               num_nibbles += 1
+
+# now reread the input string, and assemble the outstr
+index = 0
+
+# rewrite the .pot file in case of any changes
+fd = codecs.open(inputFilename,"w","utf-8")
+yaml.dump(po,fd,allow_unicode=True)
+fd.close()
+
+# use sorted rawmap as indexes into the raw input that need substitution
+rawmap.sort()
+print rawmap
+outstr = ''
+for startnibble, endnibble in rawmap:
+    outstr += raw[index:startnibble]
+    outstr += po[raw[startnibble:endnibble]]['xlate']
+    index = endnibble
+    
+
+# now write out the translated sml file
+outFile = sys.argv[1] 
+fd = codecs.open(outFile,"w","utf-8")
+fd.write(outstr)
+fd.close()
+print(num_nibbles)

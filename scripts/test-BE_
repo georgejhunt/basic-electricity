@@ -1,0 +1,2 @@
+source ../factory-settings
+set | grep BE_

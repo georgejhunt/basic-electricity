@@ -1,21 +1,34 @@
 #!/bin/bash -x
-# provide config for the bash and python translation tools
-# use the BR- prefix for all variables, -- since our communication to python
-#  is exptremely easy via  environment variables
+# config for the translation tools for Lessons In Electric Circuits (LIEC)
+
+# NOTICE: This repo needs to know where the source LIEC is located - EDIT THIS!
+   export BE_LIEC_DIR=/root/liec
+
+# the basic-electricity repo will fail to function, if it cannot find source
+if [ ! -d $BE_LIEC_DIR ]; then
+   echo "Please edit the \"factory-settings\" with source location - line 5"
+   exit 1 
+fi
+
+# use the BE_ prefix (basic electricity), -- since our communication to python
+#  is exptremely easy via environment variables -- no clobber existing variables
 
 # setup static varibles
 export BE_DIR=$(cd `dirname $0`;pwd)
 
 # make sure there is a build directory
-mkdir -p $BE_DIR/build
+mkdir -p $BE_LIEC_DIR/build
 
-# default the input directory
-if [ $# -lt 1 ]; then
-   export LIEC_DIR=/root/liec
-else
-   export LIEC_DIR="$1"
-fi
-
-# list of languages
+# list of languages -- edit (add or subtract) to specify languages of interest
     export BE_LANGUAGES_LIST="es fr"
 
+# list of volumes -- comprehensive list of places to search for chapters
+#    edit to create a subset of volumes to be operated upon
+    export BE_VOLUMES="DC AC Exper Devel Ref Semi"
+
+# list of sml files to translate -- empty list does all languages, volumes in
+#     previous two lists
+    export BE_LIST="test"
+
+# set up a logfile to record significant events
+    export BE_LOGFILE=$BE_DIR/translate.log
