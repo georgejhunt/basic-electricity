@@ -2,7 +2,8 @@
 # config for the translation tools for Lessons In Electric Circuits (LIEC)
 
 # NOTICE: This repo needs to know where the source LIEC is located - EDIT THIS!
-   export BE_LIEC_DIR=/root/liec
+   BE_LIEC_DIR=/root/liec
+   export BE_LIEC_DIR
 
 # the basic-electricity repo will fail to function, if it cannot find source
 if [ ! -d $BE_LIEC_DIR ]; then
@@ -20,15 +21,17 @@ export BE_DIR=$(cd `dirname $0`;pwd)
 mkdir -p $BE_LIEC_DIR/build
 
 # list of languages -- edit (add or subtract) to specify languages of interest
-    export BE_LANGUAGES_LIST="es fr"
+#    export BE_LANGUAGES_LIST="es fr"
+    export BE_LANGUAGES_LIST="es "
 
 # list of volumes -- comprehensive list of places to search for chapters
 #    edit to create a subset of volumes to be operated upon
-    export BE_VOLUMES="DC AC Exper Devel Ref Semi"
+#    export BE_VOLUMES="DC AC Exper Devel Ref Semi"
+    export BE_VOLUMES="DC "
 
 # list of sml files to translate -- empty list does all languages, volumes in
 #     previous two lists
-    export BE_LIST="test"
+    export BE_LIST="about"
 
 # set up a logfile to record significant events
     export BE_LOGFILE=$BE_DIR/translate.log

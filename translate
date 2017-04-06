@@ -1,13 +1,16 @@
-#!/bin/bash 
+#!/bin/bash -x
 # process all the sml files specified in the lists passed from factory
 
 source ./factory-settings
 
 # go over the list of languages
 for lang in $BE_LANGUAGES_LIST; do
-   # copy the whole source context to build directory
    mkdir -p $BE_LIEC_DIR/build/$lang
-   rsync -av $BE_LIEC_DIR/DC $LIEC_DIR/build/$lang
+
+   # copy the whole source context to build directory
+   for volume in $BE_VOLUMES; do
+      rsync -av --exclude=*.sml $BE_LIEC_DIR/$volume $BE_LIEC_DIR/build/$lang
+   done
    
    # scan through source dirs looking for sml file
    translate_this=
