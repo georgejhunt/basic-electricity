@@ -1,0 +1,679 @@
+? ''
+: {tag: '<para>
+
+    ', xlate: !!python/unicode ''}
+<italic><quote>The nice thing about standards is that there are so many of them to choose from.</quote>: {
+  tag: '<para>
+
+    ', xlate: <italic><quote> Lo bueno de los estándares es que hay tantos de ellos
+    para elegir. </quote>}
+? <italic>Voltage</italic> is the measure of specific potential energy (potential
+  energy per unit charge) between two locations.  In layman's terms, it is the measure
+  of <quote>push</quote>
+: {tag: <item>, xlate: '<italic> voltaje </italic> es la medida de la energía potencial
+    específica (energía potencial por unidad de carga) entre dos ubicaciones. En términos
+    sencillos, es la medida de <quote> empujar </quote>'}
+? A knife switch is nothing more than a conductive lever, free to pivot on a hinge,
+  coming into physical contact with one or more stationary contact points which are
+  also conductive.  The switch shown in the above illustration is constructed on a
+  porcelain base (an excellent insulating material), using copper (an excellent conductor)
+  for the <quote>blade</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un conmutador de cuchilla es nada más que una palanca de conductor,
+    libre para pivotar sobre una bisagra, que entra en contacto físico con uno o más
+    puntos de contacto estacionarios que son también conductora. El conmutador se
+    muestra en la ilustración anterior se construye sobre una base de porcelana (un
+    excelente material aislante), utilizando cobre (un excelente conductor) para el
+    <quote> espada </quote>'}
+? A thin, solid line (as shown above) is the conventional symbol for a continuous
+  piece of wire.  Since the wire is made of a conductive material, such as copper,
+  its constituent atoms have many free electrons which can easily move through the
+  wire.  However, there will never be a continuous or uniform flow of electrons within
+  this wire unless they have a place to come from and a place to go.  Let's add a
+  hypothetical electron <quote>Source</quote> and <quote>Destination:</quote>
+: {tag: '<para>
+
+    ', xlate: 'A, línea continua fina (como se muestra más arriba) es el símbolo convencional
+    para una pieza continua de alambre. Dado que el alambre está hecho de un material
+    conductor, tal como cobre, sus átomos constituyentes tienen muchos electrones
+    libres que pueden moverse fácilmente a través del alambre. Sin embargo, nunca
+    habrá un flujo continuo o uniforme de los electrones dentro de este hilo a menos
+    que tengan un lugar para venir desde y un lugar para ir. Vamos a añadir un electrón
+    hipotética <quote> Fuente </quote> y <quote> Destino: </quote>'}
+All materials are made up of tiny <quote>building blocks</quote>: {tag: <item>, xlate: Todos
+    los materiales se componen de pequeña <quote> bloques de construcción </quote>}
+? As before, with no flow of electrons, the entire potential (voltage) of the battery
+  is available across the break, waiting for the opportunity of a connection to bridge
+  across that break and permit electron flow again.  This condition is known as an
+  <italic>open circuit</italic>, where a break in the continuity of the circuit prevents
+  current throughout.  All it takes is a single break in continuity to <quote>open</quote>
+: {tag: '<para>
+
+    ', xlate: 'Al igual que antes, sin flujo de electrones, todo el potencial (tensión)
+    de la batería está disponible a través de la ruptura, a la espera de la oportunidad
+    de una conexión a través de un puente que se rompen y el permiso de electrones
+    fluyen de nuevo. Esta condición se conoce como una <italic> circuito abierto </italic>
+    , Donde una ruptura en la continuidad del circuito impide que la corriente a lo
+    largo. Sólo se necesita una única solución de continuidad a <quote> abierto </quote>'}
+? As the electrons work their way through the thin metal filament of the lamp, they
+  encounter more opposition to motion than they typically would in a thick piece of
+  wire.  This opposition to electric current depends on the type of material, its
+  cross-sectional area, and its temperature.  It is technically known as <italic>resistance</italic>.  (It
+  can be said that conductors have low resistance and insulators have very high resistance.)  This
+  resistance serves to limit the amount of current through the circuit with a given
+  amount of voltage supplied by the battery, as compared with the <quote>short circuit</quote>
+: {tag: '<para>
+
+    ', xlate: 'A medida que los electrones se abren camino a través del filamento
+    de metal delgada de la lámpara, se encuentran con más oposición al movimiento
+    de lo que haría normalmente en un espesor de pieza de alambre. Esta oposición
+    a la corriente eléctrica depende del tipo de material, su área de sección transversal,
+    y su temperatura. Es técnicamente se conoce como <italic> resistencia </italic>
+    . (Se puede decir que los conductores tienen una baja resistencia y aislantes
+    tienen una resistencia muy alta.) Esta resistencia sirve para limitar la cantidad
+    de corriente a través del circuito con una cantidad dada de tensión suministrada
+    por la batería, en comparación con el <quote> cortocircuito </quote>'}
+? Because it takes energy to force electrons to flow against the opposition of a resistance,
+  there will be voltage manifested (or <quote>dropped</quote>
+: {tag: '<para>
+
+    ', xlate: 'Debido a que se necesita energía para obligar a los electrones a fluir
+    con la oposición de una resistencia, habrá tensión manifiesta (o <quote> caído
+    </quote>'}
+? 'Because of the difference in the height of the drop, there''s potential for much
+  more energy to be released from the reservoir through the piping to location 2 than
+  to location 1.  The principle can be intuitively understood in dropping a rock:
+  which results in a more violent impact, a rock dropped from a height of one foot,
+  or the same rock dropped from a height of one mile?  Obviously, the drop of greater
+  height results in greater energy released (a more violent impact).  We cannot assess
+  the amount of stored energy in a water reservoir simply by measuring the volume
+  of water any more than we can predict the severity of a falling rock''s impact simply
+  from knowing the weight of the rock: in both cases we must also consider how <italic>far</italic>
+  these masses will drop from their initial height.  The amount of energy released
+  by allowing a mass to drop is relative to the distance <italic>between</italic>
+  its starting and ending points.  Likewise, the potential energy available for moving
+  electrons from one point to another is relative to those two points.  Therefore,
+  voltage is always expressed as a quantity <italic>between</italic> two points.  Interestingly
+  enough, the analogy of a mass potentially <quote>dropping</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Debido a la diferencia en la altura de la caída, hay potencial para
+    mucho más energía para ser liberado desde el depósito a través de la tubería a
+    la posición 2 que a la posición 1. El principio puede entenderse intuitivamente
+    en la caída de una roca: que resulta en un más violento impacto, una roca cayó
+    desde una altura de un pie, o la misma roca deja caer desde una altura de una
+    milla? Obviamente, la caída de los mayores resultados de altura con mayor energía
+    liberada (un impacto más violento). No podemos evaluar la cantidad de energía
+    almacenada en un depósito de agua, simplemente midiendo el volumen de agua más
+    de lo que podemos predecir la severidad del impacto de una piedra que cae simplemente
+    de saber el peso de la roca: en ambos casos también hay que considerar cómo <italic>
+    lejos </italic> estas masas caerán de su altura inicial. La cantidad de energía
+    liberada al permitir una masa de la gota está en relación con la distancia <italic>
+    Entre </italic> sus puntos de inicio y finalización. Del mismo modo, la energía
+    potencial disponible para mover electrones a partir de un punto a otro es relativa
+    a esos dos puntos. Por lo tanto, el voltaje se expresa siempre como una cantidad
+    <italic> Entre </italic> dos puntos. Curiosamente, la analogía de una masa potencialmente
+    <quote> goteante </quote>'}
+? Because voltage is an expression of potential energy, representing the possibility
+  or potential for energy release as the electrons move from one <quote>level</quote>
+: {tag: '<para>
+
+    ', xlate: 'Debido a que la tensión es una expresión de la energía potencial, lo
+    que representa la posibilidad o potencial para la liberación de energía como los
+    electrones se mueven de una <quote> nivel </quote>'}
+? By the time the true direction of electron flow was discovered, the nomenclature
+  of <quote>positive</quote> and <quote>negative</quote> had already been so well
+  established in the scientific community that no effort was made to change it, although
+  calling electrons <quote>positive</quote> would make more sense in referring to
+  <quote>excess</quote> charge.  You see, the terms <quote>positive</quote> and <quote>negative</quote>
+  are human inventions, and as such have no absolute meaning beyond our own conventions
+  of language and scientific description.  Franklin could have just as easily referred
+  to a surplus of charge as <quote>black</quote> and a deficiency as <quote>white,</quote>
+  in which case scientists would speak of electrons having a <quote>white</quote>
+: {tag: '<para>
+
+    ', xlate: 'Por el momento se descubrió la verdadera dirección del flujo de electrones,
+    la nomenclatura de <quote> positivo </quote> y <quote> negativo </quote> ya habían
+    sido tan bien establecida en la comunidad científica de que no se hizo ningún
+    esfuerzo para cambiarlo, aunque los electrones de llamada <quote> positivo </quote>
+    tendría más sentido al referirse a <quote> exceso </quote> cargar. Usted ve, los
+    términos <quote> positivo </quote> y <quote> negativo </quote> son inventos humanos,
+    y como tales tienen ningún significado absoluto más allá de nuestras propias convenciones
+    del lenguaje y la descripción científica. Franklin podría haberse referido con
+    la misma facilidad a un exceso de carga como <quote> negro </quote> y una deficiencia
+    como <quote> blanco, </quote> en el que los científicos de caso hablarían de electrones
+    que tiene una <quote> blanco </quote>'}
+? Electrons are not much different.  If we rub wax and wool together, we <quote>pump</quote>
+  electrons away from their normal <quote>levels,</quote>
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Los electrones no son muy diferentes. Si frotamos
+    cera y lana juntos, <quote> bomba </quote> electrones fuera de sus normales <quote>
+    niveles, </quote>'}
+? 'Electrons tend to repel other electrons over a distance, as do protons with other
+  protons.  The only reason protons bind together in the nucleus of an atom is because
+  of a much stronger force called the <italic>strong nuclear force</italic> which
+  has effect only under very short distances.  Because of this attraction/repulsion
+  behavior between individual particles, electrons and protons are said to have opposite
+  electric charges.  That is, each electron has a negative charge, and each proton
+  a positive charge.  In equal numbers within an atom, they counteract each other''s
+  presence so that the net charge within the atom is zero.  This is why the picture
+  of a carbon atom had six electrons: to balance out the electric charge of the six
+  protons in the nucleus.  If electrons leave or extra electrons arrive, the atom''s
+  net electric charge will be imbalanced, leaving the atom <quote>charged</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Los electrones tienden a repeler otros electrones sobre una distancia,
+    al igual que los protones con otros protones. La única razón por protones se unen
+    juntos en el núcleo de un átomo es debido a una fuerza mucho más fuerte llamado
+    <italic> fuerza nuclear fuerte </italic> que tiene un efecto sólo en distancias
+    muy cortas. Debido a este comportamiento / repulsión de atracción entre las partículas
+    individuales, los electrones y los protones se dice que tienen cargas eléctricas
+    opuestas. Es decir, cada electrón tiene una carga negativa, y cada protón una
+    carga positiva. En números iguales dentro de un átomo, que contrarrestan la presencia
+    del otro de modo que la carga neta dentro del átomo es cero. Esta es la razón
+    por la imagen de un átomo de carbono tiene seis electrones: para equilibrar la
+    carga eléctrica de los seis protones en el núcleo. Si los electrones salen o llegan
+    electrones extra, será desequilibrado carga eléctrica neta del átomo, dejando
+    el átomo <quote> cargado </quote>'}
+? Following Franklin's speculation of the wool rubbing something off of the wax, the
+  type of charge that was associated with rubbed wax became known as <quote>negative</quote>
+  (because it was supposed to have a deficiency of fluid) while the type of charge
+  associated with the rubbing wool became known as <quote>positive</quote>
+: {tag: '<para>
+
+    ', xlate: 'A raíz de la especulación de la lana frotando algo fuera de la cera
+    de Franklin, el tipo de carga que se asoció con cera frota hizo conocido como
+    <quote> negativo </quote> (Ya que se supone que tienen una deficiencia de líquido),
+    mientras que el tipo de carga asociada con la lana roce se hizo conocido como
+    <quote> positivo </quote>'}
+For instance, silver is the best conductor in the <quote>conductors</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Por ejemplo, la plata es el mejor conductor en el
+    <quote> conductores </quote>'}
+? For this reason alone, many people choose to make conventional flow their notation
+  of choice when drawing the direction of charge motion in a circuit.  If for no other
+  reason, the symbols associated with semiconductor components like diodes make more
+  sense this way.  However, others choose to show the true direction of electron travel
+  so as to avoid having to tell themselves, <quote>just remember the electrons are
+  <italic>actually</italic> moving the other way</quote>
+: {tag: '<para>
+
+    ', xlate: 'Sólo por esta razón, muchas personas optan por hacer su notación de
+    flujo convencional de elección en la elaboración de la dirección del movimiento
+    de carga en un circuito. Si por ninguna otra razón, los símbolos asociados a los
+    componentes semiconductores como diodos tienen más sentido de esta manera. Sin
+    embargo, otros eligen para mostrar el verdadero sentido de la marcha de electrones
+    a fin de evitar tener que decirse a sí mismos, <quote> sólo recuerda que los electrones
+    son <italic> actualmente </italic> en movimiento a la inversa </quote>'}
+? However, because we tend to associate the word <quote>positive</quote> with <quote>surplus</quote>
+  and <quote>negative</quote> with <quote>deficiency,</quote> the standard label for
+  electron charge does seem backward.  Because of this, many engineers decided to
+  retain the old concept of electricity with <quote>positive</quote>
+: {tag: '<para>
+
+    ', xlate: 'Sin embargo, debido a que tienden a asociar la palabra <quote> positivo
+    </quote> con <quote> superávit </quote> y <quote> negativo </quote> con <quote>
+    deficiencia, </quote> la etiqueta estándar para la carga del electrón parece al
+    revés. Debido a esto, muchos ingenieros decidieron mantener el viejo concepto
+    de la electricidad con <quote> positivo </quote>'}
+? However, we will find the voltage appearing between any two of these points to be
+  directly proportional to the resistance within the conductive path between those
+  two points, given that the amount of current along any part of the circuit's path
+  is the same (which, for this simple circuit, it is).  In a normal lamp circuit,
+  the resistance of a lamp will be much greater than the resistance of the connecting
+  wires, so we should expect to see a substantial amount of voltage between points
+  2 and 3, with very little between points 1 and 2, or between 3 and 4.  The voltage
+  between points 1 and 4, of course, will be the full amount of <quote>force</quote>
+: {tag: '<para>
+
+    ', xlate: 'Sin embargo, nos encontramos con la tensión que aparece entre dos cualesquiera
+    de estos puntos para ser directamente proporcional a la resistencia dentro de
+    la trayectoria conductora entre esos dos puntos, dado que la cantidad de corriente
+    a lo largo de cualquier parte de la trayectoria del circuito es el mismo (que,
+    por este circuito simple, es). En un circuito de la lámpara normal, la resistencia
+    de una lámpara será mucho mayor que la resistencia de los cables de conexión,
+    por lo que debe esperar para ver una cantidad sustancial de voltaje entre los
+    puntos 2 y 3, con muy poco entre los puntos 1 y 2, o entre 3 y 4. la tensión entre
+    los puntos 1 y 4, por supuesto, será la cantidad completa de <quote> fuerza </quote>'}
+If a circuit is <quote>broken,</quote>: {tag: <item>, xlate: !!python/unicode 'Si
+    un circuito es <quote> roto, </quote>'}
+? 'In keeping with the <quote>open</quote> and <quote>closed</quote> terminology of
+  circuits, a switch that is making contact from one connection terminal to the other
+  (example: a knife switch with the blade fully touching the stationary contact point)
+  provides continuity for electrons to flow through, and is called a <italic>closed</italic>
+  switch.  Conversely, a switch that is breaking continuity (example: a knife switch
+  with the blade <italic>not</italic> touching the stationary contact point) won''t
+  allow electrons to pass through and is called an <italic>open</italic> switch.  This
+  terminology is often confusing to the new student of electronics, because the words
+  <quote>open</quote> and <quote>closed</quote> are commonly understood in the context
+  of a door, where <quote>open</quote> is equated with free passage and <quote>closed</quote>
+  with blockage.  With electrical switches, these terms have opposite meaning: <quote>open</quote>
+  means no flow while <quote>closed</quote>'
+: {tag: '<para>
+
+    ', xlate: 'De acuerdo con la <quote> abierto </quote> y <quote> cerrado </quote>
+    terminología de circuitos, un conmutador que está haciendo contacto de un terminal
+    de conexión a la otra (ejemplo: un conmutador de cuchilla con la cuchilla de tocar
+    completamente el punto de contacto estacionario) proporciona continuidad para
+    que los electrones fluyen a través de, y se llama una <italic> cerrado </italic>
+    cambiar. Por el contrario, un interruptor que está rompiendo la continuidad (ejemplo:
+    un interruptor de cuchillo con la hoja <italic> no </italic> tocando el punto
+    de contacto estacionario) no permitirá que los electrones pasen a través y se
+    llama una <italic> abierto </italic> cambiar. Esta terminología es a menudo confuso
+    para el nuevo estudiante de la electrónica, porque las palabras <quote> abierto
+    </quote> y <quote> cerrado </quote> se entiende comúnmente en el contexto de una
+    puerta, donde <quote> abierto </quote> se equipara con el paso libre y <quote>
+    cerrado </quote> con bloqueo. Con los interruptores eléctricos, estos términos
+    tienen un significado opuesto: <quote> abierto </quote> significa que no hay flujo
+    mientras <quote> cerrado </quote>'}
+? In this series of textbooks, I have committed to using electron flow notation.  Ironically,
+  this was not my first choice.  I found it much easier when I was first learning
+  electronics to use conventional flow notation, primarily because of the directions
+  of semiconductor device symbol arrows.  Later, when I began my first formal training
+  in electronics, my instructor insisted on using electron flow notation in his lectures.  In
+  fact, he asked that we take our textbooks (which were illustrated using conventional
+  flow notation) and use our pens to change the directions of all the current arrows
+  so as to point the <quote>correct</quote>
+: {tag: '<para>
+
+    ', xlate: 'En esta serie de libros de texto, me he comprometido a utilizar la
+    notación de flujo de electrones. Irónicamente, esto no era mi primera opción.
+    Me pareció mucho más fácil cuando estaba aprendiendo primero la electrónica utilizar
+    la notación de flujo convencional, sobre todo debido a las direcciones de las
+    flechas símbolo de dispositivos semiconductores. Más tarde, cuando empecé mi primer
+    entrenamiento formal en electrónica, mi instructor insistió en el uso de la notación
+    flujo de electrones en sus conferencias. De hecho, pidió que tomamos nuestros
+    libros de texto (que fueron ilustradas usando la notación de flujo convencional)
+    y la usamos nuestras plumas para cambiar las direcciones de todas las flechas
+    actuales con el fin de señalar el <quote> correcto </quote>'}
+It is interesting to note that no <quote>wear</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Es interesante observar que hay <quote> vestir </quote>'}
+? 'It must be understood that not all conductive materials have the same level of
+  conductivity, and not all insulators are equally resistant to electron motion.  Electrical
+  conductivity is analogous to the transparency of certain materials to light: materials
+  that easily <quote>conduct</quote> light are called <quote>transparent,</quote>
+  while those that don''t are called <quote>opaque.</quote>  However, not all transparent
+  materials are equally conductive to light.  Window glass is better than most plastics,
+  and certainly better than <quote>clear</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Se debe entender que no todos los materiales conductores tienen el
+    mismo nivel de conductividad, y no todos los aisladores son igualmente resistentes
+    a movimiento de los electrones. La conductividad eléctrica es análoga a la transparencia
+    de ciertos materiales a la luz: materiales que fácilmente <quote> conducta </quote>
+    la luz se denominan <quote> transparente, </quote> mientras que los que no lo
+    hacen se llama <quote> opaco. </quote> Sin embargo, no todos los materiales transparentes
+    son igualmente conductora a la luz. cristal de la ventana es mejor que la mayoría
+    de los plásticos, y ciertamente mejor que <quote> claro </quote>'}
+? 'It was discovered much later that this <quote>fluid</quote> was actually composed
+  of extremely small bits of matter called <italic>electrons</italic>, so named in
+  honor of the ancient Greek word for amber: another material exhibiting charged properties
+  when rubbed with cloth.  Experimentation has since revealed that all objects are
+  composed of extremely small <quote>building-blocks</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Se descubrió mucho más tarde que este <quote> fluido </quote> en realidad
+    estaba compuesto por extremadamente pequeños trozos de materia llamados <italic>
+    electrones </italic> , Llamado así en honor a la antigua palabra griega para el
+    ámbar: otro material que presente propiedades cargadas cuando se frota con un
+    paño. ya que la experimentación ha puesto de manifiesto que todos los objetos
+    se componen de extremadamente pequeña <quote> bloques de construcción </quote>'}
+? Just as the pumping of water to a higher level results in energy being stored, <quote>pumping</quote>
+  electrons to create an electric charge imbalance results in a certain amount of
+  energy being stored in that imbalance.  And, just as providing a way for water to
+  flow back down from the heights of the reservoir results in a release of that stored
+  energy, providing a way for electrons to flow back to their original <quote>levels</quote>
+: {tag: '<para>
+
+    ', xlate: 'Del mismo modo que se almacena el bombeo de agua a un nivel más altos
+    resultados en materia de energía, <quote> bombeo </quote> electrones para crear
+    una corriente eléctrica resultados desequilibrio de carga en una cierta cantidad
+    de energía que se almacenan en ese desequilibrio. Y, así como proporcionar una
+    manera para que el agua fluya hacia abajo desde las alturas de los resultados
+    del yacimiento en un comunicado de que la energía almacenada, proporcionando una
+    manera para que los electrones fluyan de nuevo a su estado original <quote> niveles
+    </quote>'}
+? 'Notice the <quote>+</quote> and <quote>-</quote> signs drawn at the ends of the
+  break in the circuit, and how they correspond to the <quote>+</quote> and <quote>-</quote>
+  signs next to the battery''s terminals.  These markers indicate the direction that
+  the voltage attempts to push electron flow, that potential direction commonly referred
+  to as <italic>polarity</italic>.  Remember that voltage is always relative between
+  two points.  Because of this fact, the polarity of a voltage drop is also relative
+  between two points: whether a point in a circuit gets labeled with a <quote>+</quote>
+  or a <quote>-</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Note la <quote> + </quote> y <quote> - </quote> signos dibujados en
+    los extremos de la ruptura en el circuito, y la forma en que se corresponden con
+    el <quote> + </quote> y <quote> - </quote> signos próximos a los terminales de
+    la batería. Estos marcadores indican la dirección que la tensión intenta empujar
+    el flujo de electrones, que dirección potencial refiere comúnmente como <italic>
+    polaridad </italic> . Recuerde que la tensión es siempre relativa entre dos puntos.
+    Debido a este hecho, la polaridad de una caída de tensión también es relativa
+    entre dos puntos: si un punto en un circuito se marca con un <quote> + </quote>
+    o una <quote> - </quote>'}
+? Notice the little <quote>+</quote> and <quote>-</quote> signs to the immediate left
+  of the battery symbol.  The negative (-) end of the battery is always the end with
+  the shortest dash, and the positive (+) end of the battery is always the end with
+  the longest dash.  Since we have decided to call electrons <quote>negatively</quote>
+: {tag: '<para>
+
+    ', xlate: 'Note la pequeña <quote> + </quote> y <quote> - </quote> signos inmediatamente
+    a la izquierda del símbolo de la batería. El negativo (-) extremo de la batería
+    es siempre el final con el guión más corto, y el extremo positivo (+) de la batería
+    es siempre el final con el guión más largo. Puesto que hemos decidido llamar a
+    los electrones <quote> negativamente </quote>'}
+? Now, we have continuity from the Source, to the newly-made connection, down, to
+  the right, and up to the Destination.  This is analogous to putting a <quote>tee</quote>
+: {tag: '<para>
+
+    ', xlate: 'Ahora, tenemos la continuidad de la Fuente, a la conexión recién hecho,
+    abajo, a la derecha, y hasta el destino. Esto es análogo a poner un <quote> tee
+    </quote>'}
+? On a positive note (no pun intended), I have subsequently discovered that some students
+  prefer electron flow notation when first learning about the behavior of semiconductive
+  substances.  Also, the habit of visualizing electrons flowing <italic>against</italic>
+  the arrows of polarized device symbols isn't that difficult to learn, and in the
+  end I've found that I can follow the operation of a circuit equally well using either
+  mode of notation.  Still, I sometimes wonder if it would all be much easier if we
+  went back to the source of the confusion -- Ben Franklin's errant conjecture --
+  and fixed the problem there, calling electrons <quote>positive</quote> and protons
+  <quote>negative.</quote>
+: {tag: '<para>
+
+    ', xlate: 'En una nota positiva (sin doble sentido), he descubierto posteriormente
+    que algunos estudiantes prefieren la notación de flujo de electrones cuando primero
+    aprender sobre el comportamiento de las sustancias semiconductoras. Además, el
+    hábito de electrones que fluye visualizar <italic> en contra </italic> las flechas
+    de símbolos de dispositivo de polarización no es tan difícil de aprender, y al
+    final he encontrado que puedo seguir el funcionamiento de un circuito igual de
+    bien utilizando cualquier modo de notación. Aún así, a veces me pregunto si todo
+    sería mucho más fácil si nos volvimos a la fuente de la confusión - conjetura
+    errante de Ben Franklin - y solucionado el problema, y ​​llamó electrones <quote>
+    positivo </quote> y protones <quote> negativo. </quote>'}
+? One pioneering researcher, Benjamin Franklin, came to the conclusion that there
+  was only one fluid exchanged between rubbed objects, and that the two different
+  <quote>charges</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un investigador pionero, Benjamin Franklin, llegó a la conclusión de
+    que sólo había un fluido intercambiados entre los objetos frotados, y que los
+    dos diferentes <quote> cargos </quote>'}
+? One practical and popular use of electric current is for the operation of electric
+  lighting.  The simplest form of electric lamp is a tiny metal <quote>filament</quote>
+  inside of a clear glass bulb, which glows white-hot (<quote>incandesces</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un uso práctico y popular de la corriente eléctrica es para la operación
+    de sistemas de iluminación. La forma más simple de lámpara eléctrica es una pequeña
+    de metal <quote> filamento </quote> dentro de una ampolla de vidrio transparente,
+    que se ilumina en rojo vivo ( <quote> incandesces </quote>'}
+Perhaps the best example of a polarized device is the <italic>diode</italic>.  A diode is a one-way <quote>valve</quote>: {
+  tag: '<para>
+
+    ', xlate: Tal vez el mejor ejemplo de un dispositivo polarizado es la <italic>
+    diodo </italic> . Un diodo es una sola vía <quote> válvula </quote>}
+Perhaps the best kind of switch to show for illustration of the basic principle is the <quote>knife</quote>: {
+  tag: '<para>
+
+    ', xlate: Tal vez el mejor tipo de cambio a mostrar para ilustración del principio
+    básico es el <quote> cuchillo </quote>}
+Postulating the existence of a single <quote>fluid</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Postulando la existencia de un solo <quote> fluido
+    </quote>'}
+? Precise measurements of electrical charge were carried out by the French physicist
+  Charles Coulomb in the 1780's using a device called a <italic>torsional balance</italic>
+  measuring the force generated between two electrically charged objects.  The results
+  of Coulomb's work led to the development of a unit of electrical charge named in
+  his honor, the <italic>coulomb</italic>.  If two <quote>point</quote>
+: {tag: '<para>
+
+    ', xlate: 'Las mediciones precisas de carga eléctrica se llevaron a cabo por el
+    físico francés Charles Coulomb en la década de 1780 utilizando un dispositivo
+    llamado <italic> balanza de torsión </italic> la medición de la fuerza generada
+    entre dos objetos cargados eléctricamente. Los resultados del trabajo de Coulomb
+    condujeron al desarrollo de una unidad de carga eléctrica que lleva su nombre,
+    la <italic> culombio </italic> . Si dos <quote> punto </quote>'}
+? Remember that electrons can flow only when they have the opportunity to move in
+  the space between the atoms of a material.  This means that there can be electric
+  current <italic>only</italic> where there exists a continuous path of conductive
+  material providing a conduit for electrons to travel through.  In the marble analogy,
+  marbles can flow into the left-hand side of the tube (and, consequently, through
+  the tube) if and only if the tube is open on the right-hand side for marbles to
+  flow out.  If the tube is blocked on the right-hand side, the marbles will just
+  <quote>pile up</quote> inside the tube, and marble <quote>flow</quote>
+: {tag: '<para>
+
+    ', xlate: 'Recuerde que los electrones pueden fluir sólo cuando tienen la oportunidad
+    de moverse en el espacio entre los átomos de un material. Esto significa que no
+    puede haber corriente eléctrica <italic> solamente </italic> donde existe una
+    trayectoria continua de material conductor que proporciona un conducto para que
+    los electrones viajen a través. En la analogía de mármol, mármoles puede fluir
+    en el lado izquierdo del tubo (y, en consecuencia, a través del tubo) si y sólo
+    si el tubo está abierto en el lado derecho de canicas fluyan fuera. Si el tubo
+    está bloqueado en el lado derecho, los mármoles se acaba <quote> amontonar </quote>
+    el interior del tubo, y mármol <quote> fluir </quote>'}
+? So long as the battery continues to produce voltage and the continuity of the electrical
+  path isn't broken, electrons will continue to flow in the circuit.  Following the
+  metaphor of water moving through a pipe, this continuous, uniform flow of electrons
+  through the circuit is called a <italic>current</italic>.  So long as the voltage
+  source keeps <quote>pushing</quote>
+: {tag: '<para>
+
+    ', xlate: 'Siempre y cuando la batería sigue produciendo tensión y la continuidad
+    de la trayectoria eléctrica no está roto, los electrones seguirán fluyendo en
+    el circuito. Siguiendo la metáfora de agua en movimiento a través de un tubo,
+    este flujo continuo y uniforme de electrones a través del circuito se denomina
+    <italic> corriente </italic> . En tanto que la fuente de voltaje mantiene <quote>
+    emprendedor </quote>'}
+? Some experimenters speculated that invisible <quote>fluids</quote> were being transferred
+  from one object to another during the process of rubbing, and that these <quote>fluids</quote>
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Algunos experimentadores especularon que invisible
+    <quote> fluidos </quote> estaban siendo transferido de un objeto a otro durante
+    el proceso de frotamiento, y que estos <quote> fluidos </quote>'}
+The particular knife switch shown here has one <quote>blade</quote>: {tag: '<para>
+
+    ', xlate: El interruptor de cuchilla particular mostrada aquí tiene uno <quote>
+    espada </quote>}
+? 'The process of electrons arriving or leaving is exactly what happens when certain
+  combinations of materials are rubbed together: electrons from the atoms of one material
+  are forced by the rubbing to leave their respective atoms and transfer over to the
+  atoms of the other material.  In other words, electrons comprise the <quote>fluid</quote>'
+: {tag: '<para>
+
+    ', xlate: 'El proceso de electrones llegar o salir es exactamente lo que ocurre
+    cuando ciertas combinaciones de materiales se frotan entre sí: los electrones
+    de los átomos de un material son forzados por el roce a abandonar sus respectivos
+    átomos y transferir a los átomos del otro material. En otras palabras, los electrones
+    comprenden la <quote> fluido </quote>'}
+? The result of an imbalance of this <quote>fluid</quote> (electrons) between objects
+  is called <italic>static electricity</italic>.  It is called <quote>static</quote>
+  because the displaced electrons tend to remain stationary after being moved from
+  one insulating material to another.  In the case of wax and wool, it was determined
+  through further experimentation that electrons in the wool actually transferred
+  to the atoms in the wax, which is exactly opposite of Franklin's conjecture!  In
+  honor of Franklin's designation of the wax's charge being <quote>negative</quote>
+  and the wool's charge being <quote>positive,</quote> electrons are said to have
+  a <quote>negative</quote> charging influence.  Thus, an object whose atoms have
+  received a surplus of electrons is said to be <italic>negatively</italic> charged,
+  while an object whose atoms are lacking electrons is said to be <italic>positively</italic>
+  charged, as confusing as these designations may seem.  By the time the true nature
+  of electric <quote>fluid</quote>
+: {tag: '<para>
+
+    ', xlate: 'El resultado de un desequilibrio de este <quote> fluido </quote> (electrones)
+    entre los objetos se llama <italic> electricidad estática </italic> . Se llama
+    <quote> estático </quote> porque los electrones desplazados tienden a permanecer
+    estacionario después de haber sido movido de un material aislante a otro. En el
+    caso de la cera y lana, se determinó a través de la experimentación adicional
+    que los electrones en la lana realmente transferidos a los átomos de la cera,
+    que es exactamente lo contrario de la conjetura de Franklin! En honor de designación
+    de ser responsable de la cera de Franklin <quote> negativo </quote> y la carga
+    de la lana siendo <quote> positivo, </quote> electrones se dice que tienen una
+    <quote> negativo </quote> carga de influencia. Por lo tanto, un objeto cuyos átomos
+    han recibido un exceso de electrones se dice que es <italic> negativamente </italic>
+    cargado, mientras que un objeto cuyos átomos se carece de electrones se dice que
+    es <italic> afirmativamente </italic> cargado, tan confuso como estas designaciones
+    pueden parecer. En el momento de la verdadera naturaleza de la electricidad <quote>
+    fluido </quote>'}
+The terms <italic><quote>open</quote></italic> and <italic><quote>closed</quote>: {
+  tag: <item>, xlate: Los términos <italic><quote> abierto </quote></italic> y <italic><quote>
+    cerrado </quote>}
+? There are many such polarized devices used in electric circuits.  Most of them are
+  made of so-called <italic>semiconductor</italic> substances, and as such aren't
+  examined in detail until the third volume of this book series.  Like switches, lamps,
+  and batteries, each of these devices is represented in a schematic diagram by a
+  unique symbol.  As one might guess, polarized device symbols typically contain an
+  arrow within them, somewhere, to designate a preferred or exclusive direction of
+  current.  This is where the competing notations of conventional and electron flow
+  really matter.  Because engineers from long ago have settled on conventional flow
+  as their <quote>culture's</quote>
+: {tag: '<para>
+
+    ', xlate: 'Hay muchos de estos dispositivos polarizados utilizados en los circuitos
+    eléctricos. La mayoría de ellos están hechos de los llamados <italic> semiconductor
+    </italic> sustancias, y como tal no se examinan en detalle hasta el tercer volumen
+    de esta serie de libros. Como interruptores, lámparas, y las baterías, cada uno
+    de estos dispositivos está representado en un diagrama esquemático por un símbolo
+    único. Como uno puede imaginar, símbolos de dispositivo polarizadas contienen
+    típicamente una flecha dentro de ellos, en algún lugar, para designar una dirección
+    preferente o exclusiva de la corriente. Aquí es donde las notaciones de la competencia
+    de flujo convencional y electrónica son realmente importantes. Dado que los ingenieros
+    de hace mucho tiempo se han asentado en el flujo convencional como su <quote>
+    la cultura de </quote>'}
+? Voltage can be generated by means other than rubbing certain types of materials
+  against each other.  Chemical reactions, radiant energy, and the influence of magnetism
+  on conductors are a few ways in which voltage may be produced.  Respective examples
+  of these three sources of voltage are batteries, solar cells, and generators (such
+  as the <quote>alternator</quote>
+: {tag: '<para>
+
+    ', xlate: 'Tensión puede ser generado por medios distintos de frotar ciertos tipos
+    de materiales entre sí. Las reacciones químicas, energía radiante, y la influencia
+    del magnetismo en los conductores son algunas de las formas en que se puede producir
+    tensión. ejemplos respectivos de estas tres fuentes de tensión son las baterías,
+    células solares, y los generadores (como el <quote> alternador </quote>'}
+? Voltage, as an expression of potential energy, is always relative between two locations,
+  or points.  Sometimes it is called a voltage <quote>drop.</quote>
+: {tag: <item>, xlate: 'Voltaje, como una expresión de la energía potencial, es siempre
+    relativa entre dos sitios, o puntos. A veces se le llama un voltaje <quote> soltar.
+    </quote>'}
+? 'When Benjamin Franklin made his conjecture regarding the direction of charge flow
+  (from the smooth wax to the rough wool), he set a precedent for electrical notation
+  that exists to this day, despite the fact that we know electrons are the constituent
+  units of charge, and that they are displaced from the wool to the wax -- not from
+  the wax to the wool -- when those two substances are rubbed together.  This is why
+  electrons are said to have a <italic>negative</italic> charge: because Franklin
+  assumed electric charge moved in the opposite direction that it actually does, and
+  so objects he called <quote>negative</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Cuando Benjamin Franklin hizo su conjetura con respecto a la dirección
+    de flujo de carga (de la cera suave a la lana en bruto), se puso un precedente
+    para la notación eléctrico que existe a este día, a pesar del hecho de que sabemos
+    electrones son los elementos constitutivos de la carga, y que son desplazados
+    de la lana a la cera - no de la cera a la lana - cuando esas dos sustancias se
+    frotan entre sí. Es por esto que los electrones se dice que tiene una <italic>
+    negativo </italic> carga: porque Franklin asumió la carga eléctrica mueve en la
+    dirección opuesta a la que lo que realmente hace, y lo que los objetos que llamó
+    <quote> negativo </quote>'}
+When electrons move against the opposition of resistance, <quote>friction</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Cuando los electrones se mueven en contra de la oposición de la resistencia,
+    <quote> fricción </quote>'}
+? While the normal motion of <quote>free</quote> electrons in a conductor is random,
+  with no particular direction or speed, electrons can be influenced to move in a
+  coordinated fashion through a conductive material.  This uniform motion of electrons
+  is what we call <italic>electricity</italic>, or <italic>electric current</italic>.  To
+  be more precise, it could be called <italic>dynamic</italic> electricity in contrast
+  to <italic>static</italic> electricity, which is an unmoving accumulation of electric
+  charge.  Just like water flowing through the emptiness of a pipe, electrons are
+  able to move within the empty space within and between the atoms of a conductor.  The
+  conductor may appear to be solid to our eyes, but any material composed of atoms
+  is mostly empty space!  The liquid-flow analogy is so fitting that the motion of
+  electrons through a conductor is often referred to as a <quote>flow.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Mientras que el movimiento normal de <quote> gratis </quote> electrones
+    en un conductor es al azar, sin dirección o velocidad particular, los electrones
+    pueden ser influenciados a moverse en una manera coordinada a través de un material
+    conductor. Este movimiento uniforme de electrones es lo que llamamos <italic>
+    electricidad </italic> o <italic> corriente eléctrica </italic> . Para ser más
+    precisos, podría ser llamado <italic> dinámica </italic> en contraste con la electricidad
+    <italic> estático </italic> electricidad, que es una acumulación de carga eléctrica
+    inmóvil. Al igual que el agua fluye a través del vacío de un tubo, los electrones
+    son capaces de moverse dentro del espacio vacío dentro de y entre los átomos de
+    un conductor. El conductor puede parecer sólida a nuestros ojos, pero cualquier
+    material compuesto de átomos es principalmente espacio vacío! La analogía de flujo
+    de líquido es tan apropiado que el movimiento de los electrones a través de un
+    conductor se refiere a menudo como una <quote> fluir. </quote>'}
+With the <quote>+</quote> and <quote>-</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Con el <quote> + </quote> y <quote> - </quote>'}
+? With the break between 3 and 4, the polarity of the voltage drop between those two
+  points is <quote>+</quote> for 4 and <quote>-</quote> for 3.  Take special note
+  of the fact that point 3's <quote>sign</quote> is opposite of that in the first
+  example, where the break was between points 2 and 3 (where point 3 was labeled <quote>+</quote>).  It
+  is impossible for us to say that point 3 in this circuit will always be either <quote>+</quote>
+  or <quote>-</quote>
+: {tag: '<para>
+
+    ', xlate: 'Con la ruptura entre 3 y 4, la polaridad de la caída de tensión entre
+    estos dos puntos es <quote> + </quote> para 4 y <quote> - </quote> 3. Tomar nota
+    de especial el hecho de que el punto 3 del <quote> firmar </quote> es opuesto
+    de que en el primer ejemplo, cuando la ruptura fue entre los puntos 2 y 3 (donde
+    el punto 3 se marcó <quote> + </quote> ). Es imposible para nosotros decir que
+    el punto 3 de este circuito será siempre bien <quote> + </quote> o <quote> - </quote>'}
+? With the circuit's continuity broken between points 2 and 3, the polarity of the
+  voltage dropped between points 2 and 3 is <quote>-</quote> for point 2 and <quote>+</quote>
+  for point 3.  The battery's polarity (1 <quote>-</quote> and 4 <quote>+</quote>
+: {tag: '<para>
+
+    ', xlate: 'Con la continuidad del circuito roto entre los puntos 2 y 3, la polaridad
+    de la tensión que cae entre los puntos 2 y 3 es <quote> - </quote> para el punto
+    2 y <quote> + </quote> para el punto 3. polaridad de la batería (1 <quote> - </quote>
+    y 4 <quote> + </quote>'}
+? Years later, when I became a teacher of electronics, the curriculum for the program
+  I was going to teach had already been established around the notation of electron
+  flow.  Oddly enough, this was due in part to the legacy of my first electronics
+  instructor (the 20-year Navy veteran), but that's another story entirely!  Not wanting
+  to confuse students by teaching <quote>differently</quote> from the other instructors,
+  I had to overcome my habit and get used to visualizing electron flow instead of
+  conventional.  Because I wanted my book to be a useful resource for my students,
+  I begrudgingly changed plans and illustrated it with all the arrows pointing the
+  <quote>correct</quote>
+: {tag: '<para>
+
+    ', xlate: 'Años más tarde, cuando se convirtió en un maestro de la electrónica,
+    el plan de estudios para el programa que iba a enseñar ya había sido establecida
+    alrededor de la notación del flujo de electrones. Por extraño que parezca, esto
+    se debió en parte a la herencia de mi primer instructor de la electrónica (el
+    Veterano de la marina de 20 años), pero eso es otra historia! No queriendo confundir
+    a los estudiantes de la enseñanza <quote> diferentemente </quote> de los otros
+    instructores, que tenía que superar mi hábito y acostumbrarse a visualizar el
+    flujo de electrones en lugar de convencional. Porque quería que mi libro sea un
+    recurso útil para mis alumnos, a regañadientes cambiado de planes e ilustrado
+    con todas las flechas que apuntan hacia la <quote> correcto </quote>'}
+? You might have been wondering how electrons can continuously flow in a uniform direction
+  through wires without the benefit of these hypothetical electron Sources and Destinations.  In
+  order for the Source-and-Destination scheme to work, both would have to have an
+  infinite capacity for electrons in order to sustain a continuous flow!  Using the
+  marble-and-tube analogy, the marble source and marble destination buckets would
+  have to be infinitely large to contain enough marble capacity for a <quote>flow</quote>
+: {tag: '<para>
+
+    ', xlate: 'Es posible que haya estado preguntando cómo los electrones pueden fluir
+    de forma continua en una dirección uniforme a través de cables sin el beneficio
+    de estas fuentes de electrones hipotéticos y destinos. Para que el esquema de
+    Fuente-y-Destino de trabajar, tanto tendría que tener una capacidad infinita de
+    electrones con el fin de mantener un flujo continuo! Usando la analogía de mármol
+    y tubo, la fuente de mármol y mármol cubos de destino tendría que ser infinitamente
+    grande como para contener la suficiente capacidad de mármol para una <quote> fluir
+    </quote>'}

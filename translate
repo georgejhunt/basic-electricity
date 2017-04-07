@@ -6,10 +6,15 @@ source ./factory-settings
 # go over the list of languages
 for lang in $BE_LANGUAGES_LIST; do
    mkdir -p $BE_LIEC_DIR/build/$lang
+   mkdir -p $BE_LIEC_DIR/build/html
 
    # copy the whole source context to build directory
    for volume in $BE_VOLUMES; do
       rsync -av --exclude=*.sml $BE_LIEC_DIR/$volume $BE_LIEC_DIR/build/$lang
+      cp $BE_DIR/scripts/mk${volume}htmlSubset $BE_LIEC_DIR/build/$lang/$volume
+      # substitute our own sed script that knows about <quote> and </quote>
+      cp $BE_DIR/scripts/sml2html.sed $BE_LIEC_DIR/build/$lang/$volume
+      rm -f $BE_LIEC_DIR/build/$lang/$volume/${volume}_*.html
    done
    
    # scan through source dirs looking for sml file
@@ -42,5 +47,15 @@ for lang in $BE_LANGUAGES_LIST; do
          #echo  "$BE_DIR/scripts/xlate $translate_this $volumedir  $lang" 
       fi
    done
+   # done with this language
+   # process the sml file to html and collect all html together
+   pushd $BE_LIEC_DIR/build/$lang/DC
+       ./mkDChtmlSubset
+       cp DC_*.html $BE_LIEC_DIR/build/html
+   popd
+   pushd $BE_LIEC_DIR/build/$lang/AC
+       ./mkAChtmlSubset
+       cp AC_*.html $BE_LIEC_DIR/build/html
+   popd
 done
 
