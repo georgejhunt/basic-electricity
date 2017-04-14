@@ -2,7 +2,7 @@
 # config for the translation tools for Lessons In Electric Circuits (LIEC)
 
 # NOTICE: This repo needs to know where the source LIEC is located - EDIT THIS!
-   BE_LIEC_DIR=/root/liec
+   BE_LIEC_DIR=/home/ghunt/electricity/liec
    export BE_LIEC_DIR
 
 # the basic-electricity repo will fail to function, if it cannot find source

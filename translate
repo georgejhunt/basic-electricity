@@ -16,6 +16,14 @@ for lang in $BE_LANGUAGES_LIST; do
       # substitute our own sed script that knows about <quote> and </quote>
       cp $BE_DIR/scripts/sml2html.sed $BE_LIEC_DIR/build/$lang/$volume
       rm -f $BE_LIEC_DIR/build/$lang/$volume/${volume}_*.html
+      # add in the meta tag for UTF-8 to all pages
+      hi_filenames=`ls -1 $BE_LIEC_DIR/build/$lang/$volume/hi_*.html`
+      for hi_fn in $hi_filenames; do
+         grep '.*<meta charset="UTF-8">' $hi_fn       
+         if [ $? -ne 0 ]; then
+            sed -i -e'/.*<meta name="keywords".*>$/a   <meta charset="UTF-8">' $hi_fn
+         fi
+      done
    done
    
    # scan through source dirs looking for sml file
@@ -48,7 +56,7 @@ for lang in $BE_LANGUAGES_LIST; do
          #echo  "$BE_DIR/scripts/xlate $translate_this $volumedir  $lang" 
       fi
    done
-   # done with this language
+   # done with this smlfile
    # process the sml file to html and collect all html together
    pushd $BE_LIEC_DIR/build/$lang/DC
        ./mkDChtmlSubset
@@ -61,4 +69,4 @@ for lang in $BE_LANGUAGES_LIST; do
        cp AC_*.html $BE_LIEC_DIR/build/html/AC
    popd
 done
-
+# done with all languages
