@@ -1,16 +1,47 @@
+<LaTeX> document formatting system -- Leslie Lamport and others.: {tag: <item>, xlate: <LaTeX>
+    Document système de formatage - Leslie Lamport et d&#39;autres.}
+<TeX> text processing system -- Donald Knuth and others.: {tag: <item>, xlate: <TeX>
+    Système de traitement de texte - Donald Knuth et d&#39;autres.}
 ? '<bold>Kahlil Gibran</bold>
 
   '
 : {tag: '<para>
 
     ', xlate: !!python/unicode '<bold> Kahlil Gibran </bold>'}
-? '<italic>"A candle loses nothing of its light when lighting another"</italic>
+? <italic>GNU/Linux</italic> Operating System -- Linus Torvalds, Richard Stallman,
+  and a host of others too numerous to mention.
+: {tag: <item>, xlate: '<italic> GNU / Linux </italic> Système d&#39;exploitation
+    - Linus Torvalds, Richard Stallman, et une foule d&#39;autres, trop nombreux pour
+    les mentionner.'}
+<italic>Gimp</italic> image manipulation program -- too many contributors to mention.: {
+  tag: <item>, xlate: <italic> boiteux </italic> programme de manipulation d&#39;images
+    - trop nombreux contributeurs à mentionner.}
+<italic>Nutmeg</italic> post-processor program for SPICE -- Wayne Christopher.: {
+  tag: <item>, xlate: !!python/unicode '<italic> Noix de muscade </italic> programme
+    post-processeur pour SPICE - Wayne Christopher.'}
+<italic>SPICE</italic> circuit simulation program -- too many contributors to mention.: {
+  tag: <item>, xlate: <italic> PIMENTER </italic> programme de simulation de circuit
+    - trop nombreux contributeurs à mentionner.}
+<italic>Texinfo</italic> document formatting system -- Free Software Foundation.: {
+  tag: <item>, xlate: <italic> texinfo </italic> Document système de formatage - Free
+    Software Foundation.}
+<italic>Vim</italic> text editor -- Bram Moolenaar and others.: {tag: <item>, xlate: <italic>
+    vitalité </italic> éditeur de texte - Bram Moolenaar et d&#39;autres.}
+<italic>Winscope</italic> signal analysis software -- Dr. Constantin Zeldovich. (Free for personal and academic use.): {
+  tag: <item>, xlate: !!python/unicode '<italic> WINSCOPE </italic> logiciel d&#39;analyse
+    de signaux - Dr. Constantin Zeldovich. (Gratuit pour un usage personnel et scolaire.)'}
+<italic>Xcircuit</italic> drafting program -- Tim Edwards.: {tag: <item>, xlate: <italic>
+    xcircuit </italic> programme de rédaction - Tim Edwards.}
+? '<italic>``A candle loses nothing of its light when lighting another''''</italic>
 
   '
 : {tag: '<para>
 
-    ', xlate: !!python/unicode '<italic> &quot;Una vela no pierde nada de su luz cuando
-    encendiendo otro&quot; </italic>'}
+    ', xlate: <italic> `` Une bougie ne perd rien de sa lumière en allumant une autre
+    « » </italic>}
+<sp><sp>ABOUT THIS BOOK: {tag: <chaptertitle>, xlate: !!python/unicode '<sp><sp> A
+    PROPOS DE CE LIVRE'}
+Acknowledgements: {tag: <sectiontitle>, xlate: !!python/unicode 'Remerciements'}
 ? 'Another advantage to including computer analyses in a textbook is the empirical
   verification it adds to the concepts presented.  Without demonstrations, the reader
   is left to take the author''s statements on faith, trusting that what has been written
@@ -24,32 +55,16 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Otra de las ventajas de incluir ordenador analiza en un libro de texto
-    es la verificación empírica que se suma a los conceptos presentados. Sin manifestaciones,
-    el lector se deja de tomar las declaraciones del autor sobre la fe, confiando
-    en que lo que se ha escrito es verdad exacta. El problema con fe, por supuesto,
-    es que es sólo tan buena como la autoridad en el que se coloca y la precisión
-    de la interpretación a través del cual se entiende. Los autores, como todos los
-    seres humanos, están expuestos a errar y / o comunicar mal. Con manifestaciones,
-    sin embargo, el lector puede ver de inmediato por sí mismos que lo que el autor
-    describe es cierto. Las manifestaciones también sirven para aclarar el significado
-    del texto con ejemplos concretos.'}
-? 'Appreciation is also extended to Robert L. Boylestad, whose first edition of <italic>Introductory
-  Circuit Analysis</italic> taught me more about electric circuits than any other
-  book.  Other important texts in my electronics studies include the 1939 edition
-  of <italic>The "Radio" Handbook</italic>, Bernard Grob''s second edition of <italic>Introduction
-  to Electronics I</italic>, and Forrest Mims'' original <italic>Engineer''s Notebook</italic>.
-
-  '
-: {tag: '<para>
-
-    ', xlate: 'Agradecimiento se extiende también a Robert L. Boylestad, cuya primera
-    edición <italic> Análisis de Circuitos introductoria </italic> me enseñó más sobre
-    circuitos eléctricos que cualquier otro libro. Otros textos importantes en mis
-    estudios de electrónica incluyen la edición de 1939 de <italic> El manual &quot;Radio&quot;
-    </italic> , Segunda edición de Bernard Grob de <italic> Introducción a la Electrónica
-    I </italic> , Y original Forrest Mims <italic> Cuaderno del ingeniero </italic>
-    .'}
+    ', xlate: 'Un autre avantage d&#39;inclure des analyses informatiques dans un
+    manuel est la vérification empirique, il ajoute aux concepts présentés. Sans démonstrations,
+    le lecteur est laissé prendre les déclarations de l&#39;auteur sur la foi, faisant
+    confiance que ce qui a été écrit est en effet exact. Le problème avec la foi,
+    bien sûr, est qu&#39;il est aussi bon que l&#39;autorité dans laquelle il est
+    placé et l&#39;exactitude de l&#39;interprétation à travers laquelle il est entendu.
+    Les auteurs, comme tous les êtres humains, de faillir et / ou communiquer mal.
+    Avec des démonstrations, cependant, le lecteur peut immédiatement voir pour eux-mêmes
+    que ce qui décrit l&#39;auteur est en effet vrai. Les manifestations servent aussi
+    à clarifier le sens du texte avec des exemples concrets.'}
 ? 'Appreciation is also extended to Robert L. Boylestad, whose first edition of <italic>Introductory
   Circuit Analysis</italic> taught me more about electric circuits than any other
   book.  Other important texts in my electronics studies include the 1939 edition
@@ -60,13 +75,13 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Agradecimiento se extiende también a Robert L. Boylestad, cuya primera
-    edición <italic> Análisis de Circuitos introductoria </italic> me enseñó más sobre
-    circuitos eléctricos que cualquier otro libro. Otros textos importantes en mis
-    estudios de electrónica incluyen la edición de 1939 de <italic> El &#39;&#39;
-    Manual &#39;&#39; Radio </italic> , Segunda edición de Bernard Grob de <italic>
-    Introducción a la Electrónica I </italic> , Y original Forrest Mims <italic> Cuaderno
-    del ingeniero </italic> .'}
+    ', xlate: 'Nos remerciements vont également à Robert L. Boylestad, dont la première
+    édition <italic> Analyse d&#39;introduction Circuit </italic> m&#39;a appris plus
+    sur les circuits électriques que tout autre livre. D&#39;autres textes importants
+    dans mes études d&#39;électronique comprennent l&#39;édition 1939 <italic> Le
+    manuel `` Radio &#39;&#39; </italic> , Deuxième édition de Bernard Grob <italic>
+    Introduction à l&#39;électronique I </italic> Et Forrest Mims&#39; origine <italic>
+    Carnet d&#39;ingénieur </italic> .'}
 ? 'Contacting the publisher proved to be an exercise in futility.  Even though the
   particular text I was using had been in print and in popular use for a couple of
   years, they claimed my complaint was the first they''d ever heard.  My request to
@@ -76,12 +91,12 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Ponerse en contacto con el editor demostró ser un ejercicio inútil.
-    A pesar de que el texto en particular que estaba usando había sido en forma impresa
-    y en uso popular para un par de años, según ellos mi queja era la primera vez
-    que había oído. Mi solicitud de revisar el proyecto para la próxima edición de
-    su libro se reunió con el desinterés de su parte, y resuelto para encontrar un
-    texto alternativo.'}
+    ', xlate: 'Contacter l&#39;éditeur avéré être un exercice futile. Même si le texte
+    particulier, j&#39;utilisais avait été en version imprimée et en usage populaire
+    pour deux ans, ils ont affirmé ma plainte était la première qu&#39;ils avaient
+    jamais entendu. Ma demande d&#39;examiner le projet de la prochaine édition de
+    leur livre a été rencontré manque d&#39;intérêt de leur part, et je résolus de
+    trouver un texte alternatif.'}
 ? 'Finding a suitable alternative was more difficult than I had imagined.  Sure, there
   were plenty of texts in print, but the really good books seemed a bit too heavy
   on the math and the less intimidating books omitted a lot of information I felt
@@ -91,21 +106,20 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Encontrar una alternativa adecuada era más difícil de lo que había
-    imaginado. Claro, hay un montón de textos impresos, pero los libros muy buenos
-    parecían un poco demasiado pesado en los cálculos y los libros menos intimidante
-    omiten una gran cantidad de información que sentía era importante. Algunos de
-    los mejores libros que estaban fuera de impresión, y los que aún estaban siendo
-    impreso eran bastante caros.'}
+    ', xlate: 'Trouver une alternative appropriée a été plus difficile que je ne l&#39;avais
+    imaginé. Bien sûr, il y avait beaucoup de textes en version imprimée, mais les
+    très bons livres semblaient un peu trop lourd sur les mathématiques et les livres
+    moins intimidante omis beaucoup d&#39;informations que je ressentais était important.
+    Certains des meilleurs livres étaient épuisés, et ceux qui étaient encore en cours
+    d&#39;impression étaient assez cher.'}
 ? 'First, I wish to thank my wife, whose patience during those many and long evenings
   (and weekends!) of typing has been extraordinary.
 
   '
 : {tag: '<para>
 
-    ', xlate: !!python/unicode 'En primer lugar, deseo agradecer a mi esposa, cuya
-    paciencia durante esas largas noches y muchos (y los fines de semana!) De escribir
-    ha sido extraordinario.'}
+    ', xlate: 'Tout d&#39;abord, je tiens à remercier ma femme, dont la patience au
+    cours de ces nombreuses et longues soirées (et le week-end!) De frappe a été extraordinaire.'}
 ? 'Having taught myself most of the electronics that I know, I appreciate the sense
   of frustration students may have in teaching themselves from books.  Although electronic
   components are typically inexpensive, not everyone has the means or opportunity
@@ -119,23 +133,24 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Después de haber enseñado a mí mismo la mayor parte de la electrónica,
-    que yo sepa, yo apreciar la sensación de frustración puede tener estudiantes en
-    la enseñanza de sí mismos de los libros. Aunque los componentes electrónicos son
-    generalmente de bajo costo, no todo el mundo tiene los medios o la oportunidad
-    de establecer un laboratorio en sus propios hogares, y cuando las cosas van mal
-    no hay nadie para pedir ayuda. La mayoría de los libros de texto parecen abordar
-    la tarea de la educación desde una perspectiva deductiva: decirle al estudiante
-    cómo las cosas tienen que trabajar, y luego aplicar esos principios a casos específicos
-    que el estudiante puede o no ser capaz de explorar por sí mismos. El enfoque inductivo,
-    tan útil como lo es, es difícil de encontrar en las páginas de un libro.'}
+    ', xlate: 'Ayant moi-même enseigné la plupart des produits électroniques que je
+    connais, je comprends le sens des étudiants de frustration peut avoir en eux-mêmes
+    l&#39;enseignement des livres. Bien que les composants électroniques sont généralement
+    peu coûteux, pas tout le monde a les moyens ou la possibilité de mettre en place
+    un laboratoire dans leur propre maison, et quand les choses vont mal il n&#39;y
+    a personne pour demander de l&#39;aide. La plupart des manuels scolaires semblent
+    aborder la tâche de l&#39;éducation dans une perspective déductive: dire à l&#39;élève
+    comment les choses sont censées fonctionner, puis appliquer ces principes à des
+    cas particuliers que l&#39;étudiant peut ou peut ne pas être en mesure d&#39;explorer
+    par eux-mêmes. L&#39;approche inductive, aussi utile qu&#39;il est, est difficile
+    à trouver dans les pages d&#39;un livre.'}
 ? 'However, textbooks don''t have to be this way.  I discovered this when I started
   to learn a computer program called SPICE.  It is a text-based piece of software
   intended to model circuits and provide analyses of voltage, current, frequency,
   etc.  Although nothing is quite as good as building real circuits to gain knowledge
   in electronics, computer simulation is an excellent alternative.  In learning how
   to use this powerful tool, I made a discovery: SPICE could be used within a textbook
-  to present circuit simulations to allow students to "observe" the phenomena for
+  to present circuit simulations to allow students to ``observe''''the phenomena for
   themselves.  This way, the readers could learn the concepts inductively (by interpreting
   SPICE''s output) as well as deductively (by interpreting my explanations).  Furthermore,
   in seeing SPICE used over and over again, they should be able to understand how
@@ -145,21 +160,21 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Sin embargo, los libros de texto no tienen por qué ser así. Esto lo
-    descubrí cuando empecé a aprender un programa informático llamado SPICE. Es una
-    pieza basada en texto de software destinado a modelar circuitos y proporcionar
-    análisis de tensión, corriente, frecuencia, etc. Aunque no es tan buena como la
-    construcción de circuitos reales de adquirir conocimientos en electrónica, simulación
-    por ordenador es una excelente alternativa. En el aprendizaje de cómo utilizar
-    esta poderosa herramienta, hice un descubrimiento: SPICE podría ser utilizado
-    dentro de un libro de texto para presentar simulaciones de circuitos para permitir
-    a los estudiantes a &quot;observar&quot; los fenómenos por sí mismos. De esta
-    manera, los lectores podrían aprender los conceptos inductivamente (mediante la
-    interpretación de la salida del SPICE), así como por deducción (interpretando
-    mis explicaciones). Por otra parte, en ver especia utilizada una y otra vez, que
-    debe ser capaz de entender cómo utilizar ellos mismos, proporcionando un medio
-    perfectamente seguro de la experimentación en sus propios ordenadores con simulaciones
-    de circuitos de diseño propio.'}
+    ', xlate: 'Cependant, les manuels ne doivent pas être de cette façon. J&#39;ai
+    découvert quand j&#39;ai commencé à apprendre un programme informatique appelé
+    SPICE. Il est un morceau basé sur le texte d&#39;un logiciel destiné à modéliser
+    des circuits et des analyses de tension, courant, fréquence, etc. Bien que rien
+    n&#39;est tout à fait aussi bon que la construction de circuits réels pour acquérir
+    des connaissances en électronique, la simulation informatique est une excellente
+    alternative. En apprenant comment utiliser cet outil puissant, j&#39;ai fait une
+    découverte: SPICE pourrait être utilisé dans un manuel pour présenter des simulations
+    de circuit pour permettre aux étudiants de `` observe&#39;&#39;the phénomènes
+    eux-mêmes. De cette façon, les lecteurs pourraient apprendre les concepts inductivement
+    (en interprétant la sortie de SPICE), ainsi que déductive (en interprétant mes
+    explications). De plus, à voir SPICE utilisé encore et encore, ils devraient être
+    en mesure de comprendre comment l&#39;utiliser eux-mêmes, en fournissant un moyen
+    d&#39;expérimentation parfaitement sûr sur leurs propres ordinateurs avec des
+    simulations de circuits de leur propre conception.'}
 ? 'I also wish to thank those whose open-source software development efforts have
   made this endeavor all the more affordable and pleasurable.  The following is a
   list of various free computer software used to make this book, and the respective
@@ -168,10 +183,10 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'También deseo dar las gracias a aquellos cuyo software de código abierto
-    de desarrollo han hecho esfuerzos este esfuerzo aún más asequible y agradable.
-    La siguiente es una lista de varios software de ordenador gratuito utilizado para
-    hacer este libro, y los respectivos programadores:'}
+    ', xlate: 'Je tiens aussi à remercier tous ceux dont les efforts de développement
+    des logiciels libres ont fait cet effort, d&#39;autant plus abordable et agréable.
+    Ce qui suit est une liste de différents logiciels libres utilisés pour faire de
+    ce livre, et les programmeurs respectifs:'}
 ? 'I wish to specifically thank Jeffrey Elkner and all those at Yorktown High School
   for being willing to host my book as part of their Open Book Project, and to make
   the first effort in contributing to its form and content.  Thanks also to David
@@ -182,49 +197,50 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Deseo agradecer especialmente Jeffrey Elkner y todos los que están
-    en la Escuela Secundaria Yorktown por estar dispuesto a alojar mi libro como parte
-    de su Proyecto Libro Abierto, y para hacer que el primer esfuerzo en contribuir
-    a su forma y contenido. Gracias también a David Sweet (página web: <url> http://www.andamooka.org
-    </url> ) Y Ben Crowell (página web: <url> http://www.lightandmatter.com </url>
-    ) Para proporcionar el estímulo, la crítica constructiva, y un público más amplio
-    para la versión en línea de este libro.'}
-? 'In "copylefting" this text, I guaranteed that no instructor would be limited by
-  a text insufficient for their needs, as I had been with error-ridden textbooks from
-  major publishers.  I''m sure this book in its initial form will not satisfy everyone,
-  but anyone has the freedom to change it, leveraging my efforts to suit variant and
-  individual requirements.  For the beginning student of electronics, learn what you
-  can from this book, editing it as you feel necessary if you come across a useful
-  piece of information.  Then, if you pass it on to someone else, you will be giving
-  them something better than what you received.  For the instructor or electronics
-  professional, feel free to use this as a reference manual, adding or editing to
-  your heart''s content.  The only "catch" is this: if you plan to distribute your
-  modified version of this text, you must give credit where credit is due (to me,
-  the original author, and anyone else whose modifications are contained in your version),
-  and you must ensure that whoever you give the text to is aware of their freedom
-  to similarly share and edit the text.  The next chapter covers this process in more
-  detail.
+    ', xlate: 'Je tiens à remercier particulièrement Jeffrey Elkner et tous ceux à
+    Yorktown lycée pour être prêt à accueillir mon livre dans le cadre de leur projet
+    Open Book, et de faire le premier effort pour contribuer à sa forme et son contenu.
+    Merci également à David Sweet (site web: <url> http://www.andamooka.org </url>
+    ) Et Ben Crowell (site web: <url> http://www.lightandmatter.com </url> ) Pour
+    fournir des encouragements, des critiques constructives, et un public plus large
+    pour la version en ligne de ce livre.'}
+? 'In ``copylefting'''' this text, I guaranteed that no instructor would be limited
+  by a text insufficient for their needs, as I had been with error-ridden textbooks
+  from major publishers.  I''m sure this book in its initial form will not satisfy
+  everyone, but anyone has the freedom to change it, leveraging my efforts to suit
+  variant and individual requirements.  For the beginning student of electronics,
+  learn what you can from this book, editing it as you feel necessary if you come
+  across a useful piece of information.  Then, if you pass it on to someone else,
+  you will be giving them something better than what you received.  For the instructor
+  or electronics professional, feel free to use this as a reference manual, adding
+  or editing to your heart''s content.  The only ``catch'''' is this: if you plan
+  to distribute your modified version of this text, you must give credit where credit
+  is due (to me, the original author, and anyone else whose modifications are contained
+  in your version), and you must ensure that whoever you give the text to is aware
+  of their freedom to similarly share and edit the text.  The next chapter covers
+  this process in more detail.
 
   '
 : {tag: '<para>
 
-    ', xlate: 'En &quot;copyleft&quot; este texto, me garantiza que ningún instructor
-    estaría limitado por un texto insuficiente para sus necesidades, ya que había
-    estado con libros de texto de error plagada de grandes editoriales. Estoy seguro
-    de que este libro en su forma inicial no va a satisfacer a todos, pero cualquier
-    persona tiene la libertad de cambiarlo, aprovechando mis esfuerzos para adaptarse
-    a las necesidades individuales y la variante. Para el estudiante principiante
-    de la electrónica, aprender lo que pueda de este libro, editarlo como se sienta
-    necesaria si se encuentra con una pieza útil de información. Entonces, si se le
-    pasa a otra persona, se le dándoles algo mejor que lo que ha recibido. Para el
-    instructor o la electrónica profesional, no dude en utilizar esto como un manual
-    de referencia, añadir o editar el contenido de su corazón. La única &quot;captura&quot;
-    es la siguiente: si va a distribuir su versión modificada de este texto, se debe
-    dar crédito a quien crédito merece (para mí, el autor original, y cualquier otra
-    persona cuyo modificaciones están contenidas en su versión), y debe asegurarse
-    de que todo el que le da el texto a es consciente de su libertad de compartir
-    de manera similar y editar el texto. El siguiente capítulo trata sobre este proceso
-    con más detalle.'}
+    ', xlate: 'Dans `` copyleft « » ce texte, je garanti que pas d&#39;instructeur
+    serait limitée par un texte insuffisant pour leurs besoins, comme je l&#39;avais
+    été avec des manuels criblé erreur de grands éditeurs. Je suis sûr que ce livre
+    dans sa forme initiale ne satisfera pas tout le monde, mais tout le monde a la
+    liberté de le changer, tirant parti de mes efforts pour répondre à la variante
+    et besoins individuels. Pour l&#39;étudiant au début de l&#39;électronique, apprendre
+    ce que vous pouvez de ce livre, l&#39;édition comme vous vous sentez nécessaire
+    si vous tombez sur un élément d&#39;information utile. Ensuite, si vous passez
+    à quelqu&#39;un d&#39;autre, vous serez en leur donnant quelque chose de mieux
+    que ce que vous avez reçu. Pour l&#39;instructeur ou de l&#39;électronique professionnelle,
+    vous pouvez l&#39;utiliser comme un manuel de référence, l&#39;ajout ou la modification
+    au contenu de votre cœur. La seule `` prise « » est la suivante: si vous envisagez
+    de distribuer votre version modifiée de ce texte, vous devez donner crédit lorsque
+    le crédit est dû (pour moi, l&#39;auteur original, et toute autre personne dont
+    les modifications sont contenues dans votre version), et vous devez vous assurer
+    que quiconque vous donner le texte à est au courant de leur liberté de partager
+    la même manière et de modifier le texte. Le chapitre suivant couvre ce processus
+    plus en détail.'}
 ? 'It must be mentioned that although I strive to maintain technical accuracy in all
   of this book''s content, the subject matter is broad and harbors many potential
   dangers.  Electricity maims and kills without provocation, and deserves the utmost
@@ -237,15 +253,15 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Se debe mencionar que aunque me esfuerzo para mantener la precisión
-    técnica en todo el contenido de este libro, el tema es amplio y alberga muchos
-    peligros potenciales. Electricidad mutila y mata sin provocación, y merece el
-    máximo respeto. Le recomiendo a la experimentación por parte del lector, pero
-    sólo con circuitos alimentados por baterías pequeñas donde no hay riesgo de descarga
-    eléctrica, incendio, explosión, etc. circuitos eléctricos de alta potencia se
-    deben dejar al cuidado de profesionales capacitados! La Licencia Diseño Ciencia
-    establece claramente que ni yo ni ningún colaboradores de este libro guarda ninguna
-    responsabilidad por lo que se hace con su contenido.'}
+    ', xlate: 'Il faut mentionner que, bien que je cherche à maintenir la précision
+    technique dans tout le contenu de ce livre, le sujet est vaste et de nombreux
+    ports dangers potentiels. Électricité mutile et tue sans provocation, et mérite
+    le plus grand respect. J&#39;encourage fortement l&#39;expérimentation de la part
+    du lecteur, mais seulement avec des circuits alimentés par de petites batteries
+    où il n&#39;y a pas de risque de choc électrique, un incendie, une explosion,
+    etc. circuits électriques haute puissance doivent être laissés aux soins des professionnels
+    formés! Design Science License indique clairement que ni moi, ni aucun contributeurs
+    à ce livre peuvent être tenues responsables ce qui est fait avec son contenu.'}
 ? 'It was out of frustration that I compiled <italic>Lessons in Electric Circuits</italic>
   from notes and ideas I had been collecting for years.  My primary goal was to put
   readable, high-quality information into the hands of my students, but a secondary
@@ -259,17 +275,17 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Fue debido a la frustración que compilé <italic> Lecciones de Circuitos
-    Eléctricos </italic> a partir de notas e ideas que había ido recopilando durante
-    años. Mi objetivo principal era poner legible la información, de alta calidad
-    en las manos de mis estudiantes, pero un objetivo secundario era hacer que el
-    libro lo más asequible posible. Con los años, que había experimentado el beneficio
-    de recibir instrucción gratuita y aliento en mi búsqueda de la electrónica de
-    muchas personas, incluyendo varios maestros de la mina en la escuela primaria
-    y secundaria de aprendizaje. Su ayuda desinteresada jugó un papel clave en mis
-    propios estudios, allanando el camino para una carrera gratificante y pasatiempo
-    fascinante. Si tan sólo pudiera extender el don de su ayuda, dando a otras personas
-    lo que me dio. . .'}
+    ', xlate: 'Il était hors de la frustration que je compilé <italic> Leçons dans
+    des circuits électriques </italic> des notes et des idées que j&#39;avais collectionne
+    depuis des années. Mon objectif principal était de mettre lisible, des informations
+    de haute qualité entre les mains de mes étudiants, mais un objectif secondaire
+    était de rendre le livre le plus abordable possible. Au fil des ans, je l&#39;avais
+    connu l&#39;avantage de recevoir un enseignement gratuit et d&#39;encouragement
+    dans ma quête d&#39;apprentissage de l&#39;électronique de nombreuses personnes,
+    dont plusieurs enseignants de moi à l&#39;école primaire et secondaire. Leur aide
+    désintéressée a joué un rôle clé dans mes propres études, ouvrant la voie à une
+    carrière enrichissante et passe-temps fascinant. Si seulement je pouvais prolonger
+    le don de leur aide en donnant à d&#39;autres ce qu&#39;ils m&#39;a donné. . .'}
 ? 'Last but certainly not least, many thanks to my parents and those teachers of mine
   who saw in me a desire to learn about electricity, and who kindled that flame into
   a passion for discovery and intellectual adventure.  I honor you by helping others
@@ -278,10 +294,11 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Por último, pero no menos importante, muchas gracias a mis padres y
-    los maestros de la mina que vieron en mí un deseo de aprender acerca de la electricidad,
-    y que ha encendido la llama en una pasión por el descubrimiento y la aventura
-    intelectual. Te honro por ayudar a los demás como me ha ayudado.'}
+    ', xlate: 'Enfin, mais certainement pas moins, un grand merci à mes parents et
+    les enseignants de moi qui ont vu en moi le désir d&#39;en apprendre davantage
+    sur l&#39;électricité, et qui a allumé cette flamme dans une passion pour la découverte
+    et de l&#39;aventure intellectuelle. Je vous honore en aidant les autres comme
+    vous me l&#39;avez aidé.'}
 ? 'One of the best ways to learn how things work is to follow the inductive approach:
   to observe specific instances of things working and derive general conclusions from
   those observations.  In science education, labwork is the traditionally accepted
@@ -293,14 +310,15 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Una de las mejores maneras de aprender cómo funcionan las cosas es
-    seguir el enfoque inductivo: observar casos específicos de las cosas de trabajo
-    y obtener conclusiones generales a partir de esas observaciones. En la educación
-    científica, trabajo de laboratorio es el lugar tradicionalmente aceptada para
-    este tipo de aprendizaje, aunque en muchos casos los laboratorios están diseñados
-    por educadores para reforzar los principios aprendidos previamente a través de
-    conferencia o la lectura de libros de texto, en lugar de permitir que el estudiante
-    aprende por su cuenta a través de una verdadera proceso exploratorio.'}
+    ', xlate: 'L&#39;une des meilleures façons d&#39;apprendre comment fonctionnent
+    les choses est de suivre l&#39;approche inductive: observer des cas spécifiques
+    de travail des choses et d&#39;en tirer des conclusions générales de ces observations.
+    Dans l&#39;enseignement des sciences, des travaux pratiques est le lieu traditionnellement
+    accepté pour ce type d&#39;apprentissage, bien que dans de nombreux cas les laboratoires
+    sont conçus par des éducateurs pour renforcer les principes déjà appris par la
+    lecture conférence ou manuel, plutôt que de permettre à l&#39;étudiant d&#39;apprendre
+    sur leur propre grâce à un véritable processus d&#39;exploration.'}
+Purpose: {tag: <sectiontitle>, xlate: !!python/unicode 'Objectif'}
 ? 'SPICE is introduced early in volume I (DC) of this book series, and hopefully in
   a gentle enough way that it doesn''t create confusion.  For those wishing to learn
   more, a chapter in the Reference volume (volume V) contains an overview of SPICE
@@ -311,90 +329,60 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'SPICE se introduce temprano en el volumen I (DC) de esta serie de libros,
-    y es de esperar de una manera lo suficientemente suave que no dé lugar a confusión.
-    Para aquellos que deseen aprender más, un capítulo en el volumen de referencia
-    (volumen V) contiene una descripción general de especias con muchos circuitos
-    de ejemplo. Puede haber programas de simulación (gráfico) de circuito más llamativos
-    en la existencia, pero SPICE es libre, una virtud que complementa la filosofía
-    de caridad de este libro muy bien.'}
-? 'SPICE is introduced in the book early on, and hopefully in a gentle enough way
-  that it doesn''t create confusion.  For those wishing to learn more, a chapter in
-  the Reference volume (volume V) contains an overview of SPICE with many example
-  circuits.  There may be more flashy (graphic) circuit simulation programs in existence,
-  but SPICE is free, a virtue complementing the charitable philosophy of this book
-  very nicely.
-
-  '
-: {tag: '<para>
-
-    ', xlate: 'SPICE se introduce en el libro desde el principio, y es de esperar
-    de una manera lo suficientemente suave que no dé lugar a confusión. Para aquellos
-    que deseen aprender más, un capítulo en el volumen de referencia (volumen V) contiene
-    una descripción general de especias con muchos circuitos de ejemplo. Puede haber
-    programas de simulación (gráfico) de circuito más llamativos en la existencia,
-    pero SPICE es libre, una virtud que complementa la filosofía de caridad de este
-    libro muy bien.'}
+    ', xlate: 'SPICE est introduit au début de volume I (DC) de cette série de livres,
+    et nous espérons que d&#39;une manière assez doux qu&#39;il ne crée pas de confusion.
+    Pour ceux qui souhaitent en savoir plus, un chapitre du volume de référence (volume
+    V) contient une vue d&#39;ensemble SPICE avec de nombreux exemples de circuits.
+    Il peut y avoir plus flashy programmes de simulation de circuit (graphique) existe,
+    mais SPICE est libre, une vertu complétant la philosophie de bienfaisance de ce
+    livre très bien.'}
 ? "So, I decided to make the book freely available.  More than that, I decided to\
-  \ make it \"open,\" following the same development model used in the making of free\
+  \ make it ``open'' following the same development model used in the making of free\
   \ software (most notably the various UNIX utilities released by the Free Software\
   \ Foundation, and the Linux operating system, whose fame is growing even as I write).\
   \  The goal was to copyright the text -- so as to protect my authorship -- but expressly\
   \ allow anyone to distribute and/or modify the text to suit their own needs with\
   \ a minimum of legal encumbrance.  This willful and formal revoking of standard\
   \ distribution limitations under copyright is whimsically termed <italic>copyleft</italic>.\
-  \  Anyone can \"copyleft\" their creative work simply by appending a notice to that\
+  \  Anyone can ``copyleft'' their creative work simply by appending a notice to that\
   \ effect on their work, but several Licenses already exist, covering the fine legal\
   \ points in great detail.  \n"
 : {tag: '<para>
 
-    ', xlate: 'Por lo tanto, decidí hacer el libro de libre disposición. Más que eso,
-    decidí hacerlo &quot;abierta&quot;, siguiendo el mismo modelo de desarrollo utilizado
-    en la fabricación de software libre (en particular las diversas utilidades de
-    UNIX dadas a conocer por la Free Software Foundation, y el sistema operativo Linux,
-    cuya fama está creciendo incluso mientras escribo). El objetivo era el derecho
-    de autor del texto - a fin de proteger mi autoría - pero expresamente permita
-    que nadie para distribuir y / o modificar el texto para adaptarse a sus propias
-    necesidades con un mínimo de gravamen legal. Esta revocación voluntaria y formal
-    de las limitaciones de distribución estándar bajo copyright se denomina whimsically
-    <italic> copyleft </italic> . Cualquier persona puede &quot;copyleft&quot; su
-    trabajo creativo, simplemente añadiendo un anuncio a tal efecto en su trabajo,
-    pero ya existen varias licencias, cubriendo los puntos legales finos con gran
-    detalle.'}
+    ', xlate: 'Alors, je décide de rendre le livre disponible gratuitement. Plus que
+    cela, j&#39;ai décidé de le faire `` ouvert « » en suivant le même modèle de développement
+    utilisé dans la fabrication de logiciels libres (notamment les différents utilitaires
+    UNIX publiées par la Free Software Foundation, et le système d&#39;exploitation
+    Linux, dont la renommée est de plus en plus même que j&#39;écris). L&#39;objectif
+    était de droit d&#39;auteur du texte - de manière à protéger mon auteur - mais
+    autorise expressément à quiconque de distribuer et / ou modifier le texte en fonction
+    de leurs propres besoins avec un minimum de charges légales. Cette révocation
+    volontaire et formel des limitations de distribution standard sous le droit d&#39;auteur
+    est appelé capricieusement <italic> copyleft </italic> . Tout le monde peut ``
+    copyleft « » leur travail créatif tout simplement en ajoutant un avis à cet effet
+    sur leur travail, mais plusieurs licences existent déjà, couvrant en détail les
+    points de droit fins.'}
 ? 'Thanks to Michael Stutz for drafting his Design Science License, and to Richard
   Stallman for pioneering the concept of copyleft.
 
   '
 : {tag: '<para>
 
-    ', xlate: 'Gracias a Michael Stutz para la redacción de su licencia Design Science,
-    ya Richard Stallman por ser pionero en el concepto de copyleft.'}
-? 'Thanks to the staff of the Bellingham Antique Radio Museum, who were generous enough
-  to let me terrorize their establishment with my camera and flash unit.
-
-  '
-: {tag: '<para>
-
-    ', xlate: 'Gracias al personal del Museo de la Radio Bellingham antiguo, que eran
-    lo suficientemente generoso como para dejarme aterrorizar a sus establecimiento
-    con mi cámara y el flash.'}
+    ', xlate: Merci à Michael Stutz pour la rédaction de sa licence Design Science
+    et à Richard Stallman pour adopter le concept de copyleft.}
 ? 'Thanks to the staff of the Bellingham Antique Radio Museum, who were generous enough
   to let me terrorize their establishment with my camera and flash unit.  Similar
-  thanks to the Fluke Corporation in Everett, Washington, who not only let me photograph
-  several pieces of equipment in their primary standards laboratory, but proved their
-  excellent hosting skills to a large group of students and technical professionals
-  one evening in November of 2001.
+  thanks to Jim Swartos and KARI radio in Blaine, Washington for a very informative
+  tour of their expanded (50 kW) facilities as well as their vintage transmitter equipment.
 
   '
 : {tag: '<para>
 
-    ', xlate: 'Gracias al personal del Museo de la Radio Bellingham antiguo, que eran
-    lo suficientemente generoso como para dejarme aterrorizar a sus establecimiento
-    con mi cámara y el flash. Gracias similar a la de Fluke Corporation en Everett,
-    Washington, que no sólo me dejó fotografiar varias piezas de equipo en su laboratorio
-    estándares primaria, pero demostraron su excelente capacidad de alojamiento para
-    un grupo grande de estudiantes y profesionales técnicos una noche en noviembre
-    de 2001.'}
+    ', xlate: 'Merci au personnel du Musée Radio Antique Bellingham, qui étaient assez
+    généreux pour me laisser terroriser leur établissement avec mon appareil photo
+    et flash. Similaires grâce à Jim Swartos et KARI radio Blaine, Washington pour
+    une visite très instructive de leurs installations ainsi que leur équipement émetteur
+    vendange expansé (50 kW).'}
 ? 'The first such License I applied to my work was the GPL -- General Public License
   -- of the Free Software Foundation (GNU).  The GPL, however, is intended to copyleft
   works of computer software, and although its introductory language is broad enough
@@ -406,14 +394,16 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'El primero de estos Licencia apliqué a mi trabajo era la GPL - General
-    Public License - de la Fundación para el Software Libre (GNU). La GPL, sin embargo,
-    se pretende que funciona el copyleft de software de ordenador, y aunque su lenguaje
-    introductorio es lo suficientemente amplia como para abarcar obras de texto, su
-    redacción no es tan clara como podría ser para esa aplicación. Cuando otras licencias
-    copyleft, menos específicos comenzaron a aparecer dentro de la comunidad del software
-    libre, he elegido uno de ellos (la Licencia Design Science, o DSL) como el aviso
-    oficial para mi proyecto.'}
+    ', xlate: 'La première licence j&#39;ai demandé à mon travail était la GPL - General
+    Public License - de la Free Software Foundation (GNU). La GPL, cependant, est
+    destiné à copyleft œuvres de logiciels, et bien que sa langue d&#39;introduction
+    est suffisamment large pour couvrir des œuvres de texte, son libellé est pas aussi
+    clair que cela pourrait être pour cette application. Lorsque d&#39;autres licences
+    copyleft moins spécifiques ont commencé à apparaître au sein de la communauté
+    du logiciel libre, j&#39;ai choisi l&#39;un d&#39;eux (Design Science License
+    ou DSL) comme l&#39;avis officiel pour mon projet.'}
+The use of SPICE: {tag: <sectiontitle>, xlate: !!python/unicode 'L&#39;utilisation
+    de SPICE'}
 ? 'They say that necessity is the mother of invention.  At least in the case of this
   book, that adage is true.  As an industrial electronics instructor, I was forced
   to use a sub-standard textbook during my first year of teaching.  My students were
@@ -425,23 +415,18 @@
   '
 : {tag: '<para>
 
-    ', xlate: 'Dicen que la necesidad es la madre de la invención. Al menos en el
-    caso de este libro, que dicho es cierto. Como instructor de electrónica industrial,
-    me vi obligado a utilizar un libro de texto de calidad inferior durante mi primer
-    año de enseñanza. Mis alumnos eran diaria frustrado con los muchos errores tipográficos
-    y explicaciones oscuras en este libro, que tiene mucho tiempo en el país que lucha
-    por comprender el material dentro. Peor aún fueron las muchas respuestas incorrectas
-    en la parte posterior del libro a los problemas seleccionados. Para colmo de males
-    era el precio de $ 100 +.'}
-? 'Tony Kuphaldt, January 2002
+    ', xlate: 'Ils disent que la nécessité est la mère de l&#39;invention. Au moins
+    dans le cas de ce livre, cet adage est vrai. En tant que moniteur industriel de
+    l&#39;électronique, j&#39;ai été forcé d&#39;utiliser un manuel sous-norme au
+    cours de ma première année d&#39;enseignement. Mes élèves étaient tous les jours
+    frustrés par les nombreuses erreurs typographiques et des explications obscures
+    dans ce livre, après avoir passé beaucoup de temps à la maison du mal à comprendre
+    le matériel à l&#39;intérieur. Pire encore ont été les nombreuses réponses incorrectes
+    dans le dos du livre à des problèmes sélectionnés. Ajoutant l&#39;insulte à la
+    blessure était le prix de 100 $ +.'}
+? 'Tony Kuphaldt, April 2002
 
   '
 : {tag: '<para>
 
-    ', xlate: !!python/unicode 'Tony Kuphaldt, enero de 2002'}
-? 'Tony Kuphaldt, July 2001
-
-  '
-: {tag: '<para>
-
-    ', xlate: !!python/unicode 'Tony Kuphaldt, julio de 2001'}
+    ', xlate: !!python/unicode 'Tony Kuphaldt, Avril 2002'}

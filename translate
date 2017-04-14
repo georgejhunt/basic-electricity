@@ -6,11 +6,12 @@ source ./factory-settings
 # go over the list of languages
 for lang in $BE_LANGUAGES_LIST; do
    mkdir -p $BE_LIEC_DIR/build/$lang
-   mkdir -p $BE_LIEC_DIR/build/html
+   mkdir -p $BE_LIEC_DIR/build/html/DC
+   mkdir -p $BE_LIEC_DIR/build/html/AC
 
    # copy the whole source context to build directory
    for volume in $BE_VOLUMES; do
-      rsync -av --exclude=*.sml $BE_LIEC_DIR/$volume $BE_LIEC_DIR/build/$lang
+      rsync -a --exclude=*.sml $BE_LIEC_DIR/$volume $BE_LIEC_DIR/build/$lang
       cp $BE_DIR/scripts/mk${volume}htmlSubset $BE_LIEC_DIR/build/$lang/$volume
       # substitute our own sed script that knows about <quote> and </quote>
       cp $BE_DIR/scripts/sml2html.sed $BE_LIEC_DIR/build/$lang/$volume
@@ -51,11 +52,13 @@ for lang in $BE_LANGUAGES_LIST; do
    # process the sml file to html and collect all html together
    pushd $BE_LIEC_DIR/build/$lang/DC
        ./mkDChtmlSubset
-       cp DC_*.html $BE_LIEC_DIR/build/html
+       ls DC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
+       cp DC_*.html $BE_LIEC_DIR/build/html/DC
    popd
    pushd $BE_LIEC_DIR/build/$lang/AC
        ./mkAChtmlSubset
-       cp AC_*.html $BE_LIEC_DIR/build/html
+       ls AC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
+       cp AC_*.html $BE_LIEC_DIR/build/html/AC
    popd
 done
 

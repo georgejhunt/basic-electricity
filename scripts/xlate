@@ -9,6 +9,7 @@ from googleapiclient.discovery import build
 
 import yaml
 import codecs
+import re
 
 cwd = os.getcwd()
 liec_dir = os.environ["BE_LIEC_DIR"]
@@ -19,10 +20,10 @@ be_logfile = os.environ["BE_LOGFILE"]
 API_KEY = os.environ["BE_API_KEY"]
 service = build('translate', 'v2', developerKey=API_KEY)
 
-def gtranslate(text,slang='en',tlang='es'):
+def gtranslate(text,slang='en',targetlanguage='es'):
     return service.translations().list(
            source=slang, 
-           target=tlang,
+           target=targetlanguage,
            q=[text]
            ).execute()
 
@@ -92,7 +93,7 @@ for j in range(len(tags)):
     tag,tagend = tags[j]
     index = 0
     num_nibbles = 0
-    print("tag:%s, tagend: %s" % (tag,tagend,))
+    #print("tag:%s, tagend: %s" % (tag,tagend,))
     while index < len(raw) and index != len(tag)-1:
          index = raw.find(tag,index) + len(tag)
          if index != len(tag)-1:
@@ -101,8 +102,8 @@ for j in range(len(tags)):
                english_text = (raw[index:endnibble])
                english_text = add_quote_tags(english_text)
                if not english_text in po.keys():
-                  print english_text
-                  tr = gtranslate(english_text)
+                  print 'sending google a phrase to translate'
+                  tr = gtranslate(english_text,targetlanguage=tlang)
                   asciistr = tr['translations'][0]['translatedText']
                   po[english_text] = {"xlate":asciistr, "tag":tag}
                   dict_changed = True
@@ -125,13 +126,15 @@ if dict_changed:
 
 # use sorted rawmap as indexes into the raw input that need substitution
 rawmap.sort()
-print rawmap
+#print rawmap
 outstr = u''
 for startnibble, endnibble in rawmap:
     outstr += raw[index:startnibble]
     dictkey = raw[startnibble:endnibble]
     english_text = add_quote_tags(dictkey)
-    outstr += po[english_text]['xlate']
+    xlated += po[english_text]['xlate']
+    re.sub('&#34;',"'",xlated)
+    outstr += xlated
     index = endnibble
     
 
@@ -140,6 +143,6 @@ outFile = liec_dir + '/build/'+ tlang + '/' + volume + '/'+ basename
 fd = codecs.open(outFile,"w","utf-8")
 fd.write(outstr)
 fd.close()
-print(num_nibbles)
+#print(num_nibbles)
 msg =  "Calls to google translate: %s, final size of po dictionary:%s" % (gcalls,len(po),) 
 logit(msg)

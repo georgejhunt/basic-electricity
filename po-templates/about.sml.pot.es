@@ -34,8 +34,18 @@
     de documentos - Free Software Foundation.'}
 <italic>Vim</italic> text editor -- Bram Moolenaar and others.: {tag: <item>, xlate: !!python/unicode '<italic>
     Empuje </italic> editor de texto - Bram Moolenaar y otros.'}
+<italic>Winscope</italic> signal analysis software -- Dr. Constantin Zeldovich. (Free for personal and academic use.): {
+  tag: <item>, xlate: <italic> Winscope </italic> El software de análisis de señal
+    - Dr. Constantin Zeldovich. (Gratuito para uso personal y académico.)}
 <italic>Xcircuit</italic> drafting program -- Tim Edwards.: {tag: <item>, xlate: <italic>
     xcircuit </italic> programa de redacción - Tim Edwards.}
+? '<italic>``A candle loses nothing of its light when lighting another''''</italic>
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode '<italic> `` Una vela no pierde nada de su luz al encender
+    otra &#39;&#39; </italic>'}
 <sp><sp>ABOUT THIS BOOK: {tag: <chaptertitle>, xlate: !!python/unicode '<sp><sp> SOBRE
     ESTE LIBRO'}
 Acknowledgements: {tag: <sectiontitle>, xlate: !!python/unicode 'Expresiones de gratitud'}
@@ -188,6 +198,37 @@ Acknowledgements: {tag: <sectiontitle>, xlate: !!python/unicode 'Expresiones de 
     debe ser capaz de entender cómo utilizar ellos mismos, proporcionando un medio
     perfectamente seguro de la experimentación en sus propios ordenadores con simulaciones
     de circuitos de diseño propio.'}
+? 'However, textbooks don''t have to be this way.  I discovered this when I started
+  to learn a computer program called SPICE.  It is a text-based piece of software
+  intended to model circuits and provide analyses of voltage, current, frequency,
+  etc.  Although nothing is quite as good as building real circuits to gain knowledge
+  in electronics, computer simulation is an excellent alternative.  In learning how
+  to use this powerful tool, I made a discovery: SPICE could be used within a textbook
+  to present circuit simulations to allow students to ``observe''''the phenomena for
+  themselves.  This way, the readers could learn the concepts inductively (by interpreting
+  SPICE''s output) as well as deductively (by interpreting my explanations).  Furthermore,
+  in seeing SPICE used over and over again, they should be able to understand how
+  to use it themselves, providing a perfectly safe means of experimentation on their
+  own computers with circuit simulations of their own design.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Sin embargo, los libros de texto no tienen por qué ser así. Esto lo
+    descubrí cuando empecé a aprender un programa informático llamado SPICE. Es una
+    pieza basada en texto de software destinado a modelar circuitos y proporcionar
+    análisis de tensión, corriente, frecuencia, etc. Aunque no es tan buena como la
+    construcción de circuitos reales de adquirir conocimientos en electrónica, simulación
+    por ordenador es una excelente alternativa. En el aprendizaje de cómo utilizar
+    esta poderosa herramienta, hice un descubrimiento: SPICE podría ser utilizado
+    dentro de un libro de texto para presentar simulaciones de circuitos para permitir
+    a los estudiantes a `` observe&#39;&#39;the fenómenos por sí mismos. De esta manera,
+    los lectores podrían aprender los conceptos inductivamente (mediante la interpretación
+    de la salida del SPICE), así como por deducción (interpretando mis explicaciones).
+    Por otra parte, en ver especia utilizada una y otra vez, que debe ser capaz de
+    entender cómo utilizar ellos mismos, proporcionando un medio perfectamente seguro
+    de la experimentación en sus propios ordenadores con simulaciones de circuitos
+    de diseño propio.'}
 ? 'I also wish to thank those whose open-source software development efforts have
   made this endeavor all the more affordable and pleasurable.  The following is a
   list of various free computer software used to make this book, and the respective
@@ -251,6 +292,42 @@ Acknowledgements: {tag: <sectiontitle>, xlate: !!python/unicode 'Expresiones de 
     dar crédito a quien crédito merece (para mí, el autor original, y cualquier otra
     persona cuyo modificaciones están contenidas en su versión), y debe asegurarse
     de que todo el que le da el texto a es consciente de su libertad de compartir
+    de manera similar y editar el texto. El siguiente capítulo trata sobre este proceso
+    con más detalle.'}
+? 'In ``copylefting'''' this text, I guaranteed that no instructor would be limited
+  by a text insufficient for their needs, as I had been with error-ridden textbooks
+  from major publishers.  I''m sure this book in its initial form will not satisfy
+  everyone, but anyone has the freedom to change it, leveraging my efforts to suit
+  variant and individual requirements.  For the beginning student of electronics,
+  learn what you can from this book, editing it as you feel necessary if you come
+  across a useful piece of information.  Then, if you pass it on to someone else,
+  you will be giving them something better than what you received.  For the instructor
+  or electronics professional, feel free to use this as a reference manual, adding
+  or editing to your heart''s content.  The only ``catch'''' is this: if you plan
+  to distribute your modified version of this text, you must give credit where credit
+  is due (to me, the original author, and anyone else whose modifications are contained
+  in your version), and you must ensure that whoever you give the text to is aware
+  of their freedom to similarly share and edit the text.  The next chapter covers
+  this process in more detail.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En `` copyleft &#39;&#39; este texto, me garantiza que ningún instructor
+    estaría limitado por un texto insuficiente para sus necesidades, ya que había
+    estado con libros de texto de error plagada de grandes editoriales. Estoy seguro
+    de que este libro en su forma inicial no va a satisfacer a todos, pero cualquier
+    persona tiene la libertad de cambiarlo, aprovechando mis esfuerzos para adaptarse
+    a las necesidades individuales y la variante. Para el estudiante principiante
+    de la electrónica, aprender lo que pueda de este libro, editarlo como se sienta
+    necesaria si se encuentra con una pieza útil de información. Entonces, si se le
+    pasa a otra persona, se le dándoles algo mejor que lo que ha recibido. Para el
+    instructor o la electrónica profesional, no dude en utilizar esto como un manual
+    de referencia, añadir o editar el contenido de su corazón. La única `` captura
+    &#39;&#39; es la siguiente: si va a distribuir su versión modificada de este texto,
+    se debe dar crédito a quien crédito merece (para mí, el autor original, y cualquier
+    otra persona cuyo modificaciones están contenidas en su versión), y debe asegurarse
+    de que todo el que le da el texto a es consciente de su libertad para compartir
     de manera similar y editar el texto. El siguiente capítulo trata sobre este proceso
     con más detalle.'}
 ? 'It must be mentioned that although I strive to maintain technical accuracy in all
@@ -390,6 +467,31 @@ Purpose: {tag: <sectiontitle>, xlate: Propósito}
     trabajo creativo, simplemente añadiendo un anuncio a tal efecto en su trabajo,
     pero ya existen varias licencias, cubriendo los puntos legales finos con gran
     detalle.'}
+? "So, I decided to make the book freely available.  More than that, I decided to\
+  \ make it ``open'' following the same development model used in the making of free\
+  \ software (most notably the various UNIX utilities released by the Free Software\
+  \ Foundation, and the Linux operating system, whose fame is growing even as I write).\
+  \  The goal was to copyright the text -- so as to protect my authorship -- but expressly\
+  \ allow anyone to distribute and/or modify the text to suit their own needs with\
+  \ a minimum of legal encumbrance.  This willful and formal revoking of standard\
+  \ distribution limitations under copyright is whimsically termed <italic>copyleft</italic>.\
+  \  Anyone can ``copyleft'' their creative work simply by appending a notice to that\
+  \ effect on their work, but several Licenses already exist, covering the fine legal\
+  \ points in great detail.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Por lo tanto, decidí hacer el libro de libre disposición. Más que eso,
+    decidí hacerla `` abierta &#39;&#39; siguiendo el mismo modelo de desarrollo utilizado
+    en la fabricación de software libre (en particular las diversas utilidades de
+    UNIX dadas a conocer por la Free Software Foundation, y el sistema operativo Linux,
+    cuya fama está creciendo incluso mientras escribo). El objetivo era el derecho
+    de autor del texto - a fin de proteger mi autoría - pero expresamente permita
+    que nadie para distribuir y / o modificar el texto para adaptarse a sus propias
+    necesidades con un mínimo de gravamen legal. Esta revocación voluntaria y formal
+    de las limitaciones de distribución estándar bajo copyright se denomina whimsically
+    <italic> copyleft </italic> . Cualquiera puede `` copyleft &#39;&#39; su trabajo
+    creativo, simplemente añadiendo un anuncio a tal efecto en su trabajo, pero ya
+    existen varias licencias, cubriendo los puntos legales finos con gran detalle.'}
 ? 'Thanks to Michael Stutz for drafting his Design Science License, and to Richard
   Stallman for pioneering the concept of copyleft.
 
@@ -407,6 +509,19 @@ Purpose: {tag: <sectiontitle>, xlate: Propósito}
     ', xlate: 'Gracias al personal del Museo de la Radio Bellingham antiguo, que eran
     lo suficientemente generoso como para dejarme aterrorizar a sus establecimiento
     con mi cámara y el flash.'}
+? 'Thanks to the staff of the Bellingham Antique Radio Museum, who were generous enough
+  to let me terrorize their establishment with my camera and flash unit.  Similar
+  thanks to Jim Swartos and KARI radio in Blaine, Washington for a very informative
+  tour of their expanded (50 kW) facilities as well as their vintage transmitter equipment.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Gracias al personal del Museo de la Radio Bellingham antiguo, que eran
+    lo suficientemente generoso como para dejarme aterrorizar a sus establecimiento
+    con mi cámara y el flash. Gracias similares a Jim Swartos y el KARI de radio en
+    Blaine, Washington para una visita informativa de sus instalaciones ampliadas
+    (50 kW), así como su equipo de transmisión de la vendimia.'}
 ? 'Thanks to the staff of the Bellingham Antique Radio Museum, who were generous enough
   to let me terrorize their establishment with my camera and flash unit.  Similar
   thanks to the Fluke Corporation in Everett, Washington, who not only let me photograph
@@ -463,6 +578,12 @@ The use of SPICE: {tag: <sectiontitle>, xlate: !!python/unicode 'El uso de SPICE
     por comprender el material dentro. Peor aún fueron las muchas respuestas incorrectas
     en la parte posterior del libro a los problemas seleccionados. Para colmo de males
     era el precio de $ 100 +.'}
+? 'Tony Kuphaldt, April 2002
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Tony Kuphaldt, Abril 2002'}
 ? 'Tony Kuphaldt, January 2002
 
   '

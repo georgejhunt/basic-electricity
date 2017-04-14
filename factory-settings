@@ -21,8 +21,7 @@ export BE_DIR=$(cd `dirname $0`;pwd)
 mkdir -p $BE_LIEC_DIR/build
 
 # list of languages -- edit (add or subtract) to specify languages of interest
-#    export BE_LANGUAGES_LIST="es fr"
-    export BE_LANGUAGES_LIST="es "
+    export BE_LANGUAGES_LIST="es fr"
 
 # list of volumes -- comprehensive list of places to search for chapters
 #    edit to create a subset of volumes to be operated upon
@@ -31,8 +30,8 @@ mkdir -p $BE_LIEC_DIR/build
 
 # list of sml files to translate -- empty list does all languages, volumes in
 #     previous two lists
-#    export BE_LIST="about basiccon"
-    export BE_LIST="basiccon ohm safety dsl batt basicac "
+    export BE_LIST="dsl"
+#    export BE_LIST="basiccon ohm safety dsl batt basicac s_and_p "
 
 
 
