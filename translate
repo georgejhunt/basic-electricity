@@ -6,8 +6,8 @@ source ./factory-settings
 # go over the list of languages
 for lang in $BE_LANGUAGES_LIST; do
    mkdir -p $BE_LIEC_DIR/build/$lang
-   mkdir -p $BE_LIEC_DIR/build/html/DC
-   mkdir -p $BE_LIEC_DIR/build/html/AC
+   mkdir -p $BE_LIEC_DIR/build/output/DC
+   mkdir -p $BE_LIEC_DIR/build/output/AC
 
    # copy the whole source context to build directory
    for volume in $BE_VOLUMES; do
@@ -61,12 +61,12 @@ for lang in $BE_LANGUAGES_LIST; do
    pushd $BE_LIEC_DIR/build/$lang/DC
        ./mkDChtmlSubset
        ls DC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
-       cp DC_*.html $BE_LIEC_DIR/build/html/DC
+       cp DC_*.html $BE_LIEC_DIR/build/output/DC
    popd
    pushd $BE_LIEC_DIR/build/$lang/AC
        ./mkAChtmlSubset
        ls AC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
-       cp AC_*.html $BE_LIEC_DIR/build/html/AC
+       cp AC_*.html $BE_LIEC_DIR/build/output/AC
    popd
 done
 # done with all languages
