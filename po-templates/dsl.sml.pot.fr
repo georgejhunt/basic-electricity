@@ -1,0 +1,375 @@
+? '(Examples of ``Source Data'''' include, but are not limited to, the following:
+  if the Work is an image file composed and edited in ''PNG'' format, then the original
+  PNG source file is the Source Data; if the Work is an MPEG 1.0 layer 3 digital audio
+  recording made from a ''WAV'' format audio file recording of an analog source, then
+  the original WAV file is the Source Data; if the Work was composed as an unformatted
+  plaintext file, then that file is the the Source Data; if the Work was composed
+  in LaTeX, the LaTeX file(s) and any image files and/or custom macros necessary for
+  compilation constitute the Source Data.)
+
+  '
+: {tag: '<para>
+
+    ', xlate: '(Exemples de `` source de données « » comprennent, mais sans s&#39;y
+    limiter, les éléments suivants: si le travail est un fichier d&#39;image composé
+    et édité dans le « format » PNG, le fichier source PNG d&#39;origine est la source
+    de données, si le travail est une couche MPEG 1.0 3 enregistrement audio numérique
+    fait à partir d&#39;un format « WAV » enregistrement de fichiers audio d&#39;une
+    source analogique, le fichier WAV d&#39;origine est la source de données, si le
+    travail était composé comme un fichier texte brut non formaté, puis ce fichier
+    est le la source de données, si le travail était composé en LaTeX, le fichier
+    LaTeX (s) et tous les fichiers image et / ou des macros personnalisées nécessaires
+    à la compilation constituent la source de données).'}
+? '(a) The Source Data is included in the same distribution, distributed under the
+  terms of this License; or
+
+  '
+: {tag: '<para>
+
+    ', xlate: '(A) La source de données est incluse dans la même distribution, selon
+    les termes de la présente Licence; ou'}
+? '(a) The new, derivative work is published under the terms of this License.
+
+  '
+: {tag: '<para>
+
+    ', xlate: (A) Le nouveau produit dérivé est publié sous les termes de cette licence.}
+? "(b) A written offer is included with the distribution, valid for at least three\
+  \ years or for as long as the distribution is in print (whichever is longer), with\
+  \ a publicly-accessible address (such as a URL on the Internet) where, for a charge\
+  \ not greater than transportation and media costs, anyone may receive a copy of\
+  \ the Source Data of the Work distributed according to the section above; or \n"
+: {tag: '<para>
+
+    ', xlate: '(B) Une offre écrite est inclus dans la distribution, valable pendant
+    au moins trois ans ou aussi longtemps que la distribution est en version imprimée
+    (selon la plus longue), avec une adresse accessible au public (comme une URL sur
+    Internet) où , pour une charge ne dépassant pas les frais de transport et des
+    médias, tout le monde peut recevoir une copie de la source de données des travaux
+    distribués conformément à la section ci-dessus; ou'}
+? '(b) The derivative work is given a new name, so that its name or title can not
+  be confused with the Work, or with a version of the Work, in any way.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '(B) Le travail dérivé est un nouveau nom, de sorte que son nom ou le
+    titre ne peut pas être confondu avec le travail ou avec une version de l&#39;œuvre,
+    de quelque façon.'}
+? '(c) A third party''s written offer for obtaining the Source Data at no cost, as
+  described in paragraph (b) above, is included with the distribution. This option
+  is valid only if you are a non-commercial party, and only if you received the Object
+  Form of the Work along with such an offer.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '(C) Un troisième de l&#39;offre de la partie écrite pour obtenir la
+    source de données sans frais, comme décrit au paragraphe (b) ci-dessus, est inclus
+    dans la distribution. Cette option est valable que si vous êtes une partie non
+    commerciale, et seulement si vous avez reçu le formulaire de l&#39;objet du travail
+    avec une telle offre.'}
+? '(c) Appropriate authorship credit is given: for the differences between the Work
+  and the new derivative work, authorship is attributed to you, while the material
+  sampled or used from the Work remains attributed to the original Author; appropriate
+  notice must be included with the new work indicating the nature and the dates of
+  any modifications of the Work made by you.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '(C) La qualité d&#39;auteur est donnée appropriée: les différences
+    entre le travail et la nouvelle œuvre dérivée, la paternité est attribuée à vous,
+    alors que le matériau échantillonné ou utilisé à partir du travail reste attribué
+    à l&#39;auteur original; un avis approprié doit être inclus dans le nouveau travail
+    indiquant la nature et les dates des modifications du travail effectué par vous.'}
+0. Preamble: {tag: <sectiontitle>, xlate: 0. Préambule}
+1. Definitions: {tag: <sectiontitle>, xlate: 1. Définitions}
+2. Rights and copyright: {tag: <sectiontitle>, xlate: !!python/unicode '2. Les droits
+    et le droit d&#39;auteur'}
+3. Copying and distribution: {tag: <sectiontitle>, xlate: !!python/unicode '3. Copie
+    et distribution'}
+4. Modification: {tag: <sectiontitle>, xlate: !!python/unicode '4. Modification'}
+5. No restrictions: {tag: <sectiontitle>, xlate: !!python/unicode '5. Aucune restriction'}
+6. Acceptance: {tag: <sectiontitle>, xlate: !!python/unicode '6. Acceptation'}
+7. No warranty: {tag: <sectiontitle>, xlate: !!python/unicode '7. Aucune garantie'}
+8. Disclaimer of liability: {tag: <sectiontitle>, xlate: 8. Clause de non-responsabilité}
+<sp><sp>DESIGN SCIENCE LICENSE: {tag: <chaptertitle>, xlate: !!python/unicode '<sp><sp>
+    CONCEPTION LICENCE DE LA SCIENCE'}
+? '<typewriter>[$Id: dsl.txt,v 1.25 2000/03/14 13:14:14 m Exp m $]</typewriter>
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode '<typewriter> [$ Id: dsl.txt, v 1,25 2000/03/14 13:14:14
+    m Exp m $] </typewriter>'}
+? 'Copying, distributing or modifying the Work (including but not limited to sampling
+  from the Work in a new work) indicates acceptance of these terms. If you do not
+  follow the terms of this License, any rights granted to you by the License are null
+  and void. The copying, distribution or modification of the Work outside of the terms
+  described in this License is expressly prohibited by law.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Copier, distribuer ou modifier le travail (y compris, mais sans s&#39;y
+    limiter à l&#39;échantillonnage du travail dans un nouveau travail) indique l&#39;acceptation
+    de ces termes. Si vous ne suivez pas les termes de cette licence, les droits qui
+    vous sont accordés par la licence sont nulles et non avenues. La copie, la distribution
+    ou la modification des travaux en dehors des conditions décrites dans la présente
+    Licence est expressément interdite par la loi.'}
+? 'Copyright <copyright> 1999-2000 Michael Stutz <typewriter>stutz@dsl.org</typewriter>
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'droits d&#39;auteur <copyright> 1999-2000 Michael
+    Stutz <typewriter> stutz@dsl.org </typewriter>'}
+? 'Copyright law gives certain exclusive rights to the author of a work, including
+  the rights to copy, modify and distribute the work (the ``reproductive,'''' ``adaptative,''''
+  and ``distribution'''' rights).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le droit d&#39;auteur donne certains droits exclusifs de l&#39;auteur
+    d&#39;une œuvre, y compris les droits de copier, modifier et distribuer le travail
+    (la `` reproduction, « » `` adaptatives, « » et `` la distribution « » droits).'}
+? 'END OF TERMS AND CONDITIONS
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'FIN DES CONDITIONS'}
+? "IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,\
+  \ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED\
+  \ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\
+  \ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER\
+  \ IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING\
+  \ IN ANY WAY OUT OF THE USE OF THIS WORK, EVEN IF ADVISED OF THE POSSIBILITY OF\
+  \ SUCH DAMAGE.  \n"
+: {tag: '<para>
+
+    ', xlate: 'EN AUCUN CAS L&#39;AUTEUR OU SES COLLABORATEURS NE SERONT TENUS RESPONSABLES
+    DE DOMMAGES DIRECTS, INDIRECTS, SPÉCIAUX, EXEMPLAIRES OU CONSÉCUTIFS (Y COMPRIS,
+    MAIS SANS S&#39;Y LIMITER, LA FOURNITURE DE BIENS OU DE SERVICES, LA PERTE D&#39;UTILISATION,
+    DE DONNÉES OU DE PROFITS OU INTERRUPTION dES ACTIVITÉS) ET eN MATIÈRE dE RESPONSABILITÉ,
+    QUE CE SOIT DANS UN CONTRAT, RESPONSABILITÉ STRICTE OU (Y COMPRIS lA NÉGLIGENCE
+    OU AUTRE) RÉSULTANT FAÇON dE L&#39;UTILISATION dE CE TRAVAIL, MÊME SI lA POSSIBILITÉ
+    d&#39;UN TEL DOMMAGE.'}
+? 'If any part of this License is found to be in conflict with the law, that part
+  shall be interpreted in its broadest meaning consistent with the law, and no other
+  parts of the License shall be affected.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si une partie de cette licence se trouve être en conflit avec la loi,
+    cette partie doit être interprétée dans son sens le plus large conformément à
+    la loi, et aucune autre partie de la licence est affectée.'}
+? 'If for any reason, conditions are imposed on you that forbid you to fulfill the
+  conditions of this License, you may not copy, distribute or modify the Work at all.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si pour une raison quelconque, les conditions sont imposées que vous
+    défends de remplir les conditions de la présente Licence, vous ne pouvez pas copier,
+    distribuer ou modifier le travail du tout.'}
+? 'In addition, you may refer to the Work, talk about it, and (as dictated by ``fair
+  use'''') quote from it, just as you would any copyrighted material under copyright
+  law.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'De plus, vous pouvez vous référer au travail, parler, et (comme dictée
+    par `` fair use « ») citation, tout comme vous le feriez pour tout matériel protégé
+    par le droit d&#39;auteur.'}
+? 'Permission is granted to distribute, publish or otherwise present copies of the
+  Object Form of the Work, in any medium, under the terms for distribution of Source
+  Data above and also provided that one of the following additional conditions are
+  met:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il est permis de distribuer, de publier ou de copies présentes de la
+    forme de l&#39;objet du travail, sur tout support, selon les termes de distribution
+    de données Source ci-dessus et à condition que l&#39;une des conditions suivantes
+    sont remplies:'}
+? 'Permission is granted to distribute, publish or otherwise present verbatim copies
+  of the entire Source Data of the Work, in any medium, provided that full copyright
+  notice and disclaimer of warranty, where applicable, is conspicuously published
+  on all copies, and a copy of this License is distributed along with the Work.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il est permis de distribuer, de publier ou de présenter des copies
+    exactes de l&#39;ensemble de la source de données des travaux, sur tout support,
+    à condition que l&#39;avis complet du droit d&#39;auteur et clause de non-garantie,
+    le cas échéant, est publié bien en vue sur toutes les copies, et une copie de
+    cette Licence est distribué avec le travail.'}
+? 'Permission is granted to modify or sample from a copy of the Work, producing a
+  derivative work, and to distribute the derivative work under the terms described
+  in the section for distribution above, provided that the following terms are met:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il est permis de modifier ou d&#39;un échantillon à partir d&#39;une
+    copie de l&#39;ouvrage, la production d&#39;un produit dérivé, et répartir le
+    travail dérivé selon les modalités décrites dans la section ci-dessus pour la
+    distribution, à condition que les conditions suivantes sont remplies:'}
+? 'THE WORK IS PROVIDED ``AS IS,'''' AND COMES WITH ABSOLUTELY NO WARRANTY, EXPRESS
+  OR IMPLIED, TO THE EXTENT PERMITTED BY APPLICABLE LAW, INCLUDING BUT NOT LIMITED
+  TO THE IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'LE TRAVAIL EST FOURNI `` TEL QUEL « » ET VIENT AVEC AUCUNE GARANTIE,
+    EXPLICITE OU IMPLICITE, DANS LES LIMITES PRÉVUES PAR LA LOI, Y COMPRIS, MAIS SANS
+    S&#39;Y LIMITER LES GARANTIES DE QUALITÉ MARCHANDE OU D&#39;ADEQUATION A UN USAGE
+    PARTICULIER.'}
+? 'The Work is copyright the Author.  All rights to the Work are reserved by the Author,
+  except as specifically described below. This License describes the terms and conditions
+  under which the Author permits you to copy, distribute and modify copies of the
+  Work.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le travail est le droit d&#39;auteur de l&#39;auteur. Tous droits au
+    travail sont réservés par l&#39;auteur, sauf indication décrit ci-dessous. Cette
+    licence décrit les conditions dans lesquelles l&#39;auteur vous permet de copier,
+    distribuer et modifier des copies du travail.'}
+? 'The aggregation of the Work with other works which are not based on the Work --
+  such as but not limited to inclusion in a publication, broadcast, compilation, or
+  other media -- does not bring the other works in the scope of the License; nor does
+  such aggregation void the terms of the License for the Work.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;agrégation des travaux avec d&#39;autres travaux qui ne sont
+    pas fondées sur les travaux - tels que, mais sans s&#39;y limiter à l&#39;inclusion
+    dans une publication, la diffusion, la compilation, ou d&#39;autres médias - ne
+    met pas les autres œuvres dans le cadre de la licence; ni une telle agrégation
+    annule les termes de la licence pour le travail.'}
+? 'The idea of ``copyleft'''' is to willfully revoke the exclusivity of those rights
+  under certain terms and conditions, so that anyone can copy and distribute the work
+  or properly attributed derivative works, while all copies remain under the same
+  terms and conditions as the original.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;idée de `` copyleft « » est de révoquer volontairement l&#39;exclusivité
+    de ces droits sous certaines conditions, afin que chacun puisse copier et distribuer
+    le travail ou bien attribué des œuvres dérivées, alors que toutes les copies restent
+    dans les mêmes termes et conditions que le original.'}
+? 'The individual licensees are referred to as ``you.''''
+
+  '
+: {tag: '<para>
+
+    ', xlate: Les titulaires de permis sont appelés `` vous. « »}
+? 'The intent of this license is to be a general ``copyleft'''' that can be applied
+  to any kind of work that has protection under copyright. This license states those
+  certain conditions under which a work published under its terms may be copied, distributed,
+  and modified.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le but de cette licence est d&#39;être un général `` copyleft « » qui
+    peut être appliqué à tout type de travail qui a une protection sous copyright.
+    Cette licence énonce ces certaines conditions dans lesquelles un ouvrage publié
+    sous ses termes ne peuvent être reproduits, distribués et modifiés.'}
+? 'Verbatim copying of this document is permitted, in any medium.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La copie intégrale de ce document est autorisée, sur tout support.'}
+? 'You may copy and distribute the Work either gratis or for a fee, and if desired,
+  you may offer warranty protection for the Work.
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Vous pouvez copier et distribuer le travail gratuitement
+    ou moyennant des frais, et si on le souhaite, vous pouvez offrir une protection
+    de garantie du travail.'}
+? 'You may not impose any further restrictions on the Work or any of its derivative
+  works beyond those restrictions described in this License.
+
+  '
+: {tag: '<para>
+
+    ', xlate: Vous ne pouvez pas imposer de nouvelles restrictions sur le travail
+    ou l&#39;une de ses œuvres dérivées au-delà de ces restrictions décrites dans
+    la présente Licence.}
+? 'Your right to operate, perform, read or otherwise interpret and/or execute the
+  Work is unrestricted; however, you do so at your own risk, because the Work comes
+  WITHOUT ANY WARRANTY -- see Section 7 (``NO WARRANTY'''') below.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Votre droit d&#39;exploiter, d&#39;exécuter, lire ou interpréter autrement
+    et / ou d&#39;exécuter le travail est sans restriction; cependant, vous le faites
+    à vos propres risques, parce que le travail est fournie SANS AUCUNE GARANTIE -
+    voir la section 7 ( `` AUCUNE GARANTIE « ») ci-dessous.'}
+? '``Author'''' shall mean the copyright holder(s) of the Work.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '`` Auteur « » signifie le titulaire du droit d&#39;auteur (s) du travail.'}
+? '``License'''' shall mean this Design Science License. The License applies to any
+  work which contains a notice placed by the work''s copyright holder stating that
+  it is published under the terms of this Design Science License.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '`` Licence &#39;&#39; signifie ce Design Science License. La licence
+    s&#39;applique à tout travail contenant un avis placé par le titulaire du droit
+    d&#39;auteur du travail indiquant qu&#39;il est publié selon les termes de la
+    présente Licence Design La Science.'}
+? '``Object Form'''' shall mean an executable or performable form of the Work, being
+  an embodiment of the Work in some tangible medium.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '`` Objet Form « »: une forme exécutable ou performable des travaux,
+    étant un mode de réalisation des travaux dans un certain milieu tangible.'}
+? '``Source Data'''' shall mean the origin of the Object Form, being the entire, machine-readable,
+  preferred form of the Work for copying and for human modification (usually the language,
+  encoding or format in which composed or recorded by the Author); plus any accompanying
+  files, scripts or other data necessary for installation, configuration or compilation
+  of the Work.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '`` Source de données « »: l&#39;origine de la forme de l&#39;objet,
+    étant l&#39;ensemble, lisible par machine, forme préférée des travaux pour la
+    copie et la modification humaine (généralement la langue, l&#39;encodage ou le
+    format dans lequel composé ou enregistré par l&#39;auteur ); ainsi que tous les
+    fichiers d&#39;accompagnement, des scripts ou d&#39;autres données nécessaires
+    pour l&#39;installation, la configuration ou la compilation des travaux.'}
+? '``Work'''' shall mean such an aforementioned work. The License also applies to
+  the output of the Work, only if said output constitutes a ``derivative work''''
+  of the licensed Work as defined by copyright law.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '`` Travail « », un tel travail mentionné ci-dessus. La licence applique
+    également à la sortie du travail, que si ladite sortie constitue une œuvre dérivée
+    `` « » des travaux sous licence tel que défini par le droit d&#39;auteur.'}

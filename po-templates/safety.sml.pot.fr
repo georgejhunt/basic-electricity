@@ -1,0 +1,2623 @@
+? '
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode ''}
+'1.5 inch metal pipe grasped by one hand: 1,000 <OMEGA> to 3,000 <OMEGA> dry, 500 <OMEGA> to 1,500 <OMEGA> wet.': {
+  tag: <item>, xlate: '1,5 inch tube métallique saisie par une main: 1000 <OMEGA>
+    à 3000 <OMEGA> sec, 500 <OMEGA> à 1500 <OMEGA> humide.'}
+'1.5 inch metal pipe grasped by two hands: 500 <OMEGA> to 1,500 k<OMEGA> dry, 250 <OMEGA> to 750 <OMEGA> wet.': {
+  tag: <item>, xlate: 'tuyau métallique 1,5 pouces saisi par les deux mains: 500 <OMEGA>
+    à 1500 k <OMEGA> sec, 250 <OMEGA> 750 <OMEGA> humide.'}
+? '<bold>Jason Starck</bold> (June 2000): HTML document formatting, which led to a
+  much better-looking second edition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Jason Starck </bold> (Juin 2000): la mise en forme de documents
+    HTML, ce qui a conduit à une deuxième édition beaucoup plus beau.'}
+<bold>REVIEW:</bold>: {tag: <item>, xlate: !!python/unicode '<bold> LA REVUE: </bold>'}
+? <italic>Ground Fault Current Interruptors</italic> (GFCIs) work by sensing a difference
+  in current between the two conductors supplying power to the load.  There should
+  be no difference in current at all.  Any difference means that current must be entering
+  or exiting the load by some means other than the two main conductors, which is not
+  good.  A significant current difference will automatically open a disconnecting
+  switch mechanism, cutting power off completely.
+: {tag: <item>, xlate: '<italic> Défaut à la terre des interrupteurs </italic> (GFCI)
+    le travail en détectant une différence de courant entre les deux conducteurs qui
+    fournissent la puissance à la charge. Il devrait y avoir aucune différence de
+    courant du tout. Toute différence signifie que le courant doit être ou entrer
+    dans la sortie de la charge par des moyens autres que les deux conducteurs principaux,
+    ce qui est pas bon. Une différence significative de courant ouvre automatiquement
+    un mécanisme de commutation de coupure, le pouvoir de couper complètement.'}
+? '<italic>Lock-out/Tag-out</italic> works like this: when working on a system in
+  a Zero Energy State, the worker places a personal padlock or combination lock on
+  every energy disconnect device relevant to his or her task on that system.  Also,
+  a tag is hung on every one of those locks describing the nature and duration of
+  the work to be done, and who is doing it.'
+: {tag: <item>, xlate: '<italic> Lock-out / Tag-out </italic> fonctionne comme ceci:
+    lorsque vous travaillez sur un système dans un état d&#39;énergie zéro, le travailleur
+    met un cadenas personnel ou serrure à combinaison sur chaque dispositif de déconnexion
+    d&#39;énergie pertinente pour sa tâche sur ce système. En outre, une étiquette
+    est accrochée à chacun de ces verrous décrivant la nature et la durée du travail
+    à faire, et qui le fait.'}
+? <italic>Tetanus</italic> is the condition where muscles involuntarily contract due
+  to the passage of external electric current through the body.  When involuntary
+  contraction of muscles controlling the fingers causes a victim to be unable to let
+  go of an energized conductor, the victim is said to be <quote>froze on the circuit.</quote>
+: {tag: <item>, xlate: '<italic> Tétanos </italic> est la condition où les muscles
+    se contractent involontairement en raison du passage du courant électrique externe
+    à travers le corps. Lorsque la contraction involontaire des muscles contrôlant
+    les doigts provoque une victime d&#39;être incapable de lâcher un conducteur sous
+    tension, la victime est dite <quote> gelé sur le circuit. </quote>'}
+? '<italic>Zero Energy State</italic>: When a circuit, device, or system has been
+  secured so that no potential energy exists to harm someone working on it.'
+: {tag: <item>, xlate: '<italic> Zero Energy Etat </italic> : Lorsqu&#39;un circuit,
+    dispositif ou système a été fixé de sorte qu&#39;aucune énergie potentielle existe
+    pour nuire à quelqu&#39;un qui travaille là-dessus.'}
+? <quote>Hz</quote> stands for the unit of <italic>Hertz</italic>, the measure of
+  how rapidly alternating current alternates, a measure otherwise known as <italic>frequency</italic>.  So,
+  the column of figures labeled <quote>60 Hz AC</quote> refers to current that alternates
+  at a frequency of 60 cycles (1 cycle = period of time where electrons flow one direction,
+  then the other direction) per second.  The last column, labeled <quote>10 kHz AC,</quote>
+: {tag: '<para>
+
+    ', xlate: '<quote> Hz </quote> est synonyme de l&#39;unité de <italic> Hertz </italic>
+    , La mesure de la façon dont l&#39;alternance rapide courant alterne, une mesure
+    autrement connue sous le nom <italic> la fréquence </italic> . Ainsi, la colonne
+    des chiffres marqués <quote> 60 Hz AC </quote> se réfère à un courant qui alterne
+    à une fréquence de 60 cycles (1 cycle = période de temps où les flux d&#39;électrons
+    une direction, puis dans l&#39;autre direction) par seconde. La dernière colonne,
+    intitulée <quote> 10 kHz AC, </quote>'}
+A <italic>ground fault</italic> is an accidental connection between a circuit conductor and the earth (ground).: {
+  tag: <item>, xlate: UNE <italic> défaut à la terre </italic> est une connexion accidentelle
+    entre un conducteur de circuit et la masse (terre).}
+? 'A common phrase heard in reference to electrical safety goes something like this:
+  <quote><italic>It''s not voltage that kills, its current!</italic></quote>'
+: {tag: '<para>
+
+    ', xlate: 'Une phrase commune entendu en référence à la sécurité électrique ressemble
+    à ceci: <quote><italic> Ce n&#39;est pas la tension qui tue, son courant! </italic></quote>'}
+? "A few questions usually arise at this point in the mind of the student:  \n"
+: {tag: '<para>
+
+    ', xlate: 'Quelques questions se posent généralement à ce stade dans l&#39;esprit
+    de l&#39;étudiant:'}
+? A further benefit of this precaution is protection against the possibility of the
+  disconnect switch being closed (turned <quote>on</quote>
+: {tag: '<para>
+
+    ', xlate: Un autre avantage de cette précaution est une protection contre la possibilité
+    de l&#39;interrupteur est fermé (tourné <quote> sur </quote>}
+A good fuse will indicate very little resistance while a blown fuse will always show <quote>O.L.</quote>: {
+  tag: '<para>
+
+    ', xlate: Un bon fusible indique très peu de résistance tandis qu&#39;un fusible
+    toujours montrer <quote> OL </quote>}
+? 'A lock-out/tag-out procedure works like this: all individuals working on a secured
+  circuit have their own personal padlock or combination lock which they set on the
+  control lever of a disconnect device prior to working on the system.  Additionally,
+  they must fill out and sign a tag which they hang from their lock describing the
+  nature and duration of the work they intend to perform on the system.  If there
+  are multiple sources of energy to be <quote>locked out</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Un lock-out / procédure tag-out fonctionne comme ceci: toutes les personnes
+    travaillant sur un circuit sécurisé ont leur propre serrure du cadenas personnel
+    ou combinaison qu&#39;ils fixent sur le levier de commande d&#39;un dispositif
+    de déconnexion avant de travailler sur le système. En outre, ils doivent remplir
+    et signer une étiquette qu&#39;ils pendent de leur verrou décrivant la nature
+    et la durée du travail qu&#39;ils ont l&#39;intention d&#39;effectuer sur le système.
+    Si plusieurs sources d&#39;énergie à <quote> enfermé dehors </quote>'}
+A meter capable of checking for voltage, current, and resistance is called a <italic>multimeter</italic>.: {
+  tag: <item>, xlate: 'Un compteur capable de vérifier la tension, le courant et la
+    résistance est appelée <italic> multimètre </italic> .'}
+? A person being shocked needs to be disconnected from the source of electrical power.  Locate
+  the disconnecting switch/breaker and turn it off.  Alternatively, if the disconnecting
+  device cannot be located, the victim can be pried or pulled from the circuit by
+  an insulated object such as a dry wood board, piece of nonmetallic conduit, or rubber
+  electrical cord.
+: {tag: <item>, xlate: 'Une personne qui est choqué doit être déconnectée de la source
+    d&#39;énergie électrique. Localisez le commutateur / disjoncteur de débrancher
+    et mettre hors tension. En variante, si le dispositif de sectionnement ne peut
+    être affichée, la victime peut être fouillait ou retiré du circuit par un objet
+    isolé tel qu&#39;une planche de bois sec, un morceau de conduit non métallique,
+    ou d&#39;un caoutchouc cordon électrique.'}
+? AC's alternating nature has a greater tendency to throw the heart's pacemaker neurons
+  into a condition of fibrillation, whereas DC tends to just make the heart stand
+  still.  Once the shock current is halted, a <quote>frozen</quote> heart has a better
+  chance of regaining a normal beat pattern than a fibrillating heart.  This is why
+  <quote>defibrillating</quote>
+: {tag: '<para>
+
+    ', xlate: 'nature alternatif AC a une plus grande tendance à jeter les neurones
+    pacemaker du cœur dans un état de fibrillation, alors que DC a tendance à juste
+    faire le cœur encore debout. Une fois le choc électrique est interrompue, un <quote>
+    congelé </quote> coeur a une meilleure chance de retrouver un modèle de battement
+    normal qu&#39;un cœur fibrillante. C&#39;est pourquoi <quote> defibrillation </quote>'}
+? 'Additionally, you should <italic>always</italic> check for the presence of dangerous
+  voltage with a measuring device before actually touching any conductors in the circuit.  To
+  be safest, you should follow this procedure of checking, using, and then checking
+  your meter:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'De plus, vous devriez <italic> toujours </italic> vérifier la présence
+    d&#39;une tension dangereuse avec un dispositif de mesure avant de toucher réellement
+    les conducteurs dans le circuit. Pour être plus sûr, vous devez suivre cette procédure
+    de vérification, à l&#39;aide, puis de vérifier votre compteur:'}
+? 'After an electrical system has been locked out and tagged with your own personal
+  lock, you must then double-check to see if the voltage really has been secured in
+  a zero state.  One way to check is to see if the machine (or whatever it is that''s
+  being worked on) will start up if the <italic>Start</italic> switch or button is
+  actuated.  If it starts, then you know you haven''t successfully secured the electrical
+  power from it.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Après un système électrique a été verrouillé et étiqueté avec votre
+    propre serrure personnelle, vous devez double-vérifier si la tension a vraiment
+    été fixé dans un état zéro. Un moyen de vérifier est de voir si la machine (ou
+    quoi que ce soit qui est en cours d&#39;élaboration) démarreront si la <italic>
+    Début </italic> interrupteur ou bouton est actionné. Si elle commence, vous savez
+    que vous ne l&#39;avez pas réussi à obtenir la puissance électrique de celle-ci.'}
+? 'Again, these voltage figures are very approximate, but they serve to illustrate
+  a potential hazard: that a person can become a victim of electric shock from a downed
+  power line without even coming into contact with that line!
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Encore une fois, ces chiffres de tension sont très approximatifs, mais
+    ils servent à illustrer un danger potentiel: qu&#39;une personne peut être victime
+    d&#39;un choc électrique d&#39;une ligne électrique tombée sans même entrer en
+    contact avec cette ligne!'}
+All good-quality multimeters contain fuses inside that are engineered to <quote>blow</quote>: {
+  tag: '<para>
+
+    ', xlate: Tous les multimètres de bonne qualité contiennent des fusibles à l&#39;intérieur
+    qui sont conçus pour <quote> coup </quote>}
+? All properly designed circuits have <quote>disconnect</quote> switch mechanisms
+  for securing voltage from a circuit.  Sometimes these <quote>disconnects</quote>
+  serve a dual purpose of automatically opening under excessive current conditions,
+  in which case we call them <quote>circuit breakers.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Tous les circuits ont bien conçus <quote> couper </quote> commuter
+    des mécanismes pour fixer la tension d&#39;un circuit. parfois, ces <quote> déconnexions
+    </quote> servir un double objectif d&#39;ouvrir automatiquement dans les conditions
+    actuelles excessives, auquel cas on les appelle <quote> disjoncteurs. </quote>'}
+? 'Also, it must be remembered that digital multimeters usually do a good job of discriminating
+  between AC and DC measurements, as they are set for one or the other when checking
+  for voltage or current.  As we have seen earlier, both AC and DC voltages and currents
+  can be deadly, so when using a multimeter as a safety check device you should always
+  check for the presence of both AC and DC, even if you''re not expecting to find
+  both!  Also, when checking for the presence of hazardous voltage, you should be
+  sure to check <italic>all</italic> pairs of points in question.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En outre, il faut se rappeler que les multimètres numériques font généralement
+    un bon travail de distinction entre les mesures AC et DC, comme ils sont fixés
+    pour l&#39;un ou l&#39;autre lors de la vérification de tension ou de courant.
+    Comme nous l&#39;avons vu précédemment, les tensions et les courants alternatifs
+    et continus peuvent être mortels, donc lors de l&#39;utilisation d&#39;un multimètre
+    comme dispositif de contrôle de sécurité, vous devriez toujours vérifier la présence
+    des deux AC et DC, même si vous n&#39;êtes pas attendre à trouver à la fois !
+    En outre, lors de la vérification de la présence de tension dangereuse, vous devez
+    être sûr de vérifier <italic> tout </italic> paires de points en question.'}
+? 'Also, voltages lower than 30 can be dangerous if they are enough to induce an unpleasant
+  sensation, which may cause you to jerk and accidently come into contact across a
+  higher voltage or some other hazard.  I recall once working on a automobile on a
+  hot summer day.  I was wearing shorts, my bare leg contacting the chrome bumper
+  of the vehicle as I tightened battery connections.  When I touched my metal wrench
+  to the positive (ungrounded) side of the 12 volt battery, I could feel a tingling
+  sensation at the point where my leg was touching the bumper.  The combination of
+  firm contact with metal and my sweaty skin made it possible to feel a shock with
+  only 12 volts of electrical potential.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En outre, des tensions inférieures à 30 peuvent être dangereuses si
+    elles sont suffisantes pour induire une sensation désagréable, ce qui peut vous
+    faire branler et accidentellement entrer en contact à travers une tension plus
+    élevée ou un autre danger. Je me souviens de travail une fois sur une automobile
+    sur une chaude journée d&#39;été. Je portais un short, ma jambe nue en contact
+    avec le pare-chocs chromé du véhicule que je serrai les connexions de la batterie.
+    Quand je touchais ma clé métallique sur le côté positif (sans terre) de la batterie
+    de 12 volts, je pouvais ressentir une sensation de picotement au point où ma jambe
+    a été en contact avec le pare-chocs. La combinaison de contact ferme avec le métal
+    et ma peau moite a permis de se sentir un choc avec seulement 12 volts de potentiel
+    électrique.'}
+? Always verify that a circuit has been secured in a Zero Energy State with test equipment
+  after <quote>locking it out.</quote>
+: {tag: <item>, xlate: Vérifiez toujours qu&#39;un circuit a été obtenu dans un État
+    Zero Energy avec l&#39;équipement d&#39;essai après <quote> verrouillage dehors.
+    </quote>}
+? "Another benefit of including a detailed lesson on electrical safety is the practical\
+  \ context it sets for basic concepts of voltage, current, resistance, and circuit\
+  \ design.  The more relevant a technical topic can be made, the more likely a student\
+  \ will be to pay attention and comprehend.  And what could be more relevant than\
+  \ application to your own personal safety?  Also, with electrical power being such\
+  \ an everyday presence in modern life, almost anyone can relate to the illustrations\
+  \ given in such a lesson.  Have you ever wondered why birds don't get shocked while\
+  \ resting on power lines?  Read on and find out! \n"
+: {tag: '<para>
+
+    ', xlate: 'Un autre avantage d&#39;inclure une leçon détaillée sur la sécurité
+    électrique est le contexte pratique, il définit des concepts de base de la tension,
+    le courant, la résistance et la conception de circuits. Le plus pertinent peut
+    être un sujet technique, plus il est probable un étudiant sera de faire attention
+    et comprendre. Et ce qui pourrait être plus pertinent que l&#39;application à
+    votre propre sécurité? En outre, avec l&#39;énergie électrique étant une telle
+    présence quotidienne dans la vie moderne, presque tout le monde peut se rapporter
+    aux illustrations données dans une telle leçon. Avez-vous déjà demandé pourquoi
+    les oiseaux ne reçoivent pas le choc tout en se reposant sur les lignes électriques?
+    Continuez à lire et découvrir!'}
+? Another effect of electric current on the body, perhaps the most significant in
+  terms of hazard, regards the nervous system.  By <quote>nervous system</quote> I
+  mean the network of special cells in the body called <quote>nerve cells</quote>
+  or <quote>neurons</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un autre effet du courant électrique sur le corps, peut-être le plus
+    important en termes de risque, ce qui concerne le système nerveux. Par <quote>
+    système nerveux </quote> Je veux dire le réseau de cellules spéciales dans le
+    corps appelé <quote> cellules nerveuses </quote> ou <quote> neurones </quote>'}
+? Another potential hazard of using a multimeter in its current-measuring (<quote>ammeter</quote>)
+  mode is failure to properly put it back into a voltage-measuring configuration before
+  measuring voltage with it.  The reasons for this are specific to ammeter design
+  and operation.  When measuring circuit current by placing the meter directly in
+  the path of current, it is best to have the meter offer little or no resistance
+  against the flow of electrons.  Otherwise, any additional resistance offered by
+  the meter would impede the electron flow and alter the circuits operation.  Thus,
+  the multimeter is designed to have practically zero ohms of resistance between the
+  test probe tips when the red probe has been plugged into the red <quote>A</quote>
+  (current-measuring) socket.  In the voltage-measuring mode (red lead plugged into
+  the red <quote>V</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un autre risque potentiel de l&#39;utilisation d&#39;un multimètre
+    dans son de mesure du courant ( <quote> ampèremètre </quote> ) Est le mode défaut
+    de mettre correctement à nouveau dans une configuration de mesure de tension avant
+    de mesurer la tension avec elle. Les raisons sont spécifiques à la conception
+    et le fonctionnement ampèremètre. Lors de la mesure de courant de circuit en plaçant
+    le compteur directement sur la trajectoire du courant, il est préférable d&#39;avoir
+    l&#39;offre de mètres peu ou pas de résistance contre le flux d&#39;électrons.
+    Dans le cas contraire, toute résistance supplémentaire offerte par l&#39;appareil
+    de mesure empêcherait le flux d&#39;électrons et modifier le fonctionnement des
+    circuits. Ainsi, le multimètre est conçu pour avoir pratiquement zéro ohms de
+    résistance entre les pointes de sonde d&#39;essai lorsque la sonde rouge a été
+    branché sur le rouge <quote> UNE </quote> douille (-mesure de courant). Dans le
+    mode de mesure de tension (plomb rouge branché sur le rouge <quote> V </quote>'}
+? 'Any power tool showing evidence of electrical problems should be immediately serviced
+  as well.  I''ve heard several horror stories of people who continue to work with
+  hand tools that periodically shock them.  Remember, <italic>electricity can kill</italic>,
+  and the death it brings can be gruesome.  Like extension cords, a bad power tool
+  can be removed from service by unplugging it and cutting off the plug at the end
+  of the cord.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout outil électrique présentant des signes de problèmes électriques
+    doit être immédiatement réparé aussi bien. Je l&#39;ai entendu plusieurs histoires
+    d&#39;horreur des gens qui continuent de travailler avec des outils à main qui
+    les choquent périodiquement. Rappelles toi, <italic> l&#39;électricité peut tuer
+    </italic> Et la mort, il apporte peut être horrible. Comme rallonges, un mauvais
+    outil électrique peut être mis hors service en le débranchant et en coupant le
+    bouchon à l&#39;extrémité du cordon.'}
+Any voltage above 30 is generally considered to be capable of delivering dangerous shock currents.: {
+  tag: <item>, xlate: Toute tension supérieure à 30 est généralement considérée comme
+    étant capable de délivrer des courants dangereux de choc.}
+? Appliances designed this way usually come with <quote>polarized</quote> plugs, one
+  prong of the plug being slightly narrower than the other.  Power receptacles are
+  also designed like this, one slot being narrower than the other.  Consequently,
+  the plug cannot be inserted <quote>backwards,</quote>
+: {tag: '<para>
+
+    ', xlate: 'Les appareils conçus de cette façon viennent généralement avec <quote>
+    polarisée </quote> bouchons, une broche de la fiche étant légèrement plus étroite
+    que l&#39;autre. Les prises de courant sont également conçus comme celui-ci, une
+    fente étant plus étroite que l&#39;autre. Par conséquent, la fiche ne peut pas
+    être inséré <quote> en arrière, </quote>'}
+? 'As an instructor of industrial electronics, I spend a full week with my students
+  reviewing the theoretical and practical aspects of electrical safety.  The same
+  textbooks I found lacking in technical clarity I also found lacking in coverage
+  of electrical safety, hence the creation of this chapter.  Its placement after the
+  first two chapters is intentional: in order for the concepts of electrical safety
+  to make the most sense, some foundational knowledge of electricity is necessary.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En tant que professeur de l&#39;électronique industrielle, je passe
+    une semaine avec mes élèves en revue les aspects théoriques et pratiques de sécurité
+    électrique. Les mêmes manuels que j&#39;ai trouvé manque de clarté technique,
+    je trouve également défaut dans la couverture de la sécurité électrique, d&#39;où
+    la création de ce chapitre. Son placement après les deux premiers chapitres est
+    intentionnel: pour que les concepts de sécurité électrique pour tirer le meilleur
+    sens, certaines connaissances de base de l&#39;électricité est nécessaire.'}
+? 'As electric current is conducted through a material, any opposition to that flow
+  of electrons (resistance) results in a dissipation of energy, usually in the form
+  of heat.  This is the most basic and easy-to-understand effect of electricity on
+  living tissue: current makes it heat up.  If the amount of heat generated is sufficient,
+  the tissue may be burnt.  The effect is physiologically the same as damage caused
+  by an open flame or other high-temperature source of heat, except that electricity
+  has the ability to burn tissue well beneath the skin of a victim, even burning internal
+  organs.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme le courant électrique est conduit à travers un matériau, une
+    opposition à ce flux d&#39;électrons (résistance) se traduit par une dissipation
+    d&#39;énergie, habituellement sous la forme de chaleur. Ceci est l&#39;effet le
+    plus simple et facile à comprendre de l&#39;électricité sur le tissu vivant: courant
+    fait chauffer. Si la quantité de chaleur produite est suffisante, le tissu peut
+    être brûlé. L&#39;effet est physiologiquement la même chose que les dommages causés
+    par une flamme nue ou une autre source à haute température de la chaleur, sauf
+    que l&#39;électricité a la capacité de brûler les tissus bien sous la peau d&#39;une
+    victime, brûlant même des organes internes.'}
+? As far as the voltage source and load are concerned, grounding makes no difference
+  at all.  It exists purely for the sake of personnel safety, by guaranteeing that
+  at least one point in the circuit will be safe to touch (zero voltage to ground).  The
+  <quote>Hot</quote>
+: {tag: '<para>
+
+    ', xlate: 'En ce qui concerne la source de tension et la charge sont concernés,
+    la terre ne fait aucune différence. Il existe uniquement pour des raisons de sécurité
+    du personnel, en garantissant que au moins un point dans le circuit sera sûr de
+    toucher (tension nulle à la terre). le <quote> Chaud </quote>'}
+As voltage is always relative between two points, a voltage-measuring meter (<quote>voltmeter</quote>: {
+  tag: <item>, xlate: 'Comme la tension est toujours relative entre deux points, un
+    compteur de mesure de tension ( <quote> voltmètre </quote>'}
+? 'As we saw earlier, a power system with no secure connection to earth ground is
+  unpredictable from a safety perspective: there''s no way to guarantee how much or
+  how little voltage will exist between any point in the circuit and earth ground.  By
+  grounding one side of the power system''s voltage source, at least one point in
+  the circuit can be assured to be electrically common with the earth and therefore
+  present no shock hazard.  In a simple two-wire electrical power system, the conductor
+  connected to ground is called the <italic>neutral</italic>, and the other conductor
+  is called the <italic>hot</italic>, also known as the <italic>live</italic> or the
+  <italic>active</italic>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme nous l&#39;avons vu plus haut, un système d&#39;alimentation
+    sans connexion sécurisée à la terre est imprévisible du point de vue de la sécurité:
+    il n&#39;y a aucun moyen de garantir à quel point ou peu de tension existera entre
+    un point quelconque dans le circuit et la terre. Par mise à la terre d&#39;un
+    côté de la source de tension du système d&#39;alimentation, au moins un point
+    dans le circuit peut être assurée pour être électriquement commun avec la terre
+    et par conséquent, ne présentent aucun risque de choc électrique. Dans un simple
+    système d&#39;alimentation électrique à deux fils, le conducteur relié à la masse
+    est appelé le <italic> neutre </italic> Et l&#39;autre conducteur est appelé <italic>
+    chaud </italic> , Connu sous le nom aussi <italic> vivre </italic> ou la <italic>
+    actif </italic> :'}
+? 'As we saw earlier, skin and body resistance has a lot to do with the relative hazard
+  of electric circuits.  The higher the body''s resistance, the less likely harmful
+  current will result from any given amount of voltage.  Conversely, the lower the
+  body''s resistance, the more likely for injury to occur from the application of
+  a voltage.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme nous l&#39;avons vu plus haut, la peau et la résistance du corps
+    a beaucoup à voir avec le risque relatif des circuits électriques. Plus de résistance
+    du corps, le courant nuisible moins probable résultera de toute quantité donnée
+    de tension. A l&#39;inverse, la faible résistance du corps, plus il est probable
+    pour les blessures de se produire à partir de l&#39;application d&#39;une tension.'}
+? 'As we will see in a later chapter, <italic>parallel</italic> circuit pathways always
+  result in less overall resistance than any single pathway considered alone.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme nous le verrons dans un chapitre ultérieur, <italic> parallèle
+    </italic> voies de circuit entraînent toujours moins de résistance globale que
+    toute seule voie considérée seule.'}
+? 'As we''ve already learned, electricity requires a complete path (circuit) to continuously
+  flow.  This is why the shock received from static electricity is only a momentary
+  jolt: the flow of electrons is necessarily brief when static charges are equalized
+  between two objects.  Shocks of self-limited duration like this are rarely hazardous.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme nous l&#39;avons déjà appris, l&#39;électricité a besoin d&#39;un
+    chemin complet (circuit) de circuler en continu. Voilà pourquoi le choc reçu de
+    l&#39;électricité statique est seulement une secousse momentanée: le flux d&#39;électrons
+    est nécessairement bref lorsque les charges statiques sont égalisées entre deux
+    objets. Chocs de durée autolimitée comme celui-ci sont rarement dangereux.'}
+? 'As you can see, not only is rubber a far better insulating material than leather,
+  but the presence of water in a porous substance such as leather <italic>greatly</italic>
+  reduces electrical resistance.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme vous pouvez le voir, non seulement est un caoutchouc matériau
+    isolant beaucoup mieux que le cuir, mais la présence d&#39;eau dans une substance
+    poreuse comme le cuir <italic> très </italic> réduit la résistance électrique.'}
+Bear in mind that this is a <quote>best case</quote>: {tag: '<para>
+
+    ', xlate: Gardez à l&#39;esprit que c&#39;est un <quote> meilleur cas </quote>}
+? Because a hand-to-hand shock current path is the most dangerous, holding the meter
+  probes on two points in a high-voltage circuit in this manner is always a <italic>potential</italic>
+  hazard.  If the protective insulation on the probes is worn or cracked, it is possible
+  for the user's fingers to come into contact with the probe conductors during the
+  time of test, causing a bad shock to occur.  If it is possible to use only one hand
+  to grasp the probes, that is a safer option.  Sometimes it is possible to <quote>latch</quote>
+: {tag: '<para>
+
+    ', xlate: 'Du fait un chemin de courant de choc main à la main est la plus dangereuse,
+    la tenue des sondes de mètres sur deux points dans un circuit à haute tension
+    de cette manière est toujours <italic> potentiel </italic> danger. Si l&#39;isolation
+    de protection sur les sondes est usé ou fissuré, il est possible pour les doigts
+    de l&#39;utilisateur d&#39;entrer en contact avec les conducteurs de la sonde
+    pendant la durée de l&#39;essai, ce qui provoque un mauvais choc de se produire.
+    S&#39;il est possible d&#39;utiliser une seule main pour saisir les sondes, qui
+    est une option plus sûre. Parfois, il est possible de <quote> loquet </quote>'}
+? 'Because electric current must pass through the boot <italic>and</italic> the body
+  <italic>and</italic> the glove to complete its circuit back to the battery, the
+  combined total (<italic>sum</italic>) of these resistances opposes the flow of electrons
+  to a greater degree than any of the resistances considered individually.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme le courant électrique doit passer par la chaussure <italic> et
+    </italic> le corps <italic> et </italic> le gant de terminer son circuit de retour
+    à la batterie, le total combiné ( <italic> somme </italic> ) De ces résistances
+    s&#39;y oppose le flux d&#39;électrons à un degré plus élevé que l&#39;une des
+    résistances considérées individuellement.'}
+? 'Because the bottom side of the circuit is firmly connected to ground through the
+  grounding point on the lower-left of the circuit, the lower conductor of the circuit
+  is made <italic>electrically common</italic> with earth ground.  Since there can
+  be no voltage between electrically common points, there will be no voltage applied
+  across the person contacting the lower wire, and they will not receive a shock.  For
+  the same reason, the wire connecting the circuit to the grounding rod/plates is
+  usually left bare (no insulation), so that any metal object it brushes up against
+  will similarly be electrically common with the earth.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Parce que la face inférieure du circuit est fermement reliée à la masse
+    par l&#39;intermédiaire du point de mise à la terre en bas à gauche du circuit,
+    le conducteur inférieur du circuit est constitué <italic> électriquement commun
+    </italic> avec la terre. Comme il ne peut y avoir aucune tension entre les points
+    communs électriquement, il n&#39;y aura pas de tension appliquée à travers la
+    personne en contact avec le fil inférieur, et ils ne recevront pas un choc. Pour
+    la même raison, le fil reliant le circuit à la tige mise à la terre / plaques
+    est généralement laissée à nu (sans isolation), de sorte que tout objet métallique,
+    il effleure contre sera similaire électriquement commun avec la terre.'}
+? 'Body resistance also varies depending on how contact is made with the skin: is
+  it from hand-to-hand, hand-to-foot, foot-to-foot, hand-to-elbow, etc.?  Sweat, being
+  rich in salts and minerals, is an excellent conductor of electricity for being a
+  liquid.  So is blood, with its similarly high content of conductive chemicals.  Thus,
+  contact with a wire made by a sweaty hand or open wound will offer much less resistance
+  to current than contact made by clean, dry skin.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'la résistance du corps varie également en fonction de la façon dont
+    le contact est fait avec la peau: est-il de la main à la main, la main à pied,
+    pied à pied, la main à coude, etc.? Sueur, riche en sels et minéraux, est un excellent
+    conducteur d&#39;électricité pour être un liquide. Ainsi, le sang est, avec son
+    contenu aussi élevé de produits chimiques conducteurs. Ainsi, le contact avec
+    un fil fabriqué par une main moite ou blessure ouverte offrira beaucoup moins
+    de résistance au courant que le contact fait par la peau propre et sèche.'}
+? 'Body resistance is not a fixed quantity.  It varies from person to person and from
+  time to time.  There''s even a body fat measurement technique based on a measurement
+  of electrical resistance between a person''s toes and fingers.  Differing percentages
+  of body fat give provide different resistances: just one variable affecting electrical
+  resistance in the human body.  In order for the technique to work accurately, the
+  person must regulate their fluid intake for several hours prior to the test, indicating
+  that body hydration is  another factor impacting the body''s electrical resistance.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'la résistance du corps n&#39;est pas une quantité fixe. Elle varie
+    d&#39;une personne à personne et de temps en temps. Il y a même une technique
+    de mesure la graisse corporelle basée sur une mesure de la résistance électrique
+    entre les orteils et les doigts d&#39;une personne. Pourcentages de graisse différents
+    corps donnent fournir des résistances différentes: une seule variable affectant
+    la résistance électrique dans le corps humain. Pour la technique de travailler
+    avec précision, la personne doit réguler leur consommation de liquide pendant
+    plusieurs heures avant l&#39;essai, ce qui indique que l&#39;hydratation du corps
+    est un autre facteur impact sur la résistance électrique du corps.'}
+? 'But how much current is harmful?  The answer to that question also depends on several
+  factors.  Individual body chemistry has a significant impact on how electric current
+  affects an individual.  Some people are highly sensitive to current, experiencing
+  involuntary muscle contraction with shocks from static electricity.  Others can
+  draw large sparks from discharging static electricity and hardly feel it, much less
+  experience a muscle spasm.  Despite these differences, approximate guidelines have
+  been developed through tests which indicate very little current being necessary
+  to manifest harmful effects (again, see end of chapter for information on the source
+  of this data).  All current figures given in milliamps (a milliamp is equal to 1/1000
+  of an amp):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Mais combien de courant est nuisible? La réponse à cette question dépend
+    aussi de plusieurs facteurs. la chimie du corps individuel a un impact significatif
+    sur la façon dont le courant électrique affecte un individu. Certaines personnes
+    sont très sensibles à un courant, connaît la contraction musculaire involontaire
+    avec des chocs de l&#39;électricité statique. D&#39;autres peuvent tirer de grandes
+    étincelles de décharge d&#39;électricité statique et se sentent à peine, beaucoup
+    moins l&#39;expérience d&#39;un spasme musculaire. En dépit de ces différences,
+    les lignes directrices approximatives ont été mis au point grâce à des tests qui
+    indiquent très peu de courant étant nécessaire de manifester des effets néfastes
+    (encore une fois, voir à la fin du chapitre des informations sur la source de
+    ces données). Tous les chiffres actuels donnés en milliampères (un milliampères
+    est égal à 1/1000 d&#39;un ampli):'}
+? 'By far the most hazardous and complex application of the multimeter is in the measurement
+  of current.  The reason for this is quite simple: in order for the meter to measure
+  current, the current to be measured must be forced to go <italic>through</italic>
+  the meter.  This means that the meter must be made part of the current path of the
+  circuit rather than just be connected off to the side somewhere as is the case when
+  measuring voltage.  In order to make the meter part of the current path of the circuit,
+  the original circuit must be <quote>broken</quote> and the meter connected across
+  the two points of the open break.  To set the meter up for this, the selector switch
+  must point to either AC or DC <quote>A</quote> and the red test lead must be plugged
+  in the red socket marked <quote>A</quote>'
+: {tag: '<para>
+
+    ', xlate: 'De loin l&#39;application la plus dangereuse et complexe du multimètre
+    est dans la mesure du courant. La raison est assez simple: pour que le compteur
+    pour mesurer le courant, le doit être forcé courant à mesurer aller <italic> par
+    </italic> le mètre. Cela signifie que l&#39;appareil de mesure doit être fait
+    partie du trajet de courant du circuit plutôt que de simplement être relié sur
+    le côté endroit qui est le cas lorsque la tension de mesure. Afin de rendre la
+    partie mètres du chemin courant du circuit, le circuit d&#39;origine doit être
+    <quote> cassé </quote> et l&#39;appareil de mesure connecté entre les deux points
+    de la rupture ouverte. Pour régler le haut mètre pour cela, le sélecteur doit
+    pointer vers CA ou CC <quote> UNE </quote> et le fil rouge doit être branché dans
+    la prise marquée en rouge <quote> UNE </quote>'}
+Check to see that your meter indicates properly on a known source of voltage.: {tag: <item>,
+  xlate: Vérifiez que votre compteur indique correctement sur une source connue de
+    la tension.}
+Check your meter once more on a known source of voltage to see that it still indicates as it should.: {
+  tag: <item>, xlate: Vérifiez votre compteur une fois de plus sur une source connue
+    de tension pour voir qu&#39;il indique toujours comme il se doit.}
+Chemical energy (flammable or otherwise reactive substances): {tag: <item>, xlate: L&#39;énergie
+    chimique (substances inflammables ou autrement réactives)}
+? 'Circuit grounding ensures that at least one point in the circuit will be safe to
+  touch.  But what about leaving a circuit completely ungrounded?  Wouldn''t that
+  make any person touching just a single wire as safe as the bird sitting on just
+  one?  Ideally, yes.  Practically, no.  Observe what happens with no ground at all:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'mise à la terre de circuit assure au moins un point dans le circuit
+    sera en sécurité au toucher. Mais qu&#39;en est-laissant un circuit complètement
+    mis à la terre? Ne serait-ce que faire une personne touchant un seul fil aussi
+    sûr que l&#39;oiseau assis sur un seul? Idéalement, oui. Pratiquement, non. Observez
+    ce qui se passe sans terre du tout:'}
+Common sources of hazard: {tag: <sectiontitle>, xlate: !!python/unicode 'Les sources
+    communes de danger'}
+'Contact with palm of hand: 3,000 <OMEGA> to 8,000 <OMEGA> dry, 1,000 <OMEGA> to 2,000 <OMEGA> wet.': {
+  tag: <item>, xlate: 'Le contact avec la paume de la main: 3000 <OMEGA> à 8000 <OMEGA>
+    sec, 1000 <OMEGA> à 2000 <OMEGA> humide.'}
+Contributors: {tag: <sectiontitle>, xlate: !!python/unicode 'Collaborateurs'}
+? 'Contributors to this chapter are listed in chronological order of their contributions,
+  from most recent to first.  See Appendix 2 (Contributor List) for dates and contact
+  information.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ont contribué à ce chapitre sont classés par ordre chronologique de
+    leurs contributions, du plus récent au premier. Voir l&#39;annexe 2 (Contributor
+    Liste) pour connaître les dates et les coordonnées.'}
+Current measuring meters (<quote>ammeters</quote>: {tag: <item>, xlate: Compteurs
+    de mesure de courant ( <quote> ampèremètres </quote>}
+Dangerous voltage: {tag: <item>, xlate: !!python/unicode 'tension dangereuse'}
+? Data regarding the electrical resistance of body contact points was taken from a
+  safety page (document 16.1) from the Lawrence Livermore National Laboratory (website
+  <url>http://www-ais.llnl.gov</url>), citing Ralph H. Lee as the data source.  Lee's
+  work was listed here in a document entitled <quote>Human Electrical Sheet,</quote>
+  composed while he was an IEEE Fellow at E.I. duPont de Nemours & Co., and also in
+  an article entitled <quote>Electrical Safety in Industrial Plants</quote>
+: {tag: '<para>
+
+    ', xlate: 'Les données concernant la résistance électrique des points de contact
+    du corps a été pris d&#39;une page de sécurité (document 16.1) du Lawrence Livermore
+    National Laboratory (site web <url> http://www-ais.llnl.gov </url> ), Citant Ralph
+    H. Lee comme source de données. Le travail de Lee a été inscrit ici dans un document
+    intitulé <quote> Fiche électrique humaine, </quote> composé alors qu&#39;il était
+    IEEE Fellow à EI duPont de Nemours &amp; Co., ainsi que dans un article intitulé
+    <quote> Sécurité électrique dans les installations industrielles </quote>'}
+? 'Despite lock-out/tag-out procedures and multiple repetitions of electrical safety
+  rules in industry, accidents still do occur.  The vast majority of the time, these
+  accidents are the result of not following proper safety procedures.  But however
+  they may occur, they still do happen, and anyone working around electrical systems
+  should be aware of what needs to be done for a victim of electrical shock.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En dépit de procédures et de multiples répétitions lock-out / tag-out
+    des règles de sécurité électrique dans l&#39;industrie, des accidents se produisent
+    encore. La grande majorité du temps, ces accidents sont le résultat de ne pas
+    suivre les procédures de sécurité. Mais mais ils peuvent se produire, ils ne se
+    produisent encore, et tous ceux qui travaillent autour des systèmes électriques
+    doivent être conscients de ce qui doit être fait pour une victime d&#39;un choc
+    électrique.'}
+? 'Despite the fact that the person''s feet are still contacting ground, any single
+  point in the circuit should be safe to touch.  Since there is no complete path (circuit)
+  formed through the person''s body from the bottom side of the voltage source to
+  the top, there is no way for a current to be established through the person.  However,
+  this could all change with an accidental ground, such as a tree branch touching
+  a power line and providing connection to earth ground:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Malgré le fait que les pieds de la personne sont encore contact avec
+    le sol, un point unique dans le circuit doit être sûr de toucher. Comme il n&#39;y
+    a pas de chemin complet (circuit) formé à travers le corps de la personne à partir
+    du côté inférieur de la source de tension vers le haut, il est impossible pour
+    un courant soit établi à travers la personne. Cependant, cela pourrait changer
+    avec un sol accidentelle, comme une branche d&#39;arbre touchant une ligne électrique
+    et fournissant une connexion à la terre:'}
+? Diaphragm (lung) and heart muscles are similarly affected by electric current.  Even
+  currents too small to induce tetanus can be strong enough to interfere with the
+  heart's pacemaker neurons, causing the heart to flutter instead of strongly beat.
+: {tag: <item>, xlate: 'Diaphragme (poumon) et les muscles cardiaques sont également
+    affectés par le courant électrique. Même les courants trop faibles pour induire
+    le tétanos peut être assez fort pour interférer avec les neurones pacemaker du
+    cœur, ce qui provoque le cœur à voleter au lieu de battre fortement.'}
+? Direct current (DC) is more likely to cause muscle tetanus than alternating current
+  (AC), making DC more likely to <quote>freeze</quote>
+: {tag: <item>, xlate: 'Courant continu (DC) est plus susceptible de causer le tétanos
+    musculaires que le courant alternatif (CA), ce qui rend plus susceptibles de DC
+    <quote> gel </quote>'}
+? Disconnect switch devices must be present in a properly designed electrical system
+  to allow for convenient readiness of a Zero Energy State.
+: {tag: <item>, xlate: Débrancher les dispositifs de commutation doivent être présents
+    dans un système électrique conçu correctement pour permettre la préparation pratique
+    d&#39;un Etat Zero Energy.}
+? 'Downed power lines are an obvious source of electric shock hazard and should be
+  avoided at all costs.  The voltages present between power lines or between a power
+  line and earth ground are typically very high (2400 volts being one of the lowest
+  voltages used in residential distribution systems).  If a power line is broken and
+  the metal conductor falls to the ground, the immediate result will usually be a
+  tremendous amount of arcing (sparks produced), often enough to dislodge chunks of
+  concrete or asphalt from the road surface, and reports rivaling that of a rifle
+  or shotgun.  To come into direct contact with a downed power line is almost sure
+  to cause death, but other hazards exist which are not so obvious.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'lignes électriques sont une source évidente de risque de choc électrique
+    et doivent être évités à tout prix. Les tensions présentes entre les lignes de
+    puissance ou entre une ligne d&#39;alimentation et la terre sont généralement
+    très élevée (2400 volts étant l&#39;une des tensions les plus faibles utilisées
+    dans les systèmes de distribution d&#39;habitation). Si une ligne électrique est
+    cassée et le conducteur métallique tombe sur le sol, le résultat immédiat sera
+    généralement une énorme quantité d&#39;arcs électriques (étincelles produites),
+    assez souvent pour déloger les morceaux de béton ou d&#39;asphalte de la surface
+    de la route, et les rapports rivalisant avec celui de un fusil ou une carabine.
+    Pour entrer en contact direct avec une ligne électrique tombée est presque sûr
+    de causer la mort, mais d&#39;autres risques existent qui ne sont pas si évidentes.'}
+? 'E = (17 mA)(1 k<OMEGA>)
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = (17 mA) (1 k <OMEGA> )'}
+? 'E = (20 mA)(1 M<OMEGA>)
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = (20 mA) (1 M <OMEGA> )'}
+? 'E = (20 mA)(1 k<OMEGA>)
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = (20 mA) (1 k <OMEGA> )'}
+? 'E = (20 mA)(17 k<OMEGA>)
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = (20 mA) (17 k <OMEGA> )'}
+? 'E = 17 volts
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = 17 volts'}
+? 'E = 20 volts
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = 20 volts'}
+? 'E = 20,000 volts, or 20 kV
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = 20.000 volts, ou 20 kV'}
+? 'E = 340 volts
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = 340 volts'}
+? 'E = IR
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode 'E = IR'}
+ELECTRICAL SAFETY: {tag: <chaptertitle>, xlate: SÉCURITÉ ÉLECTRIQUE}
+? 'Either way, both sides of the load will be electrically common to the earth, allowing
+  for no voltage (potential energy) between either side of the load and the ground
+  people stand on.  This technique of temporarily grounding conductors in a de-energized
+  power system is very common in maintenance work performed on high voltage power
+  distribution systems.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'De toute façon, les deux côtés de la charge sera électriquement commun
+    à la terre, ce qui permet l&#39;absence de tension (énergie potentielle) entre
+    chaque côté de la charge et les personnes au sol se tenir debout. Cette technique
+    de mise à la terre temporairement des conducteurs dans un système d&#39;alimentation
+    hors tension est très courant dans les travaux d&#39;entretien effectués sur les
+    systèmes de distribution d&#39;électricité à haute tension.'}
+? Electric current is able to affect more than just skeletal muscles in a shock victim,
+  however.  The diaphragm muscle controlling the lungs, and the heart -- which is
+  a muscle in itself -- can also be <quote>frozen</quote> in a state of tetanus by
+  electric current.  Even currents too low to induce tetanus are often able to scramble
+  nerve cell signals enough that the heart cannot beat properly, sending the heart
+  into a condition known as <italic>fibrillation</italic>.  A fibrillating heart flutters
+  rather than beats, and is ineffective at pumping blood to vital organs in the body.  In
+  any case, death from asphyxiation and/or cardiac arrest will surely result from
+  a strong enough electric current through the body.  Ironically, medical personnel
+  use a strong jolt of electric current applied across the chest of a victim to <quote>jump
+  start</quote>
+: {tag: '<para>
+
+    ', xlate: 'Le courant électrique est en mesure d&#39;affecter plus de muscles
+    squelettiques seulement chez une victime de choc, cependant. Le muscle du diaphragme
+    commandant les poumons et le cœur - qui est un muscle en lui-même - peuvent également
+    être <quote> congelé </quote> dans un état de tétanos par un courant électrique.
+    Même les courants trop faibles pour induire le tétanos sont souvent capables de
+    brouiller les signaux des cellules nerveuses assez que le cœur ne peut pas battre
+    correctement, envoyer le cœur dans un état connu sous le nom <italic> fibrillation
+    </italic> . Un cœur palpite plutôt que fibrillante beats, et est inefficace pour
+    pomper le sang vers les organes vitaux du corps. Dans tous les cas, la mort par
+    asphyxie et / ou un arrêt cardiaque va sûrement résulter d&#39;un courant électrique
+    assez fort à travers le corps. Ironie du sort, le personnel médical utilisent
+    une forte secousse de courant électrique appliqué sur la poitrine d&#39;une victime
+    <quote> jump start </quote>'}
+? Electric current is capable of producing deep and severe burns in the body due to
+  power dissipation across the body's electrical resistance.
+: {tag: <item>, xlate: Le courant électrique est capable de produire des brûlures
+    profondes et graves dans le corps en raison de la dissipation de puissance à travers
+    la résistance électrique du corps.}
+? Electric shock can only occur when contact is made between two points of a circuit;
+  when voltage is applied across a victim's body.
+: {tag: <item>, xlate: Un choc électrique ne peut se produire lorsque le contact se
+    fait entre deux points d&#39;un circuit; lorsque la tension est appliquée à travers
+    le corps de la victime.}
+Electric shock data: {tag: <sectiontitle>, xlate: Les données de choc électrique}
+? 'Electrical safety of an appliance or other load can be improved by good engineering:
+  polarized plugs, double insulation, and three-prong <quote>grounding</quote>'
+: {tag: <item>, xlate: 'Sécurité électrique d&#39;un appareil ou une autre charge
+    peut être améliorée par une bonne technique: fiches polarisées, double isolation,
+    et à trois broches <quote> échouage </quote>'}
+? 'Electrically safe engineering doesn''t necessarily end at the load, however.  A
+  final safeguard against electrical shock can be arranged on the power supply side
+  of the circuit rather than the appliance itself.  This safeguard is called <italic>ground-fault
+  detection</italic>, and it works like this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'mais l&#39;électricité en toute sécurité technique ne se termine pas
+    nécessairement à la charge,. Une dernière mesure de protection contre les chocs
+    électriques peut être disposé sur le côté d&#39;alimentation du circuit au lieu
+    de l &#39;appareil lui-même. Cette sauvegarde est appelée <italic> détection de
+    défaut de terre </italic> , Et cela fonctionne comme ceci:'}
+Emergency response: {tag: <sectiontitle>, xlate: Réponse d&#39;urgence}
+? Even when the current is stopped, the victim may not regain voluntary control over
+  their muscles for a while, as the neurotransmitter chemistry has been thrown into
+  disarray.  This principle has been applied in <quote>stun gun</quote>
+: {tag: '<para>
+
+    ', xlate: 'Même lorsque le courant est arrêté, la victime ne peut pas reprendre
+    le contrôle volontaire sur leurs muscles pendant un certain temps, comme la chimie
+    des neurotransmetteurs a été jeté dans le désarroi. Ce principe a été appliqué
+    dans <quote> pistolet paralysant </quote>'}
+? 'Even with a good lock-out/tag-out safety program in place, there is still need
+  for diligence and common-sense precaution.  This is especially true in industrial
+  settings where a multitude of people may be working on a device or system at once.  Some
+  of those people might not know about proper lock-out/tag-out procedure, or might
+  know about it but are too complacent to follow it.  Don''t assume that everyone
+  has followed the safety rules!
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Même avec une bonne lock-out / programme de sécurité en place tag-out,
+    il y a encore besoin de diligence et de précaution de bon sens. Cela est particulièrement
+    vrai dans les milieux industriels où une multitude de personnes peuvent travailler
+    sur un dispositif ou d&#39;un système à la fois. Certains de ces gens ne connaissent
+    pas une bonne lock-out / procédure tag-out, ou peut savoir à ce sujet, mais sont
+    trop complaisants à le suivre. Ne présumez pas que tout le monde a suivi les règles
+    de sécurité!'}
+? Extension cords, so commonly used at home and in industry, are also sources of potential
+  hazard.  All cords should be regularly inspected for abrasion or cracking of insulation,
+  and repaired immediately.  One sure method of removing a damaged cord from service
+  is to unplug it from the receptacle, then cut off that plug (the <quote>male</quote>
+: {tag: '<para>
+
+    ', xlate: 'cordons d&#39;extension, si couramment utilisés à la maison et dans
+    l&#39;industrie, sont également des sources de danger potentiel. Tous les cordons
+    doivent être régulièrement inspectés pour l&#39;abrasion ou la fissuration de
+    l&#39;isolation, et réparés immédiatement. Une méthode sûre de retirer le cordon
+    est endommagé de service est de ce débrancher de la prise, puis coupé ce que le
+    bouchon (le <quote> mâle </quote>'}
+? Finally, the electrical worker will arrive at a point in the safety check procedure
+  where it is deemed safe to actually touch the conductor(s).  Bear in mind that after
+  all of the precautionary steps have taken, it is still possible (although very unlikely)
+  that a dangerous voltage may be present.  One final precautionary measure to take
+  at this point is to make momentary contact with the conductor(s) <italic>with the
+  back of the hand</italic> before grasping it or a metal tool in contact with it.  Why?  If,
+  for some reason there is still voltage present between that conductor and earth
+  ground, finger motion from the shock reaction (clenching into a fist) will <italic>break</italic>
+  contact with the conductor.  Please note that this is absolutely the <italic>last</italic>
+  step that any electrical worker should ever take before beginning work on a power
+  system, and should <italic>never</italic> be used as an alternative method of checking
+  for dangerous voltage.  If you ever have reason to doubt the trustworthiness of
+  your meter, use another meter to obtain a <quote>second opinion.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Enfin, le travailleur électrique arrivera à un moment dans la procédure
+    de contrôle de sécurité où il est considéré comme sûr de toucher réellement le
+    conducteur (s). Gardez à l&#39;esprit que, après toutes les mesures de précaution
+    ont pris, il est encore possible (bien que très peu probable) qu&#39;une tension
+    dangereuse peut être présente. Une mesure de précaution finale prendre à ce stade
+    est de prendre contact momentané avec le conducteur (s) <italic> avec le dos de
+    la main </italic> avant de la saisir, ou d&#39;un outil de métal en contact avec
+    elle. Pourquoi? Si, pour une raison quelconque il y a encore la tension présente
+    entre ce conducteur et la terre, le mouvement des doigts de la réaction de choc
+    (serrement dans un poing) sera <italic> Pause </italic> contact avec le conducteur.
+    S&#39;il vous plaît noter que ceci est absolument <italic> dernier </italic> l&#39;étape
+    que tout travailleur électrique ne devrait jamais prendre avant de commencer à
+    travailler sur un système d&#39;alimentation, et devrait <italic> jamais </italic>
+    être utilisé comme une méthode alternative de vérification de la tension dangereuse.
+    Si jamais vous avez raison de douter de la fiabilité de votre appareil, utilisez
+    un autre mètre pour obtenir un <quote> deuxième opinion. </quote>'}
+? 'First, you check your meter on a known source of voltage to see that its working
+  properly.  Any nearby power receptacle should provide a convenient source of AC
+  voltage for a test.  You do so and find that the meter indicates as it should.  Next,
+  you need to check for voltage among these three wires in the cabinet.  But voltage
+  is measured between <italic>two</italic> points, so where do you check?
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout d&#39;abord, vous vérifiez votre compteur sur une source connue
+    de tension pour voir que son bon fonctionnement. Toute prise de courant à proximité
+    devrait fournir une source pratique de tension alternative pour un test. Vous
+    le faites et de trouver que le compteur indique comme il se doit. Ensuite, vous
+    devez vérifier la tension entre ces trois fils dans l&#39;armoire. Mais la tension
+    est mesurée entre <italic> deux </italic> points, donc où vous vérifier?'}
+'Foot contact through leather shoe sole (dry): 100 k<OMEGA> to 500 k<OMEGA>': {tag: <item>,
+  xlate: 'contact pied par semelle de cuir (sec): 100 k <OMEGA> à 500 k <OMEGA>'}
+'Foot contact through leather shoe sole (wet): 5 k<OMEGA> to 20 k<OMEGA>': {tag: <item>,
+  xlate: 'contact pied par semelle de chaussure en cuir (humide): 5 k <OMEGA> à 20
+    k <OMEGA>'}
+'Foot immersed in conductive liquid: 100 <OMEGA> to 300 <OMEGA>.': {tag: <item>, xlate: 'Pied
+    immergé dans un liquide conducteur: 100 <OMEGA> à 300 <OMEGA> .'}
+? 'For example, suppose that you opened up an electrical wiring cabinet to find three
+  large conductors supplying AC power to a load.  The circuit breaker feeding these
+  wires (supposedly) has been shut off, locked, and tagged.  You double-checked the
+  absence of power by pressing the <italic>Start</italic> button for the load.  Nothing
+  happened, so now you move on to the third phase of your safety check: the meter
+  test for voltage.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Par exemple, supposons que vous avez ouvert une armoire de câblage
+    électrique pour trouver trois grands conducteurs alimentation CA à une charge.
+    Le coupe-circuit d&#39;alimentation de ces fils (soi-disant) a été coupée, verrouillée
+    et étiquetée. Vous revérifié l&#39;absence de puissance en appuyant sur la <italic>
+    Début </italic> bouton pour la charge. Rien ne se passa, maintenant de passer
+    à la troisième phase de votre contrôle de sécurité: le test de mesure de la tension.'}
+? 'For the morbidly curious, Charles Dalziel''s experimentation conducted at the University
+  of California (Berkeley) began with a state grant to investigate the bodily effects
+  of sub-lethal electric current.  His testing method was as follows: healthy male
+  and female volunteer subjects were asked to hold a copper wire in one hand and place
+  their other hand on a round, brass plate.  A voltage was then applied between the
+  wire and the plate, causing electrons to flow through the subject''s arms and chest.  The
+  current was stopped, then resumed at a higher level.  The goal here was to see how
+  much current the subject could tolerate and still keep their hand pressed against
+  the brass plate.  When this threshold was reached, laboratory assistants forcefully
+  held the subject''s hand in contact with the plate and the current was again increased.  The
+  subject was asked to release the wire they were holding, to see at what current
+  level involuntary muscle contraction (tetanus) prevented them from doing so.  For
+  each subject the experiment was conducted using DC and also AC at various frequencies.  Over
+  two dozen human volunteers were tested, and later studies on heart fibrillation
+  were conducted using animal subjects.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour la curiosité morbide, l&#39;expérimentation de Charles Dalziel
+    menée à l&#39;Université de Californie (Berkeley) a commencé par une subvention
+    de l&#39;Etat pour enquêter sur les effets physiques du courant électrique sublétale.
+    Sa méthode d&#39;essai est la suivante: des sujets sains volontaires féminins
+    ont été invités à tenir un fil de cuivre dans une main et placer l&#39;autre main
+    sur un tour, plaque en laiton. Une tension est ensuite appliquée entre le fil
+    et la plaque, ce qui provoque des électrons de circuler à travers les bras et
+    la poitrine du sujet. Le courant a été arrêté, puis repris à un niveau supérieur.
+    Le but ici était de voir à quel point le sujet actuel pourrait tolérer et toujours
+    garder la main pressée contre la plaque en laiton. Lorsque ce seuil a été atteint,
+    les assistants de laboratoire ont tenu avec force la main du sujet en contact
+    avec la plaque et le courant a été à nouveau augmenté. Le sujet a été demandé
+    de libérer le fil, ils se tenaient, pour voir à quel niveau actuel la contraction
+    musculaire involontaire (tétanos) les a empêchés de le faire. Pour chaque sujet
+    l&#39;expérience a été réalisée en utilisant DC et AC également à diverses fréquences.
+    Plus de deux douzaines de volontaires humains ont été testés, et des études ultérieures
+    sur la fibrillation cardiaque ont été effectuées en utilisant des sujets animaux.'}
+? 'For those who are left-handed, this advice may not be the best.  If such a person
+  is sufficiently uncoordinated with their right hand, they may be placing themselves
+  in greater danger by using the hand they''re least comfortable with, even if shock
+  current through that hand might present more of a hazard to their heart.  The relative
+  hazard between shock through one hand or the other is probably less than the hazard
+  of working with less than optimal coordination, so the choice of which hand to work
+  with is best left to the individual.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour ceux qui sont gauchers, ce conseil ne peut pas être le meilleur.
+    Si une telle personne est suffisamment non coordonnée avec leur main droite, ils
+    peuvent être se mettre plus en danger en utilisant la main, ils sont moins à l&#39;aise,
+    même si le courant de choc à travers cette main pourrait présenter plus d&#39;un
+    danger pour leur cœur. Le risque relatif entre le choc par une main ou l&#39;autre
+    est probablement inférieur au risque de travailler avec moins de coordination
+    optimale, de sorte que le choix de la main pour travailler avec est préférable
+    de laisser à l&#39;individu.'}
+Grounding in power systems exists for the sake of personnel safety, not the operation of the load(s).: {
+  tag: <item>, xlate: 'Mise à la terre dans les systèmes d&#39;alimentation existe
+    pour des raisons de sécurité du personnel, pas le fonctionnement de la charge
+    (s).'}
+'Hand immersed in conductive liquid: 200 <OMEGA> to 500 <OMEGA>.': {tag: <item>, xlate: 'Main
+    immergé dans un liquide conducteur: 200 <OMEGA> à 500 <OMEGA> .'}
+'Hand or foot contact, insulated with rubber: 20 M<OMEGA> typical.': {tag: <item>,
+  xlate: 'Le contact des mains ou des pieds, isolés avec du caoutchouc: 20 M <OMEGA>
+    typique.'}
+? Harm to the body is a function of the amount of shock current.  Higher voltage allows
+  for the production of higher, more dangerous currents.  Resistance opposes current,
+  making high resistance a good protective measure against shock.
+: {tag: <item>, xlate: 'Dommages à l&#39;organisme est une fonction de la quantité
+    de courant de choc. Une tension trop élevée permet la production de courants plus
+    élevés, plus dangereux. Résistance oppose courant, ce qui rend une grande résistance
+    une bonne mesure de protection contre les chocs.'}
+? How good of a conductor can <italic>dirt</italic> be?  If you can get shocked by
+  current through the earth, why not use the earth as a conductor in our power circuits?
+: {tag: <item>, xlate: 'Quelle est la qualité d&#39;un conducteur peut <italic> saleté
+    </italic> être? Si vous pouvez obtenir choqué par le courant à travers la terre,
+    pourquoi ne pas utiliser la terre comme conducteur dans nos circuits de puissance?'}
+? 'However, even with all that checking, we still haven''t covered all possibilities
+  yet.  Remember that hazardous voltage can appear between a single wire and ground
+  (in this case, the metal frame of the cabinet would be a good ground reference point)
+  in a power system.  So, to be perfectly safe, we not only have to check between
+  A & B, B & C, and A & C (in both AC and DC modes), but we also have to check between
+  A & ground, B & ground, and C & ground (in both AC and DC modes)!  This makes for
+  a grand total of twelve voltage checks for this seemingly simple scenario of only
+  three wires.  Then, of course, after we''ve completed all these checks, we need
+  to take our multimeter and re-test it against a known source of voltage such as
+  a power receptacle to ensure that its still in good working order.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cependant, même avec tout ce que la vérification, nous avons toujours
+    pas couvert encore toutes les possibilités. Rappelez-vous que la tension dangereuse
+    peut apparaître entre un seul fil et la terre (dans ce cas, le cadre métallique
+    de l&#39;armoire serait un bon point de référence au sol) dans un système d&#39;alimentation.
+    Donc, pour être parfaitement sûr, nous avons non seulement de vérifier entre A
+    &amp; B, B &amp; C et A &amp; C (dans les deux modes AC et DC), mais nous avons
+    aussi de vérifier entre A et terre, B &amp; sol, et C &amp; sol (dans les deux
+    modes AC et DC)! Cela fait un grand total de douze contrôles de tension pour ce
+    scénario apparemment simple de trois fils. Ensuite, bien sûr, après que nous avons
+    terminé tous ces contrôles, nous devons prendre notre multimètre et un nouveau
+    test contre une source connue de tension comme une prise d&#39;alimentation pour
+    faire en sorte que son encore en bon état de fonctionnement.'}
+? 'However, if one of the wires inside the toaster were to accidently come in contact
+  with the metal case, the case will be made electrically common to the wire, and
+  touching the case will be just as hazardous as touching the wire bare.  Whether
+  or not this presents a shock hazard depends on <italic>which</italic> wire accidentally
+  touches:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cependant, si l&#39;un des fils à l&#39;intérieur du grille-pain devaient
+    venir accidentellement en contact avec le boîtier métallique, le cas sera électriquement
+    commune au fil, et de toucher le boîtier sera tout aussi dangereux que de toucher
+    le fil nu. Que ce soit ou non présente un risque de choc dépend <italic> lequel
+    </italic> fil touche accidentellement:'}
+Hydraulic (liquid) pressure: {tag: <item>, xlate: !!python/unicode 'Hydraulique (liquide)
+    Pression'}
+? If a victim is still conscious after having been shocked, they need to be closely
+  monitored and cared for until trained emergency response personnel arrive.  There
+  is danger of physiological shock, so keep the victim warm and comfortable.
+: {tag: <item>, xlate: 'Si la victime est toujours consciente après avoir été choqué,
+    ils doivent être étroitement surveillés et soignés jusqu&#39;à ce que le personnel
+    d&#39;intervention d&#39;urgence formés arrivent. Il y a risque de choc physiologique,
+    donc gardez la victime au chaud et confortable.'}
+? 'If at all possible, shut off the power to a circuit before performing any work
+  on it.  You must secure all sources of harmful energy before a system may be considered
+  safe to work on.  In industry, securing a circuit, device, or system in this condition
+  is commonly known as placing it in a <italic>Zero Energy State</italic>.  The focus
+  of this lesson is, of course, electrical safety.  However, many of these principles
+  apply to non-electrical systems as well.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si possible, couper l&#39;alimentation d&#39;un circuit avant d&#39;effectuer
+    un travail sur elle. Vous devez sécuriser toutes les sources d&#39;énergie nuisibles
+    avant qu&#39;un système peut être considéré comme sûr pour travailler. Dans l&#39;industrie,
+    un circuit de fixation, dispositif ou système dans cet état est communément connu
+    sous le plaçant dans un <italic> Zero Energy Etat </italic> . L&#39;objectif de
+    cette leçon est, bien sûr, la sécurité électrique. Cependant, bon nombre de ces
+    principes sont applicables aux systèmes non-électriques ainsi.'}
+If the <quote>hot</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Si la <quote> chaud </quote>'}
+? 'If the distance between the two ground contact points (the downed cable and the
+  system ground) is small, there will be substantial voltage dropped along short distances
+  between the two points.  Therefore, a person standing on the ground between those
+  two points will be in danger of receiving an electric shock by intercepting a voltage
+  between their two feet!
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si la distance entre les deux points de contact au sol (le câble et
+    le sol accidenté du système) est faible, il y aura la tension importante chute
+    le long de courtes distances entre les deux points. Par conséquent, une personne
+    debout sur le terrain entre ces deux points sera en danger de recevoir un choc
+    électrique en interceptant une tension entre leurs deux pieds!'}
+? If the leads are not in contact with each other, or touching opposite ends of a
+  broken wire, the meter will indicate infinite resistance (usually by displaying
+  dashed lines or the abbreviation <quote>O.L.</quote> which stands for <quote>open
+  loop</quote>
+: {tag: '<para>
+
+    ', xlate: 'Si les fils ne sont pas en contact les uns avec les autres, ou en touchant
+    les extrémités opposées d&#39;un fil cassé, le compteur indique une résistance
+    infinie (habituellement en affichant des lignes en pointillés ou l&#39;abréviation
+    <quote> OL </quote> qui signifie <quote> boucle ouverte </quote>'}
+? If the power disconnect switch cannot be located quickly enough, it may be possible
+  to dislodge the victim from the circuit they're frozen on to by prying them or hitting
+  them away with a dry wooden board or piece of nonmetallic conduit, common items
+  to be found in industrial construction scenes.  Another item that could be used
+  to safely drag a <quote>frozen</quote>
+: {tag: '<para>
+
+    ', xlate: 'Si l&#39;interrupteur d&#39;alimentation ne peut pas être situé assez
+    rapidement, il peut être possible de déloger la victime du circuit, ils sont gelés
+    sur par les indiscrets ou les frapper loin avec une planche de bois sec ou un
+    morceau de conduit non métallique, les éléments communs à être trouvé dans les
+    scènes de la construction industrielle. Un autre élément qui pourrait être utilisé
+    pour faire glisser en toute sécurité une <quote> congelé </quote>'}
+? If the presence of a ground point in the circuit provides an easy point of contact
+  for someone to get shocked, why have it in the circuit at all?  Wouldn't a ground-less
+  circuit be safer?
+: {tag: <item>, xlate: 'Si la présence d&#39;un point de masse dans le circuit fournit
+    un point de contact facile pour quelqu&#39;un de se choqué, pourquoi avoir dans
+    le circuit du tout? Ne serait-un circuit moins de terrain plus sûr?'}
+? 'If the victim is conscious, it is best to have them lie still until qualified emergency
+  response personnel arrive on the scene.  There is the possibility of the victim
+  going into a state of physiological shock -- a condition of insufficient blood circulation
+  different from electrical shock -- and so they should be kept as warm and comfortable
+  as possible.  An electrical shock insufficient to cause immediate interruption of
+  the heartbeat may be strong enough to cause heart irregularities or a heart attack
+  up to several hours later, so the victim should pay close attention to their own
+  condition after the incident, ideally under supervision.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si la victime est consciente, il est préférable de les avoir restent
+    encore jusqu&#39;à ce que le personnel d&#39;intervention d&#39;urgence qualifiés
+    arrivent sur les lieux. Il y a la possibilité de la victime d&#39;entrer dans
+    un état de choc physiologique - une condition de la circulation sanguine insuffisante
+    différent de choc électrique - et ils devraient donc être aussi chaleureux et
+    confortable que possible. Un choc électrique insuffisante pour provoquer l&#39;interruption
+    immédiate du rythme cardiaque peut être assez forte pour causer des irrégularités
+    cardiaques ou une crise cardiaque jusqu&#39;à quelques heures plus tard, de sorte
+    que la victime doit porter une attention particulière à leur état après l&#39;incident,
+    idéalement sous surveillance.'}
+? "If we take a look at a simple, household electrical appliance such as a toaster\
+  \ with a conductive metal case, we can see that there should be no shock hazard\
+  \ when it is operating properly.  The wires conducting power to the toaster's heating\
+  \ element are insulated from touching the metal case (and each other) by rubber\
+  \ or plastic. \n"
+: {tag: '<para>
+
+    ', xlate: 'Si nous jetons un coup d&#39;oeil à l&#39;appareil simple, électrique
+    domestique comme un grille-pain avec un boîtier en métal conducteur, nous pouvons
+    voir qu&#39;il devrait y avoir aucun risque de choc quand il fonctionne correctement.
+    Les fils conducteurs puissance à l&#39;élément chauffant du grille-pain sont isolés
+    de toucher le boîtier en métal (et de l&#39;autre) en caoutchouc ou en plastique.'}
+? If you see someone lying unconscious or <quote>froze on the circuit,</quote> the
+  very first thing to do is shut off the power by opening the appropriate disconnect
+  switch or circuit breaker.  If someone touches another person being shocked, there
+  may be enough voltage dropped across the body of the victim to shock the would-be
+  rescuer, thereby <quote>freezing</quote>
+: {tag: '<para>
+
+    ', xlate: 'Si vous voyez quelqu&#39;un allongé inconscient ou <quote> gelé sur
+    le circuit, </quote> la première chose à faire est fermé hors tension en ouvrant
+    le sectionneur approprié ou disjoncteur. Si quelqu&#39;un touche une autre personne
+    choqué, il peut y avoir assez de chute de tension à travers le corps de la victime
+    à choquer le soi-secouriste, ce qui <quote> gel </quote>'}
+? 'If, however, the hot wire accidently contacts the metal case, there will be current
+  through the person touching the case.  The presence of a shock current will be manifested
+  as a <italic>difference</italic> of current between the two power conductors at
+  the receptacle:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cependant, si le fil chaud par mégarde en contact avec le boîtier métallique,
+    il y aura du courant à travers la personne touchant le cas. La présence d&#39;un
+    courant de choc se manifestera comme <italic> différence </italic> de courant
+    entre les deux conducteurs d&#39;alimentation au récipient:'}
+? Immediately replace worn or damaged extension cords and power tools.  You can prevent
+  innocent use of a bad cord or tool by cutting the male plug off the cord (while
+  its unplugged from the receptacle, of course).
+: {tag: <item>, xlate: 'Remplacez immédiatement les rallonges usés ou endommagés et
+    les outils électriques. Vous pouvez empêcher l&#39;utilisation innocente d&#39;un
+    mauvais cordon ou un outil en coupant la fiche mâle hors du cordon (alors que
+    son débranché de la prise, bien sûr).'}
+? 'In a properly functioning appliance (shown above), the current measured through
+  the hot conductor should be exactly equal to the current through the neutral conductor,
+  because there''s only one path for electrons to flow in the circuit.  With no fault
+  inside the appliance, there is no connection between circuit conductors and the
+  person touching the case, and therefore no shock.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans un appareil fonctionnant correctement (ci-dessus), le courant
+    mesuré à travers le conducteur chaud doit être exactement égal au courant à travers
+    le conducteur neutre, parce qu&#39;il n&#39;y a qu&#39;une seule voie pour les
+    électrons de circuler dans le circuit. Sans faute à l&#39;intérieur de l&#39;appareil,
+    il n&#39;y a pas de connexion entre les conducteurs de circuit et la personne
+    touchant le cas, et donc pas de choc.'}
+In answer to the first question, the presence of an intentional <quote>grounding</quote>: {
+  tag: '<para>
+
+    ', xlate: 'En réponse à la première question, la présence d&#39;un volontaire
+    <quote> échouage </quote>'}
+? In answer to the second question, rubber-soled shoes <italic>do</italic> indeed
+  provide some electrical insulation to help protect someone from conducting shock
+  current through their feet.  However, most common shoe designs are not intended
+  to be electrically <quote>safe,</quote>
+: {tag: '<para>
+
+    ', xlate: 'En réponse à la deuxième question, chaussures à semelles de caoutchouc
+    <italic> faire </italic> en effet fournir une isolation électrique pour aider
+    à protéger quelqu&#39;un de conduire un courant de choc à travers leurs pieds.
+    Cependant, les modèles de chaussures les plus courantes ne sont pas destinés à
+    être électriquement <quote> sûr, </quote>'}
+? 'In answer to the third question, dirt is not a very good conductor (at least not
+  when its dry!).  It is too poor of a conductor to support continuous current for
+  powering a load.  However, as we will see in the next section, it takes very little
+  current to injure or kill a human being, so even the poor conductivity of dirt is
+  enough to provide a path for deadly current when there is sufficient voltage available,
+  as there usually is in power systems.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En réponse à la troisième question, la saleté n&#39;est pas un très
+    bon conducteur (au moins pas quand son sec!). Il est trop pauvre d&#39;un conducteur
+    pour soutenir courant continu pour alimenter une charge. Cependant, comme nous
+    le verrons dans la section suivante, il prend très peu de courant de blesser ou
+    de tuer un être humain, de sorte que même la faible conductivité de la saleté
+    est suffisante pour fournir un chemin pour le courant mortel quand il y a une
+    tension suffisante disponible, car il habituellement est dans les systèmes d&#39;alimentation.'}
+? 'In either case, electric currents high enough to cause involuntary muscle action
+  are dangerous and are to be avoided at all costs.  In the next section, we''ll take
+  a look at how such currents typically enter and exit the body, and examine precautions
+  against such occurrences.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans les deux cas, les courants électriques suffisamment élevées pour
+    provoquer l&#39;action des muscles involontaires sont dangereux et doivent être
+    évités à tout prix. Dans la section suivante, nous allons jeter un oeil à la façon
+    dont ces courants généralement entrer et sortir du corps, et d&#39;examiner les
+    précautions contre ces événements.'}
+? 'In industry, 30 volts is generally considered to be a conservative threshold value
+  for dangerous voltage.  The cautious person should regard any voltage above 30 volts
+  as threatening, not relying on normal body resistance for protection against shock.  That
+  being said, it is still an excellent idea to keep one''s hands clean and dry, and
+  remove all metal jewelry when working around electricity.  Even around lower voltages,
+  metal jewelry can present a hazard by conducting enough current to burn the skin
+  if brought into contact between two points in a circuit.  Metal rings, especially,
+  have been the cause of more than a few burnt fingers by bridging between points
+  in a low-voltage, high-current circuit.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans l&#39;industrie, 30 volts est généralement considérée comme une
+    valeur de seuil conservateur pour une tension dangereuse. La personne prudente
+    devrait considérer une tension supérieure à 30 volts comme une menace, en se fondant
+    non pas sur la résistance normale du corps pour la protection contre les chocs.
+    Cela étant dit, il est toujours une excellente idée de garder ses mains propres
+    et sèches, et enlever tous les bijoux en métal lorsque l&#39;on travaille autour
+    de l&#39;électricité. Même autour de tensions plus basses, bijoux en métal peut
+    présenter un danger en conduisant le courant suffisant pour brûler la peau en
+    cas de contact entre deux points dans un circuit. anneaux en métal, en particulier,
+    ont été la cause de plus de quelques doigts brûlés par pontage entre des points
+    dans une basse tension, le circuit à courant élevé.'}
+? In order for electrons to flow through a conductor, there must be a voltage present
+  to motivate them.  Voltage, as you should recall, is <italic>always relative between
+  two points</italic>.  There is no such thing as voltage <quote>on</quote> or <quote>at</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour électrons de circuler à travers un conducteur, il doit y avoir
+    une tension présente pour les motiver. Tension, que vous devez rappeler, est <italic>
+    toujours relative entre deux points </italic> . Il n&#39;y a pas une telle chose
+    que la tension <quote> sur </quote> ou <quote> à </quote>'}
+? 'In this realistic condition, it would only take 340 volts of potential from one
+  of my hands to the other to cause 20 milliamps of current.  However, it is still
+  possible to receive a deadly shock from less voltage than this.  Provided a much
+  lower body resistance figure augmented by contact with a ring (a band of gold wrapped
+  around the circumference of one''s finger makes an <italic>excellent</italic> contact
+  point for electrical shock) or full contact with a large metal object such as a
+  pipe or metal handle of a tool, the body resistance figure could drop as low as
+  1,000 ohms (1 k<OMEGA>), allowing an even lower voltage to present a potential hazard:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans cette condition réaliste, il faudrait que 340 volts de potentiel
+    d&#39;un de mes mains à l&#39;autre pour provoquer 20 milliampères de courant.
+    Cependant, il est toujours possible de recevoir un choc mortel de moins de tension
+    que cela. Fourni une valeur de résistance du corps beaucoup plus faible augmentée
+    par contact avec un anneau (une bande d&#39;or enroulé autour de la circonférence
+    d&#39;un doigt permet un <italic> excellent </italic> point de contact pour les
+    chocs électriques) ou un contact complet avec un grand objet métallique tel qu&#39;un
+    tuyau ou poignée d&#39;un outil métallique, la figure de la résistance du corps
+    peut descendre jusqu&#39;à 1000 ohms (1 k <OMEGA> ), Ce qui permet une tension
+    encore plus faible pour présenter un danger potentiel:'}
+? It would be good to mention at this point that overcurrent devices are not intended
+  to provide protection against electric shock.  Rather, they exist solely to protect
+  conductors from overheating due to excessive currents.  The temporary shorting wires
+  just described would indeed cause any overcurrent devices in the circuit to <quote>trip</quote>
+: {tag: '<para>
+
+    ', xlate: 'Il serait bon de mentionner à ce stade que les dispositifs à maximum
+    de courant ne sont pas destinés à assurer une protection contre les chocs électriques.
+    Au contraire, ils existent uniquement pour protéger les conducteurs contre la
+    surchauffe due à des courants excessifs. Les fils de court-circuitage provisoire
+    vient d&#39;être décrit entraînerait en effet des dispositifs de surintensité
+    dans le circuit <quote> voyage </quote>'}
+? "Keep in mind that these figures are only approximate, as individuals with different\
+  \ body chemistry may react differently.  It has been suggested that an across-the-chest\
+  \ current of only 17 milliamps AC is enough to induce fibrillation in a human subject\
+  \ under certain conditions.  Most of our data regarding induced fibrillation comes\
+  \ from animal testing.  Obviously, it is not practical to perform tests of induced\
+  \ ventricular fibrillation on human subjects, so the available data is sketchy.\
+  \  Oh, and in case you're wondering, I have no idea why women tend to be more susceptible\
+  \ to electric currents than men! \n"
+: {tag: '<para>
+
+    ', xlate: 'Gardez à l&#39;esprit que ces chiffres sont approximatifs, comme des
+    personnes ayant différentes la chimie du corps peuvent réagir différemment. Il
+    a été suggéré qu&#39;un courant à travers la poitrine-de seulement 17 milliampères
+    AC est suffisante pour induire une fibrillation chez un sujet humain sous certaines
+    conditions. La plupart de nos données concernant la fibrillation induite provient
+    de l&#39;expérimentation animale. Evidemment, il est pas pratique d&#39;effectuer
+    des tests de fibrillation ventriculaire induite sur des sujets humains, de sorte
+    que les données disponibles sont peu précis. Oh, et si vous vous demandez, je
+    ne sais pas pourquoi les femmes ont tendance à être plus sensibles aux courants
+    électriques que les hommes!'}
+? Low voltages can still be dangerous even if they're too low to directly cause shock
+  injury.  They may be enough to startle the victim, causing them to jerk back and
+  contact something more dangerous in the near vicinity.
+: {tag: <item>, xlate: 'Les basses tensions peuvent encore être dangereux même si
+    elles sont trop faibles pour causer directement des blessures de choc. Ils peuvent
+    être assez pour effrayer la victime, les obligeant à se branler en arrière et
+    en contact avec quelque chose de plus dangereux dans les environs.'}
+? 'Measuring electrical resistance with a sensitive meter, I measure approximately
+  1 million ohms of resistance (1 M<OMEGA>) between my two hands, holding on to the
+  meter''s metal probes between my fingers.  The meter indicates less resistance when
+  I squeeze the probes tightly and more resistance when I hold them loosely.  Sitting
+  here at my computer, typing these words, my hands are clean and dry.  If I were
+  working in some hot, dirty, industrial environment, the resistance between my hands
+  would likely be much less, presenting less opposition to deadly current, and a greater
+  threat of electrical shock.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Mesure de la résistance électrique avec un dispositif de mesure sensible,
+    je mesure environ 1 million d&#39;ohms de résistance (1 H <OMEGA> ) Entre mes
+    deux mains, tenant aux sondes métalliques du mètre entre mes doigts. Le compteur
+    indique moins de résistance quand je serre les sondes étroitement et plus de résistance
+    quand je les tiens sans serrer. Assis ici à mon ordinateur, en tapant ces mots,
+    mes mains sont propres et sèches. Si je travaillais dans un certain environnement
+    chaud, sale, industriel, la résistance entre mes mains serait probablement beaucoup
+    moins, présentant moins d&#39;opposition à un courant mortel, et une plus grande
+    menace de choc électrique.'}
+? Medically, this condition of involuntary muscle contraction is called <italic>tetanus</italic>.  Electricians
+  familiar with this effect of electric shock often refer to an immobilized victim
+  of electric shock as being <quote>froze on the circuit.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Médicalement, cette condition de la contraction musculaire involontaire
+    est appelé <italic> tétanos </italic> . Électriciens familiers avec cet effet
+    de choc électrique font souvent référence à une victime immobilisée de choc électrique
+    comme étant <quote> gelé sur le circuit. </quote>'}
+? Metal jewelry is definitely bad to wear when working around electric circuits.  Rings,
+  watchbands, necklaces, bracelets, and other such adornments provide excellent electrical
+  contact with your body, and can conduct current themselves enough to produce skin
+  burns, even with low voltages.
+: {tag: <item>, xlate: 'bijoux en métal est certainement mal à l&#39;usure lors du
+    travail autour des circuits électriques. Anneaux, bracelets, colliers, bracelets,
+    et d&#39;autres ornements fournissent un excellent contact électrique avec votre
+    corps, et peuvent conduire eux-mêmes suffisamment de courant pour produire des
+    brûlures cutanées, même avec de faibles tensions.'}
+'Metal pliers held by hand: 5,000 <OMEGA> to 10,000 <OMEGA> dry, 1,000 <OMEGA> to 3,000 <OMEGA> wet.': {
+  tag: <item>, xlate: 'pinces métalliques tenues à la main: 5000 <OMEGA> à 10 000
+    <OMEGA> sec, 1000 <OMEGA> à 3000 <OMEGA> humide.'}
+Most of us have experienced some form of electric <quote>shock,</quote>: {tag: '<para>
+
+    ', xlate: 'La plupart d&#39;entre nous ont connu une certaine forme d&#39;électricité
+    <quote> choc, </quote>'}
+Nerve cells communicate to each other by acting as <quote>transducers:</quote>: {
+  tag: '<para>
+
+    ', xlate: !!python/unicode 'Les cellules nerveuses communiquent les unes aux autres
+    en faisant office <quote> transducteurs: </quote>'}
+? Never try to read resistance or continuity with a multimeter on a circuit that is
+  energized.  At best, the resistance readings you obtain from the meter will be inaccurate,
+  and at worst the meter may be damaged and you may be injured.
+: {tag: <item>, xlate: 'Ne jamais essayer de lire la résistance ou la continuité avec
+    un multimètre sur un circuit qui est sous tension. Au mieux, les lectures de résistance
+    que vous obtenez du compteur seront inexactes, et au pire le compteur peut être
+    endommagé et vous pourriez vous blesser.'}
+? Note that the two test leads are plugged into the appropriate sockets on the meter
+  for voltage, and the selector switch has been set for DC <quote>V</quote>
+: {tag: '<para>
+
+    ', xlate: Notez que les deux cordons de mesure sont branchés dans les prises appropriées
+    sur l&#39;appareil de mesure pour la tension et le commutateur de sélection a
+    été fixé pour DC <quote> V </quote>}
+? "Note the resistance values of the two conditions involving a 1.5 inch metal pipe.\
+  \  The resistance measured with two hands grasping the pipe is exactly one-half\
+  \ the resistance of one hand grasping the pipe.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Notez les valeurs de résistance des deux conditions impliquant un tuyau
+    métallique de 1,5 pouces. La résistance mesurée avec les deux mains de préhension
+    du tuyau est exactement la moitié de la résistance d&#39;une main de préhension
+    du tuyau.'}
+? 'Notice that in this condition, 20 volts is enough to produce a current of 20 milliamps
+  through a person: enough to induce tetanus.  Remember, it has been suggested a current
+  of only 17 milliamps may induce ventricular (heart) fibrillation.  With a hand-to-hand
+  resistance of 1000 <OMEGA>, it would only take 17 volts to create this dangerous
+  condition:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Notez que dans cet état, 20 volts est suffisante pour produire un courant
+    de 20 milliampères par une personne: suffisante pour induire le tétanos. Rappelez-vous,
+    il a été suggéré un courant de seulement 17 milliampères peut induire une fibrillation
+    ventriculaire (coeur). Avec une résistance main à main de 1000 <OMEGA> , Il ne
+    prendrait 17 volts pour créer cette condition dangereuse:'}
+? 'Now we''ll see an equivalent circuit for a person wearing insulated gloves and
+  boots:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, nous allons voir un circuit équivalent pour une personne
+    portant des gants et des bottes isolés:'}
+? 'Now, the circuit is broken in preparation for the meter to be connected:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, le circuit est divisé en préparation de l&#39;appareil
+    à raccorder:'}
+Nuclear energy (radioactive or fissile substances): {tag: <item>, xlate: L&#39;énergie
+    nucléaire (substances radioactives ou fissiles)}
+? 'Of course there is danger of electrical shock when directly performing manual work
+  on an electrical power system.  However, electric shock hazards exist in many other
+  places, thanks to the widespread use of electric power in our lives.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Bien sûr, il y a risque de choc électrique lors de l&#39;exécution
+    directe du travail manuel sur un système d&#39;alimentation électrique. Cependant,
+    les risques de choc électrique existent dans beaucoup d&#39;autres endroits, grâce
+    à l&#39;utilisation généralisée de l&#39;énergie électrique dans notre vie.'}
+? Of the two <quote>V</quote> settings and two <quote>A</quote> settings, you will
+  notice that each pair is divided into unique markers with either a pair of horizontal
+  lines (one solid, one dashed), or a dashed line with a squiggly curve over it.  The
+  parallel lines represent <quote>DC</quote> while the squiggly curve represents <quote>AC.</quote>  The
+  <quote>V</quote> of course stands for <quote>voltage</quote> while the <quote>A</quote>
+  stands for <quote>amperage</quote>
+: {tag: '<para>
+
+    ', xlate: 'Des deux <quote> V </quote> paramètres et deux <quote> UNE </quote>
+    paramètres, vous remarqueront que chaque paire est divisée en des marqueurs uniques
+    soit avec une paire de lignes horizontales (une substance solide, une pointillés),
+    ou une ligne en pointillés avec une courbe ondulée au-dessus. Les lignes parallèles
+    représentent <quote> DC </quote> tandis que la courbe ondulée représente <quote>
+    AC. </quote> le <quote> V </quote> des cours se tient pour <quote> Tension </quote>
+    tandis que le <quote> UNE </quote> est synonyme de <quote> intensité de courant
+    </quote>'}
+Ohm's Law (again!): {tag: <sectiontitle>, xlate: !!python/unicode 'La loi d&#39;Ohm
+    (encore une fois!)'}
+? "Once the victim has been safely disconnected from the source of electric power,\
+  \ the immediate medical concerns for the victim should be respiration and circulation\
+  \ (breathing and pulse).  If the rescuer is trained in CPR, they should follow the\
+  \ appropriate steps of checking for breathing and pulse, then applying CPR as necessary\
+  \ to keep the victim's body from deoxygenating.  The cardinal rule of CPR is to\
+  \ <italic>keep going</italic> until you have been relieved by qualified personnel.\
+  \  \n"
+: {tag: '<para>
+
+    ', xlate: 'Une fois que la victime a été en toute sécurité déconnecté de la source
+    d&#39;énergie électrique, les problèmes médicaux immédiats pour la victime devrait
+    être la respiration et la circulation (respiration et le pouls). Si le secouriste
+    est formé en RCR, ils doivent suivre les étapes appropriées de vérification de
+    la respiration et le pouls, puis en appliquant la RCR au besoin pour maintenir
+    le corps de la victime de désoxygénation. La règle cardinale de la RCR est de
+    <italic> continue </italic> jusqu&#39;à ce que vous avez été soulagé par du personnel
+    qualifié.'}
+? 'One practical precaution a person could take if they see a power line falling towards
+  the ground is to only contact the ground at one point, either by running away (when
+  you run, only one foot contacts the ground at any given time), or if there''s nowhere
+  to run, by standing on one foot.  Obviously, if there''s somewhere safer to run,
+  running is the best option.  By eliminating two points of contact with the ground,
+  there will be no chance of applying deadly voltage across the body through both
+  legs.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une précaution pratique une personne pourrait prendre s&#39;ils voient
+    une ligne électrique tombe vers le sol est de contacter uniquement le sol à un
+    moment donné, que ce soit par la fuite (lorsque vous exécutez, seulement un contact
+    pied avec le sol à un moment donné), ou si il n&#39;y a nulle part où courir,
+    en se tenant debout sur un pied. De toute évidence, s&#39;il y a un endroit plus
+    sûr de courir, courir est la meilleure option. En éliminant deux points de contact
+    avec le sol, il n&#39;y aura aucune chance d&#39;appliquer la tension mortelle
+    à travers le corps à travers les deux jambes.'}
+? 'One problem with this rule is that the source of power may not be known, or easily
+  found in time to save the victim of shock.  If a shock victim''s breathing and heartbeat
+  are paralyzed by electric current, their survival time is very limited.  If the
+  shock current is of sufficient magnitude, their flesh and internal organs may be
+  quickly roasted by the power the current dissipates as it runs through their body.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Un problème avec cette règle est que la source d&#39;énergie ne peut
+    pas être connu ou facilement trouvé à temps pour sauver la victime d&#39;un choc.
+    Si une respiration de la victime de choc et les battements cardiaques sont paralysés
+    par un courant électrique, leur temps de survie est très limitée. Si le courant
+    de choc est d&#39;une ampleur suffisante, leur chair et les organes internes peuvent
+    être rapidement grillés par la puissance du courant se dissipe comme elle traverse
+    leur corps.'}
+? One very important thing to remember about measuring resistance is that it must
+  only be done on <italic>de-energized</italic> components!  When the meter is in
+  <quote>resistance</quote>
+: {tag: '<para>
+
+    ', xlate: Une chose très importante à retenir sur la résistance de mesure est
+    qu&#39;il ne doit se faire sur <italic> désexcité </italic> Composants! Lorsque
+    l&#39;appareil est en <quote> la résistance </quote>}
+? 'Other engineers tackle the problem of safety by maintaining a conductive case,
+  but using a third conductor to firmly connect that case to ground:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'D&#39;autres ingénieurs abordent le problème de la sécurité en maintenant
+    un boîtier conducteur, mais en utilisant un troisième conducteur pour relier fermement
+    ce cas à la terre:'}
+Physiological effects of electricity: {tag: <sectiontitle>, xlate: effets physiologiques
+    de l&#39;électricité}
+Pneumatic (air) pressure: {tag: <item>, xlate: !!python/unicode 'Pneumatique (air)
+    Pression'}
+Power circuits usually have a designated point that is <quote>grounded:</quote>: {
+  tag: <item>, xlate: 'Les circuits de puissance ont généralement un point désigné
+    qui est <quote> mise à la terre: </quote>'}
+? Power lines are very dangerous and should be avoided at all costs.  If you see a
+  line about to hit the ground, stand on one foot or run (only one foot contacting
+  the ground) to prevent shock from voltage dropped across the ground between the
+  line and the system ground point.
+: {tag: <item>, xlate: 'Les lignes électriques sont très dangereuses et doivent être
+    évités à tout prix. Si vous voyez une ligne sur le point de frapper le sol, tenir
+    sur un pied ou une course (seulement un pied en contact avec le sol) pour éviter
+    les chocs de chute de tension sur le sol entre la ligne et le point de masse du
+    système.'}
+Power systems often have one side of the voltage supply connected to earth ground to ensure safety at that point.: {
+  tag: <item>, xlate: Les systèmes électriques ont souvent un côté de l&#39;alimentation
+    en tension reliée à la masse de la terre pour assurer la sécurité à ce moment-là.}
+? 'Remember that meter test leads are part of the whole equipment package, and that
+  they should be treated with the same care and respect that the meter itself is.  If
+  you need a special accessory for your test leads, such as a spring clip or other
+  special probe tip, consult the product catalog of the meter manufacturer or other
+  test equipment manufacturer.  <italic>Do not</italic> try to be creative and make
+  your own test probes, as you may end up placing yourself in danger the next time
+  you use them on a live circuit.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Rappelez-vous que les cordons de mesure mètres font partie de l&#39;ensemble
+    du paquet de l&#39;équipement, et qu&#39;ils doivent être traités avec le même
+    soin et le respect que le compteur lui-même est. Si vous avez besoin d&#39;un
+    accessoire spécial pour vos cordons de test, comme une pince à ressort ou une
+    autre extrémité de la sonde spéciale, consultez le catalogue des produits du fabricant
+    de compteurs ou tout autre fabricant d&#39;équipement d&#39;essai. <italic> Ne
+    pas </italic> essayer d&#39;être créatif et faire vos propres sondes de test,
+    que vous pouvez finir par vous mettre en danger la prochaine fois que vous les
+    utilisez sur un circuit.'}
+? Remember to always check for both AC and DC voltage when using a multimeter to check
+  for the presence of hazardous voltage on a circuit.  Make sure you check for voltage
+  between all pair-combinations of conductors, including between the individual conductors
+  and ground!
+: {tag: <item>, xlate: 'Rappelez-vous de toujours vérifier à la fois la tension AC
+    et DC lors de l&#39;utilisation d&#39;un multimètre pour vérifier la présence
+    de tension dangereuse sur un circuit. Assurez-vous de vérifier la tension entre
+    les paires combinaisons de conducteurs, y compris entre les conducteurs individuels
+    et la terre!'}
+? 'Research conducted on contact resistance between parts of the human body and points
+  of contact (such as the ground) shows a wide range of figures (see end of chapter
+  for information on the source of this data):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les recherches menées sur la résistance de contact entre les parties
+    du corps humain et des points de contact (par exemple le sol) montre un large
+    éventail de chiffres (voir fin du chapitre des informations sur la source de ces
+    données):'}
+? 'Research has provided an approximate set of figures for electrical resistance of
+  human contact points under different conditions (see end of chapter for information
+  on the source of this data):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La recherche a fourni un ensemble approximatif de chiffres pour la
+    résistance électrique des points de contact de l&#39;homme dans des conditions
+    différentes (voir fin du chapitre des informations sur la source de ces données):'}
+Safe circuit design: {tag: <sectiontitle>, xlate: conception de circuits en sécurité}
+Safe meter usage: {tag: <sectiontitle>, xlate: l&#39;utilisation sécuritaire du compteur}
+Safe practices: {tag: <sectiontitle>, xlate: Les pratiques sécuritaires}
+? "Safety is one of the reasons electrical wires are usually covered with plastic\
+  \ or rubber insulation: to vastly increase the amount of resistance between the\
+  \ conductor and whoever or whatever might contact it.  Unfortunately, it would be\
+  \ prohibitively expensive to enclose power line conductors in sufficient insulation\
+  \ to provide safety in case of accidental contact, so safety is maintained by keeping\
+  \ those lines far enough out of reach so that no one can accidently touch them.\
+  \ \n"
+: {tag: '<para>
+
+    ', xlate: 'La sécurité est l&#39;une des raisons fils électriques sont généralement
+    recouverts d&#39;un isolant en matière plastique ou en caoutchouc: pour augmenter
+    considérablement la quantité de résistance entre le conducteur et celui ou ce
+    qui peut communiquer avec lui. Malheureusement, il serait trop coûteux d&#39;enfermer
+    les conducteurs de ligne d&#39;alimentation en isolation suffisante pour assurer
+    la sécurité en cas de contact accidentel, la sécurité est donc maintenue en gardant
+    ces lignes assez loin hors de portée pour que personne ne peut les toucher par
+    mégarde.'}
+? 'Securing something in a Zero Energy State means ridding it of any sort of potential
+  or stored energy, including but not limited to:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Sécuriser quelque chose dans un Etat signifie l&#39;énergie zéro en
+    le débarrassant de toute sorte d&#39;énergie potentielle ou stockées, y compris
+    mais sans s&#39;y limiter:'}
+Seventeen volts is not very much as far as electrical systems are concerned.  Granted, this is a <quote>worst-case</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Dix-sept volts ne sont pas très bien pour autant que les systèmes électriques
+    sont concernés. Certes, c&#39;est un <quote> pire cas </quote>'}
+Shock current path: {tag: <sectiontitle>, xlate: !!python/unicode 'Choc chemin courant'}
+? Shock victims may suffer heart trouble up to several hours after being shocked.  The
+  danger of electric shock does not end after the immediate medical attention.
+: {tag: <item>, xlate: victimes de choc peuvent souffrir de troubles cardiaques jusqu&#39;à
+    plusieurs heures après avoir été choqué. Le danger de choc électrique ne se termine
+    pas après l&#39;attention médicale immédiate.}
+? 'Since a ground connection made on both sides of the load is electrically equivalent
+  to short-circuiting across the load with a wire, that is another way of accomplishing
+  the same goal of maximum safety:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Depuis une connexion de masse effectué sur les deux côtés de la charge
+    est électriquement équivalent à un court-circuit à travers la charge d&#39;un
+    fil, qui est une autre façon d&#39;accomplir le même objectif de sécurité maximale:'}
+? 'Since it is obviously important to be able to secure any disconnecting devices
+  in the open (off) position and make sure they stay that way while work is being
+  done on the circuit, there is need for a structured safety system to be put into
+  place.  Such a system is commonly used in industry and it is called <italic>Lock-out/Tag-out</italic>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme il est évidemment important d&#39;être en mesure d&#39;obtenir
+    des dispositifs sectionneurs en position ouverte (arrêt) et assurez-vous qu&#39;ils
+    restent de cette façon alors que le travail est fait sur le circuit, il est nécessaire
+    d&#39;un système de sécurité structuré pour être mis en place. Un tel système
+    est couramment utilisé dans l&#39;industrie et il est appelé <italic> Lock-out
+    / Tag-out </italic> .'}
+? 'So now that we''ve seen how to use a multimeter to measure voltage, resistance,
+  and current, what more is there to know?  Plenty!  The value and capabilities of
+  this versatile test instrument will become more evident as you gain skill and familiarity
+  using it.  There is no substitute for regular practice with complex instruments
+  such as these, so feel free to experiment on safe, battery-powered circuits.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant que nous avons vu comment utiliser un multimètre, que demander
+    de plus pour mesurer la tension, la résistance et le courant est là pour savoir?
+    Beaucoup! La valeur et les capacités de cet instrument de test polyvalent deviendra
+    plus évident que vous gagnerez des compétences et la connaissance de l&#39;utiliser.
+    Il n&#39;y a pas de substitut à la pratique régulière avec des instruments complexes
+    tels que ceux-ci, donc ne hésitez pas à expérimenter sur des circuits de sécurité,
+    alimentés par batterie.'}
+? 'Some engineers address the safety issue simply by making the outside case of the
+  appliance nonconductive.  Such appliances are called <italic>double-insulated</italic>,
+  since the insulating case serves as a second layer of insulation above and beyond
+  that of the conductors themselves.  If a wire inside the appliance accidently comes
+  in contact with the case, there is no danger presented to the user of the appliance.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Certains ingénieurs abordent la question de la sécurité simplement
+    en faisant le cas à l&#39;extérieur de l&#39;appareil non conducteur de. De tels
+    appareils sont appelés <italic> double isolation </italic> , Étant donné que le
+    boîtier isolant sert de seconde couche d&#39;isolation au-dessus et au-delà de
+    celle des conducteurs eux-mêmes. Si un fil à l&#39;intérieur de l&#39;appareil
+    est accidentellement en contact avec le cas, il n&#39;y a pas de danger présenté
+    à l&#39;utilisateur de l&#39;appareil.'}
+? 'Some ground surfaces are better insulators than others.  Asphalt, for instance,
+  being oil-based, has a much greater resistance than most forms of dirt or rock.  Concrete,
+  on the other hand, tends to have fairly low resistance due to its intrinsic water
+  and electrolyte (conductive chemical) content.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Certaines surfaces au sol sont meilleurs isolants que d&#39;autres.
+    Asphalte, par exemple, être à base d&#39;huile, a une résistance beaucoup plus
+    grande que la plupart des formes de saleté ou de roche. Béton, d&#39;autre part,
+    a tendance à avoir une résistance assez faible en raison de sa teneur en eau et
+    l&#39;électrolyte intrinsèque (chimique conducteur).'}
+? Special, insulated shoes and mats are made to protect persons from shock via ground
+  conduction, but even these pieces of gear must be in clean, dry condition to be
+  effective.  Normal footwear is not good enough to provide protection from shock
+  by insulating its wearer from the earth.
+: {tag: <item>, xlate: 'chaussures spéciales, isolées et tapis sont faits pour protéger
+    les personnes contre les chocs par conduction au sol, mais même ces pièces d&#39;équipement
+    doivent être en propre, l&#39;état sec pour être efficace. chaussures normales
+    ne sont pas assez bon pour assurer une protection contre les chocs en isolant
+    son porteur de la terre.'}
+Spring pressure: {tag: <item>, xlate: !!python/unicode 'La pression du ressort'}
+? 'Such an accidental connection between a power system conductor and the earth (ground)
+  is called a <italic>ground fault</italic>.  Ground faults may be caused by many
+  things, including dirt buildup on power line insulators (creating a dirty-water
+  path for current from the conductor to the pole, and to the ground, when it rains),
+  ground water infiltration in buried power line conductors, and birds landing on
+  power lines, bridging the line to the pole with their wings.  Given the many causes
+  of ground faults, they tend to be unpredicatable.  In the case of trees, no one
+  can guarantee <italic>which wire</italic> their branches might touch.  If a tree
+  were to brush up against the top wire in the circuit, it would make the top wire
+  safe to touch and the bottom one dangerous -- just the opposite of the previous
+  scenario where the tree contacts the bottom wire:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une telle connexion accidentelle entre un conducteur de système d&#39;alimentation
+    et de la terre (sol) est appelée <italic> défaut à la terre </italic> . Les défauts
+    de terre peuvent être causés par beaucoup de choses, y compris l&#39;accumulation
+    de saleté sur les isolateurs de la ligne d&#39;alimentation (la création d&#39;un
+    chemin d&#39;eau sale pour le courant du conducteur au pôle, et au sol, quand
+    il pleut), l&#39;infiltration des eaux souterraines dans les conducteurs de ligne
+    d&#39;alimentation enterrés et les oiseaux atterrissant sur les lignes électriques,
+    la ligne de transition vers le pôle avec leurs ailes. Compte tenu des nombreuses
+    causes de défauts au sol, ils ont tendance à être unpredicatable. Dans le cas
+    des arbres, personne ne peut garantir <italic> lequel fil </italic> leurs branches
+    pourraient toucher. Si un arbre devait brosser contre le fil supérieur dans le
+    circuit, il serait le fil haut en toute sécurité au toucher et une dangereuse
+    fond - tout le contraire du scénario précédent où les contacts d&#39;arbre le
+    fil de fond:'}
+? Such devices are called <italic>Ground Fault Current Interruptors</italic>, or GFCIs
+  for short. Outside North America, the  GFCI is variously known as a safety switch,
+  a residual current device (RCD), an RCBO or RCD/MCB if combined with a miniature
+  circuit breaker, or earth leakage circuit breaker (ELCB).   They are compact enough
+  to be built into a power receptacle.  These receptacles are easily identified by
+  their distinctive <quote>Test</quote> and <quote>Reset</quote>
+: {tag: '<para>
+
+    ', xlate: 'De tels dispositifs sont appelés <italic> Défaut à la terre des interrupteurs
+    </italic> , ou GFCI pour faire court. En dehors de l&#39;Amérique du Nord, le
+    GFCI est diversement connu comme un interrupteur de sécurité, un dispositif de
+    courant résiduel (RCD), un disjoncteur différentiel ou RCD / MCB si elle est combinée
+    avec un disjoncteur miniature, ou un disjoncteur de fuite à la terre (ELCB). Ils
+    sont suffisamment compacts pour être intégré dans une prise de courant. Ces récipients
+    sont facilement identifiés par leur caractéristique <quote> Tester </quote> et
+    <quote> Réinitialiser </quote>'}
+? 'Suppose I were to place my two hands across the terminals of an AC voltage source
+  at 60 Hz (60 cycles, or alternations back-and-forth, per second).  How much voltage
+  would be necessary in this clean, dry state of skin condition to produce a current
+  of 20 milliamps (enough to cause me to become unable to let go of the voltage source)?  We
+  can use Ohm''s Law (E=IR) to determine this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Supposons que je placer les deux mains à travers les bornes d&#39;une
+    source de tension alternative à 60 Hz (60 Hz ou alternances de va-et-vient, par
+    seconde). Dans quelle mesure la tension serait nécessaire dans cet état propre
+    et sec de l&#39;état de la peau pour produire un courant de 20 milliampères (assez
+    pour me faire devenir incapable de lâcher la source de tension)? Nous pouvons
+    utiliser la loi d&#39;Ohm (E = IR) pour déterminer ceci:'}
+Suspended weight: {tag: <item>, xlate: !!python/unicode 'poids suspendu'}
+? Swimming pools are another source of trouble, since people often operate radios
+  and other powered appliances nearby.  The National Electrical Code requires that
+  special shock-detecting receptacles called Ground-Fault Current Interrupting (GFI
+  or GFCI) be installed in wet and outdoor areas to help prevent shock incidents.  More
+  on these devices in a later section of this chapter.  These special devices have
+  no doubt saved many lives, but they can be no substitute for common sense and diligent
+  precaution.  As with firearms, the best <quote>safety</quote>
+: {tag: '<para>
+
+    ', xlate: 'Les piscines sont une autre source de problèmes, puisque les gens travaillent
+    souvent radios et autres appareils alimentés à proximité. Le Code national de
+    l&#39;électricité exige que les récipients de choc de détection spéciaux appelés
+    défauts à la terre actuelle Interrompre (GFI ou GFCI) être installés dans les
+    zones humides et à l&#39;extérieur pour aider à prévenir les incidents de choc.
+    En savoir plus sur ces appareils dans une autre section de ce chapitre. Ces dispositifs
+    spéciaux ont sans doute sauvé de nombreuses vies, mais ils ne peuvent pas remplacer
+    le bon sens et de précaution diligente. Comme dans le cas des armes à feu, le
+    meilleur <quote> sécurité </quote>'}
+? 'Taking Ohm''s Law for voltage, current, and resistance, and expressing it in terms
+  of current for a given voltage and resistance, we have this equation:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Prendre la loi d&#39;Ohm pour la tension, le courant et la résistance,
+    et l&#39;exprimer en termes de courant pour une tension et une résistance donnée,
+    nous avons cette équation:'}
+? Temporary grounding or shorting wires may be connected to a load being serviced
+  for extra protection to personnel working on that load.
+: {tag: <item>, xlate: mise à la terre temporaire ou fils de court-circuit peuvent
+    être connectés à une charge en cours d&#39;entretien pour une protection supplémentaire
+    au personnel travaillant sur cette charge.}
+? 'Thankfully, nothing bad happened, but had the engine been running and the shock
+  felt at my hand instead of my leg, I might have reflexively jerked my arm into the
+  path of the rotating fan, or dropped the metal wrench across the battery terminals
+  (producing <italic>large</italic> amounts of current through the wrench with lots
+  of accompanying sparks).  This illustrates another important lesson regarding electrical
+  safety; that electric current itself may be an indirect cause of injury by causing
+  you to jump or spasm parts of your body into harm''s way.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Heureusement, rien de mal passé, mais avait le moteur fonctionné et
+    le choc ressenti à la main au lieu de ma jambe, je aurais pu réflexivement saccadée
+    mon bras sur le chemin du ventilateur en rotation, ou laissé tomber la clé métallique
+    à travers les bornes de la batterie (production <italic> grand </italic> des quantités
+    de courant à travers la clé avec beaucoup d&#39;étincelles d&#39;accompagnement).
+    Cela illustre une autre leçon importante en ce qui concerne la sécurité électrique;
+    que le courant électrique lui-même peut être une cause indirecte de blessure en
+    vous faisant sauter ou parties de spasmes de votre corps en danger.'}
+? "That last detail leads us into another hazard of electric shock, this one peculiar\
+  \ to public power systems.  Though our initial study of electric circuits will focus\
+  \ almost exclusively on DC (Direct Current, or electricity that moves in a continuous\
+  \ direction in a circuit), modern power systems utilize alternating current, or\
+  \ AC.  The technical reasons for this preference of AC over DC in power systems\
+  \ are irrelevant to this discussion, but the special hazards of each kind of electrical\
+  \ power are very important to the topic of safety. \n"
+: {tag: '<para>
+
+    ', xlate: 'Ce dernier détail nous conduit à un autre risque de choc électrique,
+    celui-ci propre aux systèmes de puissance publique. Bien que notre étude initiale
+    des circuits électriques se concentrer presque exclusivement sur DC (courant continu,
+    ou l&#39;électricité qui se déplace dans une direction continue dans un circuit),
+    des systèmes d&#39;alimentation modernes utilisent un courant alternatif, ou AC.
+    Les raisons techniques de cette préférence de AC sur DC dans les systèmes d&#39;alimentation
+    ne sont pas pertinents à cette discussion, mais les risques particuliers de chaque
+    type d&#39;énergie électrique sont très importants pour le thème de la sécurité.'}
+? "The <italic>arc fault circuit interrupter (AFCI)</italic>, a  circuit breaker designed\
+  \ to prevent fires, is designed to open on intermittent resistive short circuits.\
+  \ For example, a normal 15 A breaker is designed to open circuit quickly if loaded\
+  \ well beyond the 15 A rating, more slowly a little beyond the rating. While this\
+  \ protects against direct shorts and several seconds of overload, respectively,\
+  \ it does not protect against arcs-- similar to  arc-welding. An arc is a highly\
+  \ variable load, repetitively peaking at over 70 A, open circuiting with alternating\
+  \ current zero-crossings. Though, the average current is not enough to trip a standard\
+  \ breaker, it is enough to start a fire. This arc could be created by a metalic\
+  \ short circuit which burns the metal open, leaving a  resistive sputtering plasma\
+  \ of ionized gases. \n"
+: {tag: '<para>
+
+    ', xlate: 'le <italic> détecteur d&#39;arc (AFCI) </italic> Un disjoncteur destiné
+    à prévenir les incendies, est conçu pour ouvrir sur les courts-circuits résistifs
+    intermittents. Par exemple, un 15 normale Un disjoncteur est conçu pour ouvrir
+    rapidement le circuit si elle est bien chargée au-delà du 15 Une note, plus lentement
+    un peu au-delà de la cote. Bien que cela protège contre les courts directs et
+    quelques secondes de surcharge, respectivement, il ne protège pas contre arcs--
+    similaire à soudage à l&#39;arc. Un arc est une charge très variable, avec un
+    pic à plus de 70 manière répétitive A, en circuit ouvert avec des passages par
+    zéro du courant alternatif. Bien que, le courant moyen ne suffit pas à déclencher
+    un disjoncteur standard, il suffit d&#39;allumer un feu. Cet arc peut être créé
+    par un court-circuit métallique qui brûle le métal ouvert, laissant un plasma
+    de pulvérisation cathodique résistif de gaz ionisés.'}
+The <quote>grounded</quote>: {tag: <item>, xlate: le <quote> mise à la terre </quote>}
+The <quote>resistance</quote>: {tag: '<para>
+
+    ', xlate: le <quote> la résistance </quote>}
+? "The AFCI contains electronic circuitry to sense this intermittent resistive short\
+  \ circuit.  It protects against both hot to neutral and hot to ground arcs. The\
+  \ AFCI does not protect against personal shock hazards like a GFCI does. Thus, GFCIs\
+  \ still need to be installed in kitchen, bath, and outdoors circuits. Since the\
+  \ AFCI often trips upon starting large motors, and more generally on brushed motors,\
+  \ its installation is limited to bedroom circuits by the U.S. National Electrical\
+  \ code.  Use of the AFCI should reduce the number of electrical fires. However,\
+  \ nuisance-trips when running appliances with motors on AFCI circuits is a problem.\
+  \ \n"
+: {tag: '<para>
+
+    ', xlate: 'Le AFCI contient des circuits électroniques pour détecter ce court-circuit
+    résistif intermittent. Il protège contre les chaud neutre et chaud aux arcs au
+    sol. Le AFCI ne protège pas contre les risques de choc personnels comme un GFCI
+    fait. Ainsi, GFCI doivent encore être installé dans la cuisine, salle de bain,
+    et des circuits à l&#39;extérieur. Depuis l&#39;AFCI déclenche souvent lors du
+    démarrage de gros moteurs, et plus généralement sur les moteurs brossées, son
+    installation est limitée aux circuits de chambre par le code US National Electrical.
+    L&#39;utilisation de l&#39;AFCI devrait réduire le nombre d&#39;incendies électriques.
+    Cependant, les nuisances-voyages lors de l&#39;exécution des appareils avec des
+    moteurs sur les circuits AFCI est un problème.'}
+? 'The amount of current through a body is equal to the amount of voltage applied
+  between two points on that body, divided by the electrical resistance offered by
+  the body between those two points.  Obviously, the more voltage available to cause
+  electrons to flow, the easier they will flow through any given amount of resistance.  Hence,
+  the danger of high voltage: high voltage means potential for large amounts of current
+  through your body, which will injure or kill you.  Conversely, the more resistance
+  a body offers to current, the slower electrons will flow for any given amount of
+  voltage.  Just how much voltage is dangerous depends on how much total resistance
+  is in the circuit to oppose the flow of electrons.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La quantité de courant à travers un corps est égale à la quantité de
+    tension appliquée entre deux points sur ce corps, divisée par la résistance électrique
+    offerte par le corps entre ces deux points. De toute évidence, plus la tension
+    disponible pour provoquer des électrons de circuler, plus ils circuleront dans
+    une quantité donnée de résistance. Par conséquent, le danger de haute tension:
+    haute tension moyen potentiel de grandes quantités de courant à travers votre
+    corps, qui vous blesser ou tuer. A l&#39;inverse, plus la résistance d&#39;un
+    corps offre actuelle, les électrons plus lents circulera pour une quantité donnée
+    de tension. Combien la tension est dangereuse dépend de la quantité résistance
+    totale est dans le circuit pour opposer le flux d&#39;électrons.'}
+? The answer is to check between all combinations of those three points.  As you can
+  see, the points are labeled <quote>A</quote>, <quote>B</quote>, and <quote>C</quote>
+: {tag: '<para>
+
+    ', xlate: 'La réponse est de vérifier entre toutes les combinaisons de ces trois
+    points. Comme vous pouvez le voir, les points sont marqués <quote> UNE </quote>
+    , <quote> B </quote> , et <quote> C </quote>'}
+? 'The best protection against shock from a live circuit is resistance, and resistance
+  can be added to the body through the use of insulated tools, gloves, boots, and
+  other gear.  Current in a circuit is a function of available voltage divided by
+  the <italic>total</italic> resistance in the path of the flow.  As we will investigate
+  in greater detail later in this book, resistances have an additive effect when they''re
+  stacked up so that there''s only one path for electrons to flow:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La meilleure protection contre les chocs d&#39;un circuit sous tension
+    est la résistance et la résistance peut être ajoutée au corps par l&#39;utilisation
+    d&#39;outils isolés, des gants, des bottes et autres engins. Courant dans un circuit
+    est une fonction de la tension disponible divisé par le <italic> total </italic>
+    la résistance dans le trajet de l&#39;écoulement. Comme nous l&#39;étudierons
+    plus en détail plus loin dans ce livre, les résistances ont un effet additif quand
+    ils sont empilés de sorte qu&#39;il n&#39;y a qu&#39;un seul chemin pour les électrons
+    de circuler:'}
+? 'The black test lead <italic>always</italic> plugs into the black socket on the
+  multimeter: the one marked <quote>COM</quote> for <quote>common.</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Le fil noir <italic> toujours </italic> se branche sur le connecteur
+    noir sur le multimètre: l&#39;une marquée <quote> COM </quote> pour <quote> commun.
+    </quote>'}
+? The conditions necessary to produce 1,000 <OMEGA> of body resistance don't have
+  to be as extreme as what was presented, either (sweaty skin with contact made on
+  a gold ring).  Body resistance may decrease with the application of voltage (especially
+  if tetanus causes the victim to maintain a tighter grip on a conductor) so that
+  with constant voltage a shock may increase in severity after initial contact.  What
+  begins as a mild shock -- just enough to <quote>freeze</quote>
+: {tag: '<para>
+
+    ', xlate: 'Les conditions nécessaires pour produire 1 000 <OMEGA> de la résistance
+    du corps ne doit pas être aussi extrême que ce qui a été présenté, soit (peau
+    moite le contact est réalisé sur une bague en or). la résistance du corps peut
+    diminuer avec l&#39;application de tension (surtout si le tétanos provoque la
+    victime de maintenir une emprise sur un resserrement conducteur) de sorte qu&#39;avec
+    tension constante un choc peut augmenter la gravité après le contact initial.
+    Ce qui commence comme un léger choc - juste assez pour <quote> gel </quote>'}
+? 'The earth, being a conductor (if only a poor one), will conduct current between
+  the downed line and the nearest system ground point, which will be some kind of
+  conductor buried in the ground for good contact.  Being that the earth is a much
+  poorer conductor of electricity than the metal cables strung along the power poles,
+  there will be substantial voltage dropped between the point of cable contact with
+  the ground and the grounding conductor, and little voltage dropped along the length
+  of the cabling (the following figures are <italic>very</italic> approximate):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La terre, étant un conducteur (si seulement un pauvre), va conduire
+    le courant entre la ligne et le point abattu au sol du système le plus proche,
+    qui sera une sorte de conducteur enterré dans le sol pour un bon contact. Etant
+    donné que la terre est un conducteur beaucoup plus pauvre d&#39;électricité que
+    les câbles métalliques tendus le long des poteaux électriques, il y aura la tension
+    importante a chuté entre le point de contact du câble avec le sol et le conducteur
+    de mise à la terre, et peu de chute de tension le long de la longueur de la câblage
+    (les chiffres suivants sont <italic> très </italic> approximatif):'}
+? "The easiest way to decrease skin resistance is to get it wet.  Therefore, touching\
+  \ electrical devices with wet hands, wet feet, or especially in a sweaty condition\
+  \ (salt water is a much better conductor of electricity than fresh water) is dangerous.\
+  \  In the household, the bathroom is one of the more likely places where wet people\
+  \ may contact electrical appliances, and so shock hazard is a definite threat there.\
+  \  Good bathroom design will locate power receptacles away from bathtubs, showers,\
+  \ and sinks to discourage the use of appliances nearby.  Telephones that plug into\
+  \ a wall socket are also sources of hazardous voltage (the open circuit voltage\
+  \ is 48 volts DC, and the ringing signal is 150 volts AC -- remember that any voltage\
+  \ over 30 is considered potentially dangerous!).  Appliances such as telephones\
+  \ and radios should never, ever be used while sitting in a bathtub.  Even battery-powered\
+  \ devices should be avoided.  Some battery-operated devices employ voltage-increasing\
+  \ circuitry capable of generating lethal potentials. \n"
+: {tag: '<para>
+
+    ', xlate: 'La meilleure façon de diminuer la résistance de la peau est de l&#39;obtenir
+    humide. Par conséquent, toucher les appareils électriques avec les mains mouillées,
+    les pieds mouillés, ou en particulier dans un état moite (eau salée est un bien
+    meilleur conducteur d&#39;électricité que l&#39;eau douce) est dangereux. Dans
+    la maison, la salle de bain est l&#39;un des endroits les plus probables où les
+    gens humides peuvent contacter les appareils électriques, et choquerait danger
+    est une menace certaine là. Une bonne conception de salle de bain localisera prises
+    électriques loin de baignoires, douches et lavabos pour décourager l&#39;utilisation
+    d&#39;appareils à proximité. Les téléphones à brancher sur une prise de courant
+    sont également des sources de tensions dangereuses (la tension de circuit ouvert
+    est de 48 volts en courant continu, et le signal de sonnerie est de 150 volts
+    AC - rappeler que toute tension supérieure à 30 est considéré comme potentiellement
+    dangereux). Les appareils tels que les téléphones et les radios ne doivent jamais,
+    jamais être utilisé alors qu&#39;il était assis dans une baignoire. Il faut éviter
+    les appareils même alimentés par batterie. Certains appareils fonctionnant sur
+    batterie utilisent un circuit de tension de plus en plus capables de générer des
+    potentiels létales.'}
+? 'The ground symbol is that set of three horizontal bars of decreasing width located
+  at the lower-left of the circuit shown, and also at the foot of the person being
+  shocked.  In real life the power system ground consists of some kind of metallic
+  conductor buried deep in the ground for making maximum contact with the earth.  That
+  conductor is electrically connected to an appropriate connection point on the circuit
+  with thick wire.  The victim''s ground connection is through their feet, which are
+  touching the earth.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le symbole de la terre est cet ensemble de trois barres horizontales
+    de largeur décroissante située à la gauche inférieur du circuit représenté, et
+    également au pied de la personne qui a choqué. Dans la vie réelle au sol du système
+    d&#39;alimentation est constitué d&#39;une sorte de conducteur métallique enfoui
+    au plus profond dans le sol pour faire un maximum de contact avec la terre. Ce
+    conducteur est relié électriquement à un point de connexion approprié sur le circuit
+    avec un fil épais. La connexion à la terre de la victime est à travers leurs pieds,
+    qui sont en contact avec la terre.'}
+The importance of electrical safety: {tag: <sectiontitle>, xlate: L&#39;importance
+    de la sécurité électrique}
+? 'The most common piece of electrical test equipment is a meter called the <italic>multimeter</italic>.  Multimeters
+  are so named because they have the ability to measure a multiple of variables: voltage,
+  current, resistance, and often many others, some of which cannot be explained here
+  due to their complexity.  In the hands of a trained technician, the multimeter is
+  both an efficient work tool and a safety device.  In the hands of someone ignorant
+  and/or careless, however, the multimeter may become a source of danger when connected
+  to a <quote>live</quote>'
+: {tag: '<para>
+
+    ', xlate: 'La pièce la plus commune de l&#39;équipement d&#39;essai électrique
+    est un compteur appelé <italic> multimètre </italic> . Multimètres sont ainsi
+    nommés parce qu&#39;ils ont la capacité de mesurer un multiple de variables: tension,
+    courant, résistance, et souvent beaucoup d&#39;autres, dont certains ne peuvent
+    pas être expliqué ici en raison de leur complexité. Dans les mains d&#39;un technicien
+    qualifié, le multimètre est à la fois un outil de travail efficace et un dispositif
+    de sécurité. Dans les mains de quelqu&#39;un ignorant et / ou négligent, cependant,
+    le multimètre peut devenir une source de danger lorsqu&#39;il est connecté à un
+    <quote> vivre </quote>'}
+? 'The next step is to insert the meter in-line with the circuit by connecting the
+  two probe tips to the broken ends of the circuit, the black probe to the negative
+  (-) terminal of the 9-volt battery and the red probe to the loose wire end leading
+  to the lamp:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;étape suivante consiste à insérer l&#39;appareil de mesure en
+    ligne avec le circuit en reliant les deux extrémités de la sonde aux extrémités
+    cassées du circuit, la sonde noire à la borne négative - de la batterie de 9 volts
+    et la sonde rouge à la () lâche extrémité du fil conduisant à la lampe:'}
+? 'The only difference in the setup of the meter is the placement of the selector
+  switch: it is now turned to AC <quote>V</quote>'
+: {tag: '<para>
+
+    ', xlate: 'La seule différence dans la configuration de l&#39;appareil est la
+    mise en place du commutateur de sélection: il est maintenant tourné vers AC <quote>
+    V </quote>'}
+? 'The path current takes through the human body makes a difference as to how harmful
+  it is.  Current will affect whatever muscles are in its path, and since the heart
+  and lung (diaphragm) muscles are probably the most critical to one''s survival,
+  shock paths traversing the chest are the most dangerous.  This makes the hand-to-hand
+  shock current path a very likely mode of injury and fatality.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le courant de chemin prend à travers le corps humain fait une différence
+    quant à la façon dont il est nocif. Actuelle aura une incidence sur ce que les
+    muscles sont dans son chemin, et depuis le cœur et les poumons (diaphragme) les
+    muscles sont probablement les plus critiques pour sa survie, les chemins de choc
+    traversant la poitrine sont les plus dangereux. Cela rend le choc main à la main
+    un chemin courant de mode très probable de blessures et de décès.'}
+? The person getting shocked probably isn't bare-footed.  If rubber and fabric are
+  insulating materials, then why aren't their shoes protecting them by preventing
+  a circuit from forming?
+: {tag: <item>, xlate: 'La personne qui se choqué est probablement pas pieds nus.
+    Si le caoutchouc et le tissu sont des matériaux isolants, alors pourquoi ne sont
+    pas leurs chaussures en empêchant les protéger un circuit de formation?'}
+The principle that <quote>current kills</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Le principe selon lequel <quote> tue en cours </quote>'}
+? 'The table found in the Bussmann handbook differs slightly from the one available
+  from MIT: for the DC threshold of perception (men), the MIT table gives 5.2 mA while
+  the Bussmann table gives a slightly greater figure of 6.2 mA.  Also, for the <quote>unable
+  to let go</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Le tableau qui se trouve dans le manuel Bussmann diffère légèrement
+    de celui qui est disponible du MIT: pour le seuil de perception DC (hommes), la
+    table MIT donne 5,2 mA tandis que la table Bussmann donne un chiffre légèrement
+    supérieur de 6,2 mA. En outre, pour la <quote> incapable de lâcher prise </quote>'}
+? 'The table of electric currents and their various bodily effects was obtained from
+  online (Internet) sources: the safety page of Massachusetts Institute of Technology
+  (website: <url>http://web.mit.edu/safety</url>), and a safety handbook published
+  by Cooper Bussmann, Inc (website: <url>http://www.bussmann.com</url>).  In the Bussmann
+  handbook, the table is appropriately entitled <italic>Deleterious Effects of Electric
+  Shock</italic>, and credited to a Mr. Charles F. Dalziel.  Further research revealed
+  Dalziel to be both a scientific pioneer and an authority on the effects of electricity
+  on the human body.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le tableau des courants électriques et leurs divers effets corporels
+    a été obtenu à partir de sources en ligne (Internet): la page de sécurité du Massachusetts
+    Institute of Technology (site web: <url> http://web.mit.edu/safety </url> ), Et
+    un manuel de sécurité publié par Cooper Bussmann, Inc (site web: <url> http://www.bussmann.com
+    </url> ). Dans le manuel Bussmann, le tableau est intitulé à juste titre <italic>
+    Effets néfastes de choc électrique </italic> , Et crédité à un M. Charles F. Dalziel.
+    Des recherches plus poussées ont révélé Dalziel à être à la fois un pionnier scientifique
+    et une autorité sur les effets de l&#39;électricité sur le corps humain.'}
+? 'The third prong on the power cord provides a direct electrical connection from
+  the appliance case to earth ground, making the two points electrically common with
+  each other.  If they''re electrically common, then there cannot be any voltage dropped
+  between them.  At least, that''s how it is supposed to work.  If the hot conductor
+  accidently touches the metal appliance case, it will create a direct short-circuit
+  back to the voltage source through the ground wire, tripping any overcurrent protection
+  devices.  The user of the appliance will remain safe.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le troisième volet sur le cordon d&#39;alimentation fournit une connexion
+    électrique directe entre le boîtier de l&#39;appareil à la terre, ce qui rend
+    les deux points communs électriquement les uns avec les autres. Si elles sont
+    communes, alors électriquement il ne peut y avoir chute de tension entre eux.
+    Au moins, voilà comment il est censé fonctionner. Si le conducteur chaud touche
+    accidentellement le cas de l&#39;appareil de métal, il va créer un court-circuit
+    direct de retour à la source de tension à travers le fil de masse, de déclenchement
+    des dispositifs de protection contre les surintensités. L&#39;utilisateur de l&#39;appareil
+    restera en sécurité.'}
+? There are many different brands of multimeters, with multiple models made by each
+  manufacturer sporting different sets of features.  The multimeter shown here in
+  the following illustrations is a <quote>generic</quote>
+: {tag: '<para>
+
+    ', xlate: 'Il y a beaucoup de marques différentes de multimètres, avec plusieurs
+    modèles fabriqués par chaque fabricant de sport ensembles de caractéristiques
+    différentes. Le multimètre montré ici dans les illustrations suivantes est <quote>
+    générique </quote>'}
+? 'There are three different sockets on the multimeter face into which we can plug
+  our <italic>test leads</italic>.  Test leads are nothing more than specially-prepared
+  wires used to connect the meter to the circuit under test.  The wires are coated
+  in a color-coded (either black or red) flexible insulation to prevent the user''s
+  hands from contacting the bare conductors, and the tips of the probes are sharp,
+  stiff pieces of wire:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il y a trois prises différentes sur la face multimètre dans lequel
+    nous pouvons brancher notre <italic> cordons de mesure </italic> . Les cordons
+    de test ne sont plus que des fils spécialement préparés utilisés pour connecter
+    l&#39;appareil au circuit sous test. Les fils sont revêtus d&#39;un code couleur
+    (noir ou rouge) isolant flexible pour empêcher les mains de l&#39;utilisateur
+    de mettre en contact les conducteurs nus, et les pointes des sondes sont des tranchants,
+    des pièces rigides de fil:'}
+? "These differences, of course, are academic.  The point here is that relatively\
+  \ small magnitudes of electric current through the body can be harmful if not lethal.\
+  \   \n"
+: {tag: '<para>
+
+    ', xlate: 'Ces différences, bien sûr, sont académiques. Le point ici est que peut
+    être nocif voire mortel magnitudes relativement faible de courant électrique à
+    travers le corps.'}
+This difference in current between the <quote>hot</quote> and <quote>neutral</quote>: {
+  tag: '<para>
+
+    ', xlate: Cette différence de courant entre la <quote> chaud </quote> et <quote>
+    neutre </quote>}
+? 'This example shows a very safe circuit to work with.  9 volts hardly constitutes
+  a shock hazard, and so there is little to fear in breaking this circuit open (bare
+  handed, no less!) and connecting the meter in-line with the flow of electrons.  However,
+  with higher power circuits, this could be a hazardous endeavor indeed.  Even if
+  the circuit voltage was low, the normal current could be high enough that an injurious
+  spark would result the moment the last meter probe connection was established.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cet exemple montre un circuit très sûr de travailler avec. 9 volts
+    constitue à peine un risque de choc, et donc il n&#39;y a rien à craindre pour
+    briser ce circuit ouvert (mains nues, pas moins!) Et reliant l&#39;appareil de
+    mesure en ligne avec le flux d&#39;électrons. Cependant, avec des circuits de
+    puissance plus élevée, cela pourrait être une entreprise dangereuse en effet.
+    Même si la tension du circuit était faible, le courant normal pourrait être assez
+    élevé qu&#39;une étincelle nuisible entraînerait le moment la dernière connexion
+    de la sonde de mesure a été mis en place.'}
+? "This imbalance of hazard between the two conductors in a simple power circuit is\
+  \ important to understand.  The following series of illustrations are based on common\
+  \ household wiring systems (using DC voltage sources rather than AC for simplicity).\
+  \  \n"
+: {tag: '<para>
+
+    ', xlate: Ce déséquilibre de risque entre les deux conducteurs dans un circuit
+    de simple puissance est important de comprendre. La série d&#39;illustrations
+    ci-dessous sont basées sur les systèmes de câblage domestique commun (utilisant
+    des sources de tension continue plutôt que AC pour simplifier).}
+? 'This is just one of the ways that a meter can become a source of hazard if used
+  improperly.
+
+  '
+: {tag: '<para>
+
+    ', xlate: Ceci est juste l&#39;une des façons qu&#39;un mètre peut devenir une
+    source de danger si elle est utilisée de manière incorrecte.}
+? 'This is why its so important never to cut the third prong off a power plug when
+  trying to fit it into a two-prong receptacle.  If this is done, there will be no
+  grounding of the appliance case to keep the user(s) safe.  The appliance will still
+  function properly, but if there is an internal fault bringing the hot wire in contact
+  with the case, the results can be deadly.  If a two-prong receptacle <italic>must</italic>
+  be used, a two- to three-prong receptacle adapter can be installed with a grounding
+  wire attached to the receptacle''s grounded cover screw.  This will maintain the
+  safety of the grounded appliance while plugged in to this type of receptacle.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'C&#39;est pourquoi il est si important de ne jamais couper la troisième
+    broche hors d&#39;une prise d&#39;alimentation en essayant de l&#39;intégrer dans
+    un récipient à deux broches. Si cela est fait, il n&#39;y aura pas mise à la terre
+    du boîtier de l&#39;appareil pour maintenir l&#39;utilisateur (s) en toute sécurité.
+    L&#39;appareil fonctionnera toujours correctement, mais s&#39;il y a un défaut
+    interne qui porte le fil chaud en contact avec le cas, les résultats peuvent être
+    mortels. Si une prise à deux broches <italic> doit </italic> être utilisés, deux
+    à l&#39;adaptateur de prise à trois broches peut être installé avec un fil de
+    mise à la terre fixé à la vis de mise à la terre du couvercle du récipient. Ceci
+    permettra de maintenir la sécurité de l&#39;appareil mis à la terre lorsqu&#39;il
+    est branché à ce type de prise.'}
+? This might lend one to believe that its impossible to be shocked by electricity
+  by only touching a single wire.  Like the birds, if we're sure to touch only one
+  wire at a time, we'll be safe, right?  Unfortunately, this is not correct.  Unlike
+  birds, people are usually standing on the ground when they contact a <quote>live</quote>
+: {tag: '<para>
+
+    ', xlate: 'Cela pourrait prêter à croire que son impossible d&#39;être choqué
+    par l&#39;électricité en touchant seulement un seul fil. Comme les oiseaux, si
+    nous sommes sûrs de toucher un seul fil à la fois, nous serons en sécurité, non?
+    Malheureusement, ce n&#39;est pas correct. A la différence des oiseaux, les gens
+    sont debout habituellement sur le terrain quand elles sont en contact <quote>
+    vivre </quote>'}
+? This problem is especially dangerous if the victim contacts an energized conductor
+  with his or her hands.  The forearm muscles responsible for bending fingers tend
+  to be better developed than those muscles responsible for extending fingers, and
+  so if both sets of muscles try to contract because of an electric current conducted
+  through the person's arm, the <quote>bending</quote>
+: {tag: '<para>
+
+    ', xlate: 'Ce problème est particulièrement dangereux si la victime contacte un
+    conducteur sous tension avec ses mains. Les muscles de l&#39;avant-bras responsables
+    des doigts de flexion ont tendance à être plus développés que les muscles responsables
+    pour l&#39;extension des doigts, et donc si les deux ensembles de muscles tentent
+    de se contracter en raison d&#39;un courant électrique à travers le bras mené
+    de la personne, la <quote> pliant </quote>'}
+Though dirt is a poor conductor, it can conduct enough current to injure or kill a human being.: {
+  tag: <item>, xlate: 'Bien que la saleté est un mauvais conducteur, il peut conduire
+    le courant assez pour blesser ou tuer un être humain.'}
+? 'To guard against such an occurrence, it is advisable to only use one hand to work
+  on live circuits of hazardous voltage, keeping the other hand tucked into a pocket
+  so as to not accidently touch anything.  Of course, it is <italic>always</italic>
+  safer to work on a circuit when it is unpowered, but this is not always practical
+  or possible.  For one-handed work, the right hand is generally preferred over the
+  left for two reasons: most people are right-handed (thus granting additional coordination
+  when working), and the heart is usually situated to the left of center in the chest
+  cavity.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour se prémunir contre un tel événement, il est conseillé d&#39;utiliser
+    une seule main pour travailler sur des circuits sous tension de tension dangereuse,
+    en gardant l&#39;autre main caché dans une poche afin de ne pas toucher quoi que
+    ce soit par mégarde. , Il est bien sûr <italic> toujours </italic> plus sûr de
+    travailler sur un circuit quand il est non alimenté, mais ce n&#39;est pas toujours
+    pratique ou possible. Pour le travail d&#39;une seule main, la main droite est
+    généralement préférée à la gauche pour deux raisons: la plupart des gens sont
+    droitiers (accordant ainsi une coordination supplémentaire au travail), et le
+    cœur est généralement situé à la gauche du centre dans la cavité thoracique.'}
+? To help ensure that the former failure is less likely than the latter, engineers
+  try to design appliances in such a way as to minimize hot conductor contact with
+  the case.  Ideally, of course, you don't want either wire accidently coming in contact
+  with the conductive case of the appliance, but there are usually ways to design
+  the layout of the parts to make accidental contact less likely for one wire than
+  for the other.  However, this preventative measure is effective only if power plug
+  polarity can be guaranteed.  If the plug can be reversed, then the conductor more
+  likely to contact the case might very well be the <quote>hot</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour contribuer à ce que l&#39;ex-échec est moins probable que celui-ci,
+    les ingénieurs tentent de concevoir des appareils de telle manière à minimiser
+    le contact conducteur chaud avec le cas. Idéalement, bien sûr, vous ne voulez
+    pas non plus venir fil par mégarde en contact avec le boîtier conducteur de l&#39;appareil,
+    mais il y a généralement des façons de concevoir la mise en page des pièces de
+    contact accidentel moins probable pour un fil que pour l&#39;autre. Cependant,
+    cette mesure préventive est efficace que si la polarité de fiche d&#39;alimentation
+    peut être garantie. Si la fiche peut être inversé, alors peut très bien le conducteur
+    plus susceptibles de contacter le cas la <quote> chaud </quote>'}
+? To help prevent this, most multimeters have a warning feature by which they beep
+  if ever there's a lead plugged in the <quote>A</quote> socket and the selector switch
+  is set to <quote>V</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour éviter ce problème, la plupart des multimètres ont une fonction
+    d&#39;avertissement par lequel ils émettent un bip si jamais il y a un cordon
+    branché à la <quote> UNE </quote> prise et le sélecteur est réglé sur <quote>
+    V </quote>'}
+? 'To see how this works, let''s look at a couple of examples showing the meter in
+  use.  First, we''ll set up the meter to measure DC voltage from a battery:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour voir comment cela fonctionne, regardons quelques exemples montrant
+    le compteur utilisé. Tout d&#39;abord, nous allons mettre en place l&#39;appareil
+    pour mesurer la tension à courant continu d&#39;une batterie:'}
+Use your meter to test the locked-out circuit for any dangerous voltage.: {tag: <item>,
+  xlate: Utilisez votre compteur pour tester le circuit verrouillé pour une tension
+    dangereuse.}
+? Using a multimeter to check for resistance is a much simpler task.  The test leads
+  will be kept plugged in the same sockets as for the voltage checks, but the selector
+  switch will need to be turned until it points to the <quote>horseshoe</quote>
+: {tag: '<para>
+
+    ', xlate: 'L&#39;utilisation d&#39;un multimètre pour vérifier la résistance est
+    une tâche beaucoup plus simple. Les cordons de test seront conservés branché les
+    mêmes prises que pour les contrôles de tension, mais le sélecteur devra être tourné
+    jusqu&#39;à ce qu&#39;il pointe vers la <quote> fer à cheval </quote>'}
+? 'Using an electrical meter safely and efficiently is perhaps the most valuable skill
+  an electronics technician can master, both for the sake of their own personal safety
+  and for proficiency at their trade.  It can be daunting at first to use a meter,
+  knowing that you are connecting it to live circuits which may harbor life-threatening
+  levels of voltage and current.  This concern is not unfounded, and it is always
+  best to proceed cautiously when using meters.  Carelessness more than any other
+  factor is what causes experienced technicians to have electrical accidents.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;utilisation d&#39;un compteur électrique sûre et efficace est
+    peut-être la compétence la plus précieuse d&#39;un technicien en électronique
+    peut maîtriser, à la fois pour le bien de leur propre sécurité et pour la maîtrise
+    de leur commerce. Il peut être intimidant au début d&#39;utiliser un mètre, en
+    sachant que vous le connecter à des circuits qui peuvent abriter des niveaux menaçant
+    le pronostic vital de tension et de courant. Cette préoccupation est pas sans
+    fondement, et il est toujours préférable de faire preuve de prudence lors de l&#39;utilisation
+    de mètres. Plus que tout manque d&#39;attention autre facteur est ce qui cause
+    des techniciens expérimentés d&#39;avoir des accidents électriques.'}
+? 'Victims need immediate medical response: check for breathing and pulse, then apply
+  CPR as necessary to maintain oxygenation.'
+: {tag: <item>, xlate: 'Les victimes ont besoin d&#39;intervention médicale immédiate:
+    vérifier la respiration et le pouls, puis appliquer la RCR au besoin pour maintenir
+    l&#39;oxygénation.'}
+? 'Voltage by its very nature is a manifestation of potential energy.  In the first
+  chapter I even used elevated liquid as an analogy for the potential energy of voltage,
+  having the capacity (potential) to produce current (flow), but not necessarily realizing
+  that potential until a suitable path for flow has been established, and resistance
+  to flow is overcome.  A pair of wires with high voltage between them do not look
+  or sound dangerous even though they harbor enough potential energy between them
+  to push deadly amounts of current through your body.  Even though that voltage isn''t
+  presently doing anything, it has the potential to, and that potential must be neutralized
+  before it is safe to physically contact those wires.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tension par sa nature même est une manifestation de l&#39;énergie potentielle.
+    Dans le premier chapitre I même utilisé de liquide élevée comme une analogie de
+    l&#39;énergie potentielle de tension, ayant la capacité (potentielle) pour produire
+    un courant (courant), mais pas nécessairement la réalisation de ce potentiel jusqu&#39;à
+    ce qu&#39;un trajet approprié pour l&#39;écoulement a été établie, et une résistance
+    à l&#39;écoulement est surmontée. Une paire de fils à haute tension entre eux
+    ne regarde pas le son ou dangereux, même si elles abritent assez d&#39;énergie
+    potentielle entre eux pour pousser des quantités mortelles de courant à travers
+    votre corps. Même si cette tension ne fait actuellement rien, il a le potentiel,
+    et ce potentiel doit être neutralisé avant qu&#39;il ne soit sûr de contacter
+    physiquement ces fils.'}
+? "Voltage measurement is perhaps the most common function a multimeter is used for.\
+  \  It is certainly the primary measurement taken for safety purposes (part of the\
+  \ lock-out/tag-out procedure), and it should be well understood by the operator\
+  \ of the meter.  Being that voltage is always relative between two points, the meter\
+  \ <italic>must</italic> be firmly connected to two points in a circuit before it\
+  \ will provide a reliable measurement.  That usually means both probes must be grasped\
+  \ by the user's hands and held against the proper contact points of a voltage source\
+  \ or circuit while measuring.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Mesure de tension est peut-être la fonction la plus commune d&#39;un
+    multimètre est utilisé. Il est certainement la principale mesure prise à des fins
+    de sécurité (partie de la procédure lock-out / tag-out), et il doit être bien
+    compris par l&#39;opérateur du compteur. Etant donné que la tension est toujours
+    relative entre deux points, le compteur <italic> doit </italic> être fermement
+    relié à deux points dans un circuit avant qu&#39;il fournira une mesure fiable.
+    Cela signifie généralement les deux sondes doivent être saisies par les mains
+    de l&#39;utilisateur et maintenus contre les points de contact appropriés d&#39;une
+    source de tension ou d&#39;un circuit tout en mesurant.'}
+Wet conditions increase risk of electric shock by lowering skin resistance.: {tag: <item>,
+  xlate: Les conditions humides augmentent le risque de choc électrique en réduisant
+    la résistance de la peau.}
+? 'When a line touches the ground, current travels between that downed conductor and
+  the nearest grounding point in the system, thus establishing a circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Lorsqu&#39;une ligne touche le sol, le courant circule entre ce conducteur
+    écrasé et le point de mise à la terre la plus proche dans le système, établissant
+    ainsi un circuit:'}
+When in the current-measuring (<quote>ammeter</quote>: {tag: <item>, xlate: 'Lorsque,
+    dans la mesure du courant ( <quote> ampèremètre </quote>'}
+When in the voltage-measuring (<quote>voltmeter</quote>: {tag: <item>, xlate: Lorsque
+    la tension de mesure ( <quote> voltmètre </quote>}
+When necessary to work on a <quote>live</quote>: {tag: <item>, xlate: Lorsqu&#39;il
+    est nécessaire de travailler sur un <quote> vivre </quote>}
+? When switching a multimeter from current- to voltage-measuring mode, its easy to
+  spin the selector switch from the <quote>A</quote> to the <quote>V</quote> position
+  and forget to correspondingly switch the position of the red test lead plug from
+  <quote>A</quote> to <quote>V</quote>
+: {tag: '<para>
+
+    ', xlate: 'Lors du passage d&#39;un multimètre de courant- au mode de mesure de
+    tension, il est facile pour faire tourner le sélecteur à partir du <quote> UNE
+    </quote> au <quote> V </quote> position et oublier de changer de manière correspondante
+    la position de la prise du fil d&#39;essai rouge de <quote> UNE </quote> à <quote>
+    V </quote>'}
+? When the time comes to actually make contact with the conductor(s) of a supposedly
+  dead power system, do so first with the back of one hand, so that if a shock should
+  occur, the muscle reaction will pull the fingers away from the conductor.
+: {tag: <item>, xlate: 'Lorsque vient le temps de réellement contact avec le conducteur
+    (s) d&#39;un système d&#39;énergie soi-disant mort, faites d&#39;abord avec le
+    dos d&#39;une main, de sorte que si un choc se produit, la réaction musculaire
+    va tirer les doigts du conducteur .'}
+? While this may seem excessive or even paranoid, it is a proven technique for preventing
+  electrical shock.  I once had a meter fail to indicate voltage when it should have
+  while checking a circuit to see if it was <quote>dead.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Bien que cela puisse sembler excessif, voire paranoïaque, il est une
+    technique éprouvée pour prévenir les chocs électriques. J&#39;ai eu un mètre ne
+    pas indiquer la tension quand il doit avoir tout en vérifiant un circuit pour
+    voir si elle était <quote> mort. </quote>'}
+'Wire held by hand: 15,000 <OMEGA> to 50,000 <OMEGA> dry, 3,000 <OMEGA> to 5,000 <OMEGA> wet.': {
+  tag: <item>, xlate: 'Fil tenu à la main: 15 000 <OMEGA> à 50 000 <OMEGA> sec, 3000
+    <OMEGA> à 5000 <OMEGA> humide.'}
+'Wire touched by finger: 40,000 <OMEGA> to 1,000,000 <OMEGA> dry, 4,000 <OMEGA> to 15,000 <OMEGA> wet.': {
+  tag: <item>, xlate: 'Fil touché par doigt: 40 000 <OMEGA> à 1000000 <OMEGA> sec,
+    4000 <OMEGA> à 15 000 <OMEGA> humide.'}
+? 'With a tree branch contacting the top wire, that wire becomes the grounded conductor
+  in the circuit, electrically common with earth ground.  Therefore, there is no voltage
+  between that wire and ground, but full (high) voltage between the bottom wire and
+  ground.  As mentioned previously, tree branches are only one potential source of
+  ground faults in a power system.  Consider an ungrounded power system with no trees
+  in contact, but this time with <italic>two</italic> people touching single wires:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avec une branche d&#39;arbre en contact avec la toile supérieure, qui
+    devient le fil conducteur à la masse dans le circuit, électriquement commun avec
+    la terre. Par conséquent, il n&#39;y a pas de tension entre ce fil et la masse,
+    mais la pleine tension (haute) entre le fil du bas et la terre. Comme mentionné
+    précédemment, les branches d&#39;arbres ne sont qu&#39;une source potentielle
+    de défauts au sol dans un système d&#39;alimentation. Considérons un système d&#39;alimentation
+    sans terre sans arbres en contact, mais cette fois avec <italic> deux </italic>
+    personnes touchant des fils simples:'}
+? 'With each person standing on the ground, contacting different points in the circuit,
+  a path for shock current is made through one person, through the earth, and through
+  the other person.  Even though each person thinks they''re safe in only touching
+  a single point in the circuit, their combined actions create a deadly scenario.  In
+  effect, one person acts as the ground fault which makes it unsafe for the other
+  person.  This is exactly why ungrounded power systems are dangerous: the voltage
+  between any point in the circuit and ground (earth) is unpredictable, because a
+  ground fault could appear at any point in the circuit at any time.  The only character
+  guaranteed to be safe in these scenarios is the bird, who has no connection to earth
+  ground at all!  By firmly connecting a designated point in the circuit to earth
+  ground (<quote>grounding</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Avec chaque personne debout sur le sol, en contact avec différents
+    points du circuit, un chemin pour le courant de décharge est effectuée par une
+    personne, à travers la terre, et par l&#39;autre personne. Même si chaque personne
+    pense qu&#39;ils sont en sécurité en ne touchant un seul point dans le circuit,
+    leurs actions combinées créent un scénario mortel. En effet, une personne agit
+    comme défaut à la terre qui le rend dangereux pour l&#39;autre personne. C&#39;est
+    exactement pourquoi les systèmes électriques sont dangereuses non fondées: la
+    tension entre un point quelconque dans le circuit et la terre (la terre) est imprévisible,
+    car un défaut à la terre peut apparaître à tout moment dans le circuit à tout
+    moment. Le seul caractère garanti pour être sûr dans ces scénarios est l&#39;oiseau,
+    qui n&#39;a pas de connexion à la terre du tout! Par fermement le raccordement
+    d&#39;un point désigné dans le circuit à la terre ( <quote> échouage </quote>'}
+With the disconnect switch in the <quote>open</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Avec l&#39;interrupteur dans la <quote> ouvrir </quote>'}
+? "With the temporary ground connection in place, both sides of the load wiring are\
+  \ connected to ground, securing a Zero Energy State at the load.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Avec la connexion temporaire du sol en place, les deux côtés du câblage
+    de charge sont reliées à la terre, la sécurisation d&#39;un Etat à l&#39;énergie
+    zéro la charge.'}
+? 'With this lesson, I hope to avoid a common mistake found in electronics textbooks
+  of either ignoring or not covering with sufficient detail the subject of electrical
+  safety.  I assume that whoever reads this book has at least a passing interest in
+  actually working with electricity, and as such the topic of safety is of paramount
+  importance.  Those authors, editors, and publishers who fail to incorporate this
+  subject into their introductory texts are depriving the reader of life-saving information.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avec cette leçon, je l&#39;espère pour éviter une erreur commune dans
+    les manuels électroniques de soit ignorant ou ne couvrant pas avec suffisamment
+    de détails au sujet de la sécurité électrique. Je suppose que celui qui lit ce
+    livre a au moins un intérêt passager en fait de travailler avec l&#39;électricité,
+    et en tant que tel le thème de la sécurité est d&#39;une importance primordiale.
+    Les auteurs, les éditeurs et les éditeurs qui ne parviennent pas à intégrer ce
+    sujet dans leurs textes d&#39;introduction privent le lecteur d&#39;informations
+    vitales.'}
+? "With two hands, the bodily contact area is twice as great as with one hand.  This\
+  \ is an important lesson to learn: electrical resistance between any contacting\
+  \ objects diminishes with increased contact area, all other factors being equal.\
+  \  With two hands holding the pipe, electrons have two, <italic>parallel</italic>\
+  \ routes through which to flow from the pipe to the body (or vice-versa).  \n"
+: {tag: '<para>
+
+    ', xlate: 'Avec les deux mains, la zone de contact physique est deux fois plus
+    grande que d&#39;une seule main. Ceci est une leçon importante à apprendre: la
+    résistance électrique entre les objets en contact diminue avec la zone de contact
+    accrue, tous les autres facteurs étant égaux. Avec deux mains tenant le tuyau,
+    les électrons ont deux, <italic> parallèle </italic> itinéraires à travers lequel
+    à l&#39;écoulement du tuyau au corps (ou vice-versa).'}
+? 'With water sprinkled on my fingers to simulate sweat, I was able to measure a hand-to-hand
+  resistance of only 17,000 ohms (17 k<OMEGA>).  Bear in mind this is only with one
+  finger of each hand contacting a thin metal wire.  Recalculating the voltage required
+  to cause a current of 20 milliamps, we obtain this figure:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avec de l&#39;eau saupoudré sur mes doigts pour simuler la sueur, j&#39;ai
+    pu mesurer une résistance à la main à la main de seulement 17 000 ohms (17 k <OMEGA>
+    ). Rappelez-vous ceci est seulement un doigt de chaque main en contact d&#39;un
+    fil métallique fin. Recalcul la tension nécessaire pour provoquer un courant de
+    20 milliampères, on obtient ce chiffre:'}
+? "Without two contact points on the body for current to enter and exit, respectively,\
+  \ there is no hazard of shock.  This is why birds can safely rest on high-voltage\
+  \ power lines without getting shocked: they make contact with the circuit at only\
+  \ one point.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Sans deux points de contact sur le corps pour le courant d&#39;entrée
+    et de sortie, respectivement, il n&#39;y a aucun risque de choc. Voilà pourquoi
+    les oiseaux peuvent se reposer en toute sécurité sur les lignes électriques à
+    haute tension sans se faire choqué: ils entrent en contact avec le circuit en
+    un seul point.'}
+? 'You will notice that the display of this meter is of the <quote>digital</quote>
+  type: showing numerical values using four digits in a manner similar to a digital
+  clock.  The rotary selector switch (now set in the <italic>Off</italic> position)
+  has five different measurement positions it can be set in: two <quote>V</quote>
+  settings, two <quote>A</quote> settings, and one setting in the middle with a funny-looking
+  <quote>horseshoe</quote> symbol on it representing <quote>resistance.</quote>  The
+  <quote>horseshoe</quote> symbol is the Greek letter <quote>Omega</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Vous remarquerez que l&#39;affichage de ce compteur est de <quote>
+    numérique </quote> Type de propriété: les valeurs numériques en utilisant quatre
+    chiffres d&#39;une manière similaire à une horloge numérique. Le sélecteur rotatif
+    (désormais fixé dans la <italic> De </italic> la position) comporte cinq différentes
+    positions de mesure, il peut être réglé en: deux <quote> V </quote> paramètres,
+    deux <quote> UNE </quote> les paramètres et un réglage au milieu avec un drôle
+    de <quote> fer à cheval </quote> symbole qu&#39;il représente <quote> la résistance.
+    </quote> le <quote> fer à cheval </quote> symbole est la lettre grecque <quote>
+    Oméga </quote>'}

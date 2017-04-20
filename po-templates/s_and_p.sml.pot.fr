@@ -1,0 +1,1777 @@
+? '
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode ''}
+? '<bold>Jason Starck</bold> (June 2000): HTML document formatting, which led to a
+  much better-looking second edition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Jason Starck </bold> (Juin 2000): la mise en forme de documents
+    HTML, ce qui a conduit à une deuxième édition beaucoup plus beau.'}
+<bold>REVIEW:</bold>: {tag: <item>, xlate: !!python/unicode '<bold> LA REVUE: </bold>'}
+'<bold>Ron LaPlante</bold> (October 1998): helped create <quote>table</quote>': {
+  tag: '<para>
+
+    ', xlate: '<bold> Ron LaPlante </bold> (Octobre 1998): a contribué à créer <quote>
+    table </quote>'}
+? <italic>Soldering</italic> is a low-temperature welding process utilizing a lead/tin
+  or tin/silver alloy to bond wires and component leads together, usually with the
+  components secured to a fiberglass board.
+: {tag: <item>, xlate: '<italic> Soudure </italic> est un procédé de soudage à basse
+    température en utilisant un plomb / étain ou d&#39;alliage étain / argent à des
+    fils de liaison et le composant mène ensemble, habituellement avec les composants
+    fixés sur une carte de fibre de verre.'}
+? <italic>Wire-wrapping</italic> is an alternative to soldering, involving small-gauge
+  wire tightly wrapped around component leads rather than a welded joint to connect
+  components together.
+: {tag: <item>, xlate: '<italic> Fil d&#39;emballage </italic> est une alternative
+    au brasage, impliquant fil métallique enroulé étroitement autour de composant
+    conduit plutôt que d&#39;un joint de soudure pour relier les composants ensemble.'}
+A <italic>shorted</italic> component is one whose resistance has dramatically decreased.: {
+  tag: <item>, xlate: UNE <italic> court-circuité </italic> le composant est une résistance
+    dont a considérablement diminué.}
+? A <italic>solderless breadboard</italic> is a device used to quickly assemble temporary
+  circuits by plugging wires and components into electrically common spring-clips
+  arranged underneath rows of holes in a plastic board.
+: {tag: <item>, xlate: UNE <italic> solderless breadboard </italic> est un dispositif
+    utilisé pour assembler rapidement les circuits temporaires en branchant des fils
+    et des composants en ressort-clips électriquement communes disposées en dessous
+    des rangées de trous dans une carte plastique.}
+? A <italic>terminal strip</italic>, also known as a <italic>barrier strip</italic>
+  or <italic>terminal block</italic> is another device used to mount components and
+  wires to build circuits.  Screw terminals or heavy spring clips attached to metal
+  bars provide connection points for the wire ends and component leads, these metal
+  bars mounted separately to a piece of nonconducting material such as plastic, bakelite,
+  or ceramic.
+: {tag: <item>, xlate: 'UNE <italic> bornier </italic> , Également connu comme <italic>
+    bande de barrière </italic> ou <italic> bornier </italic> Un autre dispositif
+    utilisé pour monter des composants pour construire les circuits et les fils. Les
+    bornes à vis ou attaches à ressort lourds fixés à des barres de métal fournissent
+    des points de raccordement pour les extrémités des fils conducteurs et des composants,
+    ces barres métalliques montées séparément à une pièce d&#39;un matériau non conducteur
+    tel qu&#39;une matière plastique, bakélite, ou en céramique.'}
+A <quote>branch</quote>: {tag: <item>, xlate: !!python/unicode 'UNE <quote> branche
+    </quote>'}
+? 'A parallel circuit is also easy to construct on a solderless breadboard:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Un circuit parallèle est aussi facile de construire sur une planche
+    à pain solderless:'}
+? 'A shorted resistor (resistance of 0 <OMEGA>) would theoretically draw infinite
+  current from any finite source of voltage (I=E/0).  In this case, the zero resistance
+  of R<subscript>2</subscript> decreases the circuit total resistance to zero <OMEGA>
+  as well, increasing total current to a value of infinity.  As long as the voltage
+  source holds steady at 9 volts, however, the other branch currents (I<subscript>R1</subscript>
+  and I<subscript>R3</subscript>) will remain unchanged.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une résistance en court-circuit (résistance de 0 <OMEGA> ) Serait théoriquement
+    infinie tirer du courant provenant d&#39;une source de tension finie (I = E /
+    0). Dans ce cas, la résistance zéro R <subscript> 2 </subscript> diminue le circuit
+    résistance totale à zéro <OMEGA> ainsi, l&#39;augmentation de courant total à
+    une valeur de l&#39;infini. Tant que la source de tension se maintient à 9 volts,
+    cependant, les autres courants de branche (I <subscript> R1 </subscript> et moi
+    <subscript> R3 </subscript> ) Restent inchangés.'}
+? 'A soldered or wire-wrapped circuit is considered permanent: that is, it is unlikely
+  to fall apart accidently.  However, these construction techniques are sometimes
+  considered <italic>too</italic> permanent.  If anyone wishes to replace a component
+  or change the circuit in any substantial way, they must invest a fair amount of
+  time undoing the connections.  Also, both soldering and wire-wrapping require specialized
+  tools which may not be immediately available.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Un circuit soudé ou enroulé de fil est considéré comme permanent: à
+    savoir, il est peu probable à se désagréger par mégarde. Cependant, ces techniques
+    de construction sont parfois considérés comme <italic> aussi </italic> permanent.
+    Si quelqu&#39;un souhaite remplacer un composant ou modifier le circuit d&#39;une
+    manière substantielle, ils doivent investir beaucoup de temps défaisant les connexions.
+    En outre, à la fois la soudure et l&#39;emballage de fil ont besoin d&#39;outils
+    spécialisés qui ne peuvent être immédiatement disponibles.'}
+A view of this board's underside reveals the copper <quote>traces</quote>: {tag: '<para>
+
+    ', xlate: Une vue du dessous de cette carte révèle le cuivre <quote> traces </quote>}
+? "Again, we have three resistors, but this time they form more than one continuous\
+  \ path for electrons to flow.  There's one path from 8 to 7 to 2 to 1 and back to\
+  \ 8 again.  There's another from 8 to 7 to 6 to 3 to 2 to 1 and back to 8 again.\
+  \  And then there's a third path from 8 to 7 to 6 to 5 to 4 to 3 to 2 to 1 and back\
+  \ to 8 again.  Each individual path (through R<subscript>1</subscript>, R<subscript>2</subscript>,\
+  \ and R<subscript>3</subscript>) is called a <italic>branch</italic>.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Encore une fois, nous avons trois résistances, mais cette fois-ci,
+    ils forment plus d&#39;un chemin continu pour les électrons de circuler. Il y
+    a un chemin de 8 à 7 à 2 à 1 et revenir à 8 fois. Il y a une autre de 8 à 7 à
+    6 à 3 à 2 à 1 et revenir à 8 fois. Et il y a un troisième trajet de 8 à 7 à 6
+    à 5 à 4 pour 3 à 2 à 1 et retourner à 8 fois. Chaque chemin individuel (par R
+    <subscript> 1 </subscript> , R <subscript> 2 </subscript> Et R <subscript> 3 </subscript>
+    ) Est appelé <italic> branche </italic> .'}
+? 'All I''ve done here is re-numbered the lower-left corner of the circuit 0 instead
+  of 4.  Now, I can enter several lines of text into a computer file describing the
+  circuit in terms SPICE will understand, complete with a couple of extra lines of
+  code directing the program to display voltage and current data for our viewing pleasure.  This
+  computer file is known as the <italic>netlist</italic> in SPICE terminology:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout ce que je l&#39;ai fait ici est renuméroté le coin inférieur gauche
+    du circuit 0 au lieu de 4. Maintenant, je peux entrer plusieurs lignes de texte
+    dans un fichier informatique décrivant le circuit en termes SPICE comprendront,
+    avec quelques lignes de code supplémentaires diriger le programme pour afficher
+    la tension et les données actuelles pour notre plus grand plaisir. Ce fichier
+    informatique est connu sous le nom <italic> netlist </italic> dans la terminologie
+    SPICE:'}
+? An <italic>open</italic> component is one whose resistance has dramatically increased.  For
+  the record, resistors tend to fail open more often than fail shorted, and they almost
+  never fail unless physically or electrically overstressed (physically abused or
+  overheated).
+: {tag: <item>, xlate: 'Un <italic> ouvrir </italic> le composant est une résistance
+    dont a considérablement augmenté. Pour mémoire, les résistances ont tendance à
+    ne pas ouvrir plus souvent que de ne pas court-circuité, et ils presque jamais
+    échouent à moins physiquement ou électriquement surmené (victime de violence physique
+    ou surchauffé).'}
+? "An alternative construction technique used throughout the industrial world is that\
+  \ of the <italic>terminal strip</italic>.  Terminal strips, alternatively called\
+  \ <italic>barrier strips</italic> or <italic>terminal blocks</italic>, are comprised\
+  \ of a length of nonconducting material with several small bars of metal embedded\
+  \ within.  Each metal bar has at least one machine screw or other fastener under\
+  \ which a wire or component lead may be secured.  Multiple wires fastened by one\
+  \ screw are made electrically common to each other, as are wires fastened to multiple\
+  \ screws on the same bar.  The following photograph shows one style of terminal\
+  \ strip, with a few wires attached.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Une technique de construction alternative utilisée partout dans le
+    monde industriel est celui de la <italic> bornier </italic> . barrettes à bornes,
+    en variante appelés <italic> bandes de barrière </italic> ou <italic> borniers
+    </italic> , Sont constitués d&#39;une longueur de matériau non conducteur avec
+    plusieurs petites barres métalliques noyés à l&#39;intérieur. Chaque barre métallique
+    comporte au moins une vis mécanique ou un autre élément de fixation en vertu de
+    laquelle peut être fixé un fil conducteur ou du composant. fils multiples fixés
+    par une vis sont faites électriquement commun à l&#39;autre, tout comme les fils
+    fixés à vis multiples sur la même barre. La photo suivante montre un style de
+    bande terminal, avec quelques fils attachés.'}
+? An essential skill to have is a ready and intuitive understanding of how component
+  faults affect circuits in different configurations.  We will explore some of the
+  effects of component faults in both series and parallel circuits here, then to a
+  greater degree at the end of the <quote>Series-Parallel Combination Circuits</quote>
+: {tag: '<para>
+
+    ', xlate: 'Une compétence indispensable est une compréhension intuitive prêt et
+    de la façon dont les défauts des composants affectent les circuits dans différentes
+    configurations. Nous allons explorer, puis à un degré plus élevé quelques-uns
+    des effets des défauts de composants dans les deux séries et des circuits parallèles
+    à la fin de la <quote> Circuits de combinaison série-parallèle </quote>'}
+? An example like this makes the rationale of node numbers in SPICE fairly clear to
+  understand.  By having all components share common sets of numbers, the computer
+  <quote>knows</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un exemple comme celui-ci fait la raison d&#39;être des numéros de
+    nœud dans SPICE assez clair pour comprendre. En ayant tous les composants partagent
+    un ensemble commun de numéros, l&#39;ordinateur <quote> sait </quote>'}
+? 'An example of a <italic>printed circuit board</italic>, or <italic>PCB</italic>,
+  intended for hobbyist use is shown in this photograph:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Un exemple d&#39;un <italic> circuit imprimé </italic> , ou <italic>
+    PCB </italic> , Destiné à un usage amateur est représentée sur cette photo:'}
+? 'An important caveat to Ohm''s Law is that all quantities (voltage, current, resistance,
+  and power) must relate to each other in terms of the same two points in a circuit.  For
+  instance, with a single-battery, single-resistor circuit, we could easily calculate
+  any quantity because they all applied to the same two points in the circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une mise en garde importante à la loi d&#39;Ohm est que toutes les
+    quantités (tension, courant, résistance et puissance) doivent se rapporter les
+    uns aux autres en termes des mêmes deux points dans un circuit. Par exemple, avec
+    une seule batterie, circuit unique résistance, on peut facilement calculer toute
+    quantité, car ils sont tous appliqués aux mêmes deux points dans le circuit:'}
+? 'An interesting rule for total power versus individual power is that it is additive
+  for <italic>any</italic> configuration of circuit: series, parallel, series/parallel,
+  or otherwise.  Power is a measure of rate of work, and since power dissipated <italic>must</italic>
+  equal the total power applied by the source(s) (as per the Law of Conservation of
+  Energy in physics), circuit configuration has no effect on the mathematics.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une règle intéressante pour la puissance totale par rapport à la puissance
+    individuelle est qu&#39;il est additif pour <italic> tout </italic> configuration
+    de circuit: série, parallèle, série / parallèle ou autrement. Le pouvoir est une
+    mesure de la vitesse de travail, et puisque la puissance dissipée <italic> doit
+    </italic> égale à la puissance totale appliquée par la source (s) (conformément
+    à la loi de la conservation de l&#39;énergie en physique), la configuration du
+    circuit n&#39;a pas d&#39;effet sur les mathématiques.'}
+? 'And, of course, the complexity doesn''t stop at simple series and parallel either!  We
+  can have circuits that are a combination of series and parallel, too:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Et, bien sûr, la complexité ne se limite pas à la série simple et parallèle
+    non plus! Nous pouvons avoir des circuits qui sont une combinaison de la série
+    et parallèle aussi:'}
+? 'Another industrial convention is to modify the schematic diagram slightly so as
+  to indicate actual wire connection points on the terminal strip.  This demands a
+  labeling system for the strip itself: a <quote>TB</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Une autre convention industrielle est de modifier légèrement le schéma
+    de manière à indiquer les points de connexion de fil réelle sur la barrette de
+    raccordement. Cela exige un système d&#39;étiquetage pour la bande elle-même:
+    un <quote> TB </quote>'}
+? Another, smaller terminal strip is shown in this next photograph.  This type, sometimes
+  referred to as a <quote>European</quote>
+: {tag: '<para>
+
+    ', xlate: 'Une autre bande de borne plus petite est représentée sur cette photo
+    suivante. Ce type, parfois appelé comme <quote> européen </quote>'}
+Apply Ohm's Law to vertical columns in the table.: {tag: <item>, xlate: Appliquer
+    la loi d&#39;Ohm à des colonnes verticales dans le tableau.}
+Apply rules of series/parallel to horizontal rows in the table.: {tag: <item>, xlate: Appliquer
+    les règles de la série / parallèle aux lignes horizontales dans la table.}
+? As a footnote, the unit of siemens is never expressed without the last letter <quote>s.</quote>  In
+  other words, there is no such thing as a unit of <quote>siemen</quote> as there
+  is in the case of the <quote>ohm</quote> or the <quote>mho.</quote>  The reason
+  for this is the proper spelling of the respective scientists' surnames.  The unit
+  for electrical resistance was named after someone named <quote>Ohm,</quote> whereas
+  the unit for electrical conductance was named after someone named <quote>Siemens,</quote>
+  therefore it would be improper to <quote>singularize</quote> the latter unit as
+  its final <quote>s</quote>
+: {tag: '<para>
+
+    ', xlate: 'En bas de page, l&#39;unité de siemens est exprimé sans jamais la dernière
+    lettre <quote> s. </quote> En d&#39;autres termes, il n&#39;y a pas une telle
+    chose comme une unité de <quote> siemen </quote> comme il y a dans le cas de la
+    <quote> ohm </quote> ou la <quote> siemens. </quote> La raison de cela est la
+    bonne orthographe des noms des scientifiques respectifs. L&#39;unité de résistance
+    électrique a été nommé après que quelqu&#39;un nommé <quote> Ohm, </quote> tandis
+    que l&#39;unité de conductance électrique a été nommé après que quelqu&#39;un
+    nommé <quote> Siemens, </quote> il serait donc inapproprié de <quote> singularisent
+    </quote> cette dernière unité comme finale <quote> s </quote>'}
+? 'As the circuit current increases from 20 milliamps to 60 milliamps, the voltage
+  drops across R<subscript>1</subscript> and R<subscript>3</subscript> (which haven''t
+  changed resistances) increase as well, so that the two resistors are dropping the
+  whole 9 volts.  R<subscript>2</subscript>, being bypassed by the very low resistance
+  of the jumper wire, is effectively eliminated from the circuit, the resistance from
+  one lead to the other having been reduced to zero.  Thus, the voltage drop across
+  R<subscript>2</subscript>, even with the increased total current, is zero volts.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme le courant augmente de circuit de 20 mA à 60 mA, la chute de
+    tension aux bornes de R <subscript> 1 </subscript> et R <subscript> 3 </subscript>
+    (Qui n&#39;ont pas changé résistances) augmente aussi, de sorte que les deux résistances
+    sont en baisse l&#39;ensemble de 9 volts. R <subscript> 2 </subscript> , Étant
+    court-circuité par la très faible résistance du fil de cavalier, est efficacement
+    éliminée du circuit, la résistance d&#39;un conducteur à l&#39;autre après avoir
+    été réduit à zéro. Ainsi, la chute de tension aux bornes R <subscript> 2 </subscript>
+    , Même avec le courant total a augmenté, est zéro volt.'}
+? 'As the total current exits the negative (-) battery terminal at point 8 and travels
+  through the circuit, some of the flow splits off at point 7 to go up through R<subscript>1</subscript>,
+  some more splits off at point 6 to go up through R<subscript>2</subscript>, and
+  the remainder goes up through R<subscript>3</subscript>.  Like a river branching
+  into several smaller streams, the combined flow rates of all streams must equal
+  the flow rate of the whole river.  The same thing is encountered where the currents
+  through R<subscript>1</subscript>, R<subscript>2</subscript>, and R<subscript>3</subscript>
+  join to flow back to the positive terminal of the battery (+) toward point 1: the
+  flow of electrons from point 2 to point 1 must equal the sum of the (branch) currents
+  through R<subscript>1</subscript>, R<subscript>2</subscript>, and R<subscript>3</subscript>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme le courant total sort de la borne négative (-) de la batterie
+    au point 8 et circule à travers le circuit, une partie de l&#39;écoulement se
+    sépare au point 7 de monter à R <subscript> 1 </subscript> , Quelques bifurque
+    au point 6 pour aller à travers R <subscript> 2 </subscript> Et le reste passe
+    à travers R <subscript> 3 </subscript> . Comme une rivière ramification en plusieurs
+    petits cours d&#39;eau, les débits combinés de tous les flux doit être égal au
+    débit de la rivière tout. La même chose est rencontré lorsque les courants à travers
+    R <subscript> 1 </subscript> , R <subscript> 2 </subscript> Et R <subscript> 3
+    </subscript> joindre à refluer à la borne positive de la batterie (+) vers le
+    point 1: le flux d&#39;électrons à partir du point 2 au point 1 doit être égale
+    à la somme des courants (branche) à R <subscript> 1 </subscript> , R <subscript>
+    2 </subscript> Et R <subscript> 3 </subscript> .'}
+? As you can see from the arrangement of the data, we can't apply the 9 volts of E<subscript>T</subscript>
+  (total voltage) to any of the resistances (R<subscript>1</subscript>, R<subscript>2</subscript>,
+  or R<subscript>3</subscript>) in any Ohm's Law formula because they're in different
+  columns.  The 9 volts of battery voltage is <italic>not</italic> applied directly
+  across R<subscript>1</subscript>, R<subscript>2</subscript>, or R<subscript>3</subscript>.  However,
+  we can use our <quote>rules</quote>
+: {tag: '<para>
+
+    ', xlate: 'Comme vous pouvez le voir sur la disposition des données, nous ne pouvons
+    pas appliquer les 9 volts de E <subscript> T </subscript> (Tension totale) à l&#39;une
+    des résistances (R <subscript> 1 </subscript> , R <subscript> 2 </subscript> Ou
+    R <subscript> 3 </subscript> ) Dans la formule la loi de toute Ohm parce qu&#39;ils
+    sont dans des colonnes différentes. Les 9 volts de tension de la batterie est
+    <italic> ne pas </italic> appliqué directement aux bornes de R <subscript> 1 </subscript>
+    , R <subscript> 2 </subscript> Ou R <subscript> 3 </subscript> . Cependant, nous
+    pouvons utiliser notre <quote> règles </quote>'}
+? At this point we still don't know what the total current or total resistance for
+  this parallel circuit is, so we can't apply Ohm's Law to the rightmost (<quote>Total</quote>)
+  column.  However, if we think carefully about what is happening it should become
+  apparent that the total current must equal the sum of all individual resistor (<quote>branch</quote>
+: {tag: '<para>
+
+    ', xlate: 'À ce stade, nous ne savons pas encore ce que la résistance actuelle
+    ou totale totale pour ce circuit parallèle est, donc nous ne pouvons pas appliquer
+    la loi d&#39;Ohm à l&#39;extrême droite ( <quote> Total </quote> ) Colonne. Cependant,
+    si l&#39;on pense bien à ce qui se passe, il devrait être évident que le courant
+    doit être égal à la somme de toutes les résistances individuelles ( <quote> branche
+    </quote>'}
+? 'Back to our parallel circuit example, we should be able to see that multiple paths
+  (branches) for current reduces total resistance for the whole circuit, as electrons
+  are able to flow easier through the whole network of multiple branches than through
+  any one of those branch resistances alone.  In terms of <italic>resistance</italic>,
+  additional branches result in a lesser total (current meets with less opposition).  In
+  terms of <italic>conductance</italic>, however, additional branches results in a
+  greater total (electrons flow with greater conductance):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Retour à notre exemple de circuit parallèle, nous devrions être en
+    mesure de voir que plusieurs chemins (branches) pour le courant réduit la résistance
+    totale pour l&#39;ensemble du circuit, comme les électrons peuvent circuler plus
+    facilement à travers l&#39;ensemble du réseau de succursales multiples que par
+    une de ces branche résistances seul. En terme de <italic> la résistance </italic>
+    , Les branches supplémentaires se traduisent par une moindre totale (courant rencontre
+    moins d&#39;opposition). En terme de <italic> conductance </italic> Toutefois,
+    les branches supplémentaires se traduit par une plus grande totale (flux d&#39;électrons
+    avec une plus grande conductance):'}
+? 'Breadboards have their limitations, though.  First and foremost, they are intended
+  for <italic>temporary</italic> construction only.  If you pick up a breadboard,
+  turn it upside-down, and shake it, any components plugged into it are sure to loosen,
+  and may fall out of their respective holes.  Also, breadboards are limited to fairly
+  low-current (less than 1 amp) circuits.  Those spring clips have a small contact
+  area, and thus cannot support high currents without excessive heating.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Breadboards ont leurs limites, cependant. Tout d&#39;abord, ils sont
+    destinés à <italic> temporaire </italic> construction uniquement. Si vous prenez
+    une planche à pain, mettez-le à l&#39;envers et le secouer, les composants des
+    appareils connectés ne manqueront pas de se desserrer, et peuvent tomber hors
+    de leurs trous respectifs. En outre, Breadboards sont limités à des circuits de
+    façon équitable courant faible (moins de 1 ampère). Ces clips de printemps ont
+    une petite surface de contact, et ne peut donc supporter des courants élevés sans
+    échauffement excessif.'}
+Building simple resistor circuits: {tag: <sectiontitle>, xlate: Construire des circuits
+    simples de résistance}
+? 'But, since we don''t know the voltage across R<subscript>1</subscript> (only the
+  total voltage supplied by the battery across the three-resistor series combination)
+  and we don''t know the current through R<subscript>1</subscript>, we can''t do any
+  calculations with either formula.  The same goes for R<subscript>2</subscript> and
+  R<subscript>3</subscript>: we can apply the Ohm''s Law equations if and only if
+  all terms are representative of their respective quantities between the same two
+  points in the circuit.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Mais, puisque nous ne connaissons pas la tension aux bornes R <subscript>
+    1 </subscript> (Que la tension totale fournie par la batterie à travers la combinaison
+    série de trois résistances) et nous ne savons pas le courant à travers R <subscript>
+    1 </subscript> , Nous ne pouvons pas faire des calculs avec soit la formule. La
+    même chose vaut pour R <subscript> 2 </subscript> et R <subscript> 3 </subscript>
+    : On peut appliquer les équations du droit de l&#39;Ohm si et seulement si tous
+    les termes sont représentatifs de leurs quantités respectives entre les deux mêmes
+    points du circuit.'}
+? Carrying this idea further, a symbol and unit were created to represent conductance.  The
+  symbol is the capital letter <quote>G</quote> and the unit is the <italic>mho</italic>,
+  which is <quote>ohm</quote> spelled backwards (and you didn't think electronics
+  engineers had any sense of humor!).  Despite its appropriateness, the unit of the
+  mho was replaced in later years by the unit of <italic>siemens</italic> (abbreviated
+  by the capital letter <quote>S</quote>
+: {tag: '<para>
+
+    ', xlate: 'Portant cette idée, un symbole et l&#39;unité ont été créés pour représenter
+    conductance. Le symbole est la lettre majuscule <quote> g </quote> et l&#39;unité
+    est le <italic> mho </italic> , lequel est <quote> ohm </quote> épelé à l&#39;envers
+    (et vous ne pensiez pas que les ingénieurs de l&#39;électronique ont un sens de
+    l&#39;humour!). En dépit de sa pertinence, l&#39;unité du mho a été remplacé au
+    cours des années plus tard par l&#39;unité de <italic> siemens </italic> (Abrégé
+    par la lettre majuscule <quote> S </quote>'}
+Check your calculations by working <quote>backwards</quote>: {tag: <item>, xlate: Vérifiez
+    vos calculs en travaillant <quote> en arrière </quote>}
+? 'Circuits consisting of just one battery and one load resistance are very simple
+  to analyze, but they are not often found in practical applications.  Usually, we
+  find circuits where more than two components are connected together.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Circuits constitués d&#39;une seule batterie et une résistance de charge
+    sont très simples à analyser, mais ils ne sont pas souvent utilisés dans des applications
+    pratiques. En général, on trouve des circuits où plus de deux composants sont
+    reliés entre eux.'}
+Component failure analysis: {tag: <sectiontitle>, xlate: Analyse de défaillance d&#39;un
+    composant}
+? 'Components in a parallel circuit share the same voltage: E<subscript>Total</subscript>
+  = E<subscript>1</subscript> = E<subscript>2</subscript> = . . . E<subscript>n</subscript>'
+: {tag: <item>, xlate: 'Les composants dans un circuit parallèle partagent la même
+    tension: E <subscript> Total </subscript> = E <subscript> 1 </subscript> = E <subscript>
+    2 </subscript> =. . . E <subscript> n </subscript>'}
+? 'Components in a series circuit share the same current: I<subscript>Total</subscript>
+  = I<subscript>1</subscript> = I<subscript>2</subscript> = . . . I<subscript>n</subscript>'
+: {tag: <item>, xlate: 'Les composants dans un circuit série partagent le même courant:
+    I <subscript> Total </subscript> = I <subscript> 1 </subscript> = I <subscript>
+    2 </subscript> =. . . je <subscript> n </subscript>'}
+Conductance: {tag: <sectiontitle>, xlate: !!python/unicode 'Conductance'}
+Conductance is symbolized with the letter <quote>G</quote>: {tag: <item>, xlate: Conductance
+    est symbolisée par la lettre <quote> g </quote>}
+? 'Conductance is the opposite of resistance: the measure of how <italic>easy</italic>
+  it is for electrons to flow through something.'
+: {tag: <item>, xlate: 'Conductance est à l&#39;opposé de la résistance: la mesure
+    de la <italic> facile </italic> il est pour les électrons de circuler à travers
+    quelque chose.'}
+? 'Continue this process, wire by wire, until all connections in the schematic diagram
+  have been accounted for.  It might be helpful to regard common wires in a SPICE-like
+  fashion: make all connections to a common wire in the circuit as one step, making
+  sure each and every component with a connection to that wire actually has a connection
+  to that wire before proceeding to the next.  For the next step, I''ll show how the
+  top sides of the remaining two resistors are connected together, being common with
+  the wire secured in the previous step:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Poursuivre ce processus, fil par fil, jusqu&#39;à ce que toutes les
+    connexions du schéma ont été pris en compte. Il pourrait être utile de considérer
+    les fils communs d&#39;une manière semblable à SPICE: faire toutes les connexions
+    à un fil commun dans le circuit comme une étape, en vous assurant chaque composant
+    avec une connexion à ce fil a effectivement une connexion à ce fil avant de poursuivre
+    au suivant. Pour l&#39;étape suivante, je vais vous montrer comment les côtés
+    supérieurs des deux résistances restantes sont reliées entre elles, étant commun
+    avec le fil obtenu à l&#39;étape précédente:'}
+Contributors: {tag: <sectiontitle>, xlate: !!python/unicode 'Collaborateurs'}
+? 'Contributors to this chapter are listed in chronological order of their contributions,
+  from most recent to first.  See Appendix 2 (Contributor List) for dates and contact
+  information.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ont contribué à ce chapitre sont classés par ordre chronologique de
+    leurs contributions, du plus récent au premier. Voir l&#39;annexe 2 (Contributor
+    Liste) pour connaître les dates et les coordonnées.'}
+Correct use of Ohm's Law: {tag: <sectiontitle>, xlate: !!python/unicode 'L&#39;utilisation
+    correcte de la loi d&#39;Ohm'}
+? 'Deriving values <italic>horizontally</italic> across columns is allowable as per
+  the principles of series and parallel circuits:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les valeurs Dérivation <italic> horizontalement </italic> à travers
+    des colonnes est permise selon les principes de la série et les circuits parallèles:'}
+? 'Eventually in this book I will lead you through the analysis of circuits <italic>without
+  the use of any numbers</italic>, that is, analyzing the effects of component failure
+  in a circuit without knowing exactly how many volts the battery produces, how many
+  ohms of resistance is in each resistor, etc.  This section serves as an introductory
+  step to that kind of analysis.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Finalement, dans ce livre, je vais vous conduire à travers l&#39;analyse
+    des circuits <italic> sans l&#39;utilisation de tous les numéros </italic> , Qui
+    est, l&#39;analyse des effets de la défaillance d&#39;un composant dans un circuit
+    sans savoir exactement combien de volts la batterie produit, combien de ohms de
+    résistance est dans chaque résistance, etc. Cette section sert une étape d&#39;introduction
+    à ce genre d&#39;analyse.'}
+Finally, applying Ohm's Law to the rightmost (<quote>Total</quote>: {tag: '<para>
+
+    ', xlate: 'Enfin, l&#39;application de la loi d&#39;Ohm à l&#39;extrême droite
+    ( <quote> Total </quote>'}
+? 'Finally, we can use Ohm''s Law to determine the voltage drop across each resistor,
+  one column at a time:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Enfin, nous pouvons utiliser la loi d&#39;Ohm pour déterminer la chute
+    de tension aux bornes de chaque résistance, une colonne à la fois:'}
+? 'For R<subscript>1</subscript>, Ohm''s Law will relate the amount of voltage across
+  R<subscript>1</subscript> with the current through R<subscript>1</subscript>, given
+  R<subscript>1</subscript>''s resistance, 3k<OMEGA>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'R <subscript> 1 </subscript> , La loi d&#39;Ohm concernera la quantité
+    de tension aux bornes R <subscript> 1 </subscript> avec le courant à travers R
+    <subscript> 1 </subscript> , R donné <subscript> 1 </subscript> de » la résistance,
+    3k <OMEGA> :'}
+? For greater permanence, one might wish to choose soldering or wire-wrapping.  These
+  techniques involve fastening the components and wires to some structure providing
+  a secure mechanical location (such as a phenolic or fiberglass board with holes
+  drilled in it, much like a breadboard without the intrinsic spring-clip connections),
+  and then attaching wires to the secured component leads.  Soldering is a form of
+  low-temperature welding, using a tin/lead or tin/silver alloy that melts to and
+  electrically bonds copper objects.  Wire ends soldered to component leads or to
+  small, copper ring <quote>pads</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour une plus grande permanence, on peut souhaiter choisir la soudure
+    ou wrapping. Ces techniques impliquent la fixation des composants et des fils
+    à une structure fournissant un emplacement mécanique sécurisé (tel qu&#39;une
+    carte phénolique ou en fibre de verre avec des trous percés en elle, un peu comme
+    une carte de test sans les connexions à pinces intrinsèques), puis fixer les fils
+    au solidaire sorties du composant. Le brasage est une forme de soudage à basse
+    température, en utilisant un étain / plomb ou alliage étain / argent et qui fond
+    au lie électriquement objets en cuivre. Fil extrémités soudées à des conducteurs
+    de composants ou de petit anneau de cuivre <quote> tampons </quote>'}
+? 'From the way that the 9 volt battery is arranged, we can tell that the electrons
+  in this circuit will flow in a counter-clockwise direction, from point 4 to 3 to
+  2 to 1 and back to 4.  However, we have one source of voltage and three resistances.  How
+  do we use Ohm''s Law here?
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'De la façon que la batterie de 9 volts est disposé, on peut dire que
+    les électrons dans ce circuit couleront dans le sens inverse des aiguilles d&#39;une
+    montre, du point 4 à 3 à 2 à 1 et revenir à 4. Cependant, nous avons une source
+    de tension et trois résistances. Comment pouvons-nous utiliser la loi d&#39;Ohm
+    ici?'}
+? Here, we have three resistors (labeled R<subscript>1</subscript>, R<subscript>2</subscript>,
+  and R<subscript>3</subscript>), connected in a long chain from one terminal of the
+  battery to the other.  (It should be noted that the subscript labeling -- those
+  little numbers to the lower-right of the letter <quote>R</quote>
+: {tag: '<para>
+
+    ', xlate: 'Ici, nous avons trois résistances (R marqués <subscript> 1 </subscript>
+    , R <subscript> 2 </subscript> Et R <subscript> 3 </subscript> ), Connectés en
+    une longue chaîne d&#39;une borne de la batterie à l&#39;autre. (Il convient de
+    noter que l&#39;étiquetage de l&#39;indice - ces petits chiffres à la partie inférieure
+    droite de la lettre <quote> R </quote>'}
+? 'However, in circuits containing more than one resistor, we must be careful in how
+  we apply Ohm''s Law.  In the three-resistor example circuit below, we know that
+  we have 9 volts between points 1 and 4, which is the amount of electromotive force
+  trying to push electrons through the series combination of R<subscript>1</subscript>,
+  R<subscript>2</subscript>, and R<subscript>3</subscript>.  However, we cannot take
+  the value of 9 volts and divide it by 3k, 10k or 5k <OMEGA> to try to find a current
+  value, because we don''t know how much voltage is across any one of those resistors,
+  individually.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cependant, dans les circuits contenant plus d&#39;une résistance, il
+    faut faire attention à la façon dont nous appliquons la loi d&#39;Ohm. Dans l&#39;exemple
+    de circuit de trois résistances ci-dessous, nous savons que nous avons 9 volts
+    entre les points 1 et 4, qui est la quantité de force électromotrice d&#39;essayer
+    de pousser les électrons à travers la combinaison en série de R <subscript> 1
+    </subscript> , R <subscript> 2 </subscript> Et R <subscript> 3 </subscript> .
+    Cependant, nous ne pouvons pas prendre la valeur de 9 volts et le diviser par
+    3k, 10k ou 5 km <OMEGA> pour essayer de trouver une valeur actuelle, parce que
+    nous ne savons pas combien la tension est à travers une de ces résistances, individuellement.'}
+? 'However, the method we just used to analyze this simple series circuit can be streamlined
+  for better understanding.  By using a table to list all voltages, currents, and
+  resistances in the circuit, it becomes very easy to see which of those quantities
+  can be properly related in any Ohm''s Law equation:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cependant, la méthode que nous venons d&#39;utiliser pour analyser
+    ce circuit de série simple peut être simplifié pour une meilleure compréhension.
+    En utilisant une table à la liste toutes les tensions, les courants et les résistances
+    dans le circuit, il devient très facile de voir qui de ces quantités peut être
+    correctement lié dans l&#39;équation de la loi toute Ohm:'}
+? 'If all we wish to construct is a simple single-battery, single-resistor circuit,
+  we may easily use <italic>alligator clip</italic> jumper wires like this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si tout ce que nous voulons construire est une seule batterie simple,
+    circuit simple résistance, on peut facilement utiliser <italic> pince crocodile
+    </italic> fils de cavalier comme celui-ci:'}
+? 'If the terminal strip uses machine screws to hold the component and wire ends,
+  nothing but a screwdriver is needed to secure new connections or break old connections.  Some
+  terminal strips use spring-loaded clips -- similar to a breadboard''s except for
+  increased ruggedness -- engaged and disengaged using a screwdriver as a push tool
+  (no twisting involved).  The electrical connections established by a terminal strip
+  are quite robust, and are considered suitable for both permanent and temporary construction.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si le bornier utilise des vis de la machine pour tenir les composants
+    et extrémités des fils, rien d&#39;autre qu&#39;un tournevis est nécessaire pour
+    garantir de nouvelles connexions ou briser les vieilles connexions. Des barrettes
+    de connexion utilisent des clips à ressort - semblable à une carte de test de
+    robustesse accrue à l&#39;exception de - engagé et désengagé à l&#39;aide d&#39;un
+    tournevis comme un outil de poussée (pas de torsion concerné). Les connexions
+    électriques établies par un bornier sont assez robustes, et sont considérés comme
+    convenant à la fois pour la construction permanente et temporaire.'}
+? 'If we know that conductance is nothing more than the mathematical reciprocal (1/x)
+  of resistance, we can translate each term of the above formula into resistance by
+  substituting the reciprocal of each respective conductance:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si nous savons que la conductance est rien de plus que l&#39;inverse
+    mathématique (1 / x) de résistance, nous pouvons traduire chaque terme de la formule
+    ci-dessus dans la résistance en substituant l&#39;inverse de chaque conductance
+    respective:'}
+If we wanted to build a simple series circuit with one battery and three resistors, the same <quote>point-to-point</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Si nous voulions construire un circuit en série simple avec une batterie
+    et trois résistances, le même <quote> point à point </quote>'}
+? In a parallel circuit, all components are connected across each other, forming exactly
+  two sets of electrically common points.
+: {tag: <item>, xlate: 'Dans un circuit parallèle, tous les composants sont reliés
+    entre eux, formant exactement deux ensembles de points communs électriquement.'}
+In a series circuit, all components are connected end-to-end, forming a single path for electrons to flow.: {
+  tag: <item>, xlate: 'Dans un circuit en série, tous les composants sont reliés bout
+    à bout, formant un chemin unique pour les électrons à l&#39;écoulement.'}
+? 'In an ideal case (with perfect voltage sources and zero-resistance connecting wire),
+  shorted resistors in a simple parallel circuit will also have no effect on what''s
+  happening in other branches of the circuit.  In real life, the effect is not quite
+  the same, and we''ll see why in the following example:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans un cas idéal (avec des sources de tension parfaite et fil de connexion
+    de résistance nulle), des résistances en court-circuit dans un circuit parallèle
+    simple aura aucun effet sur ce qui se passe dans d&#39;autres branches du circuit.
+    Dans la vraie vie, l&#39;effet est pas tout à fait la même chose, et nous allons
+    voir pourquoi dans l&#39;exemple suivant:'}
+? 'In essence, we''ve calculated the equivalent resistance of R<subscript>1</subscript>,
+  R<subscript>2</subscript>, and R<subscript>3</subscript> combined.  Knowing this,
+  we could re-draw the circuit with a single equivalent resistor representing the
+  series combination of R<subscript>1</subscript>, R<subscript>2</subscript>, and
+  R<subscript>3</subscript>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Essentiellement, nous avons calculé la résistance équivalente R <subscript>
+    1 </subscript> , R <subscript> 2 </subscript> Et R <subscript> 3 </subscript>
+    combiné. Sachant cela, on pourrait redessiner le circuit avec une seule résistance
+    équivalente représentant la combinaison en série de R <subscript> 1 </subscript>
+    , R <subscript> 2 </subscript> Et R <subscript> 3 </subscript> :'}
+? In order to display branch currents in SPICE, we need to insert zero-voltage sources
+  in line (in series) with each resistor, and then reference our current measurements
+  to those sources.  For whatever reason, the creators of the SPICE program made it
+  so that current could only be calculated <italic>through</italic> a voltage source.  This
+  is a somewhat annoying demand of the SPICE simulation program.  With each of these
+  <quote>dummy</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour afficher les courants de branche dans SPICE, nous avons besoin
+    d&#39;insérer dans la ligne (en série) sources zéro de tension avec chaque résistance,
+    puis faire référence à nos mesures actuelles de ces sources. Pour une raison quelconque,
+    les créateurs du programme SPICE fait en sorte que ne pouvait être calculé courant
+    <italic> par </italic> une source de tension. Ceci est une demande un peu ennuyeux
+    du programme de simulation SPICE. Avec chacun de ces <quote> mannequin </quote>'}
+? 'In summary, a parallel circuit is defined as one where all components are connected
+  between the same set of electrically common points.  Another way of saying this
+  is that all components are connected across each other''s terminals.  From this
+  definition, three rules of parallel circuits follow: all components share the same
+  voltage; resistances diminish to equal a smaller, total resistance; and branch currents
+  add to equal a larger, total current.  Just as in the case of series circuits, all
+  of these rules find root in the definition of a parallel circuit.  If you understand
+  that definition fully, then the rules are nothing more than footnotes to the definition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En résumé, un circuit parallèle est défini comme celui où tous les
+    composants sont connectés entre le même ensemble de points communs électriquement.
+    Une autre façon de le dire est que tous les composants sont connectés entre les
+    bornes de l&#39;autre. De cette définition, trois règles de circuits parallèles
+    suivent: tous les composants partagent la même tension; des résistances diminuent
+    à égaler une plus petite, la résistance totale; et les courants de branche égale
+    ajouter à un plus grand, courant total. Tout comme dans le cas des circuits de
+    la série, toutes ces règles trouvent racine dans la définition d&#39;un circuit
+    parallèle. Si vous comprenez cette définition complète, les règles ne sont plus
+    que les notes à la définition.'}
+? 'In summary, a series circuit is defined as having only one path for electrons to
+  flow.  From this definition, three rules of series circuits follow: all components
+  share the same current; resistances add to equal a larger, total resistance; and
+  voltage drops add to equal a larger, total voltage.  All of these rules find root
+  in the definition of a series circuit.  If you understand that definition fully,
+  then the rules are nothing more than footnotes to the definition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En résumé, un circuit en série est défini comme ayant une seule voie
+    pour les électrons à l&#39;écoulement. De cette définition, trois règles de circuits
+    de la série suivent: tous les composants partagent le même courant; ajouter à
+    résistances égal à un plus grand, la résistance totale; et les chutes de tension
+    égale ajouter à une plus grande, la tension totale. Toutes ces règles trouvent
+    racine dans la définition d&#39;un circuit en série. Si vous comprenez cette définition
+    complète, les règles ne sont plus que les notes à la définition.'}
+? 'In the course of learning about electricity, you will want to construct your own
+  circuits using resistors and batteries.  Some options are available in this matter
+  of circuit assembly, some easier than others.  In this section, I will explore a
+  couple of fabrication techniques that will not only help you build the circuits
+  shown in this chapter, but also more advanced circuits.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Au cours de l&#39;apprentissage de l&#39;électricité, vous voulez construire
+    vos propres circuits avec des résistances et des batteries. Certaines options
+    sont disponibles dans ce domaine de l&#39;assemblage de circuit, un peu plus facile
+    que d&#39;autres. Dans cette section, je vais explorer quelques techniques de
+    fabrication qui non seulement vous aider à construire les circuits indiqués dans
+    ce chapitre, mais aussi des circuits plus avancés.'}
+? 'In the following illustration, a single-battery, three-resistor circuit is shown
+  constructed on a terminal strip:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans l&#39;illustration suivante, une seule batterie, circuit trois-résistance
+    est montrée construite sur un bornier:'}
+? 'In this circuit, we have two loops for electrons to flow through: one from 6 to
+  5 to 2 to 1 and back to 6 again, and another from 6 to 5 to 4 to 3 to 2 to 1 and
+  back to 6 again.  Notice how both current paths go through R<subscript>1</subscript>
+  (from point 2 to point 1).  In this configuration, we''d say that R<subscript>2</subscript>
+  and R<subscript>3</subscript> are in parallel with each other, while R<subscript>1</subscript>
+  is in series with the parallel combination of R<subscript>2</subscript> and R<subscript>3</subscript>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans ce circuit, il y a deux boucles pour les électrons de circuler
+    à travers: une de 6 à 5 à 2 à 1 et en arrière à 6 fois, et un autre de 6 à 5 à
+    4 pour 3 à 2 à 1 et retourner à 6 fois. Remarquez comment les deux voies de courant
+    passent par R <subscript> 1 </subscript> (À partir du point 2 au point 1). Dans
+    cette configuration, nous dirions que R <subscript> 2 </subscript> et R <subscript>
+    3 </subscript> sont en parallèle les uns avec les autres, tandis que R <subscript>
+    1 </subscript> est en série avec la combinaison parallèle de R <subscript> 2 </subscript>
+    et R <subscript> 3 </subscript> .'}
+Jumper wires with <quote>alligator</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'fils Pull <quote> alligator </quote>'}
+? 'Just as in the case of series circuits, the same caveat for Ohm''s Law applies:
+  values for voltage, current, and resistance must be in the same context in order
+  for the calculations to work correctly.  However, in the above example circuit,
+  we can immediately apply Ohm''s Law to each resistor to find its current because
+  we know the voltage across each resistor (9 volts) and the resistance of each resistor:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout comme dans le cas des circuits de la série, la même mise en garde
+    pour la loi d&#39;Ohm applique: les valeurs de tension, le courant et la résistance
+    doivent être dans le même contexte pour que les calculs fonctionnent correctement.
+    Cependant, dans le circuit d&#39;exemple ci-dessus, on peut appliquer immédiatement
+    la loi d&#39;Ohm à chaque résistance pour trouver son courant parce que nous savons
+    que la tension aux bornes de chaque résistance (9 volts) et la résistance de chaque
+    résistance:'}
+? 'Just as with the series circuit, we can use computer analysis to double-check our
+  calculations.  First, of course, we have to describe our example circuit to the
+  computer in terms it can understand.  I''ll start by re-drawing the circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout comme avec le circuit de la série, nous pouvons utiliser l&#39;analyse
+    de l&#39;ordinateur pour revérifier nos calculs. Tout d&#39;abord, bien sûr, nous
+    devons décrire notre exemple de circuit à l&#39;ordinateur en termes peut comprendre.
+    Je commencerai par redessiner le circuit:'}
+? Just for fun, we can use a computer to analyze this very same circuit automatically.  It
+  will be a good way to verify our calculations and also become more familiar with
+  computer analysis.  First, we have to describe the circuit to the computer in a
+  format recognizable by the software.  The SPICE program we'll be using requires
+  that all electrically unique points in a circuit be numbered, and component placement
+  is understood by which of those numbered points, or <quote>nodes,</quote>
+: {tag: '<para>
+
+    ', xlate: 'Juste pour le plaisir, nous pouvons utiliser un ordinateur pour analyser
+    automatiquement ce circuit même. Ce sera un bon moyen de vérifier nos calculs
+    et devenir aussi plus familiers avec l&#39;analyse informatique. Tout d&#39;abord,
+    nous devons décrire le circuit à l&#39;ordinateur dans un format reconnaissable
+    par le logiciel. Le programme SPICE nous utiliserons exige que tous les points
+    électriquement uniques dans un circuit numérotées et le placement des composants
+    est entendu par lequel de ces points numérotés, ou <quote> noeuds, </quote>'}
+? 'Knowing that current is equal through all components of a series circuit (and we
+  just determined the current through the battery), we can go back to our original
+  circuit schematic and note the current through each component:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Sachant que le courant est égal à travers tous les composants d&#39;un
+    circuit en série (et nous avons déterminé le courant à travers la batterie), nous
+    pouvons revenir à notre circuit d&#39;origine schématique et notez le courant
+    à travers chaque composant:'}
+? 'Let''s start with a parallel circuit consisting of three resistors and a single
+  battery:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Commençons par un circuit parallèle composé de trois résistances et
+    une seule batterie:'}
+? 'Let''s start with a series circuit consisting of three resistors and a single battery:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Commençons par un circuit en série constitué de trois résistances et
+    une seule batterie:'}
+? 'Let''s start with a simple series circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Commençons par un circuit de série simple:'}
+'Mathematically, conductance equals the reciprocal of resistance: G = 1/R': {tag: <item>,
+  xlate: 'Mathématiquement, la conductance est égale à la réciproque de la résistance:
+    G = 1 / R'}
+? 'Mathematically, conductance is the reciprocal, or inverse, of resistance:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Mathématiquement, la conductance est l&#39;inverse, ou à l&#39;inverse,
+    de la résistance:'}
+? 'Next, trace the wire connection from one side of the battery to the first component
+  in the schematic, securing a connecting wire between the same two points on the
+  real circuit.  I find it helpful to over-draw the schematic''s wire with another
+  line to indicate what connections I''ve made in real life:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ensuite, tracer la connexion du fil d&#39;un côté de la pile sur le
+    premier composant dans le schéma, fixer un fil de connexion entre les mêmes deux
+    points sur le circuit réel. Je trouve utile de trop tirer le fil du schéma avec
+    une autre ligne pour indiquer ce que les connexions que je l&#39;ai fait dans
+    la vie réelle:'}
+? Not only does the <quote>table</quote> method simplify the management of all relevant
+  quantities, it also facilitates cross-checking of answers by making it easy to solve
+  for the original unknown variables through other methods, or by working backwards
+  to solve for the initially given values from your solutions.  For example, if you
+  have just solved for all unknown voltages, currents, and resistances in a circuit,
+  you can check your work by adding a row at the bottom for power calculations on
+  each resistor, seeing whether or not all the individual power values add up to the
+  total power.  If not, then you must have made a mistake somewhere!  While this technique
+  of <quote>cross-checking</quote>
+: {tag: '<para>
+
+    ', xlate: 'Non seulement la <quote> table </quote> méthode simplifier la gestion
+    de toutes les quantités pertinentes, il facilite également le recoupement des
+    réponses en le rendant facile à résoudre pour les variables inconnues d&#39;origine
+    par d&#39;autres méthodes, ou en travaillant en arrière pour résoudre les valeurs
+    de vos données initialement solutions. Par exemple, si vous venez de résoudre
+    pour toutes les tensions inconnues, les courants et les résistances dans un circuit,
+    vous pouvez vérifier votre travail en ajoutant une ligne au bas pour les calculs
+    de puissance sur chaque résistance, voir si oui ou non toutes les valeurs de puissance
+    individuelles ajouter jusqu&#39;à la puissance totale. Sinon, vous devez avoir
+    fait une erreur quelque part! Bien que cette technique de <quote> recoupement
+    </quote>'}
+? "Notice that in this parallel circuit, an open branch only affects the current through\
+  \ that branch and the circuit's total current.  Total voltage -- being shared equally\
+  \ across all components in a parallel circuit, will be the same for all resistors.\
+  \  Due to the fact that the voltage source's tendency is to hold voltage <italic>constant</italic>,\
+  \ its voltage will not change, and being in parallel with all the resistors, it\
+  \ will hold all the resistors' voltages the same as they were before: 9 volts. \
+  \ Being that voltage is the only common parameter in a parallel circuit, and the\
+  \ other resistors haven't changed resistance value, their respective branch currents\
+  \ remain unchanged.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Notez que dans ce circuit parallèle, une branche ouverte affecte uniquement
+    le courant dans cette branche et le courant total du circuit. tension totale -
+    étant partagée de manière égale entre tous les composants dans un circuit parallèle,
+    ce sera la même pour toutes les résistances. En raison du fait que la tendance
+    de la source de tension est de maintenir la tension <italic> constante </italic>
+    , Sa tension ne changera pas, et étant en parallèle avec toutes les résistances,
+    il détiendra toutes les résistances tensions identiques à ce qu&#39;ils étaient
+    avant: 9 volts. Étant que la tension est le seul paramètre commun dans un circuit
+    parallèle, et les autres résistances ne pas avoir changé la valeur de la résistance,
+    leurs courants de branche respectifs restent inchangés.'}
+? 'Notice the voltage drops across each resistor, and how the sum of the voltage drops
+  (1.5 + 5 + 2.5) is equal to the battery (supply) voltage: 9 volts.  This is the
+  third principle of series circuits: that the supply voltage is equal to the sum
+  of the individual voltage drops.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Remarquez que la tension chute à travers chaque résistance, et la façon
+    dont la somme des chutes de tension (1,5 + 2,5 + 5) est égale à la batterie (alimentation)
+    Tension: 9 volts. Ceci est le troisième principe des circuits de la série: que
+    la tension d&#39;alimentation est égale à la somme des chutes de tension individuelles.'}
+? Now let us suppose that R<subscript>2</subscript> fails shorted.  <italic>Shorted</italic>
+  means that the resistor now acts like a straight piece of wire, with little or no
+  resistance.  The circuit will behave as though a <quote>jumper</quote> wire were
+  connected across R<subscript>2</subscript> (in case you were wondering, <quote>jumper
+  wire</quote>
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, supposons que R <subscript> 2 </subscript> échoue court-circuité.
+    <italic> Court-circuit </italic> signifie que la résistance agit maintenant comme
+    un morceau de fil droit, avec peu ou pas de résistance. Le circuit se comportera
+    comme si un <quote> sauteur </quote> fil était connecté aux bornes de R <subscript>
+    2 </subscript> (Au cas où vous poseriez la question, <quote> cavalier </quote>'}
+? 'Now that we know the amount of current through each resistor, we can use Ohm''s
+  Law to determine the voltage drop across each one (applying Ohm''s Law in its proper
+  context):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant que nous connaissons la quantité de courant à travers chaque
+    résistance, on peut utiliser la loi d&#39;Ohm pour déterminer la chute de tension
+    dans chacune (application la loi d&#39;Ohm dans son contexte):'}
+? 'Now we have all the necessary information to calculate circuit current, because
+  we have the voltage between points 1 and 4 (9 volts) and the resistance between
+  points 1 and 4 (18 k<OMEGA>):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, nous avons toutes les informations nécessaires pour le
+    calcul du courant de circuit, parce que nous avons la tension entre les points
+    1 et 4 (9 volts) et la résistance entre les points 1 et 4 (18 k <OMEGA> ):'}
+? 'Now, all I have to do is run the SPICE program to process the netlist and output
+  the results:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, tout ce que je dois faire est de lancer le programme SPICE
+    pour traiter la netlist et la sortie des résultats:'}
+? 'Now, let''s look at the other type of circuit, a parallel configuration:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, regardons l&#39;autre type de circuit, une configuration
+    parallèle:'}
+Now, with a value for total resistance inserted into the rightmost (<quote>Total</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Maintenant, avec une valeur de résistance totale insérée dans l&#39;extrême
+    droite ( <quote> Total </quote>'}
+On the other hand, if R<subscript>2</subscript> were to fail <quote>open</quote>: {
+  tag: '<para>
+
+    ', xlate: 'D&#39;autre part, si R <subscript> 2 </subscript> étaient à l&#39;échec
+    <quote> ouvrir </quote>'}
+? 'Once again we find that the original numbering scheme used to identify points in
+  the circuit will have to be altered for the benefit of SPICE.  In SPICE, all electrically
+  common points must share identical node numbers.  This is how SPICE knows what''s
+  connected to what, and how.  In a simple parallel circuit, all points are electrically
+  common in one of two sets of points.  For our example circuit, the wire connecting
+  the tops of all the components will have one node number and the wire connecting
+  the bottoms of the components will have the other.  Staying true to the convention
+  of including zero as a node number, I choose the numbers 0 and 1:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Encore une fois, nous constatons que le système de numérotation d&#39;origine
+    utilisé pour identifier les points dans le circuit devra être modifié au profit
+    de SPICE. En SPICE, tous les points communs électriquement doivent partager des
+    numéros de noeuds identiques. Voici comment SPICE sait ce qui est connecté à quoi
+    et comment. Dans un simple circuit parallèle, tous les points sont électriquement
+    communs dans l&#39;un des deux ensembles de points. Pour notre exemple de circuit,
+    le fil qui relie les sommets de tous les composants aura un numéro de noeud et
+    le fil reliant les fonds des composants auront l&#39;autre. Rester fidèle à la
+    convention, y compris zéro comme un numéro de nœud, je choisis les numéros 0 et
+    1:'}
+? One of the essential skills for anyone interested in electricity and electronics
+  is to be able to <quote>translate</quote> a schematic diagram to a real circuit
+  layout where the components may not be oriented the same way.  Schematic diagrams
+  are usually drawn for maximum readability (excepting those few noteworthy examples
+  sketched to create maximum confusion!), but practical circuit construction often
+  demands a different component orientation.  Building simple circuits on terminal
+  strips is one way to develop the spatial-reasoning skill of <quote>stretching</quote>
+: {tag: '<para>
+
+    ', xlate: 'L&#39;une des compétences essentielles pour toute personne intéressée
+    par l&#39;électricité et l&#39;électronique est de pouvoir <quote> Traduire </quote>
+    un schéma de principe à une véritable mise en page de circuit où les composants
+    ne peuvent pas être orientés de la même façon. schémas sont habituellement établis
+    pour une lisibilité maximale (à l&#39;exception de ces quelques exemples notables
+    esquissées pour créer la confusion au maximum!), mais la construction de circuit
+    pratique exige souvent une orientation des composants différents. Construire des
+    circuits simples sur borniers est un moyen de développer l&#39;habileté spatiale
+    de raisonnement <quote> étirage </quote>'}
+? 'One of the most common mistakes made by beginning electronics students in their
+  application of Ohm''s Laws is mixing the contexts of voltage, current, and resistance.  In
+  other words, a student might mistakenly use a value for I through one resistor and
+  the value for E across a set of interconnected resistors, thinking that they''ll
+  arrive at the resistance of that one resistor.  Not so!  Remember this important
+  rule: The variables used in Ohm''s Law equations must be <italic>common</italic>
+  to the same two points in the circuit under consideration.  I cannot overemphasize
+  this rule.  This is especially important in series-parallel combination circuits
+  where nearby components may have different values for both voltage drop <italic>and</italic>
+  current.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;une des plus erreurs courantes faites par les étudiants débutants
+    de l&#39;électronique dans leur application des lois d&#39;Ohm est le mélange
+    des contextes de tension, le courant et la résistance. En d&#39;autres termes,
+    un étudiant pourrait à tort utiliser une valeur pour I à une résistance et la
+    valeur de E sur un ensemble de résistances reliées entre elles, en pensant qu&#39;ils
+    vont arriver à la résistance de cette une résistance. Pas si! Rappelez-vous cette
+    règle importante: Les variables utilisées dans les équations de la loi d&#39;Ohm
+    doivent être <italic> commun </italic> aux deux mêmes points du circuit considéré.
+    Je ne saurais trop insister sur cette règle. Ceci est particulièrement important
+    dans les circuits de combinaison série-parallèle où les composants voisins peuvent
+    avoir des valeurs différentes pour les deux chute de tension <italic> et </italic>
+    actuel.'}
+? 'Please note something very important here.  The total circuit resistance is only
+  625 <OMEGA>: <italic>less</italic> than any one of the individual resistors.  In
+  the series circuit, where the total resistance was the sum of the individual resistances,
+  the total was bound to be <italic>greater</italic> than any one of the resistors
+  individually.  Here in the parallel circuit, however, the opposite is true: we say
+  that the individual resistances <italic>diminish</italic> rather than <italic>add</italic>
+  to make the total.  This principle completes our triad of <quote>rules</quote>'
+: {tag: '<para>
+
+    ', xlate: 'S&#39;il vous plaît noter quelque chose très important. La résistance
+    totale du circuit est seulement 625 <OMEGA> : <italic> Moins </italic> que l&#39;une
+    des résistances individuelles. Dans le circuit en série, où la résistance totale
+    est la somme des résistances individuelles, le total devait être <italic> plus
+    grand </italic> que l&#39;une des résistances individuellement. Ici, dans le circuit
+    parallèle, cependant, le contraire est vrai: nous disons que les résistances individuelles
+    <italic> diminuer </italic> plutôt que <italic> ajouter </italic> pour faire le
+    total. Ce principe vient compléter notre triade <quote> règles </quote>'}
+Power calculations: {tag: <sectiontitle>, xlate: !!python/unicode 'Les calculs de
+    puissance'}
+? 'Power for any particular table column can be found by the appropriate Ohm''s Law
+  equation (<italic>appropriate</italic> based on what figures are present for E,
+  I, and R in that column).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Puissance pour une colonne de table particulière peut être trouvée
+    par l&#39;équation de la loi d&#39;Ohm appropriée ( <italic> approprié </italic>
+    sur la base de ce que les chiffres sont présents pour E, I et R dans cette colonne).'}
+? 'Power is additive in <italic>any</italic> configuration of resistive circuit: P<subscript>Total</subscript>
+  = P<subscript>1</subscript> + P<subscript>2</subscript> + . . . P<subscript>n</subscript>'
+: {tag: <item>, xlate: 'La puissance est additif dans <italic> tout </italic> configuration
+    de circuit résistif: P <subscript> Total </subscript> = P <subscript> 1 </subscript>
+    + P <subscript> 2 </subscript> +. . . P <subscript> n </subscript>'}
+? Production printed circuit boards have <italic>traces</italic> of copper laid down
+  on the phenolic or fiberglass substrate material to form pre-engineered connection
+  pathways which function as wires in a circuit.  An example of such a board is shown
+  here, this unit actually a <quote>power supply</quote>
+: {tag: '<para>
+
+    ', xlate: 'cartes de circuits imprimés de production ont <italic> traces </italic>
+    du cuivre déposé sur le matériau de substrat phénolique ou en fibre de verre pour
+    former des voies de connexion préfabriqués qui fonctionnent comme des fils dans
+    un circuit. Un exemple d&#39;un tel conseil est montré ici, cette unité fait un
+    <quote> source de courant </quote>'}
+? 'Progressing from a nice, neat, schematic diagram to the real circuit -- especially
+  when the resistors to be connected are physically arranged in a <italic>linear</italic>
+  fashion on the terminal strip -- is not obvious to many, so I''ll outline the process
+  step-by-step.  First, start with the clean schematic diagram and all components
+  secured to the terminal strip, with no connecting wires:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Progresser à partir d&#39;un diagramme agréable, propre, schématique
+    du circuit réel - en particulier lorsque les résistances à connecter sont physiquement
+    disposés dans un <italic> linéaire </italic> la mode sur la bande terminale -
+    n&#39;est pas évident pour beaucoup, donc je vais décrire l&#39;étape par étape
+    processus. Tout d&#39;abord, commencer par le schéma propre et tous les composants
+    fixés à la plaque à bornes, sans fils de connexion:'}
+? Resistance, by definition, is the measure of <italic>friction</italic> a component
+  presents to the flow of electrons through it.  Resistance is symbolized by the capital
+  letter <quote>R</quote> and is measured in the unit of <quote>ohm.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Résistance, par définition, est la mesure de <italic> friction </italic>
+    un composant présente au flux d&#39;électrons à travers elle. La résistance est
+    symbolisée par la lettre majuscule <quote> R </quote> et est mesuré dans l&#39;unité
+    de <quote> ohm. </quote>'}
+? 'Running the computer analysis, we get these results (I''ve annotated the printout
+  with descriptive labels):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Exécution de l&#39;analyse de l&#39;ordinateur, nous obtenons ces résultats
+    (je l&#39;ai annoté l&#39;impression avec des étiquettes descriptives):'}
+SERIES AND PARALLEL CIRCUITS: {tag: <chaptertitle>, xlate: ET SÉRIE PARALLÈLES CIRCUITS}
+? 'Series and parallel resistor configurations have very different electrical properties.  We''ll
+  explore the properties of each configuration in the sections to come.
+
+  '
+: {tag: '<para>
+
+    ', xlate: Série et configurations de résistance parallèles ont des propriétés
+    électriques très différentes. Nous allons explorer les propriétés de chaque configuration
+    dans les sections à venir.}
+Simple parallel circuits: {tag: <sectiontitle>, xlate: circuits simples parallèles}
+Simple series circuits: {tag: <sectiontitle>, xlate: circuits de la série simples}
+? 'Since points 1 and 2 are connected together with wire of negligible resistance,
+  as are points 3 and 4, we can say that point 1 is electrically common to point 2,
+  and that point 3 is electrically common to point 4.  Since we know we have 9 volts
+  of electromotive force between points 1 and 4 (directly across the battery), and
+  since point 2 is common to point 1 and point 3 common to point 4, we must also have
+  9 volts between points 2 and 3 (directly across the resistor).  Therefore, we can
+  apply Ohm''s Law (I = E/R) to the current through the resistor, because we know
+  the voltage (E) across the resistor and the resistance (R) of that resistor.  All
+  terms (E, I, R) apply to the same two points in the circuit, to that same resistor,
+  so we can use the Ohm''s Law formula with no reservation.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme les points 1 et 2 sont reliés entre eux avec du fil de résistance
+    négligeable, tout comme les points 3 et 4, on peut dire que le point 1 est électriquement
+    commune au point 2, et que le point 3 est électriquement commune au point 4. Puisque
+    nous savons que nous avons 9 volts de force électromotrice entre les points 1
+    et 4 (directement à travers la batterie), et depuis le point 2 est commun aux
+    points 1 et 3 commun au point 4, il faut aussi avoir 9 volts entre les points
+    2 et 3 (directement à travers la résistance ). Par conséquent, nous pouvons appliquer
+    la loi d&#39;Ohm (I = E / R) au courant à travers la résistance, parce que nous
+    savons que la tension (E) à travers la résistance et la résistance (R) de cette
+    résistance. Tous les termes (E, I, R) appliquent les mêmes deux points dans le
+    circuit, à cette même résistance, afin que nous puissions utiliser la formule
+    la loi d&#39;Ohm sans réservation.'}
+? 'So what can we do?  We know the voltage of the source (9 volts) applied across
+  the series combination of R<subscript>1</subscript>, R<subscript>2</subscript>,
+  and R<subscript>3</subscript>, and we know the resistances of each resistor, but
+  since those quantities aren''t in the same context, we can''t use Ohm''s Law to
+  determine the circuit current.  If only we knew what the <italic>total</italic>
+  resistance was for the circuit: then we could calculate <italic>total</italic> current
+  with our figure for <italic>total</italic> voltage (I=E/R).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Alors, que pouvons-nous faire? Nous savons que la tension de la source
+    (9 volts) appliquée à travers la combinaison série de R <subscript> 1 </subscript>
+    , R <subscript> 2 </subscript> Et R <subscript> 3 </subscript> Et nous savons
+    que les résistances de chaque résistance, mais étant donné que ces quantités ne
+    sont pas dans le même contexte, nous ne pouvons pas utiliser la loi d&#39;Ohm
+    pour déterminer le courant de circuit. Si seulement nous savions ce que le <italic>
+    total </italic> la résistance était pour le circuit: nous pourrions calculer <italic>
+    total </italic> courant avec notre chiffre pour <italic> total </italic> tension
+    (I = E / R).'}
+? 'So, we arrive at our cryptic resistance formula at last!  Conductance (G) is seldom
+  used as a practical measurement, and so the above formula is a common one to see
+  in the analysis of parallel circuits.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Donc, nous arrivons à notre formule de résistance cryptique enfin!
+    Conductance (G) est rarement utilisée en tant que mesure pratique, et de sorte
+    que la formule ci-dessus est un courant de voir dans l&#39;analyse de circuits
+    parallèles.'}
+? 'Solving the above equation for total resistance (instead of the reciprocal of total
+  resistance), we can invert (reciprocate) both sides of the equation:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Résoudre l&#39;équation ci-dessus pour la résistance totale (au lieu
+    de l&#39;inverse de la résistance totale), nous pouvons inverser (aller et venir),
+    les deux côtés de l&#39;équation:'}
+? 'Suffice it to say, intentional direct short-circuits across the terminals of any
+  voltage source is a bad idea.  Even if the resulting high current (heat, flashes,
+  sparks) causes no harm to people nearby, the voltage source will likely sustain
+  damage, unless it has been specifically designed to handle short-circuits, which
+  most voltage sources are not.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Qu&#39;il suffise de dire, intentionnels courts-circuits directs aux
+    bornes d&#39;une source de tension est une mauvaise idée. Même si le résultat
+    courant élevé (chaleur, clignote, étincelles) ne cause aucun dommage aux personnes
+    à proximité, la source de tension maintiendra probablement des dommages, à moins
+    qu&#39;il a été spécialement conçu pour gérer les courts-circuits, que la plupart
+    des sources de tension ne sont pas.'}
+? 'Supposing that R<subscript>2</subscript> opens in this parallel circuit, here''s
+  what the effects will be:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En supposant que R <subscript> 2 </subscript> ouvre ce circuit parallèle,
+    voici ce que les effets sont les suivants:'}
+The <quote>table</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'le <quote> table </quote>'}
+? The ability to intuitively determine what will happen to a circuit with any given
+  component fault is a <italic>crucial</italic> skill for any electronics troubleshooter
+  to develop.  The best way to learn is to experiment with circuit calculations and
+  real-life circuits, paying close attention to what changes with a fault, what remains
+  the same, and <italic>why</italic>!
+: {tag: <item>, xlate: 'La capacité de déterminer intuitivement ce qui se passera
+    à un circuit avec un défaut de composant donné est un <italic> crucial </italic>
+    compétences pour tout électronique Troubleshooter de se développer. La meilleure
+    façon d&#39;apprendre est d&#39;expérimenter avec des calculs de circuits et les
+    circuits de la vie réelle, en accordant une attention particulière à ce que les
+    changements avec un défaut, ce qui reste le même, et <italic> Pourquoi </italic>
+    !'}
+The basic idea of a <quote>parallel</quote>: {tag: '<para>
+
+    ', xlate: L&#39;idée de base d&#39;un <quote> parallèle </quote>}
+The basic idea of a <quote>series</quote>: {tag: '<para>
+
+    ', xlate: L&#39;idée de base d&#39;un <quote> séries </quote>}
+The critical assumption in this <quote>perfect</quote>: {tag: '<para>
+
+    ', xlate: L&#39;hypothèse critique dans ce <quote> parfait </quote>}
+? 'The defining characteristic of a parallel circuit is that all components are connected
+  between the same set of electrically common points.  Looking at the schematic diagram,
+  we see that points 1, 2, 3, and 4 are all electrically common.  So are points 8,
+  7, 6, and 5.  Note that all resistors as well as the battery are connected between
+  these two sets of points.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La caractéristique d&#39;un circuit parallèle est que tous les composants
+    sont connectés entre le même ensemble de points communs électriquement. En regardant
+    le schéma, on voit que les points 1, 2, 3 et 4 sont communs électriquement. Ainsi,
+    sont des points 8, 7, 6 et 5. Notez que toutes les résistances ainsi que la batterie
+    sont connectés entre ces deux ensembles de points.'}
+? 'The dummy voltage sources are all set at 0 volts so as to have no impact on the
+  operation of the circuit.  The circuit description file, or <italic>netlist</italic>,
+  looks like this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les sources de tension fictives sont tous mis à 0 volt de manière à
+    avoir aucun impact sur le fonctionnement du circuit. Le fichier de description
+    du circuit, ou <italic> netlist </italic> , ressemble à ça:'}
+? 'The figure of 9 volts is a <italic>total</italic> quantity for the whole circuit,
+  whereas the figures of 3k, 10k, and 5k <OMEGA> are <italic>individual</italic> quantities
+  for individual resistors.  If we were to plug a figure for total voltage into an
+  Ohm''s Law equation with a figure for individual resistance, the result would not
+  relate accurately to any quantity in the real circuit.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La figure 9 est une volts <italic> total </italic> la quantité de l&#39;ensemble
+    du circuit, tandis que les chiffres de 3k, 10k, 5k et <OMEGA> sont <italic> individuel
+    </italic> les quantités de résistances individuelles. Si nous devions brancher
+    un chiffre pour la tension totale dans l&#39;équation d&#39;une loi Ohm avec un
+    chiffre pour la résistance individuelle, le résultat ne concernerait pas avec
+    précision à toute quantité dans le circuit réel.'}
+? 'The first principle to understand about parallel circuits is that the voltage is
+  equal across all components in the circuit.  This is because there are only two
+  sets of electrically common points in a parallel circuit, and voltage measured between
+  sets of common points must always be the same at any given time.  Therefore, in
+  the above circuit, the voltage across R<subscript>1</subscript> is equal to the
+  voltage across R<subscript>2</subscript> which is equal to the voltage across R<subscript>3</subscript>
+  which is equal to the voltage across the battery.  This equality of voltages can
+  be represented in another table for our starting values:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le premier principe à comprendre au sujet des circuits parallèles est
+    que la tension est égale à tous les composants du circuit. En effet, il n&#39;y
+    a que deux ensembles de points communs électriquement dans un circuit parallèle,
+    et la tension mesurée entre les séries de points communs doit toujours être le
+    même à un moment donné. Par conséquent, dans le circuit ci-dessus, la tension
+    aux bornes de R <subscript> 1 </subscript> est égale à la tension aux bornes de
+    R <subscript> 2 </subscript> qui est égale à la tension aux bornes de R <subscript>
+    3 </subscript> qui est égale à la tension aux bornes de la batterie. Cette égalité
+    des tensions peut être représentée dans une autre table pour nos valeurs de départ:'}
+? 'The first principle to understand about series circuits is that the amount of current
+  is the same through any component in the circuit.  This is because there is only
+  one path for electrons to flow in a series circuit, and because free electrons flow
+  through conductors like marbles in a tube, the rate of flow (marble speed) at any
+  point in the circuit (tube) at any specific point in time must be equal.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le premier principe comprendre au sujet de circuits série est que la
+    quantité de courant est le même à travers l&#39;un des composants dans le circuit.
+    En effet, il n&#39;y a qu&#39;une seule voie pour les électrons de circuler dans
+    un circuit en série, et parce que les électrons libres passent par des conducteurs
+    comme des billes dans un tube, le débit (vitesse de marbre) en tout point du circuit
+    (tube) à tout spécifique point dans le temps doit être égal.'}
+? The greater the resistance, the less the conductance, and vice versa.  This should
+  make intuitive sense, resistance and conductance being opposite ways to denote the
+  same essential electrical property.  If two components' resistances are compared
+  and it is found that component <quote>A</quote> has one-half the resistance of component
+  <quote>B,</quote> then we could alternatively express this relationship by saying
+  that component <quote>A</quote> is <italic>twice</italic> as conductive as component
+  <quote>B.</quote>  If component <quote>A</quote> has but one-third the resistance
+  of component <quote>B,</quote> then we could say it is <italic>three times</italic>
+  more conductive than component <quote>B,</quote>
+: {tag: '<para>
+
+    ', xlate: 'Plus la résistance, moins la conductance, et vice versa. Cela devrait
+    donner un sens intuitif, la résistance et la conductance étant des sens opposés
+    pour désigner la même propriété électrique essentiel. Si les résistances de deux
+    composants sont comparés et on constate que le composant <quote> UNE </quote>
+    a la moitié de la résistance du composant <quote> B, </quote> alors nous pourrions
+    encore exprimer cette relation en disant que le composant <quote> UNE </quote>
+    est <italic> deux fois </italic> comme conducteur en tant que composant <quote>
+    B. </quote> Si le composant <quote> UNE </quote> mais a un tiers de la résistance
+    du composant <quote> B, </quote> alors on pourrait dire qu&#39;il est <italic>
+    trois fois </italic> plus conducteur que le composant <quote> B, </quote>'}
+The job of a technician frequently entails <quote>troubleshooting</quote>: {tag: '<para>
+
+    ', xlate: Le travail d&#39;un technicien entraîne souvent <quote> dépannage </quote>}
+? 'The rule with such a table is to apply Ohm''s Law only to the values within each
+  vertical column.  For instance, E<subscript>R1</subscript> only with I<subscript>R1</subscript>
+  and R<subscript>1</subscript>; E<subscript>R2</subscript> only with I<subscript>R2</subscript>
+  and R<subscript>2</subscript>; etc.  You begin your analysis by filling in those
+  elements of the table that are given to you from the beginning:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La règle avec une telle table est d&#39;appliquer la loi d&#39;Ohm
+    seulement aux valeurs dans chaque colonne verticale. Par exemple, E <subscript>
+    R1 </subscript> seulement je <subscript> R1 </subscript> et R <subscript> 1 </subscript>
+    ; E <subscript> R2 </subscript> seulement je <subscript> R2 </subscript> et R
+    <subscript> 2 </subscript> ; etc. Vous commencez votre analyse en remplissant
+    les éléments de la table qui vous sont données dès le début:'}
+? 'The same basic form of equation works for <italic>any</italic> number of resistors
+  connected together in parallel, just add as many 1/R terms on the denominator of
+  the fraction as needed to accommodate all parallel resistors in the circuit.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La même forme de base de l&#39;équation fonctionne pour <italic> tout
+    </italic> nombre de résistances connectées ensemble en parallèle, il suffit d&#39;ajouter
+    autant de termes 1 / R sur le dénominateur de la fraction, au besoin pour accueillir
+    toutes les résistances en parallèle dans le circuit.'}
+Then, knowing that the current is shared equally by all components of a series circuit (another <quote>rule</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Ensuite, sachant que le courant est partagé à parts égales par tous
+    les composants d&#39;un circuit en série (un autre <quote> Règle </quote>'}
+? 'There are two basic ways in which to connect more than two circuit components:
+  <italic>series</italic> and <italic>parallel</italic>.  First, an example of a series
+  circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il y a deux façons de base pour connecter plus de deux composants du
+    circuit: <italic> séries </italic> et <italic> parallèle </italic> . Tout d&#39;abord,
+    un exemple d&#39;un circuit de série:'}
+? 'These internal resistances, small as they may be, turn our simple parallel circuit
+  into a series-parallel combination circuit.  Usually, the internal resistances of
+  voltage sources are low enough that they can be safely ignored, but when high currents
+  resulting from shorted components are encountered, their effects become very noticeable.  In
+  this case, a shorted R<subscript>2</subscript> would result in almost all the voltage
+  being dropped across the internal resistance of the battery, with almost no voltage
+  left over for resistors R<subscript>1</subscript>, R<subscript>2</subscript>, and
+  R<subscript>3</subscript>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ces résistances internes, les petits car ils peuvent être, tourner
+    notre circuit simple parallèle dans un circuit de combinaison série-parallèle.
+    En règle générale, les résistances internes des sources de tension sont suffisamment
+    bas pour qu&#39;ils puissent être ignorés sans risque, mais quand des courants
+    élevés résultant de composants court-circuités sont rencontrés, leurs effets deviennent
+    très visibles. Dans ce cas, un R court-circuité <subscript> 2 </subscript> entraînerait
+    presque toute la tension étant tombé à travers la résistance interne de la batterie,
+    avec presque aucune tension reste pour résistances R <subscript> 1 </subscript>
+    , R <subscript> 2 </subscript> Et R <subscript> 3 </subscript> :'}
+? 'These values do indeed match those calculated through Ohm''s Law earlier: 0.9 mA
+  for I<subscript>R1</subscript>, 4.5 mA for I<subscript>R2</subscript>, and 9 mA
+  for I<subscript>R3</subscript>.  Being connected in parallel, of course, all resistors
+  have the same voltage dropped across them (9 volts, same as the battery).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ces valeurs ne correspondent en effet celles calculées par la loi d&#39;Ohm
+    plus tôt: 0,9 mA pour I <subscript> R1 </subscript> , 4,5 mA pour I <subscript>
+    R2 </subscript> Et 9 mA pour I <subscript> R3 </subscript> . Étant connectés en
+    parallèle, bien sûr, toutes les résistances ont la même chute de tension à travers
+    eux (9 volts, même lorsque la batterie).'}
+? 'This board appears copper-side-up: the side where all the soldering is done.  Each
+  hole is ringed with a small layer of copper metal for bonding to the solder.  All
+  holes are independent of each other on this particular board, unlike the holes on
+  a solderless breadboard which are connected together in groups of five.  Printed
+  circuit boards with the same 5-hole connection pattern as breadboards can be purchased
+  and used for hobby circuit construction, though.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cette carte affiche cuivre côté-up: le côté où toute la soudure se
+    fait. Chaque trou est entouré d&#39;une petite couche de métal de cuivre pour
+    la liaison à la soudure. Tous les trous sont indépendants les uns des autres sur
+    ce tableau particulier, à la différence des trous sur une planche à pain de solderless
+    qui sont reliés entre eux par groupes de cinq. cartes de circuits imprimés avec
+    le même schéma de connexion 5 trous comme Breadboards peuvent être achetés et
+    utilisés pour la construction du circuit de passe-temps, cependant.'}
+? 'This brings us to the second principle of series circuits: the total resistance
+  of any series circuit is equal to the sum of the individual resistances.  This should
+  make intuitive sense: the more resistors in series that the electrons must flow
+  through, the more difficult it will be for those electrons to flow.  In the example
+  problem, we had a 3 k<OMEGA>, 10 k<OMEGA>, and 5 k<OMEGA> resistor in series, giving
+  us a total resistance of 18 k<OMEGA>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cela nous amène au deuxième principe de circuits de la série: la résistance
+    totale d&#39;un circuit de série est égale à la somme des résistances individuelles.
+    Cela devrait donner un sens intuitif: plus des résistances en série que les électrons
+    doivent circuler à travers, plus il sera difficile pour les électrons de circuler.
+    Dans le problème d&#39;exemple, nous avons eu un 3 k <OMEGA> , K 10 <OMEGA> Et
+    5 k <OMEGA> résistance en série, ce qui nous donne une résistance totale de 18
+    k <OMEGA> :'}
+? 'This is easily managed by adding another row to our familiar table of voltages,
+  currents, and resistances:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ceci est facilement géré en ajoutant une autre ligne à notre table
+    familière des tensions, courants et résistances:'}
+? 'This is just a preview of things to come.  Don''t worry!  We''ll explore all these
+  circuit configurations in detail, one at a time!
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ceci est juste un aperçu des choses à venir. Ne vous inquiétez pas!
+    Nous allons explorer en détail toutes ces configurations de circuit, un à la fois!'}
+? 'This is the second principle of parallel circuits: the total circuit current is
+  equal to the sum of the individual branch currents.  Using this principle, we can
+  fill in the I<subscript>T</subscript> spot on our table with the sum of I<subscript>R1</subscript>,
+  I<subscript>R2</subscript>, and I<subscript>R3</subscript>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ceci est le second principe de circuits en parallèle: le courant du
+    circuit total est égal à la somme des courants de dérivation individuels. En utilisant
+    ce principe, nous pouvons remplir le I <subscript> T </subscript> place sur notre
+    table avec la somme de I <subscript> R1 </subscript> , JE <subscript> R2 </subscript>
+    , et moi <subscript> R3 </subscript> :'}
+? 'This is what happens in a household lamp circuit: all lamps get their operating
+  voltage from power wiring arranged in a parallel fashion.  Turning one lamp on and
+  off (one branch in that parallel circuit closing and opening) doesn''t affect the
+  operation of other lamps in the room, only the current in that one lamp (branch
+  circuit) and the total current powering all the lamps in the room:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'C&#39;est ce qui se passe dans un circuit de lampe domestique: toutes
+    les lampes obtiennent leur tension de fonctionnement du câblage d&#39;alimentation
+    disposés de façon parallèle. Passant une lampe sous et hors tension (une branche
+    en ce que la fermeture du circuit parallèle et ouverture) ne modifie pas le fonctionnement
+    des autres lampes dans la chambre, seul le courant en ce qu &#39;une lampe (circuit
+    de dérivation) et le courant total alimenter toutes les lampes dans la chambre:'}
+? "This printout is telling us the battery voltage is 9 volts, and the voltage drops\
+  \ across R<subscript>1</subscript>, R<subscript>2</subscript>, and R<subscript>3</subscript>\
+  \ are 1.5 volts, 5 volts, and 2.5 volts, respectively.  Voltage drops across any\
+  \ component in SPICE are referenced by the node numbers the component lies between,\
+  \ so v(1,2) is referencing the voltage between nodes 1 and 2 in the circuit, which\
+  \ are the points between which R<subscript>1</subscript> is located.  The order\
+  \ of node numbers is important: when SPICE outputs a figure for v(1,2), it regards\
+  \ the polarity the same way as if we were holding a voltmeter with the red test\
+  \ lead on node 1 and the black test lead on node 2.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Cette impression nous dit la tension de la batterie est de 9 volts,
+    et la chute de tension à travers R <subscript> 1 </subscript> , R <subscript>
+    2 </subscript> Et R <subscript> 3 </subscript> sont de 1,5 volts, 5 volts et 2,5
+    volts, respectivement. Les chutes de tension à travers l&#39;un des composants
+    dans SPICE sont référencées par les numéros de noeuds du composant se situe entre,
+    de sorte que v (1,2) fait référence à la tension entre les noeuds 1 et 2 du circuit,
+    qui sont les points entre lesquels R <subscript> 1 </subscript> est situé. L&#39;ordre
+    des numéros de noeud est important: lorsque SPICE émet un chiffre pour v (1,2),
+    il considère la polarité de la même manière que si nous organisions un voltmètre
+    avec le fil rouge sur le noeud 1 et le fil noir sur le noeud 2.'}
+? 'This technique, however, proves impractical for circuits much more complex than
+  this, due to the awkwardness of the jumper wires and the physical fragility of their
+  connections.  A more common method of temporary construction for the hobbyist is
+  the <italic>solderless breadboard</italic>, a device made of plastic with hundreds
+  of spring-loaded connection sockets joining the inserted ends of components and/or
+  22-gauge solid wire pieces.  A photograph of a real breadboard is shown here, followed
+  by an illustration showing a simple series circuit constructed on one:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cette technique, cependant, se révèle peu pratique pour les circuits
+    beaucoup plus complexe que cela, en raison de la maladresse des fils du cavalier
+    et de la fragilité physique de leurs connexions. Une méthode plus courante de
+    construction temporaire pour l&#39;amateur est le <italic> solderless breadboard
+    </italic> , Un dispositif en matière plastique avec des centaines de prises de
+    connexion à ressort reliant les extrémités insérées des composants et / ou de
+    calibre 22 morceaux de fil solide. Une photographie d&#39;un véritable planche
+    à pain est montré ici, suivie d&#39;une illustration montrant un circuit simple
+    série construit sur un:'}
+This way, the schematic may be used as a <quote>map</quote>: {tag: '<para>
+
+    ', xlate: 'De cette façon, le schéma peut être utilisé comme <quote> carte </quote>'}
+? 'Thus, when a wire or component lead is inserted into a hole on the breadboard,
+  there are four more holes in that column providing potential connection points to
+  other wires and/or component leads.  The result is an extremely flexible platform
+  for constructing temporary circuits.  For example, the three-resistor circuit just
+  shown could also be built on a breadboard like this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ainsi, quand un fil conducteur ou d&#39;un composant est inséré dans
+    un trou sur la carte de test, il y a quatre trous dans plus de cette colonne fournissant
+    des points de connexion possibles à d&#39;autres fils et / ou fils du composant.
+    Le résultat est une plate-forme extrêmement flexible pour construire des circuits
+    temporaires. Par exemple, le circuit de trois résistance vient de montrer pourrait
+    également être construit sur une planche à pain comme celui-ci:'}
+? 'To be more precise, the total conductance in a parallel circuit is equal to the
+  sum of the individual conductances:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour être plus précis, la conductance totale dans un circuit parallèle
+    est égale à la somme des conductances individuels:'}
+? To determine what would happen in a circuit if a component fails, re-draw that circuit
+  with the equivalent resistance of the failed component in place and re-calculate
+  all values.
+: {tag: <item>, xlate: 'Pour déterminer ce qui se passerait dans un circuit si un
+    composant échoue, redessiner ce circuit avec la résistance équivalente du composant
+    défectueux en place et recalcule toutes les valeurs.'}
+? 'Total current in a parallel circuit is equal to the sum of the individual branch
+  currents: I<subscript>Total</subscript> = I<subscript>1</subscript> + I<subscript>2</subscript>
+  + . . . I<subscript>n</subscript>.'
+: {tag: <item>, xlate: 'Le courant total dans un circuit parallèle est égale à la
+    somme des courants de dérivation individuels: I <subscript> Total </subscript>
+    = I <subscript> 1 </subscript> + I <subscript> 2 </subscript> +. . . je <subscript>
+    n </subscript> .'}
+? 'Total parallel conductance is <italic>greater</italic> than any of the individual
+  branch conductances because parallel resistors conduct better together than they
+  would separately:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'conductance totale est parallèle <italic> plus grand </italic> que
+    l&#39;un des conductances de branche individuelles parce que les résistances parallèles
+    conduisent mieux ensemble qu&#39;ils ne le feraient séparément:'}
+? 'Total parallel resistance is <italic>less</italic> than any one of the individual
+  branch resistances because parallel resistors resist less together than they would
+  separately:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La résistance totale est parallèle <italic> Moins </italic> que l&#39;une
+    des résistances de dérivation individuelles en raison des résistances parallèles
+    résistent à moins qu&#39;ils ne le feraient ensemble séparément:'}
+? 'Total resistance in a parallel circuit is <italic>less</italic> than any of the
+  individual resistances: R<subscript>Total</subscript> = 1 / (1/R<subscript>1</subscript>
+  + 1/R<subscript>2</subscript> + . . . 1/R<subscript>n</subscript>)'
+: {tag: <item>, xlate: 'Résistance totale dans un circuit parallèle est <italic> Moins
+    </italic> que toutes les résistances individuelles: R <subscript> Total </subscript>
+    = 1 / (1 / R <subscript> 1 </subscript> + 1 / R <subscript> 2 </subscript> +.
+    . . 1 / R <subscript> n </subscript> )'}
+? 'Total resistance in a series circuit is equal to the sum of the individual resistances:
+  R<subscript>Total</subscript> = R<subscript>1</subscript> + R<subscript>2</subscript>
+  + . . . R<subscript>n</subscript>'
+: {tag: <item>, xlate: 'Résistance totale dans un circuit en série est égale à la
+    somme des résistances individuelles: R <subscript> Total </subscript> = R <subscript>
+    1 </subscript> + R <subscript> 2 </subscript> +. . . R <subscript> n </subscript>'}
+? 'Total voltage in a series circuit is equal to the sum of the individual voltage
+  drops: E<subscript>Total</subscript> = E<subscript>1</subscript> + E<subscript>2</subscript>
+  + . . . E<subscript>n</subscript>'
+: {tag: <item>, xlate: 'tension totale dans un circuit en série est égale à la somme
+    des chutes de tension individuelles: E <subscript> Total </subscript> = E <subscript>
+    1 </subscript> + E <subscript> 2 </subscript> +. . . E <subscript> n </subscript>'}
+? 'Typically in industry, all wires are labeled with number tags, and electrically
+  common wires bear the same tag number, just as they do in a SPICE simulation.  In
+  this case, we could label the wires 1 and 2:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En règle générale dans l&#39;industrie, tous les fils sont marqués
+    avec des étiquettes numériques, et les fils électriques communs portent le même
+    numéro d&#39;étiquette, comme ils le font dans une simulation SPICE. Dans ce cas,
+    on pourrait étiqueter les fils 1 et 2:'}
+? 'Underneath each hole in the breadboard face is a metal spring clip, designed to
+  grasp any inserted wire or component lead.  These metal spring clips are joined
+  underneath the breadboard face, making connections between inserted leads.  The
+  connection pattern joins every five holes along a vertical column (as shown with
+  the long axis of the breadboard situated horizontally):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En dessous de chaque trou dans la face de plaque d&#39;essais est une
+    pince à ressort en métal, conçu pour saisir tout fil inséré ou conducteur de composant.
+    Ces pinces à ressort métallique sont reliés en dessous de la face de plaque d&#39;essais,
+    les connexions entre les fils insérés. Le motif de connexion relie tous les cinq
+    trous le long d&#39;une colonne verticale (comme représenté par l&#39;axe longitudinal
+    de la planche à pain situé horizontalement):'}
+? 'We also have a display showing current (albeit with a negative value) at 0.5 milliamps,
+  or 500 microamps.  So our mathematical analysis has been vindicated by the computer.  This
+  figure appears as a negative number in the SPICE analysis, due to a quirk in the
+  way SPICE handles current calculations.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Nous avons aussi un affichage montrant courant (mais avec une valeur
+    négative) à 0,5 milliampères ou 500 microampères. Ainsi, l&#39;analyse mathématique
+    a été justifiée par l&#39;ordinateur. Ce chiffre apparaît comme un nombre négatif
+    dans l&#39;analyse SPICE, en raison d&#39;une bizarrerie de la façon SPICE gère
+    les calculs actuels.'}
+? We can apply the same before/after analysis technique to parallel circuits as well.  First,
+  we determine what a <quote>healthy</quote>
+: {tag: '<para>
+
+    ', xlate: 'On peut appliquer la même avant / après technique d&#39;analyse parallèle
+    des circuits ainsi. Tout d&#39;abord, nous déterminons quel <quote> en bonne santé
+    </quote>'}
+What are <quote>series</quote> and <quote>parallel</quote>: {tag: <sectiontitle>,
+  xlate: Quels sont <quote> séries </quote> et <quote> parallèle </quote>}
+? 'When calculating the power dissipation of resistive components, use any one of
+  the three power equations to derive the answer from values of voltage, current,
+  and/or resistance pertaining to each component:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Lors du calcul de la dissipation de puissance des composants résistifs,
+    utiliser l&#39;une des trois équations de puissance pour dériver la réponse à
+    partir des valeurs de tension, de courant et / ou de résistance se rapportant
+    à chaque composant:'}
+? When students first see the parallel resistance equation, the natural question to
+  ask is, <quote>Where did <italic>that</italic> thing come from?</quote>
+: {tag: '<para>
+
+    ', xlate: 'Lorsque les élèves voient d&#39;abord l&#39;équation de résistance
+    parallèle, la question naturelle à se poser, <quote> où avez <italic> cette </italic>
+    chose vient? </quote>'}
+? "When using Ohm's Law to calculate a variable pertaining to a single component,\
+  \ be sure the voltage you're referencing is solely across that single component\
+  \ and the current you're referencing is solely through that single component and\
+  \ the resistance you're referencing is solely for that single component.  Likewise,\
+  \ when calculating a variable pertaining to a set of components in a circuit, be\
+  \ sure that the voltage, current, and resistance values are specific to that complete\
+  \ set of components only!  A good way to remember this is to pay close attention\
+  \ to the <italic>two points</italic> terminating the component or set of components\
+  \ being analyzed, making sure that the voltage in question is across those two points,\
+  \ that the current in question is the electron flow from one of those points all\
+  \ the way to the other point, that the resistance in question is the equivalent\
+  \ of a single resistor between those two points, and that the power in question\
+  \ is the total power dissipated by all components between those two points.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Lorsque vous utilisez la loi d&#39;Ohm pour calculer une variable appartenant
+    à un seul composant, vérifiez que la tension que vous faites référence est uniquement
+    à travers ce composant et le courant vous faites référence est uniquement par
+    ce composant unique et la résistance que vous faites référence est uniquement
+    pour que seul composant. De même, lors du calcul d&#39;une variable se rapportant
+    à un ensemble de composants dans un circuit, assurez-vous que la tension, le courant
+    et les valeurs de résistance sont spécifiques à cet ensemble complet de composants
+    seulement! Une bonne façon de se rappeler est de porter une attention particulière
+    à la <italic> deux points </italic> mettre fin au composant ou ensemble de composants
+    en cours d&#39;analyse, en veillant à ce que la tension en question est sur ces
+    deux points, que le courant en question est le flux d&#39;électrons à partir de
+    l&#39;un de ces points tout le chemin vers l&#39;autre point, que la résistance
+    en question est l&#39;équivalent d&#39;une seule résistance entre ces deux points,
+    et que la puissance en question est la puissance totale dissipée par les composants
+    entre ces deux points.'}
+? Whereas the normal application of Ohm's Law and the rules of series and parallel
+  circuits is performed with numerical quantities (<italic><quote>quantitative</quote>
+: {tag: '<para>
+
+    ', xlate: Considérant que l&#39;application normale de la loi et les règles de
+    circuits série et en parallèle d&#39;Ohm est réalisée avec des quantités numériques
+    ( <italic><quote> quantitatif </quote>}
+? 'With R<subscript>2</subscript> at infinite resistance and total resistance being
+  the sum of all individual resistances in a series circuit, the total current decreases
+  to zero.  With zero circuit current, there is no electron flow to produce voltage
+  drops across R<subscript>1</subscript> or R<subscript>3</subscript>.  R<subscript>2</subscript>,
+  on the other hand, will manifest the full supply voltage across its terminals.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'avec R <subscript> 2 </subscript> à une résistance infinie et la résistance
+    totale étant la somme de toutes les résistances individuelles dans un circuit
+    en série, le courant total diminue à zéro. Avec un courant de circuit de zéro,
+    il n&#39;y a pas de flux d&#39;électrons pour produire des chutes de tension aux
+    bornes de R <subscript> 1 </subscript> ou R <subscript> 3 </subscript> . R <subscript>
+    2 </subscript> , D&#39;autre part, se manifestera la pleine tension d&#39;alimentation
+    à ses bornes.'}
+? 'With R<subscript>2</subscript> shorted, either by a jumper wire or by an internal
+  resistor failure, the total circuit resistance will <italic>decrease</italic>.  Since
+  the voltage output by the battery is a constant (at least in our ideal simulation
+  here), a decrease in total circuit resistance means that total circuit current <italic>must
+  increase</italic>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'avec R <subscript> 2 </subscript> court-circuit, soit par un fil de
+    liaison ou par une défaillance de la résistance interne, la résistance totale
+    du circuit volonté <italic> diminution </italic> . Depuis la sortie de tension
+    par la batterie est une constante (au moins dans notre simulation idéale ici),
+    une diminution de la résistance totale du circuit signifie que le courant total
+    du circuit <italic> doit augmenter </italic> :'}
+? 'With all components in this circuit functioning at their proper values, we can
+  mathematically determine all currents and voltage drops:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avec tous les composants de ce circuit fonctionnant à leurs valeurs
+    propres, nous pouvons déterminer mathématiquement tous les courants et les chutes
+    de tension:'}
+? 'With the top sides of all resistors (as shown in the schematic) connected together,
+  and to the battery''s positive (+) terminal, all we have to do now is connect the
+  bottom sides together and to the other side of the battery:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avec les côtés supérieurs de toutes les résistances (comme le montre
+    le schéma) reliés entre eux, et à tout ce que nous devons faire maintenant est
+    la borne de pôle positif (+) de la batterie, connectez ensemble les côtés inférieurs
+    et de l&#39;autre côté de la batterie:'}

@@ -1,0 +1,2143 @@
+? '<bold>Ben Crowell, Ph.D.</bold> (January 13, 2001): suggestions on improving the
+  technical accuracy of <italic>voltage</italic> and <italic>charge</italic> definitions.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Ben Crowell, Ph.D. </bold> (13 Janvier, 2001),: des suggestions
+    sur l&#39;amélioration de la précision technique <italic> Tension </italic> et
+    <italic> charge </italic> Définitions.'}
+? '<bold>Bernhard Haisch, Astrophysicist</bold>
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode '<bold> Bernhard Haisch, Astrophysicien </bold>'}
+? '<bold>Georg Simon Ohm</bold>
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode '<bold> Georg Simon Ohm </bold>'}
+? '<bold>James Boorn</bold> (January 18, 2001): identified sentence structure error
+  and offered correction.  Also, identified discrepancy in netlist syntax requirements
+  between SPICE version 2g6 and version 3f5.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> James Boorn </bold> (18 Janvier, 2001),: erreur de structure
+    de la phrase et la correction proposée identifiée. En outre, un écart identifié
+    dans les exigences de syntaxe netlist entre la version SPICE 2G6 et 3f5 version.'}
+? '<bold>Jason Starck</bold> (June 2000): HTML document formatting, which led to a
+  much better-looking second edition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Jason Starck </bold> (Juin 2000): la mise en forme de documents
+    HTML, ce qui a conduit à une deuxième édition beaucoup plus beau.'}
+? '<bold>Larry Cramblett</bold> (September 20, 2004): identified serious typographical
+  error in <quote>Nonlinear conduction</quote>'
+: {tag: '<para>
+
+    ', xlate: '<bold> Larry Cramblett </bold> (20 Septembre, 2004): erreur typographique
+    identifié grave <quote> conduction non linéaire </quote>'}
+<bold>REVIEW:</bold>: {tag: <item>, xlate: !!python/unicode '<bold> LA REVUE: </bold>'}
+<italic><quote>Advances are made by answering questions.  Discoveries are made by questioning answers.</quote>: {
+  tag: '<para>
+
+    ', xlate: <italic><quote> Les progrès sont faits en répondant aux questions. Les
+    découvertes sont faites par des réponses en question. </quote>}
+<italic><quote>One microampere flowing in one ohm causes a one microvolt potential drop.</quote>: {
+  tag: '<para>
+
+    ', xlate: <italic><quote> Un micro-ampère circulant dans un ohm provoque une chute
+    de potentiel microvolt. </quote>}
+? <italic>Negative resistance</italic> is where the current through a component actually
+  decreases as the applied voltage across it is increased.  Some electron tubes and
+  semiconductor diodes (most notably, the <italic>tetrode</italic> tube and the <italic>Esaki</italic>,
+  or <italic>tunnel</italic> diode, respectively) exhibit negative resistance over
+  a certain range of voltages.
+: {tag: <item>, xlate: '<italic> résistance négative </italic> est où le courant à
+    travers un composant diminue en fait que la tension appliquée à travers elle est
+    augmentée. Certains tubes électroniques et les diodes semi-conductrices (notamment,
+    la <italic> tétrode </italic> tube et la <italic> Esaki </italic> , ou <italic>
+    tunnel </italic> diode, respectivement) présentent une résistance négative sur
+    une certaine plage de tensions.'}
+? 'A 100 horsepower diesel tractor engine will turn relatively slowly, but provide
+  great amounts of torque.  A 100 horsepower motorcycle engine will turn very fast,
+  but provide relatively little torque.  Both will produce 100 horsepower, but at
+  different speeds and different torques.  The equation for shaft horsepower is simple:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Un moteur tracteur diesel 100 chevaux tournera relativement lentement,
+    mais de fournir de grandes quantités de couple. Un moteur de moto de 100 chevaux
+    tournera très vite, mais fournir un couple relativement peu. Les deux produira
+    100 chevaux, mais à des vitesses différentes et des couples différents. L&#39;équation
+    pour la puissance de l&#39;arbre est simple:'}
+? A <italic>varistor</italic> is a component that changes resistance with the amount
+  of voltage impressed across it.  With little voltage across it, its resistance is
+  high.  Then, at a certain <quote>breakdown</quote> or <quote>firing</quote>
+: {tag: <item>, xlate: 'UNE <italic> varistance </italic> est une composante qui change
+    de résistance à la quantité de tension appliquée à travers elle. Avec peu de tension
+    à travers elle, sa résistance est élevée. Puis, à un certain <quote> panne </quote>
+    ou <quote> cuisson </quote>'}
+? 'A historical note: it was James Prescott Joule, not Georg Simon Ohm, who first
+  discovered the mathematical relationship between power dissipation and current through
+  a resistance.  This discovery, published in 1841, followed the form of the last
+  equation (P = I<superscript>2</superscript>R), and is properly known as Joule''s
+  Law.  However, these power equations are so commonly associated with the Ohm''s
+  Law equations relating voltage, current, and resistance (E=IR ; I=E/R ; and R=E/I)
+  that they are frequently credited to Ohm.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une note historique: il était James Prescott Joule, non Georg Simon
+    Ohm, qui a découvert la relation mathématique entre la dissipation de puissance
+    et le courant à travers une résistance. Cette découverte, publiée en 1841, a suivi
+    la forme de la dernière équation (P = I <superscript> 2 </superscript> R), et
+    est bien connu comme la loi de Joule. Cependant, ces équations de puissance sont
+    si souvent associés aux équations de la loi de Ohm tension relative, le courant
+    et la résistance (E = IR, I = E / R et R = E / I) qu&#39;ils sont souvent crédité
+    d&#39;Ohm.'}
+? 'A more realistic analysis of a lamp circuit, however, over several different values
+  of battery voltage would generate a plot of this shape:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une analyse plus réaliste cependant, un circuit de lampe, sur plusieurs
+    valeurs différentes de tension de la batterie générerait une parcelle de cette
+    forme:'}
+? All of these symbols are expressed using capital letters, except in cases where
+  a quantity (especially voltage or current) is described in terms of a brief period
+  of time (called an <quote>instantaneous</quote> value).  For example, the voltage
+  of a battery, which is stable over a long period of time, will be symbolized with
+  a capital letter <quote>E,</quote> while the voltage peak of a lightning strike
+  at the very instant it hits a power line would most likely be symbolized with a
+  lower-case letter <quote>e</quote> (or lower-case <quote>v</quote>) to designate
+  that value as being at a single moment in time.  This same lower-case convention
+  holds true for current as well, the lower-case letter <quote>i</quote>
+: {tag: '<para>
+
+    ', xlate: 'Tous ces symboles sont exprimés en lettres majuscules, sauf dans les
+    cas où une quantité (en particulier tension ou courant) est décrite en termes
+    d&#39;une brève période de temps (appelé <quote> instantané </quote> valeur).
+    Par exemple, la tension d&#39;une batterie, qui est stable sur une longue période
+    de temps, sera symbolisée par une lettre majuscule <quote> E, </quote> tandis
+    que le pic de tension d&#39;un coup de foudre à l&#39;instant il frappe une ligne
+    électrique serait très probablement symbolisée par une lettre minuscule <quote>
+    e </quote> (Ou minuscule <quote> v </quote> ) Pour désigner cette valeur comme
+    étant à un moment donné dans le temps. Cette même convention minuscule est vrai
+    pour le courant et la minuscule lettre <quote> je </quote>'}
+? 'All we''ve been given here to start with is the battery voltage (10 volts) and
+  the circuit current (2 amps).  We don''t know the resistor''s resistance in ohms
+  or the power dissipated by it in watts.  Surveying our array of Ohm''s Law equations,
+  we find two equations that give us answers from known quantities of voltage and
+  current:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout ce que nous avons donné ici pour commencer est la tension de la
+    batterie (10 volts) et le courant de circuit (2 ampères). Nous ne savons pas la
+    résistance en ohms ou la puissance dissipée par en watts de la résistance. Arpentage
+    notre gamme des équations loi d&#39;Ohm, on trouve deux équations qui nous donnons
+    des réponses de quantités connues de tension et de courant:'}
+? "Although it may seem pointless now to have a device doing nothing but resisting\
+  \ electric current, resistors are extremely useful devices in circuits.  Because\
+  \ they are simple and so commonly used throughout the world of electricity and electronics,\
+  \ we'll spend a considerable amount of time analyzing circuits composed of nothing\
+  \ but resistors and batteries. \n"
+: {tag: '<para>
+
+    ', xlate: 'Bien qu&#39;il puisse sembler inutile maintenant d&#39;avoir un dispositif
+    sans rien faire, mais résistant courant électrique, des résistances sont des dispositifs
+    extrêmement utiles dans les circuits. Parce qu&#39;ils sont simples et si couramment
+    utilisés dans le monde de l&#39;électricité et de l&#39;électronique, nous allons
+    passer une quantité considérable de circuits analyse du temps composé que de résistances
+    et des batteries.'}
+An analogy for Ohm's Law: {tag: <sectiontitle>, xlate: !!python/unicode 'Une analogie
+    pour la loi d&#39;Ohm'}
+? An electric circuit is formed when a conductive path is created to allow free electrons
+  to continuously move.  This continuous movement of free electrons through the conductors
+  of a circuit is called a <italic>current</italic>, and it is often referred to in
+  terms of <quote>flow,</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un circuit électrique est formé quand un trajet conducteur est créé
+    pour permettre des électrons libres de se déplacer en continu. Ce mouvement continu
+    d&#39;électrons libres à travers les conducteurs d&#39;un circuit est appelé <italic>
+    actuel </italic> , Et il est souvent fait référence en termes de <quote> couler,
+    </quote>'}
+? Another circuit board example shows resistors packaged in even smaller units, called
+  <quote>surface mount devices.</quote>  This particular circuit board is the underside
+  of a personal computer hard disk drive, and once again the resistors soldered onto
+  it are designated with labels beginning with the letter <quote>R</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un autre exemple de carte de circuit montre des résistances conditionnées
+    en unités encore plus petites, appelées <quote> la surface des dispositifs de
+    montage. </quote> Cette carte de circuit particulier est la partie inférieure
+    d&#39;un disque dur de l&#39;ordinateur personnel, et encore une fois les résistances
+    soudées sur elle sont désignés avec des étiquettes en commençant par la lettre
+    <quote> R </quote>'}
+? Another example of nonlinear current conduction is through gases such as air.  At
+  standard temperatures and pressures, air is an effective insulator.  However, if
+  the voltage between two conductors separated by an air gap is increased greatly
+  enough, the air molecules between the gap will become <quote>ionized,</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un autre exemple de conduction de courant non linéaire est par des
+    gaz tels que l&#39;air. A température et pression normales, l&#39;air est un isolant
+    efficace. Toutefois, si la tension entre deux conducteurs séparés par un intervalle
+    d&#39;air est augmenté assez fortement, les molécules d&#39;air entre l&#39;espace
+    deviendront <quote> ionisée, </quote>'}
+? "Answer: the lamp is dissipating (releasing) 108 watts of power, most likely in\
+  \ the form of both light and heat. \n"
+: {tag: '<para>
+
+    ', xlate: 'Réponse: la lampe se dissipe (libération) de 108 watts de puissance,
+    les plus probables sous la forme de la lumière et la chaleur.'}
+? Any device that performs some useful task with electric power is generally known
+  as a <italic>load</italic>.  Sometimes resistor symbols are used in schematic diagrams
+  to designate a non-specific load, rather than an actual resistor.
+: {tag: <item>, xlate: 'Tout dispositif qui effectue une tâche utile avec l&#39;énergie
+    électrique est généralement connu comme <italic> charge </italic> . Parfois, les
+    symboles de résistance sont utilisés dans des schémas pour désigner une charge
+    non spécifique, plutôt que d&#39;une résistance réelle.'}
+? Any function that can be plotted on a graph as a straight line is called a <italic>linear</italic>
+  function.  For circuits with stable resistances, the plot of current over voltage
+  is linear (I=E/R).
+: {tag: <item>, xlate: 'Toute fonction qui peut être tracée sur un graphique comme
+    une ligne droite est appelée <italic> linéaire </italic> fonction. Pour les circuits
+    avec des résistances stables, la courbe du courant sur la tension est linéaire
+    (I = E / R).'}
+? "As odd as it may seem, the actual mathematical relationship between pressure, flow,\
+  \ and resistance is actually more complex for fluids like water than it is for electrons.\
+  \  If you pursue further studies in physics, you will discover this for yourself.\
+  \  Thankfully for the electronics student, the mathematics of Ohm's Law is very\
+  \ straightforward and simple.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Aussi étrange que cela puisse paraître, la relation mathématique réelle
+    entre la pression, le débit et la résistance est en fait plus complexe pour les
+    fluides comme l&#39;eau que pour les électrons. Si vous poursuivre leurs études
+    en physique, vous découvrirez par vous-même. Heureusement pour l&#39;étudiant
+    de l&#39;électronique, les mathématiques de la loi d&#39;Ohm est très simple et
+    simple.'}
+? As soon as you press the [Enter] key to issue this command, text from SPICE's output
+  should scroll by on the computer screen.  Here is a screenshot showing what SPICE
+  outputs on my computer (I've lengthened the <quote>terminal</quote>
+: {tag: '<para>
+
+    ', xlate: 'Dès que vous appuyez sur la touche [Entrée] pour cette commande, le
+    texte de la sortie de SPICE verrez défiler sur l&#39;écran d&#39;ordinateur. Voici
+    une capture d&#39;écran montrant ce que les sorties SPICE sur mon ordinateur (je
+    l&#39;ai allongé la <quote> Terminal </quote>'}
+? As stated before, voltage is the measure of <italic>potential energy per unit charge</italic>
+  available to motivate electrons from one point to another.  Before we can precisely
+  define what a <quote>volt</quote> is, we must understand how to measure this quantity
+  we call <quote>potential energy.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Comme indiqué précédemment, la tension est la mesure de <italic> énergie
+    potentielle par unité de charge </italic> disponible pour motiver les électrons
+    d&#39;un point à un autre. Avant de pouvoir définir précisément ce qu&#39;est
+    un <quote> volt </quote> est, nous devons comprendre comment mesurer cette quantité
+    que nous appelons <quote> énergie potentielle. </quote>'}
+? 'As the current encounters the 5 <OMEGA> resistance, voltage is dropped across the
+  resistor''s ends.  The polarity of this voltage drop is negative (-) at point 4
+  with respect to positive (+) at point 3.  We can mark the polarity of the resistor''s
+  voltage drop with these negative and positive symbols, in accordance with the direction
+  of current (whichever end of the resistor the current is <italic>entering</italic>
+  is negative with respect to the end of the resistor it is <italic>exiting</italic>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme le courant rencontre le 5 <OMEGA> la résistance, la tension tombe
+    à travers les extrémités de la résistance. La polarité de cette chute de tension
+    est négative (-) au point 4 par rapport au positif (+) au point 3. On peut marquer
+    la polarité de la chute de tension avec ces symboles négatifs et positifs de la
+    résistance, en accord avec la direction du courant ( selon extrémité de la résistance
+    du courant est <italic> entrer </italic> est négative par rapport à l&#39;extrémité
+    de la résistance, il est <italic> sortie </italic> :'}
+? 'Because common points in a circuit will exhibit the same relative voltage and resistance
+  measurements, wires connecting common points are often labeled with the same designation.  This
+  is not to say that the <italic>terminal</italic> connection points are labeled the
+  same, just the connecting wires.  Take this circuit as an example:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Parce que les points communs dans un circuit déploieront les mêmes
+    mesures de tension et de résistance relative, les fils reliant les points communs
+    sont souvent étiquetés avec la même désignation. Cela ne veut pas dire que le
+    <italic> Terminal </italic> points de connexion sont étiquetés les mêmes, seulement
+    les fils de connexion. Prenez ce circuit à titre d&#39;exemple:'}
+? Because resistors dissipate heat energy as the electric currents through them overcome
+  the <quote>friction</quote> of their resistance, resistors are also rated in terms
+  of how much heat energy they can dissipate without overheating and sustaining damage.  Naturally,
+  this power rating is specified in the physical unit of <quote>watts.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Parce que les résistances dissipent l&#39;énergie thermique que les
+    courants électriques par surmonter les <quote> friction </quote> de leur résistance,
+    les résistances sont également notées en termes de la quantité d&#39;énergie de
+    la chaleur qu&#39;ils peuvent dissiper sans surchauffer et subir des dommages.
+    Bien entendu, cette puissance nominale est spécifiée dans l&#39;unité physique
+    <quote> watts. </quote>'}
+? 'Because the relationship between voltage, current, and resistance in any circuit
+  is so regular, we can reliably control any variable in a circuit simply by controlling
+  the other two.  Perhaps the easiest variable in any circuit to control is its resistance.  This
+  can be done by changing the material, size, and shape of its conductive components
+  (remember how the thin metal filament of a lamp created more electrical resistance
+  than a thick wire?).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Parce que la relation entre la tension, le courant et la résistance
+    dans un circuit est si régulier, nous pouvons contrôler de manière fiable une
+    variable dans un circuit simplement en contrôlant les deux autres. Peut-être la
+    variable la plus facile dans tout circuit à contrôler est sa résistance. Ceci
+    peut être réalisé en changeant le matériau, la taille et la forme de ses composants
+    conducteurs (rappeler comment le filament métallique mince d&#39;une lampe a créé
+    plus la résistance électrique d&#39;un fil épais?).'}
+Because the unit of the <quote>horsepower</quote>: {tag: '<para>
+
+    ', xlate: Parce que l&#39;unité de la <quote> cheval-vapeur </quote>}
+Calculating electric power: {tag: <sectiontitle>, xlate: Calcul de l&#39;énergie électrique}
+Circuit wiring: {tag: <sectiontitle>, xlate: câblage du circuit}
+Computer simulation of electric circuits: {tag: <sectiontitle>, xlate: Simulation
+    par ordinateur de circuits électriques}
+? 'Computers can be powerful tools if used properly, especially in the realms of science
+  and engineering.  Software exists for the simulation of electric circuits by computer,
+  and these programs can be very useful in helping circuit designers test ideas before
+  actually building real circuits, saving much time and money.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les ordinateurs peuvent être des outils puissants s&#39;il est utilisé
+    correctement, en particulier dans les domaines de la science et de l&#39;ingénierie.
+    Il existe des logiciels pour la simulation de circuits électriques par ordinateur,
+    et ces programmes peut être très utile pour aider les idées de test des concepteurs
+    de circuits avant de réellement construire des circuits réels, économiser beaucoup
+    de temps et d&#39;argent.'}
+Connecting wires in a circuit are assumed to have zero resistance unless otherwise stated.: {
+  tag: <item>, xlate: 'des fils de connexion dans un circuit sont supposés avoir une
+    résistance nulle, sauf indication contraire.'}
+Contributors: {tag: <sectiontitle>, xlate: !!python/unicode 'Collaborateurs'}
+? 'Contributors to this chapter are listed in chronological order of their contributions,
+  from most recent to first.  See Appendix 2 (Contributor List) for dates and contact
+  information.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ont contribué à ce chapitre sont classés par ordre chronologique de
+    leurs contributions, du plus récent au premier. Voir l&#39;annexe 2 (Contributor
+    Liste) pour connaître les dates et les coordonnées.'}
+? 'Creating a text file in a computer involves the use of a program called a <italic>text
+  editor</italic>.  Similar to a word processor, a text editor allows you to type
+  text and record what you''ve typed in the form of a file stored on the computer''s
+  hard disk.  Text editors lack the formatting ability of word processors (no <italic>italic</italic>,
+  <bold>bold</bold>, or <underline>underlined</underline> characters), and this is
+  a good thing, since programs such as SPICE wouldn''t know what to do with this extra
+  information.  If we want to create a plain-text file, with absolutely nothing recorded
+  except the keyboard characters we select, a text editor is the tool to use.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Création d&#39;un fichier texte dans un ordinateur implique l&#39;utilisation
+    d&#39;un programme appelé <italic> éditeur de texte </italic> . Semblable à un
+    traitement de texte, un éditeur de texte vous permet de saisir du texte et d&#39;enregistrer
+    ce que vous avez tapé sous la forme d&#39;un fichier stocké sur le disque dur
+    de l&#39;ordinateur. Les éditeurs de texte ne sont pas capables de formatage de
+    traitement de texte (pas <italic> italique </italic> , <bold> audacieux </bold>
+    , ou <underline> souligné </underline> caractères), ce qui est une bonne chose,
+    étant donné que des programmes tels que SPICE ne savent pas quoi faire avec ces
+    informations supplémentaires. Si nous voulons créer un fichier texte brut, avec
+    absolument rien enregistré à l&#39;exception des caractères du clavier que nous
+    sélectionnons, un éditeur de texte est l&#39;outil à utiliser.'}
+Current measured in <italic>amps</italic>, symbolized by the letter <quote>I</quote>: {
+  tag: <item>, xlate: 'courant mesuré en <italic> ampère </italic> , Symbolisée par
+    la lettre <quote> je </quote>'}
+? Devices called <italic>resistors</italic> are built to provide precise amounts of
+  resistance in electric circuits.  Resistors are rated both in terms of their resistance
+  (ohms) and their ability to dissipate heat energy (watts).
+: {tag: <item>, xlate: Des dispositifs appelés <italic> résistances </italic> sont
+    construits pour fournir des quantités précises de résistance dans les circuits
+    électriques. Les résistances sont évalués à la fois en termes de résistance (ohms)
+    et leur capacité à dissiper l&#39;énergie thermique (watts).}
+? 'Each unit of measurement is named after a famous experimenter in electricity: The
+  <italic>amp</italic> after the Frenchman Andre M. Ampere, the <italic>volt</italic>
+  after the Italian Alessandro Volta, and the <italic>ohm</italic> after the German
+  Georg Simon Ohm.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Chaque unité de mesure est le nom d&#39;un célèbre expérimentateur
+    en électricité: La <italic> amp </italic> après le Français André M. Ampère, la
+    <italic> volt </italic> après l&#39;italien Alessandro Volta, et <italic> ohm
+    </italic> après l&#39;Allemand Georg Simon Ohm.'}
+? 'Earlier we explored the consequences of changing one of the three variables in
+  an electric circuit (voltage, current, or resistance) using Ohm''s Law to mathematically
+  predict what would happen.  Now let''s try the same thing using SPICE to do the
+  math for us.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Plus tôt, nous avons exploré les conséquences d&#39;un changement l&#39;un
+    des trois variables dans un circuit électrique (tension, courant ou résistance)
+    en utilisant la loi d&#39;Ohm pour prédire mathématiquement ce qui se passerait.
+    Maintenant, nous allons essayer la même chose en utilisant SPICE pour faire le
+    calcul pour nous.'}
+Electrical power is a product of both voltage <italic>and</italic> current, not either one separately.: {
+  tag: <item>, xlate: 'L&#39;énergie électrique est un produit à la fois la tension
+    <italic> et </italic> courant, ni séparément.'}
+Electrical power is almost always measured in <quote>watts,</quote>: {tag: <item>,
+  xlate: 'L&#39;énergie électrique est mesurée presque toujours <quote> watts, </quote>'}
+? Electrically common points, with zero resistance between them, will have zero voltage
+  dropped between them, regardless of the magnitude of current (ideally).
+: {tag: <item>, xlate: 'les points communs électriquement, avec une résistance nulle
+    entre eux, auront zéro chute de tension entre eux, quel que soit l&#39;intensité
+    du courant (idéalement).'}
+? "Eventually, you'll have to be familiar with algebra to seriously study electricity\
+  \ and electronics, but this tip can make your first calculations a little easier\
+  \ to remember.  If you are comfortable with algebra, all you need to do is commit\
+  \ E=IR to memory and derive the other two formulae from that when you need them!\
+  \ \n"
+: {tag: '<para>
+
+    ', xlate: 'Finalement, vous devez être familier avec l&#39;algèbre pour étudier
+    sérieusement l&#39;électricité et l&#39;électronique, mais cette astuce peut faire
+    vos premiers calculs un peu plus facile à retenir. Si vous êtes à l&#39;aise avec
+    l&#39;algèbre, tout ce que vous devez faire est de commettre E = IR à la mémoire
+    et d&#39;en tirer les deux autres formules à partir que lorsque vous en avez besoin!'}
+? "First, we need to have SPICE installed on our computer.  As a free program, it\
+  \ is commonly available on the internet for download, and in formats appropriate\
+  \ for many different operating systems.  In this book, I use one of the earlier\
+  \ versions of SPICE: version 2G6, for its simplicity of use.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Tout d&#39;abord, nous devons avoir SPICE installé sur notre ordinateur.
+    En tant que programme libre, il est généralement disponible sur Internet pour
+    le téléchargement, et dans des formats appropriés pour de nombreux systèmes d&#39;exploitation
+    différents. Dans ce livre, j&#39;utilise une des versions antérieures de SPICE:
+    la version 2G6, pour sa simplicité d&#39;utilisation.'}
+For American automobiles, engine power is rated in a unit called <quote>horsepower,</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Pour les automobiles américains, la puissance du moteur est évalué
+    dans une unité appelée <quote> chevaux, </quote>'}
+? 'For a practical illustration of resistors'' usefulness, examine the photograph
+  below.  It is a picture of a <italic>printed circuit board</italic>, or <italic>PCB</italic>:
+  an assembly made of sandwiched layers of insulating phenolic fiber-board and conductive
+  copper strips, into which components may be inserted and secured by a low-temperature
+  welding process called <quote>soldering.</quote>  The various components on this
+  circuit board are identified by printed labels.  Resistors are denoted by any label
+  beginning with the letter <quote>R</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Pour une illustration pratique de l&#39;utilité des résistances, examinez
+    la photo ci-dessous. Il est une image d&#39;un <italic> circuit imprimé </italic>
+    , ou <italic> PCB </italic> : Un ensemble constitué de couches intercalées de
+    panneaux de fibres phénoliques isolant et des bandes de cuivre conductrice, dans
+    laquelle les composants peuvent être insérés et fixés par un procédé de soudage
+    à basse température appelée <quote> soudure. </quote> Les différents composants
+    de cette carte de circuit imprimé sont identifiés par des étiquettes imprimées.
+    Les résistances sont indiquées par une étiquette commençant par la lettre <quote>
+    R </quote>'}
+? 'For instance, our previous circuit example with the 3 <OMEGA> lamp, we calculated
+  current through the circuit by dividing voltage by resistance (I=E/R).  With an
+  18 volt battery, our circuit current was 6 amps.  Doubling the battery voltage to
+  36 volts resulted in a doubled current of 12 amps.  All of this makes sense, of
+  course, so long as the lamp continues to provide exactly the same amount of friction
+  (resistance) to the flow of electrons through it: 3 <OMEGA>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Par exemple, notre exemple précédent de circuit avec le 3 <OMEGA> lampe,
+    nous avons calculé courant à travers le circuit de division de tension par une
+    résistance (I = E / R). Avec une batterie de 18 volts, notre courant de circuit
+    était de 6 ampères. En doublant la tension de la batterie à 36 volts entraîné
+    dans un courant de 12 ampères doublé. Tout cela est logique, bien sûr, tant que
+    la lampe continue de fournir exactement la même quantité de friction (résistance)
+    au flux d&#39;électrons à travers elle: 3 <OMEGA> .'}
+? 'For the benefit of the student, however, we will assume that resistances specified
+  in example circuits <italic>are</italic> stable over a wide range of conditions
+  unless otherwise specified.  I just wanted to expose you to a little bit of the
+  complexity of the real world, lest I give you the false impression that the whole
+  of electrical phenomena could be summarized in a few simple equations.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour le bénéfice de l&#39;étudiant, cependant, nous supposerons que
+    les résistances spécifiées dans les circuits par exemple <italic> sont </italic>
+    stable sur une large gamme de conditions, sauf indication contraire. Je voulais
+    juste vous exposer à un peu de la complexité du monde réel, de peur que je vous
+    donne la fausse impression que l&#39;ensemble des phénomènes électriques pourrait
+    se résumer en quelques équations simples.'}
+? 'For the circuit conditions of 10 volts and 2 amps, the resistor''s resistance must
+  be 5 <OMEGA>.  If we were designing a circuit to operate at these values, we would
+  have to specify a resistor with a minimum power rating of 20 watts, or else it would
+  overheat and fail.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour les conditions de circuit de 10 volts et 2 ampères, la résistance
+    de la résistance doit être 5 <OMEGA> . Si nous concevons un circuit pour fonctionner
+    à ces valeurs, il faudrait indiquer une résistance avec une puissance nominale
+    minimum de 20 watts, ou bien ce serait une surchauffe et d&#39;échouer.'}
+? Free electrons tend to move through conductors with some degree of friction, or
+  opposition to motion.  This opposition to motion is more properly called <italic>resistance</italic>.  The
+  amount of current in a circuit depends on the amount of voltage available to motivate
+  the electrons, and also the amount of resistance in the circuit to oppose electron
+  flow.  Just like voltage, resistance is a quantity relative between two points.  For
+  this reason, the quantities of voltage and resistance are often stated as being
+  <quote>between</quote> or <quote>across</quote>
+: {tag: '<para>
+
+    ', xlate: 'Les électrons libres ont tendance à se déplacer à travers des conducteurs
+    avec un certain degré de friction ou d&#39;opposition au mouvement. Cette opposition
+    au mouvement est plus correctement appelé <italic> la résistance </italic> . La
+    quantité de courant dans un circuit dépend de la valeur de la tension disponible
+    pour motiver les électrons, et également la quantité de résistance dans le circuit
+    à opposer à un flux d&#39;électrons. Tout comme la tension, la résistance est
+    une quantité relative entre deux points. Pour cette raison, les quantités de tension
+    et de résistance sont souvent déclarée comme <quote> entre </quote> ou <quote>
+    à travers </quote>'}
+? 'Here is how this looks on my computer (running the Linux operating system), just
+  before I press the [Enter] key:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Voici comment cela ressemble sur mon ordinateur (exécutant le système
+    d&#39;exploitation Linux), juste avant que j&#39;appuie sur la touche [Entrée]:'}
+? "Here, we only have 2 components excluding the wires: the battery and the resistor.\
+  \  Though the connecting wires take a convoluted path in forming a complete circuit,\
+  \ there are several electrically common points in the electrons' path.  Points 1,\
+  \ 2, and 3 are all common to each other, because they're directly connected together\
+  \ by wire.  The same goes for points 4, 5, and 6. \n"
+: {tag: '<para>
+
+    ', xlate: 'Ici, nous avons seulement 2 composants à l&#39;exclusion des fils:
+    la batterie et la résistance. Bien que les fils de liaison prennent un chemin
+    tortueux pour former un circuit complet, il existe plusieurs points électriquement
+    communs dans le chemin des électrons. Les points 1, 2 et 3 sont tous communs les
+    uns aux autres, parce qu&#39;ils sont directement reliés entre eux par un fil.
+    La même chose vaut pour les points 4, 5 et 6.'}
+? Horsepower and watts are merely two different units for describing the same kind
+  of physical measurement, with 1 horsepower equaling 745.7 watts.
+: {tag: <item>, xlate: 'Puissance et watts ne sont que deux unités différentes pour
+    décrire le même genre de mesure physique, avec 1 puissance égale à 745,7 watts.'}
+How voltage, current, and resistance relate: {tag: <sectiontitle>, xlate: 'Comment
+    la tension, le courant et la résistance se rapportent'}
+? However, reality is not always this simple.  One of the phenomena explored in a
+  later chapter is that of conductor resistance <italic>changing</italic> with temperature.  In
+  an incandescent lamp (the kind employing the principle of electric current heating
+  a thin filament of wire to the point that it glows white-hot), the resistance of
+  the filament wire will increase dramatically as it warms from room temperature to
+  operating temperature.  If we were to increase the supply voltage in a real lamp
+  circuit, the resulting increase in current would cause the filament to increase
+  temperature, which would in turn increase its resistance, thus preventing further
+  increases in current without further increases in battery voltage.  Consequently,
+  voltage and current do not follow the simple equation <quote>I=E/R</quote>
+: {tag: '<para>
+
+    ', xlate: 'Cependant, la réalité est pas toujours simple. L&#39;un des phénomènes
+    explorés dans un autre chapitre est celui de la résistance du conducteur <italic>
+    en changeant </italic> avec la température. Dans une lampe à incandescence (le
+    genre en utilisant le principe du courant électrique chauffant un mince filament
+    de fil au point qu&#39;il est blanc chaud), la résistance du fil de filament augmentera
+    de façon spectaculaire car elle se réchauffe de la température ambiante à la température
+    de fonctionnement. Si nous devions augmenter la tension d&#39;alimentation en
+    un véritable circuit de la lampe, l&#39;augmentation résultante du courant provoquerait
+    le filament pour augmenter la température, qui à son tour augmenter sa résistance,
+    empêchant ainsi d&#39;autres augmentations de courant sans autre augmentation
+    de la tension de la batterie. Par conséquent, la tension et le courant ne suivent
+    pas l&#39;équation simple <quote> I = E / R </quote>'}
+? 'If I re-edit the netlist file, changing the <typewriter>.print</typewriter> command
+  into a <typewriter>.plot</typewriter> command, SPICE will output a crude graph made
+  up of text characters:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si je re-éditer le fichier netlist, en changeant la <typewriter> .impression
+    </typewriter> commande dans un <typewriter> .terrain </typewriter> commande, SPICE
+    Affichera un graphique brut composé de caractères de texte:'}
+? 'If connecting wire resistance is very little or none, we can regard the connected
+  points in a circuit as being <italic>electrically common</italic>.  That is, points
+  1 and 2 in the above circuits may be physically joined close together or far apart,
+  and it doesn''t matter for any voltage or resistance measurements relative to those
+  points.  The same goes for points 3 and 4.  It is as if the ends of the resistor
+  were attached directly across the terminals of the battery, so far as our Ohm''s
+  Law calculations and voltage measurements are concerned.  This is useful to know,
+  because it means you can re-draw a circuit diagram or re-wire a circuit, shortening
+  or lengthening the wires as desired without appreciably impacting the circuit''s
+  function.  All that matters is that the components attach to each other in the same
+  sequence.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si la connexion résistance du fil est très peu ou pas, on peut considérer
+    les points connectés dans un circuit comme étant <italic> électriquement commun
+    </italic> . Autrement dit, les points 1 et 2 dans les circuits ci-dessus peuvent
+    être physiquement joints rapprochés ou éloignés, et il n&#39;a pas d&#39;importance
+    pour toute tension ou des mesures de résistance par rapport à ces points. La même
+    chose vaut pour les points 3 et 4. Il est comme si les extrémités de la résistance
+    ont été fixés directement aux bornes de la batterie, pour autant que nos calculs
+    Loi d&#39;Ohm et les mesures de tension sont concernés. Ceci est utile de savoir,
+    car cela signifie que vous pouvez re-dessiner un schéma de circuit ou de recâbler
+    un circuit, de raccourcir ou rallonger les fils comme on le souhaite sans affecter
+    sensiblement la fonction du circuit. Tout ce qui importe est que les composants
+    attachent les uns aux autres dans la même séquence.'}
+? "If the flow rate were to stay the same while the resistance to flow decreased,\
+  \ the required pressure from the pump would necessarily decrease: \n"
+: {tag: '<para>
+
+    ', xlate: 'Si le débit devait rester le même alors que la résistance à l&#39;écoulement
+    diminue, la pression requise de la pompe serait nécessairement diminuer:'}
+? 'If the pressure stays the same and the resistance increases (making it more difficult
+  for the water to flow), then the flow rate must decrease:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si la pression reste la même et la résistance augmente (ce qui rend
+    plus difficile pour l&#39;eau à l&#39;écoulement), le débit doit diminuer:'}
+? 'If using a Microsoft operating system such as DOS or Windows, a couple of text
+  editors are readily available with the system.  In DOS, there is the old <italic>Edit</italic>
+  text editing program, which may be invoked by typing <typewriter>edit</typewriter>
+  at the command prompt.  In Windows (3.x/95/98/NT/Me/2k/XP), the <italic>Notepad</italic>
+  text editor is your stock choice.  Many other text editing programs are available,
+  and some are even free.  I happen to use a free text editor called <italic>Vim</italic>,
+  and run it under both Windows 95 and Linux operating systems.  It matters little
+  which editor you use, so don''t worry if the screenshots in this section don''t
+  look like yours; the important information here is <italic>what you type</italic>,
+  not <italic>which editor</italic> you happen to use.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si vous utilisez un système d&#39;exploitation Microsoft tels que DOS
+    ou Windows, deux éditeurs de texte sont facilement disponibles avec le système.
+    Dans DOS, il y a le vieux <italic> modifier </italic> programme d&#39;édition
+    de texte, qui peut être invoquée en tapant <typewriter> modifier </typewriter>
+    à l&#39;invite de commande. Sous Windows (3.x / 95/98 / NT / Me / 2k / XP), le
+    <italic> Bloc-notes </italic> éditeur de texte est votre choix d&#39;actions.
+    De nombreux autres programmes d&#39;édition de texte sont disponibles, et certains
+    sont même gratuits. Je suis d&#39;utiliser un éditeur de texte gratuit appelé
+    <italic> vitalité </italic> Et l&#39;exécuter sous les systèmes d&#39;exploitation
+    Windows 95 et Linux. Peu importe quel éditeur que vous utilisez, alors ne vous
+    inquiétez pas si les captures d&#39;écran dans cette section ne ressemblent pas
+    à la vôtre; l&#39;information importante est ici <italic> ce que vous tapez </italic>
+    , ne pas <italic> L&#39;éditeur qui </italic> il vous arrive d&#39;utiliser.'}
+? 'If we add an <typewriter>.end</typewriter> statement to this collection of SPICE
+  commands to indicate the end of the circuit description, we will have all the information
+  SPICE needs, collected in one file and ready for processing.  This circuit description,
+  comprised of lines of text in a computer file, is technically known as a <italic>netlist</italic>,
+  or <italic>deck</italic>:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si l&#39;on ajoute une <typewriter> .fin </typewriter> déclaration
+    à cette collection de SPICE commandes pour indiquer la fin de la description du
+    circuit, nous aurons tous les besoins SPICE d&#39;information, collectées dans
+    un fichier et prêt pour le traitement. Cette description du circuit, composé de
+    lignes de texte dans un fichier informatique, est techniquement connu comme <italic>
+    netlist </italic> , ou <italic> plate-forme </italic> :'}
+? 'If we only know current (I) and resistance (R):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si nous savons que courant (I) et de la résistance (R):'}
+? 'If we only know voltage (E) and resistance (R):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si on ne connaît que la tension (E) et de la résistance (R):'}
+? 'If we try to apply Ohm''s Law to find the resistance of this lamp circuit with
+  the voltage and current values plotted above, we arrive at several different values.  We
+  could say that the resistance here is <italic>nonlinear</italic>, increasing with
+  increasing current and voltage.  The nonlinearity is caused by the effects of high
+  temperature on the metal wire of the lamp filament.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si nous essayons d&#39;appliquer la loi d&#39;Ohm pour trouver la résistance
+    de ce circuit de lampe avec la tension et les valeurs actuelles tracées ci-dessus,
+    nous arrivons à plusieurs valeurs différentes. On pourrait dire que la résistance
+    est ici <italic> non linéaire </italic> , Ce qui augmente avec l&#39;augmentation
+    de courant et de tension. La non-linéarité est provoquée par les effets de la
+    température élevée sur le fil métallique du filament de la lampe.'}
+? If we want to see how this simple circuit would respond over a wide range of battery
+  voltages, we can invoke some of the more advanced options within SPICE.  Here, I'll
+  use the <quote><typewriter>.dc</typewriter></quote> analysis option to vary the
+  battery voltage from 0 to 100 volts in 5 volt increments, printing out the circuit
+  voltage and current at every step.  The lines in the SPICE netlist beginning with
+  a star symbol (<quote><typewriter>*</typewriter></quote>
+: {tag: '<para>
+
+    ', xlate: 'Si nous voulons voir comment ce circuit simple répondrait sur une large
+    plage de tensions de batterie, nous pouvons invoquer certaines des options plus
+    avancées dans SPICE. Ici, je vais utiliser la <quote><typewriter> .dc </typewriter></quote>
+    option d&#39;analyse pour faire varier la tension de la batterie de 0 à 100 volts
+    par incréments de 5 volts, imprimant la tension et le courant circuit à chaque
+    étape. Les lignes du netlist SPICE commençant par un symbole étoile ( <quote><typewriter>
+    * </typewriter></quote>'}
+? 'If we were to triple the voltage in our last example circuit from 10 to 30 volts
+  and keep the circuit resistance unchanged, we would expect the current to triple
+  as well.  Let''s try this, re-naming our netlist file so as to not over-write the
+  first file.  This way, we will have <italic>both</italic> versions of the circuit
+  simulation stored on the hard drive of our computer for future use.  The following
+  text listing is the output of SPICE for this modified netlist, formatted as plain
+  text rather than as a graphic image of my computer screen:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si nous devions tripler la tension dans notre dernier exemple de circuit
+    de 10 à 30 volts et maintenir la résistance du circuit inchangé, nous prévoyons
+    que le courant de tripler ainsi. Essayons, re-nommer notre fichier netlist afin
+    de ne pas trop écrire le premier fichier. De cette façon, nous aurons <italic>
+    tous les deux </italic> versions de la simulation de circuit stocké sur le disque
+    dur de notre ordinateur pour une utilisation future. La liste de texte suivant
+    est la sortie de SPICE pour cette netlist modifié, mis en forme sous forme de
+    texte plutôt que comme une image graphique de mon écran d&#39;ordinateur:'}
+? 'If you know E and I, and wish to determine R, just eliminate R from the picture
+  and see what''s left:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si vous connaissez E et moi, et que vous souhaitez déterminer R, juste
+    éliminer R de l&#39;image et de voir ce qui reste:'}
+? 'If you know E and R, and wish to determine I, eliminate I and see what''s left:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si vous connaissez E et R, et que vous souhaitez déterminer I, éliminer
+    I et voir ce qui reste:'}
+? 'In addition to voltage and current, there is another measure of free electron activity
+  in a circuit: <italic>power</italic>.  First, we need to understand just what power
+  is before we analyze it in any circuits.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En plus de la tension et du courant, il existe une autre mesure de
+    l&#39;activité d&#39;électrons libres dans un circuit: <italic> Puissance </italic>
+    . Tout d&#39;abord, nous avons besoin de comprendre exactement ce qu&#39;est le
+    pouvoir avant que nous analysons dans tous les circuits.'}
+? 'In an open circuit, where voltage is present between the terminals of the source
+  and there is zero current, there is <italic>zero</italic> power dissipated, no matter
+  how great that voltage may be.  Since P=IE and I=0 and anything multiplied by zero
+  is zero, the power dissipated in any open circuit must be zero.  Likewise, if we
+  were to have a short circuit constructed of a loop of superconducting wire (absolutely
+  zero resistance), we could have a condition of current in the loop with zero voltage,
+  and likewise no power would be dissipated.  Since P=IE and E=0 and anything multiplied
+  by zero is zero, the power dissipated in a superconducting loop must be zero.  (We''ll
+  be exploring the topic of superconductivity in a later chapter).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans un circuit ouvert, où la tension est présente entre les bornes
+    de la source de courant et il y a zéro, il y a <italic> zéro </italic> puissance
+    dissipée, peu importe à quel point cette tension peut être. Étant donné que P
+    = IE et I = 0 et tout multiplié par zéro est nul, la puissance dissipée dans un
+    circuit ouvert doit être égal à zéro. De même, si l&#39;on devait avoir un court-circuit
+    constituée d&#39;une boucle de fil supraconducteur (absolument de résistance nulle),
+    on pourrait avoir un état de courant dans la boucle à tension nulle, et de même
+    aucune puissance serait dissipée. Étant donné que P = IE et E = 0 et tout multiplié
+    par zéro est nul, la puissance dissipée dans une boucle supraconductrice doit
+    être égal à zéro. (Nous allons explorer le thème de la supraconductivité dans
+    un chapitre ultérieur).'}
+? 'In both output formats, the left-hand column of numbers represents the battery
+  voltage at each interval, as it increases from 0 volts to 100 volts, 5 volts at
+  a time.  The numbers in the right-hand column indicate the circuit current for each
+  of those voltages.  Look closely at those numbers and you''ll see the proportional
+  relationship between each pair: Ohm''s Law (I=E/R) holds true in each and every
+  case, each current value being 1/5 the respective voltage value, because the circuit
+  resistance is exactly 5 <OMEGA>.  Again, the negative numbers for current in this
+  SPICE analysis is more of a quirk than anything else.  Just pay attention to the
+  absolute value of each number unless otherwise specified.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans les deux formats de sortie, la colonne de gauche de nombres représente
+    la tension de la batterie à chaque intervalle, car elle augmente à partir de 0
+    volt à 100 volts, 5 volts à la fois. Les chiffres dans la colonne de droite indiquent
+    le courant de circuit pour chacune de ces tensions. Regardez attentivement ces
+    chiffres et vous verrez la relation proportionnelle entre chaque paire: la loi
+    d&#39;Ohm (I = E / R) est vrai dans chaque cas, chaque valeur actuelle étant 1/5
+    de la valeur de tension respective, parce que la résistance du circuit est exactement
+    5 <OMEGA> . Encore une fois, les chiffres négatifs pour le courant dans cette
+    analyse SPICE est plus d&#39;une bizarrerie que toute autre chose. Il suffit de
+    prêter attention à la valeur absolue de chaque numéro, sauf indication contraire.'}
+? In circuits where resistance varies with changes in either voltage or current, the
+  plot of current over voltage will be <italic>nonlinear</italic> (not a straight
+  line).
+: {tag: <item>, xlate: 'Dans les circuits où la résistance varie avec les changements
+    de tension ou de courant, le tracé du courant sur la tension sera <italic> non
+    linéaire </italic> (Pas une ligne droite).'}
+? In electric circuits, power is a function of both voltage and current.  Not surprisingly,
+  this relationship bears striking resemblance to the <quote>proportional</quote>
+: {tag: '<para>
+
+    ', xlate: 'Dans les circuits électriques, la puissance est fonction à la fois
+    la tension et le courant. Sans surprise, cette relation porte ressemblance frappante
+    avec la <quote> proportionnel </quote>'}
+? In fact, any time you see a component symbol drawn with a diagonal arrow through
+  it, that component has a variable rather than a fixed value.  This symbol <quote>modifier</quote>
+: {tag: '<para>
+
+    ', xlate: 'En fait, chaque fois que vous voyez un symbole de composant dessiné
+    avec une flèche en diagonale à travers elle, ce composant a une variable plutôt
+    qu&#39;une valeur fixe. ce symbole <quote> modificateur </quote>'}
+? 'In keeping more with their physical appearance, an alternative schematic symbol
+  for a resistor looks like a small, rectangular box:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Conformément plus de leur apparence physique, un symbole schématique
+    alternative pour une résistance ressemble à une petite boîte rectangulaire:'}
+? In schematic diagrams, resistor symbols are sometimes used to illustrate any general
+  type of device in a circuit doing something useful with electrical energy.  Any
+  non-specific electrical device is generally called a <italic>load</italic>, so if
+  you see a schematic diagram showing a resistor symbol labeled <quote>load,</quote>
+: {tag: '<para>
+
+    ', xlate: 'Dans des schémas, symboles de résistance sont parfois utilisés pour
+    illustrer tout type de dispositif général dans un circuit faisant quelque chose
+    utile avec l&#39;énergie électrique. Tout appareil électrique non spécifique est
+    généralement appelé <italic> charge </italic> , Donc si vous voyez un diagramme
+    schématique représentant un symbole de résistance étiquetée <quote> charge, </quote>'}
+? 'In the above circuit, there is only one source of voltage (the battery, on the
+  left) and only one source of resistance to current (the lamp, on the right).  This
+  makes it very easy to apply Ohm''s Law.  If we know the values of any two of the
+  three quantities (voltage, current, and resistance) in this circuit, we can use
+  Ohm''s Law to determine the third.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans le circuit ci-dessus, il n&#39;y a qu&#39;une seule source de
+    tension (la batterie, à gauche) et une seule source de résistance au courant (la
+    lampe, à droite). Cela rend très facile d&#39;appliquer la loi d&#39;Ohm. Si nous
+    connaissons les valeurs de deux des trois grandeurs (tension, courant et résistance)
+    dans ce circuit, nous pouvons utiliser la loi d&#39;Ohm pour déterminer la troisième.'}
+? 'In the above circuit, we know we have a battery voltage of 18 volts and a lamp
+  resistance of 3 <OMEGA>.  Using Ohm''s Law to determine current, we get:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans le circuit ci-dessus, nous savons que nous avons une tension de
+    batterie de 18 volts et une résistance à la lampe de 3 <OMEGA> . En utilisant
+    la loi d&#39;Ohm pour déterminer actuelle, nous obtenons:'}
+In the above illustration, I've shown multiple <quote>1</quote> and <quote>0</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Dans l&#39;illustration ci-dessus, je l&#39;ai montré plusieurs <quote>
+    1 </quote> et <quote> 0 </quote>'}
+? 'In the last example, we will calculate the amount of voltage supplied by a battery,
+  given values of current (I) and resistance (R):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans le dernier exemple, nous allons calculer la quantité de tension
+    fournie par une batterie, des valeurs données de courant (I) et de la résistance
+    (R):'}
+? 'In this algebraic expression, voltage (E) is equal to current (I) multiplied by
+  resistance (R).  Using algebra techniques, we can manipulate this equation into
+  two variations, solving for I and for R, respectively:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans cette expression algébrique, la tension (E) est égal à un courant
+    (I) multipliée par la résistance (R). En utilisant des techniques d&#39;algèbre,
+    on peut manipuler cette équation en deux variantes, la résolution I et R, respectivement:'}
+? In this case, however, power (P) is exactly equal to current (I) multiplied by voltage
+  (E), rather than merely being proportional to IE.  When using this formula, the
+  unit of measurement for power is the <italic>watt</italic>, abbreviated with the
+  letter <quote>W.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Dans ce cas, toutefois, la puissance (P) est exactement égal au courant
+    (I) multipliée par la tension (E), plutôt que de simplement étant proportionnelle
+    à IE. Lors de l&#39;utilisation de cette formule, l&#39;unité de mesure de puissance
+    est le <italic> watt </italic> , Abrégé par la lettre <quote> W. </quote>'}
+? 'In this first example, we will calculate the amount of current (I) in a circuit,
+  given values of voltage (E) and resistance (R):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans ce premier exemple, nous allons calculer la quantité de courant
+    (I) dans un circuit, des valeurs données de tension (E) et de la résistance (R):'}
+? 'In this second example, we will calculate the amount of resistance (R) in a circuit,
+  given values of voltage (E) and current (I):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans ce deuxième exemple, nous allons calculer le montant de la résistance
+    (R) dans un circuit, des valeurs données de tension (E) et le courant (I):'}
+? 'Incidentally, this is the preferred format for text output from SPICE simulations
+  in this book series: as real text, not as graphic screenshot images.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Soit dit en passant, c&#39;est le format préféré pour la sortie de
+    texte à partir de simulations SPICE dans cette série de livres: en tant que texte
+    réel, et non pas sous forme d&#39;images capture d&#39;écran graphique.'}
+? 'Incidentally, this is the reason lightning bolts exist as momentary surges rather
+  than continuous flows of electrons.  The voltage built up between the earth and
+  clouds (or between different sets of clouds) must increase to the point where it
+  overcomes the ionization potential of the air gap before the air ionizes enough
+  to support a substantial flow of electrons.  Once it does, the current will continue
+  to conduct through the ionized air until the static charge between the two points
+  depletes.  Once the charge depletes enough so that the voltage falls below another
+  threshold point, the air de-ionizes and returns to its normal state of extremely
+  high resistance.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Soit dit en passant, c&#39;est la raison des boulons de foudre existent
+    comme des sautes momentanées plutôt que des flux continu d&#39;électrons. La tension
+    établie entre la terre et les nuages ​​(ou entre différents ensembles de nuages)
+    doit augmenter jusqu&#39;au point où elle permet de surmonter le potentiel d&#39;ionisation
+    de la fente d&#39;air avant que l&#39;air ionise suffisante pour supporter un
+    flux important d&#39;électrons. Une fois fait, le courant continuera à effectuer
+    dans l&#39;air ionisé jusqu&#39;à ce que la charge statique entre les deux points
+    appauvrit. Une fois la charge suffisante pour que appauvrit la tension tombe en
+    dessous un autre point de seuil, l&#39;air de-ionise et retourne à son état normal
+    de la résistance extrêmement élevée.'}
+? 'Inserting the known quantities of voltage (E) and current (I) into these two equations,
+  we can determine circuit resistance (R) and power dissipation (P):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Insertion des quantités connues de tension (E) et le courant (I) dans
+    ces deux équations, on peut déterminer la résistance du circuit (R) et la dissipation
+    de puissance (P):'}
+It also means that voltage measurements between sets of <quote>electrically common</quote>: {
+  tag: '<para>
+
+    ', xlate: Cela signifie également que les mesures de tension entre les ensembles
+    de <quote> électriquement commun </quote>}
+? 'It must be understood that neither voltage nor current by themselves constitute
+  power.  Rather, power is the combination of both voltage <italic>and</italic> current
+  in a circuit.  Remember that voltage is the specific work (or potential energy)
+  per unit charge, while current is the rate at which electric charges move through
+  a conductor.  Voltage (specific work) is analogous to the work done in lifting a
+  weight against the pull of gravity.  Current (rate) is analogous to the speed at
+  which that weight is lifted.  Together as a product (multiplication), voltage (work)
+  and current (rate) constitute power.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il faut comprendre que ni la tension ni courant par eux-mêmes constituent
+    le pouvoir. Au contraire, la puissance est la combinaison des deux tension <italic>
+    et </italic> courant dans un circuit. Rappelez-vous que la tension est le travail
+    spécifique (ou énergie potentielle) par unité de charge, tandis que le courant
+    est la vitesse à laquelle les charges électriques se déplacent à travers un conducteur.
+    Tension (travail spécifique) est analogue au travail effectué en soulevant un
+    poids contre la force de gravité. Current (taux) est analogue à la vitesse à laquelle
+    ce poids est levé. Ensemble, en tant que produit (multiplication), la tension
+    (travail) et le courant (taux) constituent le pouvoir.'}
+? 'It should be obvious that the calculated voltage drop across any uninterrupted
+  length of wire in a circuit where wire is assumed to have zero resistance will always
+  be zero, no matter what the magnitude of current, since zero multiplied by anything
+  equals zero.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il devrait être évident que la chute de tension calculée sur une longueur
+    ininterrompue de fil dans un circuit où le fil est supposé avoir une résistance
+    nulle sera toujours nul, quel que soit l&#39;intensité du courant, car zéro multiplié
+    par quoi que ce soit égal à zéro.'}
+? 'It should be understood that polarity has nothing to do with Ohm''s Law: there
+  will never be negative voltages, currents, or resistance entered into any Ohm''s
+  Law equations!  There are other mathematical principles of electricity that do take
+  polarity into account through the use of signs (+ or -), but not Ohm''s Law.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il faut comprendre que la polarité n&#39;a rien à voir avec la loi
+    d&#39;Ohm: il n&#39;y aura jamais des tensions négatives, les courants ou la résistance
+    est entrée dans le droit de toute Ohm équations! Il existe d&#39;autres principes
+    mathématiques de l&#39;électricité qui ne prennent en compte la polarité par l&#39;utilisation
+    de signes (+ ou -), mais pas la loi d&#39;Ohm.'}
+'Joule''s Law: P = I<superscript>2</superscript>R ; P = IE ; P = E<superscript>2</superscript>/R': {
+  tag: <item>, xlate: !!python/unicode 'Loi de Joule: P = I <superscript> 2 </superscript>
+    R; P = IE; P = E <superscript> 2 </superscript> / R'}
+? 'Just as in the case of the diesel tractor engine and the motorcycle engine, a circuit
+  with high voltage and low current may be dissipating the same amount of power as
+  a circuit with low voltage and high current.  Neither the amount of voltage alone
+  nor the amount of current alone indicates the amount of power in an electric circuit.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout comme dans le cas du moteur du tracteur diesel et le moteur de
+    la motocyclette, un circuit à haute tension et faible courant de dissipation peut
+    être la même quantité de puissance en tant que circuit à basse tension et à courant
+    élevé. Ni le montant de la tension seule, ni la quantité de courant seul indique
+    la quantité d&#39;énergie dans un circuit électrique.'}
+? 'Just as we expected, the current tripled with the voltage increase.  Current used
+  to be 2 amps, but now it has increased to 6 amps (-6.000 x 10<superscript>0</superscript>).  Note
+  also how the total power dissipation in the circuit has increased.  It was 20 watts
+  before, but now is 180 watts (1.8 x 10<superscript>2</superscript>).  Recalling
+  that power is related to the square of the voltage (Joule''s Law: P=E<superscript>2</superscript>/R),
+  this makes sense.  If we triple the circuit voltage, the power should increase by
+  a factor of nine (3<superscript>2</superscript> = 9).  Nine times 20 is indeed 180,
+  so SPICE''s output does indeed correlate with what we know about power in electric
+  circuits.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout comme nous nous attendions, le courant a triplé avec l&#39;augmentation
+    de la tension. Courant utilisé pour être de 2 ampères, mais maintenant il a augmenté
+    de 6 ampères (-6.000 x 10 <superscript> 0 </superscript> ). A noter également
+    la façon dont la dissipation de puissance totale dans le circuit a augmenté. Il
+    était de 20 watts avant, mais il est maintenant 180 watts (1,8 x 10 <superscript>
+    2 </superscript> ). En rappelant que la puissance est liée au carré de la tension
+    (loi de Joule: P = E <superscript> 2 </superscript> / R), ce sens. Si l&#39;on
+    triple de la tension du circuit, la puissance devrait augmenter d&#39;un facteur
+    de neuf (3 <superscript> 2 </superscript> = 9). Neuf fois 20 est en effet 180,
+    de sorte que la sortie de SPICE ne correspond en effet à ce que nous savons pouvoir
+    dans les circuits électriques.'}
+? Knowing that electrically common points have zero voltage drop between them is a
+  valuable troubleshooting principle.  If I measure for voltage between points in
+  a circuit that are supposed to be common to each other, I should read zero.  If,
+  however, I read substantial voltage between those two points, then I know with certainty
+  that they cannot be directly connected together.  If those points are <italic>supposed</italic>
+  to be electrically common but they register otherwise, then I know that there is
+  an <quote>open failure</quote>
+: {tag: '<para>
+
+    ', xlate: 'Sachant que les points communs électriquement ont zéro chute de tension
+    entre eux est un principe précieux de dépannage. Si je mesure la tension entre
+    les points dans un circuit qui sont censés être communs à l&#39;autre, je devrais
+    lire zéro. Cependant, si je lis la tension importante entre ces deux points, je
+    sais avec certitude qu&#39;ils ne peuvent pas être directement reliés entre eux.
+    Si ces points sont <italic> supposé </italic> être électriquement commun, mais
+    ils enregistrent par ailleurs, je sais qu&#39;il ya un <quote> échec d&#39;ouverture
+    </quote>'}
+? 'Lastly, if you know I and R, and wish to determine E, eliminate E and see what''s
+  left:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Enfin, si vous connaissez I et R, et que vous souhaitez déterminer
+    E, éliminer E et voir ce qui reste:'}
+? 'Let''s see how these equations might work to help us analyze simple circuits:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Voyons comment ces équations peuvent travailler pour nous aider à analyser
+    des circuits simples:'}
+? 'Let''s try taking that same circuit and increasing the battery voltage to see what
+  happens.  Intuition should tell us that the circuit current will increase as the
+  voltage increases and the lamp resistance stays the same.  Likewise, the power will
+  increase as well:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Essayons de prendre ce même circuit et en augmentant la tension de
+    la batterie pour voir ce qui se passe. Intuition devrait nous dire que le courant
+    du circuit augmentera à mesure que la tension augmente et la résistance de la
+    lampe reste le même. De même, la puissance augmentera ainsi:'}
+? 'Many solid insulating materials exhibit similar resistance properties: extremely
+  high resistance to electron flow below some critical threshold voltage, then a much
+  lower resistance at voltages beyond that threshold.  Once a solid insulating material
+  has been compromised by high-voltage <italic>breakdown</italic>, as it is called,
+  it often does not return to its former insulating state, unlike most gases.  It
+  may insulate once again at low voltages, but its breakdown threshold voltage will
+  have been decreased to some lower level, which may allow breakdown to occur more
+  easily in the future.  This is a common mode of failure in high-voltage wiring:
+  insulation damage due to breakdown.  Such failures may be detected through the use
+  of special resistance meters employing high voltage (1000 volts or more).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'De nombreux matériaux isolants solides présentent des propriétés de
+    résistance similaires: très haute résistance à l&#39;écoulement d&#39;électrons
+    ci-dessous des tension de seuil critique, puis une résistance beaucoup plus faible
+    à des tensions au-delà de ce seuil. Une fois que le matériau isolant solide a
+    été compromise par haute tension <italic> panne </italic> , Comme on l&#39;appelle,
+    il ne retourne pas souvent à son état isolant, contrairement à la plupart des
+    gaz. Il peut isoler une nouvelle fois à basse tension, mais sa tension de seuil
+    de rupture aura été ramené à un niveau inférieur, ce qui peut permettre à l&#39;avenir
+    ventilation de se produire plus facilement. Ceci est un mode commun de défaillance
+    dans le câblage haute tension: les dommages d&#39;isolement en raison de panne.
+    Ces échecs peuvent être détectés grâce à l&#39;utilisation de compteurs de résistance
+    spéciaux utilisant la haute tension (1000 volts ou plus).'}
+Mechanical power is commonly measured (in America) in <quote>horsepower.</quote>: {
+  tag: <item>, xlate: La puissance mécanique est généralement mesurée (en Amérique)
+    en <quote> cheval-vapeur. </quote>}
+? 'Most notably, high-vacuum electron tubes known as <italic>tetrodes</italic> and
+  semiconductor diodes known as <italic>Esaki</italic> or <italic>tunnel</italic>
+  diodes exhibit negative resistance for certain ranges of applied voltage.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Plus particulièrement, les tubes électroniques à vide poussé connu
+    sous le nom <italic> tétrodes </italic> et des diodes à semi-conducteurs connus
+    sous le nom <italic> Esaki </italic> ou <italic> tunnel </italic> diodes présentent
+    une résistance négative pour certaines gammes de tension appliquée.'}
+? 'Next, we need a circuit for SPICE to analyze.  Let''s try one of the circuits illustrated
+  earlier in the chapter.  Here is its schematic diagram:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ensuite, nous avons besoin d&#39;un circuit pour SPICE d&#39;analyser.
+    Essayons un des circuits illustrés précédemment dans le chapitre. Voici son schéma:'}
+Nonlinear conduction: {tag: <sectiontitle>, xlate: conduction non linéaire}
+? 'Note how Nutmeg plots the resistor voltage <typewriter>v(1)</typewriter> (voltage
+  between node 1 and the implied reference point of node 0) as a line with a positive
+  slope (from lower-left to upper-right).
+
+  '
+: {tag: '<para>
+
+    ', xlate: Notez comment noix de muscade trace la tension de résistance <typewriter>
+    v (1) </typewriter> (Tension entre le noeud 1 et le point de référence implicite
+    du nœud 0) comme une ligne avec une pente positive (à partir inférieur gauche
+    pour en haut à droite).}
+? 'Notice how there are only two variable terms on the right-hand side of the equation,
+  S and T.  All the other terms on that side are constant: 2, pi, and 33,000 are all
+  constants (they do not change in value).  The horsepower varies only with changes
+  in speed and torque, nothing else.  We can re-write the equation to show this relationship:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Remarquez comment il n&#39;y a que deux conditions variables sur le
+    côté droit de l&#39;équation, S et T. Tous les autres termes de ce côté sont constants:
+    2, pi, et 33.000 sont toutes les constantes (ils ne changent pas en valeur). La
+    puissance ne varie que les variations de la vitesse et le couple, rien d&#39;autre.
+    Nous pouvons réécrire l&#39;équation pour montrer cette relation:'}
+? 'Notice that the power has increased just as we might have suspected, but it increased
+  quite a bit more than the current.  Why is this?  Because power is a function of
+  voltage multiplied by current, and <italic>both</italic> voltage and current doubled
+  from their previous values, the power will increase by a factor of 2 x 2, or 4.  You
+  can check this by dividing 432 watts by 108 watts and seeing that the ratio between
+  them is indeed 4.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Notez que la puissance a augmenté, tout comme nous aurions pu suspects,
+    mais il a augmenté un peu plus que le courant. Pourquoi est-ce? Étant donné que
+    la puissance est fonction de la tension multipliée par le courant, et <italic>
+    tous les deux </italic> tension et le courant doublé par rapport à leurs valeurs
+    précédentes, la puissance augmentera d&#39;un facteur de 2 x 2 ou 4. Vous pouvez
+    vérifier cela en divisant 432 watts par 108 watts et de voir que le rapport entre
+    eux est en effet 4.'}
+? 'Now that we know the current, we can take that value and multiply it by the voltage
+  to determine power:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant que nous savons le courant, nous pouvons prendre cette valeur
+    et le multiplier par la tension pour déterminer la puissance:'}
+Now, I may freely edit this file, deleting any extraneous text (such as the <quote>banners</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Maintenant, je peux librement modifier ce fichier, la suppression de
+    tout texte superflu (comme le <quote> bannières </quote>'}
+? Now, SPICE will know there is a resistor connected between nodes 1 and 0 with a
+  value of 5 <OMEGA>.  This very brief line of text tells the computer we have a resistor
+  (<quote><typewriter>r</typewriter></quote>
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, SPICE saura y a une résistance connectée entre les noeuds
+    1 et 0 avec une valeur de 5 <OMEGA> . Cette ligne très brève du texte indique
+    à l&#39;ordinateur que nous avons une résistance ( <quote><typewriter> r </typewriter></quote>'}
+? 'Now, the battery voltage is 36 volts instead of 18 volts.  The lamp is still providing
+  3 <OMEGA> of electrical resistance to the flow of electrons.  The current is now:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, la tension de la batterie est de 36 volts au lieu de 18
+    volts. La lampe fournit encore 3 <OMEGA> de la résistance électrique au flux d&#39;électrons.
+    Le courant est maintenant:'}
+'OHM''s LAW ': {tag: <chaptertitle>, xlate: !!python/unicode 'LOI DE OHM'}
+? Ohm's Law also makes intuitive sense if you apply it to the water-and-pipe analogy.  If
+  we have a water pump that exerts pressure (voltage) to push water around a <quote>circuit</quote>
+: {tag: '<para>
+
+    ', xlate: La loi d&#39;Ohm est également logique intuitive si vous l&#39;appliquez
+    à l&#39;analogie eau et tuyaux. Si nous avons une pompe à eau qui exerce une pression
+    (tension) pour pousser l&#39;eau autour d&#39;un <quote> circuit </quote>}
+? 'Ohm''s Law is a simple and powerful mathematical tool for helping us analyze electric
+  circuits, but it has limitations, and we must understand these limitations in order
+  to properly apply it to real circuits.  For most conductors, resistance is a rather
+  stable property, largely unaffected by voltage or current.  For this reason we can
+  regard the resistance of many circuit components as a constant, with voltage and
+  current being directly related to each other.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La loi d&#39;Ohm est un outil mathématique simple et puissant pour
+    nous aider à analyser des circuits électriques, mais il a ses limites, et nous
+    devons comprendre ces limites afin d&#39;appliquer correctement à des circuits
+    réels. Pour la plupart des conducteurs, la résistance est une propriété assez
+    stable, en grande partie affectée par tension ou de courant. Pour cette raison,
+    nous pouvons considérer la résistance des composants du circuit beaucoup comme
+    une constante, avec la tension et le courant étant directement liés les uns aux
+    autres.'}
+? 'Ohm''s Law is a very simple and useful tool for analyzing electric circuits.  It
+  is used so often in the study of electricity and electronics that it needs to be
+  committed to memory by the serious student.  For those who are not yet comfortable
+  with algebra, there''s a trick to remembering how to solve for any one quantity,
+  given the other two.  First, arrange the letters E, I, and R in a triangle like
+  this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La loi d&#39;Ohm est un outil très simple et utile pour l&#39;analyse
+    des circuits électriques. Il est utilisé si souvent dans l&#39;étude de l&#39;électricité
+    et de l&#39;électronique qu&#39;il doit être confié à la mémoire par l&#39;étudiant
+    sérieux. Pour ceux qui ne sont pas encore à l&#39;aise avec l&#39;algèbre, il
+    y a une astuce pour se rappeler comment résoudre pour une quantité, étant donné
+    que les deux autres. Tout d&#39;abord, organiser les lettres E, I et R dans un
+    triangle comme celui-ci:'}
+? Ohm's Law is not very useful for analyzing the behavior of components like these
+  where resistance  varies with voltage and current.  Some have even suggested that
+  <quote>Ohm's Law</quote> should be demoted from the status of a <quote>Law</quote>
+: {tag: '<para>
+
+    ', xlate: La loi d&#39;Ohm est pas très utile pour analyser le comportement des
+    composants comme ceux-ci où la résistance varie avec la tension et le courant.
+    Certains ont même suggéré que <quote> La loi d&#39;Ohm </quote> être rétrogradé
+    de devrait l&#39;état d&#39;un <quote> Loi </quote>}
+'Ohm''s Law: E = IR ; I = E/R ; R = E/I': {tag: <item>, xlate: !!python/unicode 'La
+    loi d&#39;Ohm: E = IR; I = E / R; R = E / I'}
+? 'Once at a command prompt, type in this command, followed by an [Enter] keystroke
+  (this example uses the filename <typewriter>circuit1.cir</typewriter>; if you have
+  chosen a different filename for your netlist file, substitute it):
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une fois à l&#39;invite de commande, tapez cette commande, suivi d&#39;une
+    combinaison de touches [Entrée] (cet exemple utilise le nom du fichier <typewriter>
+    circuit1.cir </typewriter> ; si vous avez choisi un nom différent pour votre fichier
+    netlist, substituer):'}
+? Once suitably edited and re-saved under the same filename (<typewriter>output.txt</typewriter>
+  in this example), the text may be pasted into any kind of document, <quote>plain
+  text</quote> being a universal file format for almost all computer systems.  I can
+  even include it directly in the text of this book -- rather than as a <quote>screenshot</quote>
+: {tag: '<para>
+
+    ', xlate: 'Une fois modifié convenablement et à nouveau enregistré sous le même
+    nom de fichier ( <typewriter> sortie.txt </typewriter> dans cet exemple), le texte
+    peut être collé dans tout type de document, <quote> le texte brut </quote> étant
+    un format de fichier universel pour presque tous les systèmes informatiques. Je
+    peux même l&#39;inclure directement dans le texte de ce livre - plutôt que comme
+    <quote> capture d&#39;écran </quote>'}
+? Once we have finished typing all the necessary SPICE commands, we need to <quote>save</quote>
+  them to a file on the computer's hard disk so that SPICE has something to reference
+  to when invoked.  Since this is my first SPICE netlist, I'll save it under the filename
+  <quote><typewriter>circuit1.cir</typewriter></quote>
+: {tag: '<para>
+
+    ', xlate: 'Une fois que nous avons fini de taper toutes les commandes SPICE nécessaires,
+    nous devons <quote> enregistrer </quote> les dans un fichier sur le disque dur
+    de l&#39;ordinateur de sorte que SPICE a quelque chose à faire référence à lorsqu&#39;il
+    est invoqué. Comme c&#39;est mon premier netlist SPICE, je vais l&#39;enregistrer
+    sous le nom du fichier <quote><typewriter> circuit1.cir </typewriter></quote>'}
+? 'One final note: for most practical purposes, wire conductors can be assumed to
+  possess zero resistance from end to end.  In reality, however, there will always
+  be some small amount of resistance encountered along the length of a wire, unless
+  its a superconducting wire.  Knowing this, we need to bear in mind that the principles
+  learned here about electrically common points are all valid to a large degree, but
+  not to an <italic>absolute</italic> degree.  That is, the rule that electrically
+  common points are guaranteed to have zero voltage between them is more accurately
+  stated as such: electrically common points will have <italic>very little</italic>
+  voltage dropped between them.  That small, virtually unavoidable trace of resistance
+  found in any piece of connecting wire is bound to create a small voltage across
+  the length of it as current is conducted through.  So long as you understand that
+  these rules are based upon <italic>ideal</italic> conditions, you won''t be perplexed
+  when you come across some condition appearing to be an exception to the rule.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une dernière remarque: à des fins plus pratiques, fils conducteurs
+    peuvent être supposés posséder une résistance nulle de bout en bout. En réalité,
+    cependant, il y aura toujours une petite quantité de résistance rencontrée le
+    long de la longueur d&#39;un fil, à moins que son un fil supraconducteur. Sachant
+    cela, nous devons garder à l&#39;esprit que les principes appris ici sur les points
+    communs électriquement sont valides dans une large mesure, mais pas à un <italic>
+    absolu </italic> degré. Autrement dit, la règle selon laquelle les points communs
+    électriquement sont garantis d&#39;avoir une tension nulle entre eux est indiqué
+    plus précisément en tant que tels: les points communs auront électriquement <italic>
+    très peu </italic> chute de tension entre eux. Cette petite trace pratiquement
+    inévitable de résistance trouvé dans un morceau de fil de liaison est lié à créer
+    une petite tension aux bornes de la longueur de celui-ci comme cela est effectué
+    par l&#39;intermédiaire de courant. Tant que vous comprenez que ces règles sont
+    basées sur <italic> idéal </italic> conditions, vous ne serez pas perplexes quand
+    vous tombez sur une condition qui paraît être une exception à la règle.'}
+? One foundational unit of electrical measurement, often taught in the beginnings
+  of electronics courses but used infrequently afterwards, is the unit of the <italic>coulomb</italic>,
+  which is a measure of electric charge proportional to the number of electrons in
+  an imbalanced state.  One coulomb of charge is equal to 6,250,000,000,000,000,000
+  electrons.  The symbol for electric charge quantity is the capital letter <quote>Q,</quote>
+  with the unit of coulombs abbreviated by the capital letter <quote>C.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Une unité fondamentale de mesure électrique, souvent enseignée dans
+    les débuts des cours de l&#39;électronique, mais rarement utilisés par la suite,
+    est l&#39;unité de la <italic> Coulomb </italic> , Qui est une mesure de la charge
+    électrique proportionnelle au nombre d&#39;électrons dans un état déséquilibré.
+    Un coulomb de charge est égale à 6,250,000,000,000,000,000 électrons. Le symbole
+    de la quantité de charge électrique est la lettre majuscule <quote> Q, </quote>
+    avec l&#39;unité de Coulombs abrégée par la lettre majuscule <quote> C. </quote>'}
+? One of the benefits of using a <quote>primitive</quote> text-based program such
+  as SPICE is that the text files dealt with are extremely small compared to other
+  file formats, especially graphical formats used in other circuit simulation software.  Also,
+  the fact that SPICE's output is plain text means you can direct SPICE's output to
+  another text file where it may be further manipulated.  To do this, we re-issue
+  a command to the computer's operating system to invoke SPICE, this time redirecting
+  the output to a file I'll call <quote><typewriter>output.txt</typewriter></quote>
+: {tag: '<para>
+
+    ', xlate: 'L&#39;un des avantages de l&#39;utilisation d&#39;un <quote> primitif
+    </quote> programme basé sur le texte tel que SPICE est que les fichiers texte
+    traités sont extrêmement faibles par rapport à d&#39;autres formats de fichiers,
+    en particulier les formats graphiques utilisés dans d&#39;autres logiciels de
+    simulation de circuit. En outre, le fait que la production de SPICE est le texte
+    brut signifie que vous pouvez diriger la sortie de SPICE à un autre fichier texte
+    où il peut encore être manipulé. Pour ce faire, nous réémettrons une commande
+    au système d&#39;exploitation de l&#39;ordinateur pour appeler SPICE, cette fois
+    rediriger la sortie vers un fichier que je vais appeler <quote><typewriter> sortie.txt
+    </typewriter></quote>'}
+? "Other electrical components exhibit even stranger current/voltage curves than this.\
+  \  Some devices actually experience a <italic>decrease</italic> in current as the\
+  \ applied voltage <italic>increases</italic>.  Because the slope of the current/voltage\
+  \ for this phenomenon is negative (angling down instead of up as it progresses from\
+  \ left to right), it is known as <italic>negative resistance</italic>. \n"
+: {tag: '<para>
+
+    ', xlate: 'D&#39;autres composants électriques présentent encore plus étranges
+    courbes courant / tension que cela. Certains appareils font état d&#39;un <italic>
+    diminution </italic> en courant lorsque la tension appliquée <italic> augmente
+    </italic> . , Il est connu car la pente du courant / tension de ce phénomène est
+    négatif (pêche à la ligne vers le bas au lieu de monter comme il se lit de gauche
+    à droite) <italic> résistance négative </italic> .'}
+? 'Points 1, 2, and 3 are all common to each other, so the wire connecting point 1
+  to 2 is labeled the same (wire 2) as the wire connecting point 2 to 3 (wire 2).  In
+  a real circuit, the wire stretching from point 1 to 2 may not even be the same color
+  or size as the wire connecting point 2 to 3, but they should bear the exact same
+  label.  The same goes for the wires connecting points 6, 5, and 4.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les points 1, 2 et 3 sont tous communs les uns aux autres, de sorte
+    que le point de connexion de fil de 1 à 2 est marqué le même (fil 2) que le point
+    de connexion de fil 2 à 3 (fil 2). Dans un circuit réel, le fil d&#39;étirement
+    du point de 1 à 2 peut même ne pas être la même couleur ou taille que le point
+    de connexion de fil 2 à 3, mais ils doivent porter exactement la même étiquette.
+    La même chose vaut pour les fils de connexion des points 6, 5 et 4.'}
+? Points directly connected together in a circuit by zero resistance (wire) are considered
+  to be <italic>electrically common</italic>.
+: {tag: <item>, xlate: Points directement reliés entre eux dans un circuit par une
+    résistance nulle (fil) sont considérés comme étant <italic> électriquement commun
+    </italic> .}
+Polarity of voltage drops: {tag: <sectiontitle>, xlate: Polarité des chutes de tension}
+Power in electric circuits: {tag: <sectiontitle>, xlate: Puissance dans les circuits
+    électriques}
+? 'Power is a measure of how much work can be performed in a given amount of time.  <italic>Work</italic>
+  is generally defined in terms of the lifting of a weight against the pull of gravity.  The
+  heavier the weight and/or the higher it is lifted, the more work has been done.  <italic>Power</italic>
+  is a measure of how rapidly a standard amount of work is done.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le pouvoir est une mesure de la quantité de travail peut être effectué
+    dans un laps de temps donné. <italic> Travail </italic> est généralement définie
+    en termes de la levée d&#39;un poids contre la force de gravité. Plus le poids
+    et / ou plus il est élevé, plus le travail a été fait. <italic> Puissance </italic>
+    est une mesure de la rapidité avec laquelle une quantité standard de travail est
+    fait.'}
+Power is the measure of how much work can be done in a given amount of time.: {tag: <item>,
+  xlate: La puissance est la mesure de la quantité de travail qui peut être fait dans
+    un laps de temps donné.}
+Power measured in <italic>watts</italic>, symbolized by the letter <quote>W</quote>: {
+  tag: <item>, xlate: 'Puissance mesurée en <italic> watts </italic> , Symbolisée
+    par la lettre <quote> W </quote>'}
+? 'Real resistors look nothing like the zig-zag symbol.  Instead, they look like small
+  tubes or cylinders with two wires protruding for connection to a circuit.  Here
+  is a sampling of different kinds and sizes of resistors:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'résistances réelles ne ressemblent en rien le symbole zig-zag. , Ils
+    regardent plutôt que comme de petits tubes ou cylindres avec deux fils en saillie
+    pour la connexion à un circuit. Voici un échantillon de différents types et tailles
+    de résistances:'}
+Resistance measured in <italic>ohms</italic>, symbolized by the letter <quote>R</quote>: {
+  tag: <item>, xlate: 'Résistance mesurée <italic> ohms </italic> , Symbolisée par
+    la lettre <quote> R </quote>'}
+? Resistor resistance ratings cannot be determined from the physical size of the resistor(s)
+  in question, although approximate power ratings can.  The larger the resistor is,
+  the more power it can safely dissipate without suffering damage.
+: {tag: <item>, xlate: 'cotes de résistance de résistance ne peuvent pas être déterminées
+    à partir de la taille physique de la résistance (s) en question, bien que des
+    puissances approximatives peuvent. Plus la résistance est, plus la puissance qu&#39;elle
+    peut dissiper en toute sécurité sans subir de dommages.'}
+? 'Resistor values in ohms are usually shown as an adjacent number, and if several
+  resistors are present in a circuit, they will be labeled with a unique identifier
+  number such as R<subscript>1</subscript>, R<subscript>2</subscript>, R<subscript>3</subscript>,
+  etc.  As you can see, resistor symbols can be shown either horizontally or vertically:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'les valeurs de résistance en ohms sont généralement présentés en tant
+    que numéro adjacent, et si plusieurs résistances sont présentes dans un circuit,
+    ils seront marqués avec un numéro d&#39;identification unique tel que R <subscript>
+    1 </subscript> , R <subscript> 2 </subscript> , R <subscript> 3 </subscript> ,
+    Etc. Comme vous pouvez le voir, les symboles de la résistance peut apparaître
+    soit horizontalement ou verticalement:'}
+Resistors: {tag: <sectiontitle>, xlate: résistances}
+? 'Resistors can also be shown to have varying rather than fixed resistances.  This
+  might be for the purpose of describing an actual physical device designed for the
+  purpose of providing an adjustable resistance, or it could be to show some component
+  that just happens to have an unstable resistance:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les résistances peuvent également être démontré que différentes résistances
+    plutôt que fixes. Cela pourrait être le but de décrire un dispositif physique
+    conçu dans le but de fournir une résistance réglable, ou il pourrait être de montrer
+    une composante qui se passe juste pour avoir une résistance instable:'}
+? 'SPICE begins with a reiteration of the netlist, complete with title line and <typewriter>.end</typewriter>
+  statement.  About halfway through the simulation it displays the voltage at all
+  nodes with reference to node 0.  In this example, we only have one node other than
+  node 0, so it displays the voltage there: 10.0000 volts.  Then it displays the current
+  through each voltage source.  Since we only have one voltage source in the entire
+  circuit, it only displays the current through that one.  In this case, the source
+  current is 2 amps.  Due to a quirk in the way SPICE analyzes current, the value
+  of 2 amps is output as a negative (-) 2 amps.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'SPICE commence par une réitération de la netlist, avec ligne de titre
+    et <typewriter> .fin </typewriter> déclaration. À mi-chemin de la simulation affiche
+    la tension à tous les noeuds avec référence au noeud 0. Dans cet exemple, nous
+    avons un seul noeud autre que le noeud 0, il affiche la tension là-bas: 10.0000
+    volts. Ensuite, il affiche le courant à travers chaque source de tension. Étant
+    donné que nous avons une seule source de tension dans le circuit entier, il affiche
+    uniquement le courant à travers celui-ci. Dans ce cas, le courant source est de
+    2 ampères. En raison d&#39;une bizarrerie dans le SPICE de manière analyse en
+    cours, la valeur de 2 ampères est délivré en sortie comme une valeur négative
+    (-) 2 ampères.'}
+? 'SPICE cannot directly understand a schematic diagram or any other form of graphical
+  description.  SPICE is a text-based computer program, and demands that a circuit
+  be described in terms of its constituent components and connection points.  Each
+  unique connection point in a circuit is described for SPICE by a <quote>node</quote>
+  number.  Points that are electrically common to each other in the circuit to be
+  simulated are designated as such by sharing the same number.  It might be helpful
+  to think of these numbers as <quote>wire</quote> numbers rather than <quote>node</quote>
+  numbers, following the definition given in the previous section.  This is how the
+  computer knows what''s connected to what: by the sharing of common wire, or node,
+  numbers.  In our example circuit, we only have two <quote>nodes,</quote>'
+: {tag: '<para>
+
+    ', xlate: 'SPICE ne comprend pas directement un schéma ou toute autre forme de
+    description graphique. SPICE est un programme informatique basé sur le texte,
+    et exige qu&#39;un circuit soit décrit en termes de ses éléments constitutifs
+    et les points de connexion. Chaque point de connexion unique dans un circuit est
+    décrit pour SPICE par un <quote> nœud </quote> nombre. Les points qui sont communs
+    électriquement les uns aux autres dans le circuit à simuler sont désignés comme
+    tels en partageant le même nombre. Il pourrait être utile de penser à ces chiffres
+    comme <quote> câble </quote> chiffres plutôt que <quote> nœud </quote> numéros,
+    suivant la définition donnée dans la section précédente. Voici comment l&#39;ordinateur
+    sait ce lié à ce que: par le partage de fil commun ou noeud, numéros. Dans notre
+    exemple de circuit, nous avons seulement deux <quote> noeuds, </quote>'}
+SPICE will run <quote>silently</quote>: {tag: '<para>
+
+    ', xlate: SPICE se déroulera <quote> silencieusement </quote>}
+? 'Since electrically common points are connected together by (zero resistance) wire,
+  there is no significant voltage drop between them regardless of the amount of current
+  conducted from one to the next through that connecting wire.  Thus, if we were to
+  read voltages between common points, we should show (practically) zero:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Etant donné que les points électriquement communs sont reliés entre
+    eux par des fils (résistance nulle), il n&#39;y a pas importante chute de tension
+    entre eux quelle que soit la quantité de courant conduit de l&#39;un à l&#39;autre
+    par ce fil métallique de connexion. Ainsi, si nous devions lire des tensions entre
+    des points communs, nous devons montrer (presque) zéro:'}
+? So far, we've been analyzing single-battery, single-resistor circuits with no regard
+  for the connecting wires between the components, so long as a complete circuit is
+  formed.  Does the wire length or circuit <quote>shape</quote>
+: {tag: '<para>
+
+    ', xlate: 'Jusqu&#39;à présent, nous avons d&#39;analyser une seule batterie,
+    circuits simple résistance sans égard pour les fils de connexion entre les composants,
+    tant est formé d&#39;un circuit complet. Est-ce que la longueur du fil ou circuit
+    <quote> forme </quote>'}
+? So, our 100 horsepower diesel and motorcycle engines could also be rated as <quote>74570
+  watt</quote> engines, or more properly, as <quote>74.57 kilowatt</quote>
+: {tag: '<para>
+
+    ', xlate: 'Ainsi, nos moteurs diesel 100 chevaux et moto pourraient également
+    être classés comme <quote> 74570 watts </quote> moteurs, ou plus, comme <quote>
+    74,57 kilowatts </quote>'}
+? "Special components called <italic>resistors</italic> are made for the express purpose\
+  \ of creating a precise quantity of resistance for insertion into a circuit.  They\
+  \ are typically constructed of metal wire or carbon, and engineered to maintain\
+  \ a stable resistance value over a wide range of environmental conditions.  Unlike\
+  \ lamps, they do not produce light, but they do produce heat as electric power is\
+  \ dissipated by them in a working circuit.  Typically, though, the purpose of a\
+  \ resistor is not to produce usable heat, but simply to provide a precise quantity\
+  \ of electrical resistance. \n"
+: {tag: '<para>
+
+    ', xlate: 'composants spéciaux appelés <italic> résistances </italic> sont faites
+    dans le but exprès de créer une quantité précise de la résistance pour l&#39;insertion
+    dans un circuit. Ils sont généralement construits en fil métallique ou en carbone,
+    et conçus pour maintenir une valeur de résistance stable sur une large gamme de
+    conditions environnementales. Contrairement aux lampes, ils ne produisent pas
+    de lumière, mais ils ne produisent de la chaleur que l&#39;énergie électrique
+    est dissipée par eux dans un circuit de travail. En règle générale, cependant,
+    le but d&#39;une résistance est de ne pas produire de la chaleur utilisable, mais
+    simplement de fournir une quantité précise de la résistance électrique.'}
+? The <quote>symbol</quote> given for each quantity is the standard alphabetical letter
+  used to represent that quantity in an algebraic equation.  Standardized letters
+  like these are common in the disciplines of physics and engineering, and are internationally
+  recognized.  The <quote>unit abbreviation</quote> for each quantity represents the
+  alphabetical symbol used as a shorthand notation for its particular unit of measurement.  And,
+  yes, that strange-looking <quote>horseshoe</quote>
+: {tag: '<para>
+
+    ', xlate: 'le <quote> symbole </quote> donnée pour chaque quantité est la lettre
+    alphabétique norme utilisée pour représenter cette quantité dans une équation
+    algébrique. lettres normalisées comme celles-ci sont communes dans les disciplines
+    de la physique et l&#39;ingénierie, et sont reconnus internationalement. le <quote>
+    abréviation de l&#39;unité </quote> pour chaque quantité représente le symbole
+    alphabétique utilisé comme une notation abrégée pour son unité particulière de
+    mesure. Et, oui, que l&#39;aspect étrange <quote> fer à cheval </quote>'}
+? 'The <typewriter>.print</typewriter> command in this SPICE netlist instructs SPICE
+  to print columns of numbers corresponding to each step in the analysis:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'le <typewriter> .impression </typewriter> commande dans ce netlist
+    SPICE SPICE charge de colonnes d&#39;impression de nombres correspondant à chaque
+    étape de l&#39;analyse:'}
+? The force motivating electrons to <quote>flow</quote> in a circuit is called <italic>voltage</italic>.  Voltage
+  is a specific measure of potential energy that is always relative between two points.  When
+  we speak of a certain amount of voltage being present in a circuit, we are referring
+  to the measurement of how much <italic>potential</italic> energy exists to move
+  electrons from one particular point in that circuit to another particular point.  Without
+  reference to <italic>two</italic> particular points, the term <quote>voltage</quote>
+: {tag: '<para>
+
+    ', xlate: 'La force de motivation à électrons <quote> couler </quote> dans un
+    circuit est appelé <italic> Tension </italic> . La tension est une mesure spécifique
+    d&#39;énergie potentielle qui est toujours relative entre deux points. Quand on
+    parle d&#39;une certaine quantité de tension étant présente dans un circuit, nous
+    faisons référence à la mesure de la quantité <italic> potentiel </italic> énergie
+    existe pour déplacer des électrons à partir d&#39;un point particulier dans ce
+    circuit à un autre point. Sans référence <italic> deux </italic> points particuliers,
+    le terme <quote> Tension </quote>'}
+? 'The graph shown is approximate for a small air gap (less than one inch).  A larger
+  air gap would yield a higher ionization potential, but the shape of the I/E curve
+  would be very similar: practically no current until the ionization potential was
+  reached, then substantial conduction after that.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le graphique représenté est approximative pour un petit espace d&#39;air
+    (moins d&#39;un pouce). Un espace d&#39;air plus grande donnerait un potentiel
+    d&#39;ionisation plus élevé, mais la forme de la I / courbe de E serait très similaire:
+    pratiquement aucun courant jusqu&#39;à ce que le potentiel d&#39;ionisation est
+    atteint, la conduction importante après.'}
+? The last line of text in the computer's analysis report is <quote>total power dissipation,</quote>
+  which in this case is given as <quote>2.00E+01</quote>
+: {tag: '<para>
+
+    ', xlate: 'La dernière ligne de texte dans le rapport d&#39;analyse de l&#39;ordinateur
+    est <quote> dissipation de puissance totale, </quote> qui dans ce cas est donnée
+    à titre <quote> 2.00E + 01 </quote>'}
+? The mathematical symbol for each quantity is meaningful as well.  The <quote>R</quote>
+  for resistance and the <quote>V</quote> for voltage are both self-explanatory, whereas
+  <quote>I</quote> for current seems a bit weird.  The <quote>I</quote> is thought
+  to have been meant to represent <quote>Intensity</quote> (of electron flow), and
+  the other symbol for voltage, <quote>E,</quote> stands for <quote>Electromotive
+  force.</quote>  From what research I've been able to do, there seems to be some
+  dispute over the meaning of <quote>I.</quote>  The symbols <quote>E</quote> and
+  <quote>V</quote> are  interchangeable for the most part, although some texts reserve
+  <quote>E</quote> to represent voltage across a source (such as a battery or generator)
+  and <quote>V</quote>
+: {tag: '<para>
+
+    ', xlate: 'Le symbole mathématique pour chaque quantité est significative aussi
+    bien. le <quote> R </quote> pour la résistance et la <quote> V </quote> de tension
+    sont à la fois auto-explicatif, alors que <quote> je </quote> pour le courant
+    semble un peu bizarre. le <quote> je </quote> on pense avoir été censé représenter
+    <quote> Intensité </quote> (De flux d&#39;électrons), et l&#39;autre symbole de
+    tension, <quote> E, </quote> est synonyme de <quote> Force électromotrice. </quote>
+    D&#39;après ce que la recherche que je suis en mesure de le faire, il semble y
+    avoir un désaccord sur le sens de <quote> JE. </quote> les symboles <quote> E
+    </quote> et <quote> V </quote> sont interchangeables pour la plupart, même si
+    une certaine réserve de textes <quote> E </quote> pour représenter tension aux
+    bornes d&#39;une source (par exemple une batterie ou un générateur) et <quote>
+    V </quote>'}
+? 'The most common schematic symbol for a resistor is a zig-zag line:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le symbole schématique la plus courante pour une résistance est une
+    ligne en zig-zag:'}
+? 'The phenomenon of resistance changing with variations in temperature is one shared
+  by almost all metals, of which most wires are made.  For most applications, these
+  changes in resistance are small enough to be ignored.  In the application of metal
+  lamp filaments, the change happens to be quite large.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le phénomène de la résistance change avec les variations de la température
+    est partagée par presque tous les métaux, dont la plupart des fils sont faits.
+    Pour la plupart des applications, ces changements de résistance sont suffisamment
+    petits pour être ignorés. Dans l&#39;application des filaments de lampe en métal,
+    le changement se trouve être assez grand.'}
+? 'The plot is no longer a straight line.  It rises sharply on the left, as voltage
+  increases from zero to a low level.  As it progresses to the right we see the line
+  flattening out, the circuit requiring greater and greater increases in voltage to
+  achieve equal increases in current.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;intrigue n&#39;est plus une ligne droite. Il augmente brusquement
+    à gauche, que la tension augmente de zéro à un faible niveau. En progressant vers
+    la droite on voit la ligne à plat, le circuit nécessitant une plus grande et une
+    plus grande augmentation de la tension pour obtenir l&#39;égalité des augmentations
+    de courant.'}
+? 'The polarity of the voltage drop across any resistive component is determined by
+  the direction of electron flow through it: <italic>negative</italic> entering, and
+  <italic>positive</italic> exiting.'
+: {tag: <item>, xlate: 'La polarité de la chute de tension sur toute composante résistive
+    est déterminée par la direction du flux d&#39;électrons à travers elle: <italic>
+    négatif </italic> entrer, et <italic> positif </italic> sortie.'}
+? 'The power of a mechanical engine is a function of both the engine''s speed and
+  its torque provided at the output shaft.  Speed of an engine''s output shaft is
+  measured in revolutions per minute, or RPM.  Torque is the amount of twisting force
+  produced by the engine, and it is usually measured in pound-feet, or lb-ft (not
+  to be confused with foot-pounds or ft-lbs, which is the unit for work).  Neither
+  speed nor torque alone is a measure of an engine''s power.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La puissance d&#39;un moteur mécanique est fonction à la fois de la
+    vitesse du moteur et son couple fourni à l&#39;arbre de sortie. Vitesse de l&#39;arbre
+    de sortie d&#39;un moteur est mesurée en tours par minute, ou RPM. Le couple est
+    la quantité de force de torsion produite par le moteur, et il est généralement
+    mesurée en livre-pieds, ou lb-pi (à ne pas confondre avec le pied-livres ou lb-pi,
+    ce qui est l&#39;unité de travail). Ni la vitesse ni le couple seul est une mesure
+    de la puissance d&#39;un moteur.'}
+? The resistance of most conductive materials is stable over a wide range of conditions,
+  but this is not true of all materials.
+: {tag: <item>, xlate: 'La résistance de la plupart des matériaux conducteurs est
+    stable sur une large gamme de conditions, mais ce n&#39;est pas vrai de tous les
+    matériaux.'}
+? The straight-line plot of current over voltage indicates that resistance is a stable,
+  unchanging value for a wide range of circuit voltages and currents.  In an <quote>ideal</quote>
+  situation, this is the case.  Resistors, which are manufactured to provide a definite,
+  stable value of resistance, behave very much like the plot of values seen above.  A
+  mathematician would call their behavior <quote>linear.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Le tracé linéaire de courant sur la tension indique que la résistance
+    est une valeur stable, immuable pour une large gamme de tensions de circuit et
+    des courants. dans un <quote> idéal </quote> la situation, c&#39;est le cas. Résistances,
+    qui sont fabriqués pour fournir une valeur nette, stable de la résistance, se
+    comportent comme le tracé des valeurs vu plus haut. Un mathématicien appellerait
+    leur comportement <quote> linéaire. </quote>'}
+? 'The voltage between points 1 and 6 is 10 volts, coming straight from the battery.  However,
+  since points 5 and 4 are common to 6, and points 2 and 3 common to 1, that same
+  10 volts also exists between these other pairs of points:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La tension entre les points 1 et 6 est de 10 volts, en provenance de
+    la batterie droite. Cependant, étant donné que les points 5 et 4 sont communs
+    à 6, et les points 2 et 3 communs à 1, ce même 10 volts existe aussi entre ces
+    paires de points:'}
+The voltage or resistance readings referenced between sets of electrically common points will be the same.: {
+  tag: <item>, xlate: La tension ou des lectures de résistance fait référence entre
+    les séries de points communs électriquement seront les mêmes.}
+? 'There are also special gas-filled tubes designed to do much the same thing, exploiting
+  the very same principle at work in the ionization of air by a lightning bolt.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il y a aussi des tubes remplis de gaz spéciaux destinés à faire la
+    même chose, exploitant le même principe au travail dans l&#39;ionisation de l&#39;air
+    par un éclair.'}
+? There are circuit components specifically engineered to provide nonlinear resistance
+  curves, one of them being the <italic>varistor</italic>.  Commonly manufactured
+  from compounds such as zinc oxide or silicon carbide, these devices maintain high
+  resistance across their terminals until a certain <quote>firing</quote> or <quote>breakdown</quote>
+  voltage (equivalent to the <quote>ionization potential</quote>
+: {tag: '<para>
+
+    ', xlate: 'Il existe des composants de circuit spécifiquement conçu pour fournir
+    des courbes de résistance non linéaire, l&#39;un d&#39;eux étant le <italic> varistance
+    </italic> . Généralement fabriqué à partir de composés tels que l&#39;oxyde de
+    zinc ou de carbure de silicium, ces dispositifs maintiennent une résistance élevée
+    à leurs bornes jusqu&#39;à une certaine <quote> cuisson </quote> ou <quote> panne
+    </quote> tension (équivalent à la <quote> potentiel d&#39;ionisation </quote>'}
+? 'There are even some computer programs able to interpret and convert the non-graphical
+  data output by SPICE into a graphical plot.  One of these programs is called <italic>Nutmeg</italic>,
+  and its output looks something like this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il y a même des programmes informatiques capables d&#39;interpréter
+    et convertir la sortie de données non graphique par SPICE dans un tracé graphique.
+    L&#39;un de ces programmes est appelé <italic> Noix de muscade </italic> , Et
+    sa sortie ressemble à ceci:'}
+? There are over one hundred surface-mount resistors on this circuit board, and this
+  count of course does not include the number of resistors internal to the black <quote>chips.</quote>  These
+  two photographs should convince anyone that resistors -- devices that <quote>merely</quote>
+: {tag: '<para>
+
+    ', xlate: 'Il y a plus d&#39;une centaine de résistances montées en surface sur
+    cette carte de circuit imprimé, et ce nombre ne comprennent évidemment pas le
+    nombre de résistances internes au noir <quote> chips. </quote> Ces deux photos
+    doivent convaincre quiconque que des résistances - appareils <quote> seulement
+    </quote>'}
+? These rules apply to <italic>ideal</italic> conditions, where connecting wires are
+  assumed to possess absolutely zero resistance.  In real life this will probably
+  not be the case, but wire resistances should be low enough so that the general principles
+  stated here still hold.
+: {tag: <item>, xlate: 'Ces règles sont applicables à <italic> idéal </italic> conditions,
+    où les fils de connexion sont supposés posséder absolument une résistance nulle.
+    Dans la vraie vie ce ne sera probablement pas le cas, mais les résistances de
+    fil doit être suffisamment faible pour que les principes généraux énoncés ici
+    tiennent toujours.'}
+? 'These same programs can be fantastic aids to the beginning student of electronics,
+  allowing the exploration of ideas quickly and easily with no assembly of real circuits
+  required.  Of course, there is no substitute for actually building and testing real
+  circuits, but computer simulations certainly assist in the learning process by allowing
+  the student to experiment with changes and see the effects they have on circuits.  Throughout
+  this book, I''ll be incorporating computer printouts from circuit simulation frequently
+  in order to illustrate important concepts.  By observing the results of a computer
+  simulation, a student can gain an intuitive grasp of circuit behavior without the
+  intimidation of abstract mathematical analysis.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ces mêmes programmes peuvent être des aides fantastiques au début étudiant
+    de l&#39;électronique, ce qui permet l&#39;exploration des idées rapidement et
+    facilement sans assemblage de circuits réels nécessaires. Bien sûr, il n&#39;y
+    a pas de substitut à la construction et en fait tester des circuits réels, mais
+    les simulations informatiques aider certainement dans le processus d&#39;apprentissage
+    en permettant à l&#39;étudiant d&#39;expérimenter des changements et de voir les
+    effets qu&#39;ils ont sur les circuits. Tout au long de ce livre, je vais intégrer
+    les imprimés d&#39;ordinateur de simulation de circuit fréquemment afin d&#39;illustrer
+    des concepts importants. En observant les résultats d&#39;une simulation informatique,
+    un étudiant peut acquérir une compréhension intuitive du comportement du circuit
+    sans l&#39;intimidation de l&#39;analyse mathématique abstraite.'}
+? 'These units and symbols for electrical quantities will become very important to
+  know as we begin to explore the relationships between them in circuits.  The first,
+  and perhaps most important, relationship between current, voltage, and resistance
+  is called Ohm''s Law, discovered by Georg Simon Ohm and published in his 1827 paper,
+  <italic>The Galvanic Circuit Investigated Mathematically</italic>.  Ohm''s principal
+  discovery was that the amount of electric current through a metal conductor in a
+  circuit is directly proportional to the voltage impressed across it, for any given
+  temperature.  Ohm expressed his discovery in the form of a simple equation, describing
+  how voltage, current, and resistance interrelate:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ces unités et les symboles de grandeurs électriques deviendront très
+    important de savoir que nous commençons à explorer les relations entre eux dans
+    les circuits. La première, et peut-être le plus important, relation entre le courant,
+    la tension et la résistance est appelée loi d&#39;Ohm, découvert par Georg Simon
+    Ohm et publié dans son article 1827, <italic> Le circuit Galvanic objet d&#39;une
+    enquête Mathématiquement </italic> . découverte principale d&#39;Ohm était que
+    la quantité de courant électrique à travers un conducteur métallique dans un circuit
+    est directement proportionnelle à la tension appliquée à travers elle, pour une
+    température donnée. Ohm a exprimé sa découverte sous la forme d&#39;une équation
+    simple, décrivant comment la tension, le courant et la résistance interreliés:'}
+? This is just one example of <quote>nonlinearity</quote> in electric circuits.  It
+  is by no means the only example.  A <quote>linear</quote>
+: {tag: '<para>
+
+    ', xlate: Ceci est juste un exemple de <quote> non-linéarité </quote> dans des
+    circuits électriques. Il est pas le seul exemple. UNE <quote> linéaire </quote>}
+? 'This line of text tells SPICE that we have a voltage source connected between nodes
+  1 and 0, direct current (DC), 10 volts.  That''s all the computer needs to know
+  regarding the battery.  Now we turn to the resistor: SPICE requires that resistors
+  be described with a letter <quote>r,</quote> the numbers of the two nodes (connection
+  points), and the resistance in ohms.  Since this is a computer simulation, there
+  is no need to specify a power rating for the resistor.  That''s one nice thing about
+  <quote>virtual</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Cette ligne de texte indique SPICE que nous avons une source de tension
+    connecté entre les noeuds 1 et 0, courant continu (CC), 10 volts. C&#39;est tout
+    l&#39;ordinateur a besoin de savoir en ce qui concerne la batterie. Nous passons
+    maintenant à la résistance: SPICE exige que les résistances décrites par une lettre
+    <quote> r, </quote> les numéros des deux noeuds (points de connexion), et la résistance
+    en ohms. Comme il est une simulation informatique, il n&#39;y a pas besoin de
+    spécifier une puissance nominale de la résistance. C&#39;est une bonne chose à
+    propos <quote> virtuel </quote>'}
+? 'This makes sense mathematically, too.  With a 10 volt battery and a 5 <OMEGA> resistor,
+  the circuit current will be 2 amps.  With wire resistance being zero, the voltage
+  drop across any continuous stretch of wire can be determined through Ohm''s Law
+  as such:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cela est logique mathématiquement, aussi. Avec une batterie de 10 volts
+    et 5 <OMEGA> résistance, le courant du circuit sera de 2 ampères. Avec une résistance
+    de fil étant égale à zéro, la chute de tension à travers un effort continu de
+    fil métallique peut être déterminée par la loi d&#39;Ohm en tant que telle:'}
+? This particular circuit board is a computer accessory called a <quote>modem,</quote>
+  which allows digital information transfer over telephone lines.  There are at least
+  a dozen resistors (all rated at 1/4 watt power dissipation) that can be seen on
+  this modem's board.  Every one of the black rectangles (called <quote>integrated
+  circuits</quote> or <quote>chips</quote>
+: {tag: '<para>
+
+    ', xlate: 'Cette carte de circuit particulier est un accessoire d&#39;ordinateur
+    appelé <quote> modem, </quote> qui permet le transfert d&#39;informations numériques
+    sur des lignes téléphoniques. Il y a au moins une douzaine de résistances (toutes
+    une puissance nominale de 1/4 watt dissipation de puissance) qui peut être vu
+    à bord de ce modem. Chacun des rectangles noirs (appelés <quote> circuits intégrés
+    </quote> ou <quote> chips </quote>'}
+? 'This simple circuit consists of a battery and a resistor connected directly together.  We
+  know the voltage of the battery (10 volts) and the resistance of the resistor (5
+  <OMEGA>), but nothing else about the circuit.  If we describe this circuit to SPICE,
+  it should be able to tell us (at the very least), how much current we have in the
+  circuit by using Ohm''s Law (I=E/R).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ce circuit simple est constitué d&#39;une batterie et une résistance
+    connectée directement ensemble. Nous savons que la tension de la batterie (10
+    volts) et la résistance de la résistance (5 <OMEGA> ), Mais rien d&#39;autre sur
+    le circuit. Si nous décrivons ce circuit SPICE, il devrait être en mesure de nous
+    dire (à tout le moins), la façon dont nous avons beaucoup de courant dans le circuit
+    en utilisant la loi d&#39;Ohm (I = E / R).'}
+? 'This stands to reason: if I = E/R, and we double E while R stays the same, the
+  current should double.  Indeed, it has: we now have 12 amps of current instead of
+  6.  Now, what about power?
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cette raison tient à: si I = E / R, et nous double E tandis que R reste
+    le même, le courant devrait doubler. En effet, il a: nous avons maintenant 12
+    ampères de courant au lieu de 6. Maintenant, qu&#39;en est-pouvoir?'}
+? 'To alter a component value in the simulation, we need to open up the netlist file
+  (<typewriter>circuit1.cir</typewriter>) and make the required modifications in the
+  text description of the circuit, then save those changes to the same filename, and
+  re-invoke SPICE at the command prompt.  This process of editing and processing a
+  text file is one familiar to every computer programmer.  One of the reasons I like
+  to teach SPICE is that it prepares the learner to think and work like a computer
+  programmer, which is good because computer programming is a significant area of
+  advanced electronics work.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour modifier une valeur de composante dans la simulation, nous avons
+    besoin d&#39;ouvrir le fichier netlist ( <typewriter> circuit1.cir </typewriter>
+    ) Et apporter les modifications nécessaires à la description textuelle du circuit,
+    puis enregistrez ces modifications dans le même nom, et invoquer de nouveau SPICE
+    à l&#39;invite de commande. Ce processus d&#39;édition et de traitement d&#39;un
+    fichier texte est familier à chaque programmeur informatique. L&#39;une des raisons
+    pour lesquelles j&#39;aime enseigner SPICE est qu&#39;il prépare l&#39;apprenant
+    à penser et à travailler comme un programmeur informatique, ce qui est bon parce
+    que la programmation informatique est un domaine important du travail de l&#39;électronique
+    de pointe.'}
+? To be able to make meaningful statements about these quantities in circuits, we
+  need to be able to describe their quantities in the same way that we might quantify
+  mass, temperature, volume, length, or any other kind of physical quantity.  For
+  mass we might use the units of <quote>kilogram</quote> or <quote>gram.</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour pouvoir faire des déclarations significatives sur ces quantités
+    dans les circuits, nous devons être en mesure de décrire leurs quantités de la
+    même manière que nous pourrions quantifier la masse, la température, le volume,
+    la longueur ou tout autre type de grandeur physique. Pour la masse, nous pourrions
+    utiliser les unités de <quote> kilogramme </quote> ou <quote> gramme. </quote>'}
+? To describe this simple, two-component circuit to SPICE, I will begin by invoking
+  my text editor program and typing in a <quote>title</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour décrire ce simple circuit à deux composants à SPICE, je commencerai
+    en invoquant mon programme d&#39;éditeur de texte et en tapant dans un <quote>
+    Titre </quote>'}
+? To invoke SPICE (tell it to process the contents of the <typewriter>circuit1.cir</typewriter>
+  netlist file), we have to exit from the text editor and access a command prompt
+  (the <quote>DOS prompt</quote> for Microsoft users) where we can enter text commands
+  for the computer's operating system to obey.  This <quote>primitive</quote> way
+  of invoking a program may seem archaic to computer users accustomed to a <quote>point-and-click</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour appeler SPICE (lui dire de traiter le contenu du <typewriter>
+    circuit1.cir </typewriter> fichier netlist), nous devons sortir de l&#39;éditeur
+    de texte et accéder à une invite de commande (la <quote> invite DOS </quote> pour
+    Microsoft les utilisateurs) où nous pouvons ENTRER commandes de texte pour l&#39;ordinateur
+    de système d&#39;exploitation Obéir. Ce <quote> primitif </quote> manière d&#39;invoquer
+    un programme peut sembler archaïque aux utilisateurs d&#39;ordinateurs habitués
+    à un <quote> Pointer et cliquer </quote>'}
+? To simulate circuits on computer, I make use of a particular program called SPICE,
+  which works by describing a circuit to the computer by means of a listing of text.  In
+  essence, this listing is a kind of computer program in itself, and must adhere to
+  the syntactical rules of the SPICE language.  The computer is then used to process,
+  or <quote>run,</quote> the SPICE program, which interprets the text listing describing
+  the circuit and outputs the results of its detailed mathematical analysis, also
+  in text form.  Many details of using SPICE are described in volume 5 (<quote>Reference</quote>
+: {tag: '<para>
+
+    ', xlate: 'Pour simuler des circuits sur l&#39;ordinateur, je fais usage d&#39;un
+    programme particulier appelé SPICE, qui fonctionne en décrivant un circuit à l&#39;ordinateur
+    au moyen d&#39;une liste de texte. Essentiellement, cette liste est une sorte
+    de programme informatique en lui-même, et doit se conformer aux règles syntaxiques
+    de la langue SPICE. L&#39;ordinateur est ensuite utilisé pour traiter ou <quote>
+    courir, </quote> le programme SPICE, qui interprète la liste de texte décrivant
+    le circuit et transmet les résultats de son analyse mathématique détaillée, également
+    sous forme de texte. De nombreux détails sur l&#39;utilisation SPICE sont décrits
+    dans le volume 5 ( <quote> Référence </quote>'}
+? 'To summarize what we''ve learned in this lesson, let''s analyze the following circuit,
+  determining all that we can from the information given:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour résumer ce que nous avons appris dans cette leçon, nous allons
+    analyser le circuit suivant, la détermination de tout ce que nous pouvons à partir
+    des informations données:'}
+? 'Using algebra again to manipulate the formulae, we can take our original power
+  formula and modify it for applications where we don''t know both voltage and current:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En utilisant l&#39;algèbre à nouveau pour manipuler les formules, nous
+    pouvons prendre notre formule d&#39;alimentation d&#39;origine et de le modifier
+    pour les applications où nous ne connaissons pas la tension et courant:'}
+? 'Variable resistors must have some physical means of adjustment, either a rotating
+  shaft or lever that can be moved to vary the amount of electrical resistance.  Here
+  is a photograph showing some devices called <italic>potentiometers</italic>, which
+  can be used as variable resistors:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les résistances variables doivent avoir des moyens physiques de réglage,
+    soit un arbre rotatif ou d&#39;un levier qui peut être déplacé pour faire varier
+    la quantité de résistance électrique. Voici une photographie montrant certains
+    dispositifs appelés <italic> Potentiomètres </italic> , Qui peut être utilisé
+    en tant que résistances variables:'}
+Voltage measured in <italic>volts</italic>, symbolized by the letters <quote>E</quote> or <quote>V</quote>: {
+  tag: <item>, xlate: 'Tension mesurée en <italic> volts </italic> , Symbolisée par
+    les lettres <quote> E </quote> ou <quote> V </quote>'}
+? We can describe the battery to the computer by typing in a line of text starting
+  with the letter <quote><typewriter>v</typewriter></quote> (for <quote>Voltage source</quote>
+: {tag: '<para>
+
+    ', xlate: Nous pouvons décrire la batterie à l&#39;ordinateur en tapant une ligne
+    de texte commençant par la lettre <quote><typewriter> v </typewriter></quote>
+    (pour <quote> Source de voltage </quote>}
+? "We can trace the direction that electrons will flow in the same circuit by starting\
+  \ at the negative (-) terminal and following through to the positive (+) terminal\
+  \ of the battery, the only source of voltage in the circuit.  From this we can see\
+  \ that the electrons are moving counter-clockwise, from point 6 to 5 to 4 to 3 to\
+  \ 2 to 1 and back to 6 again. \n"
+: {tag: '<para>
+
+    ', xlate: 'On peut tracer la direction que les électrons iront dans le même circuit
+    en commençant par la borne négative (-) et la borne suivante par l&#39;intermédiaire
+    de la borne positive (+) de la batterie, la seule source de tension dans le circuit.
+    De cela, nous pouvons voir que les électrons se déplacent dans le sens antihoraire,
+    à partir du point 6 de 5 à 4 à 3 à 2 à 1 et en arrière à 6 fois.'}
+? 'We could make our table of voltages a little more complete by marking the polarity
+  of the voltage for each pair of points in this circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Nous pourrions faire notre table de tensions un peu plus complète en
+    marquant la polarité de la tension pour chaque paire de points dans ce circuit:'}
+? 'We''ve seen the formula for determining the power in an electric circuit: by multiplying
+  the voltage in <quote>volts</quote> by the current in <quote>amps</quote> we arrive
+  at an answer in <quote>watts.</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Nous avons vu la formule permettant de déterminer la puissance dans
+    un circuit électrique: en multipliant la tension dans <quote> volts </quote> par
+    le courant dans <quote> ampère </quote> nous arrivons à une réponse <quote> watts.
+    </quote>'}
+? 'What is the amount of current (I) in this circuit?
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Quelle est la quantité de courant (I) dans ce circuit?'}
+? 'What is the amount of resistance (R) offered by the lamp?
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Quel est le montant de la résistance (R) offert par la lampe?'}
+? 'What is the amount of voltage provided by the battery?
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Quelle est la quantité de tension fournie par la batterie?'}
+? 'When we draw wires connecting points in a circuit, we usually assume those wires
+  have negligible resistance.  As such, they contribute no appreciable effect to the
+  overall resistance of the circuit, and so the only resistance we have to contend
+  with is the resistance in the components.  In the above circuits, the only resistance
+  comes from the 5 <OMEGA> resistors, so that is all we will consider in our calculations.  In
+  real life, metal wires actually <italic>do</italic> have resistance (and so do power
+  sources!), but those resistances are generally so much smaller than the resistance
+  present in the other circuit components that they can be safely ignored.  Exceptions
+  to this rule exist in power system wiring, where even very small amounts of conductor
+  resistance can create significant voltage drops given normal (high) levels of current.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Lorsque nous tirons des fils de connexion points dans un circuit, nous
+    supposons habituellement ces fils ont une résistance négligeable. À ce titre,
+    ils contribuent pas d&#39;effet appréciable à la résistance globale du circuit,
+    et donc la seule résistance que nous avons à faire face est la résistance des
+    composants. Dans les circuits ci-dessus, la seule résistance vient du 5 <OMEGA>
+    résistances, de sorte que tout ce que nous allons examiner dans nos calculs. Dans
+    la vraie vie, les fils métalliques réellement <italic> faire </italic> ont une
+    résistance (et donc faire des sources d&#39;énergie!), mais ces résistances sont
+    généralement beaucoup plus petits que la résistance présente dans les autres composants
+    du circuit qu&#39;ils peuvent être ignorés en toute sécurité. Les exceptions à
+    cette règle existent dans le câblage du système d&#39;alimentation, où même de
+    très petites quantités de résistance des conducteurs peuvent créer d&#39;importantes
+    chutes de tension données normales (haut) niveau de courant.'}
+? 'Whether or not you ever become proficient at using SPICE is not relevant to its
+  application in this book.  All that matters is that you develop an understanding
+  for what the numbers mean in a SPICE-generated report.  In the examples to come,
+  I''ll do my best to annotate the numerical results of SPICE to eliminate any confusion,
+  and unlock the power of this amazing tool to help you understand the behavior of
+  electric circuits.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si oui ou non vous jamais devenir compétent à l&#39;aide de SPICE n&#39;est
+    pas pertinent à son application dans ce livre. Tout ce qui importe est que vous
+    développez une compréhension de ce que signifient les chiffres dans un rapport
+    généré SPICE. Dans les exemples à venir, je ferai de mon mieux pour annoter les
+    résultats numériques de SPICE pour éliminer toute confusion et déverrouiller la
+    puissance de cet outil extraordinaire pour vous aider à comprendre le comportement
+    des circuits électriques.'}
+Whether we measure power in the unit of <quote>horsepower</quote> or the unit of <quote>watt,</quote>: {
+  tag: '<para>
+
+    ', xlate: 'Que l&#39;on mesure la puissance dans l&#39;unité de <quote> cheval-vapeur
+    </quote> ou l&#39;unité de <quote> watt, </quote>'}
+? 'While it might seem a little silly to document polarity of voltage drop in this
+  circuit, it is an important concept to master.  It will be critically important
+  in the analysis of more complex circuits involving multiple resistors and/or batteries.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Bien qu&#39;il puisse sembler un peu idiot de polarité du document
+    de chute de tension dans ce circuit, il est un concept important de maîtriser.
+    Il sera extrêmement important dans l&#39;analyse des circuits plus complexes impliquant
+    plusieurs résistances et / ou des batteries.'}
+? Wires in a circuit can be shortened or lengthened without impacting the circuit's
+  function -- all that matters is that the components are attached to one another
+  in the same sequence.
+: {tag: <item>, xlate: Les fils dans un circuit peuvent être raccourcies ou allongées
+    sans affecter la fonction du circuit - tout ce qui compte est que les composants
+    sont fixés les uns aux autres dans la même séquence.}
+With current steady, voltage follows resistance (an increase in resistance means an increase in voltage).: {
+  tag: <item>, xlate: 'Avec une tension constante de courant, la résistance résulte
+    (une augmentation de la résistance signifie une augmentation de la tension).'}
+With resistance steady, current follows voltage (an increase in voltage means an increase in current, and vice versa).: {
+  tag: <item>, xlate: 'Avec un courant de résistance constante, suit la tension (une
+    augmentation de la tension des moyens d&#39;augmentation de courant, et vice-versa).'}
+? With voltage steady, changes in current and resistance are opposite (an increase
+  in current means a decrease in resistance, and vice versa).
+: {tag: <item>, xlate: 'Avec une tension constante, les variations de courant et de
+    résistance sont opposées (une augmentation des moyens de courant d&#39;une diminution
+    de la résistance, et vice-versa).'}

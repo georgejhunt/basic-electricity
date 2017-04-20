@@ -1,0 +1,1195 @@
+? '. . . and a bit further until its dead.
+
+  '
+: {tag: '<para>
+
+    ', xlate: . . . et un peu plus loin jusqu&#39;à ce que sa mort.}
+? '. . . and discharges a bit further . . .
+
+  '
+: {tag: '<para>
+
+    ', xlate: . . . et décharge un peu plus loin. . .}
+'9 volt carbon-zinc battery: 400 milliamp-hours @ 8 mA <italic>(primary cell)</italic>': {
+  tag: <item>, xlate: 'Batterie de 9 volts carbone-zinc: 400 milliampères-heures @
+    8 mA <italic> (Cellule primaire) </italic>'}
+? '<bold>Jason Starck</bold> (June 2000): HTML document formatting, which led to a
+  much better-looking second edition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Jason Starck </bold> (Juin 2000): la mise en forme de documents
+    HTML, ce qui a conduit à une deuxième édition beaucoup plus beau.'}
+<bold>REVIEW:</bold>: {tag: <item>, xlate: !!python/unicode '<bold> LA REVUE: </bold>'}
+<image>10213.png</image>: {tag: <item>, xlate: !!python/unicode '<image> 10213.png
+    </image>'}
+? <italic>Ionic bonds</italic> are molecular unions formed when an electron-deficient
+  atom (a positive ion) joins with an electron-excessive atom (a negative ion).
+: {tag: <item>, xlate: <italic> Des liaisons ioniques </italic> sont des unions moléculaires
+    formés lorsqu&#39;un atome déficient en électrons (un ion positif) se joint à
+    un atome d&#39;électrons excessif (un ion négatif).}
+? <italic>mercury standard cells</italic> are special types of batteries which were
+  once used as voltage calibration standards before the advent of precision semiconductor
+  reference devices.
+: {tag: <item>, xlate: <italic> cellules standard au mercure </italic> sont des types
+    particuliers de batteries qui étaient autrefois utilisés comme étalons de tension
+    avant l&#39;avènement de dispositifs de référence de semi-conducteurs de précision.}
+A <italic>battery</italic> is a cluster of cells connected together for greater voltage and/or current capacity.: {
+  tag: <item>, xlate: UNE <italic> batterie </italic> est un groupe de cellules reliées
+    entre elles pour une plus grande capacité de tension et / ou de courant.}
+A <italic>cell</italic> is a device constructed to harness such chemical reactions to generate electric current.: {
+  tag: <item>, xlate: UNE <italic> cellule </italic> est un dispositif construit pour
+    exploiter de telles réactions chimiques pour produire un courant électrique.}
+? A <italic>chemical detection cell</italic> is a special type of voltaic cell which
+  produces voltage proportional to the concentration of an applied substance (usually
+  a specific gas in ambient air).
+: {tag: <item>, xlate: UNE <italic> cellule de détection chimique </italic> est un
+    type particulier de cellule voltaïque qui produit une tension proportionnelle
+    à la concentration d&#39;une substance appliquée (habituellement un gaz spécifique
+    dans l&#39;air ambiant).}
+? A <italic>fuel cell</italic> is a kind of battery that uses a combustible fuel and
+  oxidizer as reactants to generate electricity.  They are promising sources of electrical
+  power in the future, <quote>burning</quote>
+: {tag: <item>, xlate: 'UNE <italic> pile à combustible </italic> est une sorte de
+    batterie qui utilise un combustible et un oxydant comme réactifs pour produire
+    de l&#39;électricité. Ils promettent des sources d&#39;énergie électrique à l&#39;avenir,
+    <quote> brûlant </quote>'}
+A <italic>primary</italic> cell cannot be practically recharged.: {tag: <item>, xlate: UNE
+    <italic> primaire </italic> cellule ne peut être pratiquement rechargée.}
+A <italic>secondary</italic> cell's chemistry can be reversed (recharged) by forcing current backwards through it.: {
+  tag: <item>, xlate: UNE <italic> secondaire </italic> La chimie de la cellule peut
+    être inversée (rechargées) en forçant vers l&#39;arrière en cours à travers elle.}
+? A <italic>solar cell</italic> uses ambient light energy to motivate electrons from
+  one electrode to the other, producing voltage (and current, providing an external
+  circuit).
+: {tag: <item>, xlate: 'UNE <italic> cellule photovoltaïque </italic> utilise l&#39;énergie
+    de la lumière ambiante pour motiver les électrons d&#39;une électrode à l&#39;autre,
+    la production de la tension (et courant, fournissant un circuit externe).'}
+? 'A battery with a capacity of 1 amp-hour should be able to continuously supply a
+  current of 1 amp to a load for exactly 1 hour, or 2 amps for 1/2 hour, or 1/3 amp
+  for 3 hours, etc., before becoming completely discharged.  In an ideal battery,
+  this relationship between continuous current and discharge time is stable and absolute,
+  but real batteries don''t behave exactly as this simple linear formula would indicate.  Therefore,
+  when amp-hour capacity is given for a battery, it is specified at either a given
+  current, given time, or assumed to be rated for a time period of 8 hours (if no
+  limiting factor is given).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une batterie d&#39;une capacité de 1 ampères-heure devrait être en
+    mesure de fournir en permanence un courant de 1 ampère à une charge pendant exactement
+    1 heure ou 2 ampères pendant 1/2 heure ou 1/3 ampères pendant 3 heures, etc.,
+    avant d&#39;être complètement déchargée. Dans une batterie idéale, cette relation
+    entre le temps actuel et décharge continue est stable et absolue, mais de vraies
+    batteries ne se comportent pas exactement comme cette simple formule linéaire
+    indiquerait. Par conséquent, lorsque la capacité ampères-heure est donnée pour
+    une batterie, il est précisé soit à un courant donné, le temps donné, ou supposée
+    nominale pour une période de 8 heures (si aucun facteur limitatif est donné).'}
+A cell is said to be <italic>discharged</italic> when its internal chemical reserves have been depleted through use.: {
+  tag: <item>, xlate: Une cellule est dite <italic> déchargée </italic> lorsque ses
+    réserves chimiques internes ont été épuisées par l&#39;usage.}
+? 'A fascinating device closely related to primary-cell batteries is the <italic>fuel
+  cell</italic>, so-called because it harnesses the chemical reaction of combustion
+  to generate an electric current.  The process of chemical oxidation (oxygen ionically
+  bonding with other elements) is capable of producing an electron flow between two
+  electrodes just as well as any combination of metals and electrolytes.  A fuel cell
+  can be thought of as a battery with an externally supplied chemical energy source.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Un dispositif fascinant étroitement lié aux batteries primaires de
+    cellules est le <italic> pile à combustible </italic> , Soi-disant parce qu&#39;il
+    met à profit la réaction chimique de la combustion pour produire un courant électrique.
+    Le processus d&#39;oxydation chimique (liaison oxygène ioniquement avec d&#39;autres
+    éléments) est capable de produire un flux d&#39;électrons entre deux électrodes
+    aussi bien que toute combinaison de métaux et d&#39;électrolytes. On peut considérer
+    une pile à combustible comme une batterie avec une source d&#39;énergie chimique
+    fournie à l&#39;extérieur.'}
+? "A type of chemical bond of particular interest to our study of batteries is the\
+  \ so-called <italic>ionic</italic> bond, and it differs from the <italic>covalent</italic>\
+  \ bond in that one atom of the molecule possesses an excess of electrons while another\
+  \ atom lacks electrons, the bonds between them being a result of the electrostatic\
+  \ attraction between the two unlike charges.  \n\n\nWhen ionic bonds are formed\
+  \ from neutral atoms, there is a transfer of electrons between the positively and\
+  \ negatively charged atoms.  An atom that gains an excess of electrons is said to\
+  \ be <italic>reduced</italic>; an atom with a deficiency of electrons is said to\
+  \ be <italic>oxidized</italic>.  A mnemonic to help remember  the definitions is\
+  \ OIL RIG (oxidized is less; reduced is gained).  It is important to note that molecules\
+  \ will often contain  both ionic and covalent bonds.  Sodium hydroxide (lye, NaOH)\
+  \ has an ionic bond between the sodium atom (positive) and the hydroxyl ion (negative).\
+  \  The hydroxyl ion has a covalent bond (shown as a bar) between the hydrogen and\
+  \ oxygen atoms:\n"
+: {tag: '<para>
+
+    ', xlate: 'Un type de liaison chimique d&#39;un intérêt particulier à notre étude
+    des batteries est la soi-disant <italic> ionique </italic> liaison, et il diffère
+    de la <italic> covalente </italic> en ce qu &#39;une liaison atome de la molécule
+    possède un excès d&#39;électrons tandis qu&#39;un autre atome manque d&#39;électrons,
+    les liaisons entre eux étant un résultat de l&#39;attraction électrostatique entre
+    les deux charges opposées. Lorsque des liaisons ioniques sont formés à partir
+    d&#39;atomes neutres, il y a un transfert d&#39;électrons entre les atomes chargés
+    positivement et négativement. Un atome qui gagne un excès d&#39;électrons est
+    dit <italic> réduit </italic> ; un atome avec un déficit d&#39;électrons est dit
+    <italic> oxydé </italic> . Un mnémotechnique pour aider à se rappeler les définitions
+    est RIG OIL (oxydé est moins, réduite est gagné). Il est important de noter que
+    les molécules contiennent souvent à la fois des liaisons ioniques et covalentes.
+    hydroxyde de sodium (soude caustique, NaOH) présente une liaison ionique entre
+    l&#39;atome de sodium (positif) et l&#39;ion hydroxyle (négatif). L&#39;ion hydroxyle
+    a une liaison covalente (représentée sous forme de barre) entre les atomes d&#39;hydrogène
+    et d&#39;oxygène:'}
+All batteries in a parallel bank <italic>must</italic> have the same voltage rating.: {
+  tag: <item>, xlate: Toutes les batteries dans une banque parallèle <italic> doit
+    </italic> ont la même tension nominale.}
+All batteries in a series bank <italic>must</italic> have the same amp-hour rating.: {
+  tag: <item>, xlate: Toutes les batteries dans une banque de la série <italic> doit
+    </italic> ont la même ampère-heure.}
+? 'Although we generally consider a cell or battery in a circuit to be a perfect source
+  of voltage (absolutely constant), the current through it dictated solely by the
+  <italic>external</italic> resistance of the circuit to which it is attached, this
+  is not entirely true in real life.  Since every cell or battery contains some internal
+  resistance, that resistance must affect the current in any given circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Bien que nous le courant à travers dictait considère généralement une
+    pile ou une batterie dans un circuit d&#39;être une source parfaite de tension
+    (absolument constante), par la seule <italic> externe </italic> résistance du
+    circuit auquel il est attaché, ce n&#39;est pas tout à fait vrai dans la vie réelle.
+    Étant donné que chaque pile ou batterie contient une certaine résistance interne,
+    que la résistance doit affecter le courant dans un circuit donné:'}
+? An amp-hour battery rating is only an approximation of the battery's charge capacity,
+  and should be trusted only at the current level or time specified by the manufacturer.  Such
+  a rating cannot be extrapolated for very high currents or very long times with any
+  accuracy.
+: {tag: <item>, xlate: 'Un ampli-heure note de la batterie est une approximation de
+    la capacité de charge de la batterie, et doit faire confiance qu&#39;au niveau
+    actuel ou le temps indiqué par le fabricant. Une telle note ne peut pas être extrapolée
+    pour des courants très élevés ou très longs avec précision.'}
+? 'Another type of <quote>battery</quote> is the <italic>solar cell</italic>, a by-product
+  of the semiconductor revolution in electronics.  The <italic>photoelectric effect</italic>,
+  whereby electrons are dislodged from atoms under the influence of light, has been
+  known in physics for many decades, but it has only been with recent advances in
+  semiconductor technology that a device existed capable of harnessing this effect
+  to any practical degree.  Conversion efficiencies for silicon solar cells are still
+  quite low, but their benefits as power sources are legion: no moving parts, no noise,
+  no waste products or pollution (aside from the manufacture of solar cells, which
+  is still a fairly <quote>dirty</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Un autre type de <quote> batterie </quote> est le <italic> cellule
+    photovoltaïque </italic> , Un sous-produit de la révolution des semi-conducteurs
+    dans l&#39;électronique. le <italic> effet photoélectrique </italic> , Où les
+    électrons sont délogés des atomes sous l&#39;influence de la lumière, a été connu
+    en physique depuis plusieurs décennies, mais il a été avec les récents progrès
+    dans la technologie des semi-conducteurs qu&#39;un dispositif capable d&#39;exploiter
+    existait cet effet à un degré pratique. l&#39;efficacité de conversion des cellules
+    solaires en silicium sont encore assez faibles, mais leurs avantages que les sources
+    d&#39;énergie sont légion: pas de pièces mobiles, pas de bruit, pas de déchets
+    ou la pollution (en dehors de la fabrication de cellules solaires, ce qui est
+    encore assez <quote> sale </quote>'}
+? 'Any battery containing water in the electrolyte is subject to the production of
+  hydrogen gas due to electrolysis.  This is especially true for overcharged lead-acid
+  cells, but not exclusive to that type.  Hydrogen is an extremely flammable gas (especially
+  in the presence of free oxygen created by the same electrolysis process), odorless
+  and colorless.  Such batteries pose an explosion threat even under normal operating
+  conditions, and must be treated with respect.  The author has been a firsthand witness
+  to a lead-acid battery explosion, where a spark created by the removal of a battery
+  charger (small DC power supply) from an automotive battery ignited hydrogen gas
+  within the battery case, blowing the top off the battery and splashing sulfuric
+  acid everywhere.  This occurred in a high school automotive shop, no less.  If it
+  were not for all the students nearby wearing safety glasses and buttoned-collar
+  overalls, significant injury could have occurred.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Toute batterie contenant de l&#39;eau dans l&#39;électrolyte est soumis
+    à la production d&#39;hydrogène gazeux en raison de l&#39;électrolyse. Cela est
+    particulièrement vrai pour les cellules surchargées au plomb, mais pas exclusivement
+    à ce type. L&#39;hydrogène est un gaz extrêmement inflammable (en particulier
+    en présence d&#39;oxygène libre créé par le même procédé d&#39;électrolyse), inodore
+    et incolore. Ces batteries représentent une menace d&#39;explosion même dans des
+    conditions normales de fonctionnement, et doivent être traités avec respect. L&#39;auteur
+    a été témoin de première main à une explosion de la batterie plomb-acide, où une
+    étincelle créée par le retrait d&#39;un chargeur de batterie (faible alimentation
+    en courant continu) à partir d&#39;une batterie d&#39;automobile à feu de l&#39;hydrogène
+    gazeux à l&#39;intérieur du boîtier de batterie, soufflant le haut de la pile
+    et les projections de l&#39;acide sulfurique partout. Cela a eu lieu dans une
+    grande boutique automobile scolaire, pas moins. S&#39;il n&#39;y avait pas tous
+    les étudiants portant des lunettes de sécurité à proximité et une salopette en
+    col boutonné, des blessures importantes aurait pu se produire.'}
+? 'Approximate amp-hour capacities of some common batteries are given here:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Approximatives des capacités Ampère-heure de certaines batteries communes
+    sont données ici:'}
+? As a battery discharges, not only does it diminish its internal store of energy,
+  but its internal resistance also increases (as the electrolyte becomes less and
+  less conductive), and its open-circuit cell voltage decreases (as the chemicals
+  become more and more dilute).  The most deceptive change that a discharging battery
+  exhibits is increased resistance.  The best check for a battery's condition is a
+  voltage measurement <italic>under load</italic>, while the battery is supplying
+  a substantial current through a circuit.  Otherwise, a simple voltmeter check across
+  the terminals may falsely indicate a healthy battery (adequate voltage) even though
+  the internal resistance has increased considerably.  What constitutes a <quote>substantial
+  current</quote>
+: {tag: '<para>
+
+    ', xlate: 'En tant que batterie se décharge, non seulement il affaibliront interne
+    réserve d&#39;énergie, mais son interne résistance aussi augmente (comme l&#39;électrolyte
+    devient de moins en moins conducteur), et son circuit ouvert cellule tension diminue
+    (comme les produits chimiques deviennent de plus en plus diluée ). Le changement
+    le plus trompeur que A présente de la batterie de décharge est une résistance
+    accrue. Le meilleur contrôle de l&#39;état d&#39;une batterie est une mesure de
+    tension <italic> sous charge </italic> , Pendant que la batterie fournit un courant
+    important à travers un circuit. Dans le cas contraire, une simple vérification
+    voltmètre aux bornes peut indiquer à tort une batterie en bonne santé (tension
+    adéquate), même si la résistance interne a considérablement augmenté. Qu&#39;est-ce
+    qu&#39;un <quote> un courant important </quote>'}
+? 'As was stated before, the voltage produced by any particular kind of cell is determined
+  strictly by the chemistry of that cell type.  The size of the cell is irrelevant
+  to its voltage.  To obtain greater voltage than the output of a single cell, multiple
+  cells must be connected in series.  The total voltage of a battery is the sum of
+  all cell voltages.  A typical automotive lead-acid battery has six cells, for a
+  nominal voltage output of 6 x 2.0 or 12.0 volts:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme il a été indiqué précédemment, la tension produite par un type
+    particulier de cellule est déterminée strictement par la chimie de ce type de
+    cellules. La taille de la cellule est sans rapport avec sa tension. Pour obtenir
+    une plus grande tension que la sortie d&#39;une cellule unique, des cellules multiples
+    doivent être connectés en série. La tension totale de la batterie est la somme
+    de toutes les tensions des cellules. Une batterie plomb-acide automobile typique
+    a six cellules, pour une sortie de tension nominale de 6 x 2,0 ou 12,0 volts:'}
+Atoms bound together by electrons are called <italic>molecules</italic>.: {tag: <item>,
+  xlate: Atomes reliés entre eux par des électrons sont appelés <italic> molécules
+    </italic> .}
+BATTERIES AND POWER SYSTEMS: {tag: <chaptertitle>, xlate: BATTERIES ET SYSTÈMES DE
+    PUISSANCE}
+? 'Back in the early days of electrical measurement technology, a special type of
+  battery known as a <italic>mercury standard cell</italic> was popularly used as
+  a voltage calibration standard.  The output of a mercury cell was 1.0183 to 1.0194
+  volts DC (depending on the specific design of cell), and was extremely stable over
+  time.  Advertised drift was around 0.004 percent of rated voltage per year.  Mercury
+  standard cells were sometimes known as <italic>Weston cells</italic> or <italic>cadmium
+  cells</italic>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Retour au début de la technologie de mesure électrique, un type particulier
+    de batterie connu sous le nom <italic> mercure cellulaire standard </italic> a
+    été communément utilisé comme étalon de tension. La sortie d&#39;une cellule de
+    mercure était 1,0183 à 1,0194 volts en courant continu (en fonction de la conception
+    spécifique de la cellule), et est extrêmement stable au fil du temps. la dérive
+    était d&#39;environ 0,004 annoncés pour cent de la tension nominale par an. cellules
+    standard Mercure sont parfois appelées <italic> cellules Weston </italic> ou <italic>
+    cellules de cadmium </italic> .'}
+Batteries can be damaged by excessive <italic>cycling</italic> and <italic>overcharging</italic>.: {
+  tag: <item>, xlate: Les piles peuvent être endommagées par excès <italic> cyclisme
+    </italic> et <italic> surcharge </italic> .}
+Battery construction: {tag: <sectiontitle>, xlate: !!python/unicode 'construction
+    de la batterie'}
+Battery ratings: {tag: <sectiontitle>, xlate: évaluations de la batterie}
+? 'Because batteries create electron flow in a circuit by exchanging electrons in
+  ionic chemical reactions, and there is a limited number of molecules in any charged
+  battery available to react, there must be a limited amount of total electrons that
+  any battery can motivate through a circuit before its energy reserves are exhausted.  Battery
+  capacity could be measured in terms of total number of electrons, but this would
+  be a huge number.  We could use the unit of the <italic>coulomb</italic> (equal
+  to 6.25 x 10<superscript>18</superscript> electrons, or 6,250,000,000,000,000,000
+  electrons) to make the quantities more practical to work with, but instead a new
+  unit, the <italic>amp-hour</italic>, was made for this purpose.  Since 1 amp is
+  actually a flow rate of 1 coulomb of electrons per second, and there are 3600 seconds
+  in an hour, we can state a direct proportion between coulombs and amp-hours: 1 amp-hour
+  = 3600 coulombs.  Why make up a new unit when an old would have done just fine?  To
+  make your lives as students and technicians more difficult, of course!
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Étant donné que les piles de créer un flux d&#39;électrons dans un
+    circuit par l&#39;échange d&#39;électrons dans les réactions chimiques ioniques,
+    et il y a un nombre limité de molécules dans une batterie chargée disponible pour
+    réagir, il doit y avoir une quantité limitée d&#39;électrons au total que toute
+    batterie peut inciter à travers un circuit avant ses réserves d&#39;énergie sont
+    épuisées. Capacité de la batterie pourrait être mesurée en termes de nombre total
+    d&#39;électrons, mais ce serait un grand nombre. Nous pourrions utiliser l&#39;unité
+    de la <italic> Coulomb </italic> (Égal à 6,25 x 10 <superscript> 18 </superscript>
+    électrons, ou 6,250,000,000,000,000,000 électrons) pour rendre les quantités à
+    travailler avec, mais à la place une nouvelle unité plus pratique, la <italic>
+    Ampère-heure </italic> , A été faite à cet effet. Depuis 1 ampère est en fait
+    un débit de 1 Coulomb d&#39;électrons par seconde, et il y a 3600 secondes dans
+    une heure, nous pouvons dire une proportion directe entre Coulombs et ampères-heures:
+    1 ampère-heure = 3600 Coulombs. Pourquoi faire une nouvelle unité lorsqu&#39;un
+    ancien aurait fait très bien? Pour votre vie que les étudiants et techniciens
+    plus difficile, bien sûr!'}
+? Being that the motivation for electrons to move through a cell is chemical in nature,
+  the amount of voltage (electromotive force) generated by any cell will be specific
+  to the particular chemical reaction for that cell type.  For instance, the lead-acid
+  cell just described has a nominal voltage of 2.04 volts per cell, based on a fully
+  <quote>charged</quote>
+: {tag: '<para>
+
+    ', xlate: 'Etant donné que la motivation pour les électrons de se déplacer dans
+    une cellule est de nature chimique, la quantité de tension (force électromotrice)
+    produit par une cellule sera spécifique à la réaction chimique particulière pour
+    ce type de cellule. Par exemple, la cellule acide-plomb vient d&#39;être décrit
+    a une tension nominale de 2,04 volts par cellule, sur la base d&#39;une pleine
+    <quote> accusé </quote>'}
+Cells connected together in parallel results in less total resistance, and potentially greater total current.: {
+  tag: <item>, xlate: 'Les cellules reliées entre elles dans les résultats parallèles
+    dans une moindre résistance totale, et potentiellement plus courant total.'}
+Cells connected together in series (polarities aiding) results in greater total voltage.: {
+  tag: <item>, xlate: Cellules connectées en série (polarités aidant) se traduit par
+    une plus grande tension totale.}
+? Connecting batteries in parallel increases total current capacity by decreasing
+  total resistance, and it also increases overall amp-hour capacity.
+: {tag: <item>, xlate: 'batteries de connexion en parallèle augmente au total la capacité
+    actuelle en diminuant la résistance totale, et elle augmente également la capacité
+    globale ampère-heure.'}
+Connecting batteries in series increases voltage, but does not increase overall amp-hour capacity.: {
+  tag: <item>, xlate: 'Raccordement des batteries en série augmente la tension, mais
+    ne pas augmenter la capacité globale ampère-heure.'}
+Contributors: {tag: <sectiontitle>, xlate: !!python/unicode 'Collaborateurs'}
+? 'Contributors to this chapter are listed in chronological order of their contributions,
+  from most recent to first.  See Appendix 2 (Contributor List) for dates and contact
+  information.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ont contribué à ce chapitre sont classés par ordre chronologique de
+    leurs contributions, du plus récent au premier. Voir l&#39;annexe 2 (Contributor
+    Liste) pour connaître les dates et les coordonnées.'}
+? 'Conversely, if a very light load (1 mA) were to be connected to the battery, our
+  equation would tell us that the battery should provide power for 70,000 hours, or
+  just under 8 years (70 amp-hours / 1 milliamp), but the odds are that much of the
+  chemical energy in a real battery would have been drained due to other factors (evaporation
+  of electrolyte, deterioration of electrodes, leakage current within battery) long
+  before 8 years had elapsed.  Therefore, we must take the amp-hour relationship as
+  being an ideal approximation of battery life, the amp-hour rating trusted only near
+  the specified current or timespan given by the manufacturer.  Some manufacturers
+  will provide amp-hour derating factors specifying reductions in total capacity at
+  different levels of current and/or temperature.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'A l&#39;inverse, si une très légère charge (1 mA) devait être connecté
+    à la batterie, notre équation nous indiquerait que la batterie doit fournir de
+    l&#39;énergie pour 70.000 heures, soit un peu moins de 8 ans (70 ampères-heures
+    / 1 milliampères), mais les chances sont que la majeure partie de l&#39;énergie
+    chimique en une véritable batterie aurait été drainée en raison d&#39;autres facteurs
+    (évaporation de l&#39;électrolyte, la détérioration des électrodes, courant de
+    fuite à l&#39;intérieur de la batterie) bien avant 8 ans se sont écoulés. Par
+    conséquent, nous devons prendre la relation Ampère-heure comme une approximation
+    idéale de la vie de la batterie, l&#39;ampère-heure confiance que près du courant
+    spécifié ou timespan donnée par le fabricant. Certains fabricants fourniront des
+    facteurs de réduction ampères-heure spécifiant une réduction de la capacité totale
+    à différents niveaux de courant et / ou la température.'}
+'D-size carbon-zinc battery: 4.5 amp-hours @ 100 mA <italic>(primary cell)</italic>': {
+  tag: <item>, xlate: 'batterie zinc-carbone taille D: 4,5 ampères-heures @ 100 mA
+    <italic> (Cellule primaire) </italic>'}
+? Discharged batteries lose voltage and increase in resistance.  The best check for
+  a dead battery is a voltage test under load.
+: {tag: <item>, xlate: Les batteries déchargées tension et perdent augmentation de
+    la résistance. Le meilleur contrôle pour une batterie morte est un test de tension
+    sous charge.}
+? Electrochemical reactions involve the transfer of electrons between atoms.  This
+  transfer can be harnessed to form an electric current.
+: {tag: <item>, xlate: Les réactions électrochimiques impliquent le transfert d&#39;électrons
+    entre les atomes. Ce transfert peut être mise à profit pour former un courant
+    électrique.}
+Electron activity in chemical reactions: {tag: <sectiontitle>, xlate: activité électronique
+    dans les réactions chimiques}
+? 'Electrons can do much more than just move around and between atoms: they can also
+  serve to link different atoms together.  This linking of atoms by electrons is called
+  a <italic>chemical bond</italic>.  A crude (and simplified) representation of such
+  a bond between two atoms might look like this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Électrons peut faire beaucoup plus que simplement se déplacer et entre
+    les atomes: ils peuvent également servir à relier différents atomes ensemble.
+    Cette liaison des atomes d&#39;électrons est appelé <italic> liaison chimique
+    </italic> . Une représentation brute (et simplifiée) d&#39;une telle liaison entre
+    deux atomes pourrait ressembler à ceci:'}
+? 'Essentially, what we have done here is determine the Thevenin equivalent of the
+  five cells in parallel (an equivalent network of one voltage source and one series
+  resistance).  The equivalent network has the same source voltage but a fraction
+  of the resistance of any individual cell in the original network.  The overall effect
+  of connecting cells in parallel is to decrease the equivalent internal resistance,
+  just as resistors in parallel diminish in total resistance.  The equivalent internal
+  resistance of this battery of 5 cells is 1/5 that of each individual cell.  The
+  overall voltage stays the same: 2.0 volts.  If this battery of cells were powering
+  a circuit, the current through each cell would be 1/5 of the total circuit current,
+  due to the equal split of current through equal-resistance parallel branches.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour l&#39;essentiel, ce que nous avons fait ici est de déterminer
+    l&#39;équivalent Thévenin des cinq cellules en parallèle (un réseau équivalent
+    d&#39;une source de tension et une résistance série). Le réseau équivalent a la
+    même tension de source, mais une fraction de la résistance d&#39;une cellule individuelle
+    dans le réseau d&#39;origine. L&#39;effet global de la connexion en parallèle
+    des cellules est de diminuer la résistance interne équivalente, de même que les
+    résistances diminuent en parallèle de la résistance totale. La résistance interne
+    équivalente de cette batterie de 5 cellules est 1/5 celle de chaque cellule individuelle.
+    La tension globale reste la même: 2,0 volts. Si cette batterie de cellules ont
+    été mis sous tension d&#39;un circuit, le courant à travers chaque cellule serait
+    1/5 du courant de circuit totale, à cause de la répartition égale du courant à
+    travers les branches parallèles égales de résistance.'}
+? "For example, an average automotive battery might have a capacity of about 70 amp-hours,\
+  \ specified at a current of 3.5 amps.  This means that the amount of time this battery\
+  \ could continuously supply a current of 3.5 amps to a load would be 20 hours (70\
+  \ amp-hours / 3.5 amps).  But let's suppose that a lower-resistance load were connected\
+  \ to that battery, drawing 70 amps continuously.  Our amp-hour equation tells us\
+  \ that the battery should hold out for exactly 1 hour (70 amp-hours / 70 amps),\
+  \ but this might not be true in real life.  With higher currents, the battery will\
+  \ dissipate more heat across its internal resistance, which has the effect of altering\
+  \ the chemical reactions taking place within.  Chances are, the battery would fully\
+  \ discharge some time <italic>before</italic> the calculated time of 1 hour under\
+  \ this greater load.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Par exemple, une batterie automobile moyenne pourrait avoir une capacité
+    d&#39;environ 70 ampères-heures, spécifié à un courant de 3,5 ampères. Cela signifie
+    que la quantité de temps cette batterie pourrait fournir en permanence un courant
+    de 3,5 ampères à une charge serait de 20 heures (70 ampères-heures / 3,5 ampères).
+    Mais supposons qu&#39;une charge plus faible résistance étaient connectés à cette
+    batterie, en tirant 70 ampères en continu. Notre équation Ampère-heure nous indique
+    que la batterie doit tenir pendant exactement 1 heure (70 ampères-heures / 70
+    ampères), mais cela pourrait ne pas être vrai dans la vie réelle. Avec des courants
+    plus élevés, la batterie se dissiper plus de chaleur à travers sa résistance interne,
+    ce qui a pour effet de modifier les réactions chimiques qui ont lieu au sein.
+    Il y a des chances, la batterie se décharger complètement un certain temps <italic>
+    avant </italic> le temps calculé de 1 heure sous cette plus grande charge.'}
+? 'For secondary cells, the amp-hour rating provides a rule for necessary charging
+  time at any given level of charge current.  For example, the 70 amp-hour automotive
+  battery in the previous example should take 10 hours to charge from a fully-discharged
+  state at a constant charging current of 7 amps (70 amp-hours / 7 amps).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour les cellules secondaires, l&#39;ampère-heure fournit une règle
+    pour le temps de charge nécessaire à un niveau donné du courant de charge. Par
+    exemple, la batterie d&#39;automobile 70 amp-heure dans l&#39;exemple précédent
+    doit prendre 10 heures pour charger à partir d&#39;un état complètement déchargée
+    à un courant de charge constant de 7 ampères (70 ampères-heures / 7 ampères).'}
+? 'For the sake of convenience, battery symbols are usually limited to four lines,
+  alternating long/short, although the real battery it represents may have many more
+  cells than that.  On occasion, however, you might come across a symbol for a battery
+  with unusually high voltage, intentionally drawn with extra lines.  The lines, of
+  course, are representative of the individual cell plates:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Par souci de commodité, les symboles de la batterie sont généralement
+    limités à quatre lignes, long / short en alternance, bien que la batterie réelle
+    qu&#39;il représente peut avoir beaucoup plus de cellules que cela. À l&#39;occasion,
+    cependant, vous pourriez rencontrer un symbole pour une batterie avec une tension
+    anormalement élevée, intentionnellement avec des lignes supplémentaires dessiné.
+    Les lignes, bien sûr, sont représentatifs des plaques de cellules individuelles:'}
+? 'Fully charged battery:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Batterie complètement chargée:'}
+? 'If the physical size of a cell has no impact on its voltage, then what does it
+  affect?  The answer is resistance, which in turn affects the maximum amount of current
+  that a cell can provide.  Every voltaic cell contains some amount of internal resistance
+  due to the electrodes and the electrolyte.  The larger a cell is constructed, the
+  greater the electrode contact area with the electrolyte, and thus the less internal
+  resistance it will have.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si la taille physique d&#39;une cellule n&#39;a pas d&#39;impact sur
+    sa tension, alors qu&#39;est-ce que cela affecte? La réponse est la résistance,
+    ce qui affecte le montant maximum de courant qu&#39;une cellule peut fournir.
+    Chaque cellule voltaïque contient une certaine quantité de résistance interne
+    due aux électrodes et l&#39;électrolyte. Plus une cellule est construite, plus
+    la surface de contact de l&#39;électrode avec l&#39;électrolyte, et donc le moins
+    de résistance interne qu&#39;elle aura.'}
+? 'If we need to construct a battery with lower resistance than what one cell can
+  provide (for greater current capacity), we will have to connect the cells together
+  in parallel:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si nous avons besoin de construire une batterie avec une résistance
+    plus faible que ce que l&#39;on peut fournir des cellules (pour une plus grande
+    capacité actuelle), nous devrons relier les cellules ensemble en parallèle:'}
+? 'In large, permanently installed battery banks, batteries are equipped with vent
+  caps above each cell, and hydrogen gas is vented outside of the battery room through
+  hoods immediately over the batteries.  Hydrogen gas is very light and rises quickly.  The
+  greatest danger is when it is allowed to accumulate in an area, awaiting ignition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans les grandes banques de batteries installées en permanence, les
+    batteries sont équipées de bouchons d&#39;aération au-dessus de chaque cellule,
+    et d&#39;hydrogène gazeux est évacué à l&#39;extérieur de la salle de la batterie
+    à travers une hotte immédiatement sur les batteries. L&#39;hydrogène gazeux est
+    très léger et monte rapidement. Le plus grand danger est quand il est permis d&#39;accumuler
+    dans une zone, en attente d&#39;allumage.'}
+In the common <quote>lead-acid</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Dans la commune <quote> plomb-acide </quote>'}
+? 'In the first chapter of this book, the concept of an <italic>atom</italic> was
+  discussed, as being the basic building-block of all material objects.  Atoms, in
+  turn, are composed of even smaller pieces of matter called <italic>particles</italic>.  Electrons,
+  protons, and neutrons are the basic types of particles found in atoms.  Each of
+  these particle types plays a distinct role in the behavior of an atom.  While electrical
+  activity involves the motion of electrons, the chemical identity of an atom (which
+  largely determines how conductive the material will be) is determined by the number
+  of protons in the nucleus (center).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans le premier chapitre de ce livre, le concept d&#39;un <italic>
+    atome </italic> a été discuté, comme étant l&#39;élément constitutif fondamental
+    de tous les objets matériels. Atomes, à son tour, sont composés de même petits
+    morceaux de matière appelées <italic> particules </italic> . Les électrons, protons,
+    neutrons et sont les principaux types de particules présents dans les atomes.
+    Chacun de ces types de particules joue un rôle distinct dans le comportement d&#39;un
+    atome. Bien que l&#39;activité électrique implique le mouvement des électrons,
+    l&#39;identité chimique d&#39;un atome (qui détermine en grande partie la manière
+    dont le matériau conducteur sera) est déterminé par le nombre de protons dans
+    le noyau (au centre).'}
+? Lead-acid cell charge can be assessed with an instrument called a <italic>hydrometer</italic>,
+  which measures the density of the electrolyte liquid.  The denser the electrolyte,
+  the stronger the acid concentration, and the greater charge state of the cell.
+: {tag: <item>, xlate: 'charge de cellule plomb-acide peut être évaluée avec un instrument
+    appelé <italic> hydromètre </italic> , Qui mesure la densité du liquide de l&#39;électrolyte.
+    Le plus dense de l&#39;électrolyte, plus la concentration en acide, et le plus
+    grand état de charge de la cellule.'}
+? 'Mercury standard cells were also susceptible to slight changes in voltage if physically
+  or thermally disturbed.  Two different types of mercury standard cells were developed
+  for different calibration purposes: <italic>saturated</italic> and <italic>unsaturated</italic>.  Saturated
+  standard cells provided the greatest voltage stability over time, at the expense
+  of thermal instability.  In other words, their voltage drifted very little with
+  the passage of time (just a few microvolts over the span of a decade!), but tended
+  to vary with changes in temperature (tens of microvolts per degree Celsius).  These
+  cells functioned best in temperature-controlled laboratory environments where long-term
+  stability is paramount.  Unsaturated cells provided thermal stability at the expense
+  of stability over time, the voltage remaining virtually constant with changes in
+  temperature but decreasing steadily by about 100 <mu>V every year.  These cells
+  functioned best as <quote>field</quote>'
+: {tag: '<para>
+
+    ', xlate: 'cellules standard mercure ont également été sensibles à de légères
+    variations de tension si physiquement ou thermiquement perturbé. Deux différents
+    types de cellules standard de mercure ont été développés pour différentes fins
+    d&#39;étalonnage: <italic> saturé </italic> et <italic> insaturé </italic> . cellules
+    standard la plus grande saturés, la stabilité de la tension au fil du temps, au
+    détriment de l&#39;instabilité thermique. En d&#39;autres termes, leur tension
+    dérivait très peu avec le passage du temps (quelques microvolts sur la durée d&#39;une
+    décennie!), Mais elle avait tendance à varier en fonction des changements de température
+    (des dizaines de microvolts par degré Celsius). Ces cellules fonctionnent mieux
+    dans des environnements de laboratoire à température contrôlée où la stabilité
+    à long terme est primordiale. les cellules non saturés à condition de stabilité
+    thermique au détriment de la stabilité dans le temps, la tension reste pratiquement
+    constante et les variations de température, mais en diminution constante d&#39;environ
+    100 <mu> V chaque année. Ces cellules fonctionnent mieux <quote> champ </quote>'}
+? 'Modern semiconductor voltage (zener diode regulator) references have superseded
+  standard cell batteries as laboratory and field voltage standards.
+
+  '
+: {tag: '<para>
+
+    ', xlate: Références de tension de semi-conducteurs moderne (régulateur de diode
+    Zener) ont remplacé les piles standards que les normes de laboratoire et de tension
+    sur le terrain.}
+? 'More modern lead-acid battery designs are sealed, fabricated  to re-combine the
+  electrolyzed hydrogen and oxygen back into water, inside the battery case itself.  Adequate
+  ventilation might still be a good idea, just in case a battery were to develop a
+  leak. <cite>JOM</cite>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Plus de conceptions de batteries au plomb-acide modernes sont étanches,
+    fabriqués à recombiner de l&#39;hydrogène et de l&#39;oxygène avant électrolysée
+    dans l&#39;eau, à l&#39;intérieur du boîtier de la batterie elle-même. Une ventilation
+    adéquate pourrait encore être une bonne idée, juste au cas où une batterie élaborait
+    une fuite. <cite>JOM</cite>'}
+? 'Next, we will consider connecting batteries in parallel for greater current capacity
+  (lower internal resistance), or greater amp-hour capacity:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ensuite, nous allons envisager de connecter les batteries en parallèle
+    pour une plus grande capacité actuelle (résistance interne plus faible), ou une
+    plus grande capacité ampères-heure:'}
+? 'Notice how much better the battery''s true condition is revealed when its voltage
+  is checked under load as opposed to without a load.  Does this mean that its pointless
+  to check a battery with just a voltmeter (no load)?  Well, no.  If a simple voltmeter
+  check reveals only 7.5 volts for a 13.2 volt battery, then you know without a doubt
+  that its dead.  However, if the voltmeter were to indicate 12.5 volts, it may be
+  near full charge or somewhat depleted -- you couldn''t tell without a load check.  Bear
+  in mind also that the resistance used to place a battery under load must be rated
+  for the amount of power expected to be dissipated.  For checking large batteries
+  such as an automobile (12 volt nominal) lead-acid battery, this may mean a resistor
+  with a power rating of several hundred watts.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Remarquez combien mieux se révèle vrai état de la batterie lorsque
+    sa tension est vérifiée en charge par opposition à sans charge. Est-ce que cela
+    signifie que son inutile de vérifier une batterie avec juste un voltmètre (sans
+    charge)? Et bien non. Si un contrôle simple voltmètre révèle que 7,5 volts pour
+    une batterie de 13,2 volts, alors vous savez sans doute que ses morts. Toutefois,
+    si le voltmètre devait indiquer 12,5 volts, il peut être presque pleine ou un
+    peu épuisée - on ne peut pas dire sans un contrôle de charge. Gardez à l&#39;esprit
+    que la résistance utilisée pour placer une batterie en charge doit être évalué
+    pour la quantité d&#39;énergie devrait être dissipée. Pour vérifier les grandes
+    batteries comme une automobile (12 volts nominale) batterie plomb-acide, cela
+    peut signifier une résistance avec une puissance nominale de plusieurs centaines
+    de watts.'}
+? 'Now, if the battery discharges a bit . . .
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Maintenant, si la batterie se décharge un peu. . .'}
+? 'On this same theme, we must be sure that any overcurrent protection (circuit breakers
+  or fuses) are installed in such a way as to be effective.  For our series battery
+  bank, one fuse will suffice to protect the wiring from excessive current, since
+  any break in a series circuit stops current through all parts of the circuit:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Sur ce même thème, nous devons nous assurer que toute protection contre
+    les surintensités (disjoncteurs ou fusibles) sont installés de manière à être
+    efficace. Pour notre série de batteries, un fusible suffira pour protéger le câblage
+    de courant excessif, car toute rupture dans un circuit de série cesse de courant
+    à travers toutes les parties du circuit:'}
+? Physical cell size impacts cell resistance, which in turn impacts the ability for
+  the cell to supply current to a circuit.  Generally, the larger the cell, the less
+  its internal resistance.
+: {tag: <item>, xlate: 'effets sur la taille de cellule physique de la résistance
+    de la cellule, ce qui influe à son tour la capacité de la cellule à alimenter
+    en courant un circuit. En général, plus la cellule, moins sa résistance interne.'}
+Practical considerations: {tag: <sectiontitle>, xlate: Considérations pratiques}
+? 'Since we live in an imperfect world, with imperfect batteries, we need to understand
+  the implications of factors such as internal resistance.  Typically, batteries are
+  placed in applications where their internal resistance is negligible compared to
+  that of the circuit load (where their short-circuit current far exceeds their usual
+  load current), and so the performance is very close to that of an ideal voltage
+  source.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Puisque nous vivons dans un monde imparfait, avec des batteries imparfaits,
+    nous devons comprendre les implications des facteurs tels que la résistance interne.
+    En règle générale, les piles sont placées dans des applications où la résistance
+    interne est négligeable par rapport à celle de la charge du circuit (où leur mesure
+    du courant de court-circuit est supérieure à leur courant de charge habituel),
+    et de sorte que le rendement est très proche de celle d&#39;une source de tension
+    idéale.'}
+? 'So far in our discussions on electricity and electric circuits, we have not discussed
+  in any detail how batteries function.  Rather, we have simply assumed that they
+  produce constant voltage through some sort of mysterious process.  Here, we will
+  explore that process to some degree and cover some of the practical considerations
+  involved with real batteries and their use in power systems.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Jusqu&#39;à présent, dans nos discussions sur l&#39;électricité et
+    les circuits électriques, nous avons pas discuté en détail comment fonctionnent
+    les piles. Au contraire, nous avons simplement supposé qu&#39;ils produisent une
+    tension constante par une sorte de processus mystérieux. Ici, nous allons explorer
+    ce processus dans une certaine mesure et couvrir une partie des considérations
+    pratiques liées aux batteries réelles et leur utilisation dans les systèmes d&#39;alimentation.'}
+Special-purpose batteries: {tag: <sectiontitle>, xlate: batteries à usage spécial}
+? 'Specific cost of solar cell technology (dollars per kilowatt) is still very high,
+  with little prospect of significant decrease barring some kind of revolutionary
+  advance in technology.  Unlike electronic components made from semiconductor material,
+  which can be made smaller and smaller with less scrap as a result of better quality
+  control, a single solar cell still takes the same amount of ultra-pure silicon to
+  make as it did thirty years ago.  Superior quality control fails to yield the same
+  production gain seen in the manufacture of chips and transistors (where isolated
+  specks of impurity can ruin many microscopic circuits on one wafer of silicon).  The
+  same number of impure inclusions does little to impact the overall efficiency of
+  a 3-inch solar cell.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'coût spécifique de la technologie des cellules solaires (dollars par
+    kilowatt) est encore très élevé, avec peu de perspective de diminution significative
+    sauf une sorte d&#39;avancée révolutionnaire dans la technologie. Contrairement
+    à des composants électroniques fabriqués à partir de matériau semi-conducteur,
+    qui peut être plus petit et plus petit avec moins de déchets en raison d&#39;un
+    meilleur contrôle de la qualité, une seule cellule solaire prend toujours la même
+    quantité de silicium ultra-pur pour faire comme il l&#39;a fait il y a trente
+    ans. contrôle de la qualité supérieure ne parvient pas à obtenir le même gain
+    de production vu dans la fabrication de puces et les transistors (où des taches
+    isolées de l&#39;impureté peut ruiner de nombreux circuits microscopiques sur
+    une plaquette de silicium). Le même nombre d&#39;inclusions impurs ne contribue
+    guère à un impact sur l&#39;efficacité globale d&#39;une cellule solaire de 3
+    pouces.'}
+? The <italic>amp-hour</italic> is a unit of battery energy capacity, equal to the
+  amount of continuous current multiplied by the discharge time, that a battery can
+  supply before exhausting its internal store of chemical energy.
+: {tag: <item>, xlate: 'le <italic> Ampère-heure </italic> est une unité de capacité
+    d&#39;énergie de la batterie, égale à la quantité de courant continu, multiplié
+    par le temps de décharge, qui peut fournir une batterie avant épuisement de sa
+    stockage interne de l&#39;énergie chimique.'}
+? 'The cells in an automotive battery are contained within the same hard rubber housing,
+  connected together with thick, lead bars instead of wires.  The electrodes and electrolyte
+  solutions for each cell are contained in separate, partitioned sections of the battery
+  case.  In large batteries, the electrodes commonly take the shape of thin metal
+  grids or plates, and are often referred to as <italic>plates</italic> instead of
+  electrodes.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les cellules dans une batterie d&#39;automobile sont contenus dans
+    le même boîtier en caoutchouc dur, reliées entre elles avec des barres épaisses,
+    plomb au lieu de fils. Les électrodes et les solutions d&#39;électrolyte de chaque
+    cellule sont contenus dans des sections séparées, cloisonné du boîtier de batterie.
+    Dans les grandes piles, les électrodes prennent généralement la forme de grilles
+    métalliques minces ou des plaques, et sont souvent désignés sous le <italic> plaques
+    </italic> au lieu d&#39;électrodes.'}
+? 'The chemical reactions of some types of cells can be reversed by forcing electric
+  current backwards through the cell (<italic>in</italic> the negative electrode and
+  <italic>out</italic> the positive electrode).  This process is called <italic>charging</italic>.  Any
+  such (rechargeable) cell is called a <italic>secondary cell</italic>.  A cell whose
+  chemistry cannot be reversed by a reverse current is called a <italic>primary cell</italic>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: Les réactions chimiques de certains types de cellules peuvent être inversées
+    en forçant le courant électrique vers l&#39;arrière à travers la cellule ( <italic>
+    dans </italic> l&#39;électrode négative et <italic> en dehors </italic> l&#39;électrode
+    positive). Ce processus est appelé <italic> charge </italic> . Toute cellule telle
+    (rechargeable) est appelé <italic> cellule secondaire </italic> . Une cellule
+    dont la chimie ne peut pas être inversée par un courant inverse est appelé <italic>
+    cellule primaire </italic> .}
+? 'The efficiency of energy conversion in a fuel cell from chemical to electrical
+  far exceeds the theoretical Carnot efficiency limit of any internal-combustion engine,
+  which is an exciting prospect for power generation and hybrid electric automobiles.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;efficacité de conversion d&#39;énergie dans une pile à combustible
+    à partir de produits chimiques pour la mesure électrique dépasse la limite de
+    l&#39;efficacité théorique de Carnot d&#39;un moteur à combustion interne, qui
+    est une rencontre pour la production d&#39;électricité et les automobiles électriques
+    hybrides.'}
+? 'The formation of ions and ionic bonds from neutral atoms or molecules (or <italic>vice
+  versa</italic>) involves the transfer of electrons.  That transfer of electrons
+  can be harnessed to generate an electric current.A device constructed to do just
+  this is called a <italic>voltaic cell</italic>, or <italic>cell</italic> for short,
+  usually consisting of two metal electrodes immersed in a chemical mixture (called
+  an <italic>electrolyte</italic>) designed to facilitate such an  electrochemical
+  (oxidation/reduction) reaction:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La formation des ions et des liaisons ioniques des atomes ou molécules
+    neutres (ou <italic> vice versa </italic> ) Implique le transfert d&#39;électrons.
+    Ce transfert d&#39;électrons peut être mise à profit pour générer un dispositif
+    de courant.Procédé électrique construit pour faire juste ce qu&#39;on appelle
+    un <italic> voltaïque </italic> , ou <italic> cellule </italic> pour faire court,
+    constitué généralement de deux électrodes métalliques immergées dans un mélange
+    de produits chimiques (appelée <italic> électrolyte </italic> ) Conçu pour faciliter
+    une telle réaction électrochimique (oxydation / réduction):'}
+? 'The ideal battery, in a short circuit with 0 <OMEGA> resistance, would be able
+  to supply an infinite amount of current.  The real battery, on the other hand, can
+  only supply 50 amps (10 volts / 0.2 <OMEGA>) to a short circuit of 0 <OMEGA> resistance,
+  due to its internal resistance.  The chemical reaction inside the cell may still
+  be providing exactly 10 volts, but voltage is dropped across that internal resistance
+  as electrons flow through the battery, which reduces the amount of voltage available
+  at the battery terminals to the load.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La batterie idéale, dans un court-circuit avec 0 <OMEGA> résistance,
+    serait en mesure de fournir une quantité infinie de courant. La batterie réelle,
+    d&#39;autre part, ne peut fournir 50 ampères (10 volts / 0,2 <OMEGA> ) À un court-circuit
+    de 0 <OMEGA> la résistance, en raison de sa résistance interne. La réaction chimique
+    à l&#39;intérieur de la cellule peut encore être fourni exactement 10 volts, mais
+    la tension tombe à travers cette résistance interne comme flux d&#39;électrons
+    à travers la batterie, ce qui réduit la quantité de tension disponible aux bornes
+    de la batterie à la charge.'}
+? "The nomenclature for lead oxides can be confusing.  The term, lead oxide can refer\
+  \ to either Pb(II)O or Pb(IV)O<subscript>2</subscript>, and the correct compound\
+  \ can be determined usually from context.  Other synonyms for  Pb(IV)O<subscript>2</subscript>\
+  \ are: lead dioxide, lead peroxide, plumbic oxide, lead oxide brown, and lead superoxide.\
+  \  The term,  lead peroxide is particularly confusing, as it implies a compound\
+  \ of lead (II) with two oxygen atoms, Pb(II)O2, which apparently does not exist.\
+  \  Unfortunately, the term lead peroxide has persisted in industrial literature.\
+  \  In this section, lead dioxide will be used to refer to Pb(IV)O2, and lead oxide\
+  \ will refer to Pb(II)O.  The oxidation states will not be shown usually. \n"
+: {tag: '<para>
+
+    ', xlate: 'La nomenclature des oxydes de plomb peut être source de confusion.
+    Le terme, l&#39;oxyde de plomb peut se référer soit Pb (II) O ou Pb (IV) O <subscript>
+    2 </subscript> , Et le composé correct peut être déterminée généralement à partir
+    du contexte. D&#39;autres synonymes de Pb (IV) O <subscript> 2 </subscript> sont:
+    le dioxyde de plomb, le peroxyde de plomb, l&#39;oxyde plombique, brun d&#39;oxyde
+    de plomb, et la superoxyde plomb. Le terme, le peroxyde de plomb est particulièrement
+    déroutant, car elle implique un composé de plomb (II) avec deux atomes d&#39;oxygène,
+    Pb (II) O2, ce qui ne semble pas exister. Malheureusement, le peroxyde de plomb
+    à long terme a persisté dans la littérature industrielle. Dans cette section,
+    le dioxyde de plomb sera utilisé pour désigner Pb (IV) O2 et l&#39;oxyde de plomb
+    se référera à Pb (II) O. Les états d&#39;oxydation ne seront pas affichées habituellement.'}
+? 'The protons in an atom''s nucleus are extremely difficult to dislodge, and so the
+  chemical identity of any atom is very stable.  One of the goals of the ancient alchemists
+  (to turn lead into gold) was foiled by this sub-atomic stability.  All efforts to
+  alter this property of an atom by means of heat, light, or friction were met with
+  failure.  The electrons of an atom, however, are much more easily dislodged.  As
+  we have already seen, friction is one way in which electrons can be transferred
+  from one atom to another (glass and silk, wax and wool), and so is heat (generating
+  voltage by heating a junction of dissimilar metals, as in the case of thermocouples).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les protons dans le noyau d&#39;un atome sont extrêmement difficiles
+    à déloger, et ainsi l&#39;identité chimique d&#39;un atome est très stable. L&#39;un
+    des objectifs des anciens alchimistes (pour transformer le plomb en or) a été
+    déjoué par cette stabilité subatomique. Tous les efforts pour modifier cette propriété
+    d&#39;un atome au moyen de chaleur, de lumière ou de frottement ont été atteints
+    par un échec. Les électrons d&#39;un atome, cependant, sont beaucoup plus facilement
+    délogés. Comme nous l&#39;avons déjà vu, le frottement est un moyen par lequel
+    les électrons peuvent être transférés d&#39;un atome à l&#39;autre (le verre et
+    la soie, de la cire et de la laine), et alors la chaleur (générer une tension
+    par chauffage d&#39;une jonction de métaux différents, comme dans le cas des thermocouples).'}
+? 'The real battery shown above within the dotted lines has an internal resistance
+  of 0.2 <OMEGA>, which affects its ability to supply current to the load resistance
+  of 1 <OMEGA>.  The ideal battery on the left has no internal resistance, and so
+  our Ohm''s Law calculations for current (I=E/R) give us a perfect value of 10 amps
+  for current with the 1 ohm load and 10 volt supply.  The real battery, with its
+  built-in resistance further impeding the flow of electrons, can only supply 8.333
+  amps to the same resistance load.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La batterie réelle indiquée ci-dessus à l&#39;intérieur des lignes
+    en pointillés a une résistance interne de 0,2 <OMEGA> , Ce qui affecte sa capacité
+    à fournir du courant à la résistance de charge de 1 <OMEGA> . La batterie idéale
+    sur la gauche n&#39;a pas de résistance interne, et donc nos calculs Loi d&#39;Ohm
+    pour le courant (I = E / R) nous donne une valeur parfaite de 10 ampères pour
+    le courant de l&#39;alimentation de la charge 1 ohm et 10 volts. La batterie réelle,
+    avec sa résistance intégrée qui entrave encore le flux d&#39;électrons, ne peut
+    fournir 8.333 ampères à la même charge de résistance.'}
+? 'The symbol for a battery is nothing more than a couple of cell symbols stacked
+  in series:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le symbole d&#39;une batterie est rien de plus que deux symboles de
+    cellules empilées en série:'}
+? 'The symbol for a cell is very simple, consisting of one long line and one short
+  line, parallel to each other, with connecting wires:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le symbole d&#39;une cellule est très simple, composé d&#39;une longue
+    ligne et une ligne courte, parallèle à l&#39;autre, avec des fils de connexion:'}
+? The word <italic>battery</italic> simply means a group of similar components.  In
+  military vocabulary, a <quote>battery</quote> refers to a cluster of guns.  In electricity,
+  a <quote>battery</quote>
+: {tag: '<para>
+
+    ', xlate: 'Le mot <italic> batterie </italic> signifie simplement un groupe de
+    composants similaires. Dans le vocabulaire militaire, <quote> batterie </quote>
+    fait référence à un groupe d&#39;armes à feu. En électricité, un <quote> batterie
+    </quote>'}
+? "There are several types of chemical bonds, the one shown above being representative\
+  \ of a <italic>covalent</italic> bond, where electrons are shared between atoms.\
+  \  Because chemical bonds are based on links formed by electrons, these bonds are\
+  \ only as strong as the immobility of the electrons forming them.  That is to say,\
+  \ chemical bonds can be created or broken by the same forces that force electrons\
+  \ to move: heat, light, friction, etc.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Il existe plusieurs types de liaisons chimiques, celle ci-dessus étant
+    représentative d&#39;une <italic> covalente </italic> liaison, où les électrons
+    sont partagés entre les atomes. Parce que les liaisons chimiques sont basées sur
+    des liens formés par des électrons, ces liens sont aussi forts que l&#39;immobilité
+    des électrons qui les composent. C&#39;est-à-dire des liaisons chimiques peuvent
+    être créées ou brisées par les mêmes forces qui force les électrons à se déplacer:
+    la chaleur, la lumière, friction, etc.'}
+? 'There is no single chemical reaction representative of all voltaic cells, so any
+  detailed discussion of chemistry is bound to have limited application.  The important
+  thing to understand is that electrons are motivated to and/or from the cell''s electrodes
+  via ionic reactions between the electrode molecules and the electrolyte molecules.  The
+  reaction is enabled when there is an external path for electric current, and ceases
+  when that path is broken.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il n&#39;y a pas de représentant réaction chimique unique de toutes
+    les cellules voltaïques, de sorte que toute discussion détaillée de la chimie
+    est tenu d&#39;avoir une application limitée. Ce qui est important de comprendre
+    que les électrons sont incités à et / ou depuis les électrodes de la cellule par
+    l&#39;intermédiaire de réactions ioniques entre les molécules d&#39;électrode
+    et les molécules d&#39;électrolyte. La réaction est activée lorsqu&#39;il y a
+    un chemin pour le courant électrique externe, et cesse lorsque cette voie est
+    interrompue.'}
+? 'This process of the cell providing electrical energy to supply a load is called
+  <italic>discharging</italic>, since it is depleting its internal chemical reserves.  Theoretically,
+  after all of the sulfuric acid has been exhausted, the result will be two electrodes
+  of lead sulfate (PbSO<subscript>4</subscript>) and an electrolyte solution of pure
+  water (H<subscript>2</subscript>O), leaving no more capacity for additional ionic
+  bonding.  In this state, the cell is said to be <italic>fully discharged</italic>.  In
+  a lead-acid cell, the state of charge can be determined by an analysis of acid strength.  This
+  is easily accomplished with a device called a <italic>hydrometer</italic>, which
+  measures the specific gravity (density) of the electrolyte.  Sulfuric acid is denser
+  than water, so the greater the charge of a cell, the greater the acid concentration,
+  and thus a denser electrolyte solution.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ce processus de la cellule fournissant de l&#39;énergie électrique
+    pour alimenter une charge est appelée <italic> décharge </italic> , Car il épuise
+    ses réserves chimiques internes. Théoriquement, après tout l&#39;acide sulfurique
+    a été épuisé, le résultat sera deux électrodes de sulfate de plomb (PbSO <subscript>
+    4 </subscript> ) Et une solution d&#39;électrolyte de l&#39;eau pure (H <subscript>
+    2 </subscript> O), ne laissant pas plus de capacité de liaison ionique supplémentaire.
+    Dans cet état, la cellule est dite <italic> complètement déchargée </italic> .
+    Dans une cellule plomb-acide, l&#39;état de charge peut être déterminée par une
+    analyse de la résistance à l&#39;acide. Ceci est facilement accompli avec un dispositif
+    appelé <italic> hydromètre </italic> , Qui mesure le poids spécifique (densité)
+    de l&#39;électrolyte. L&#39;acide sulfurique est plus dense que l&#39;eau, donc
+    plus la charge d&#39;une cellule, plus la concentration en acide, et ainsi une
+    solution d&#39;électrolyte plus dense.'}
+? To date, the most successful fuel cells constructed are those which run on hydrogen
+  and oxygen, although much research has been done on cells using hydrocarbon fuels.  While
+  <quote>burning</quote>
+: {tag: '<para>
+
+    ', xlate: 'À ce jour, les piles à combustible les plus réussies sont celles construites
+    qui fonctionnent à l&#39;hydrogène et de l&#39;oxygène, bien que beaucoup de recherches
+    ont été effectuées sur des cellules en utilisant des combustibles d&#39;hydrocarbures.
+    Tandis que <quote> brûlant </quote>'}
+'Typical automotive battery: 70 amp-hours @ 3.5 A <italic>(secondary cell)</italic>': {
+  tag: <item>, xlate: 'batterie automobile typique: 70 ampères-heures @ 3,5 A <italic>
+    (Accumulateur) </italic>'}
+? 'Unfortunately, mercury cells were rather intolerant of any current drain and could
+  not even be measured with an analog voltmeter without compromising accuracy.  Manufacturers
+  typically called for no more than 0.1 mA of current through the cell, and even that
+  figure was considered a <italic>momentary</italic>, or <italic>surge</italic> maximum!  Consequently,
+  standard cells could only be measured with a potentiometric (null-balance) device
+  where current drain is almost zero.  Short-circuiting a mercury cell was prohibited,
+  and once short-circuited, the cell could never be relied upon again as a standard
+  device.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Malheureusement, les cellules de mercure étaient plutôt intolérants
+    de tout drain et pourraient même pas être courant mesuré avec un voltmètre analogique
+    sans compromettre la précision. Les fabricants généralement appelé à plus de 0,1
+    mA de courant à travers la cellule, et même ce chiffre était considéré comme un
+    <italic> momentané </italic> , ou <italic> poussée </italic> maximum! Par conséquent,
+    les cellules standards ne peuvent être mesurées à l&#39;aide d&#39;un dispositif
+    potentiométrique (null-balance) lorsque la consommation de courant est presque
+    nulle. Court-circuiter une cellule de mercure a été interdite, et une fois court-circuiter,
+    la cellule ne pourrait jamais se fier à nouveau comme un dispositif standard.'}
+? Water-based electrolyte batteries are capable of generating explosive hydrogen gas,
+  which must not be allowed to accumulate in an area.
+: {tag: <item>, xlate: 'batteries à électrolyte à base d&#39;eau sont capables de
+    générer de l&#39;hydrogène gazeux explosif, qui ne doit pas être autorisé à s&#39;accumuler
+    dans une zone.'}
+? 'We know that the current is equal at all points in a series circuit, so whatever
+  amount of current there is in any one of the series-connected batteries must be
+  the same for all the others as well.  <italic>For this reason, each battery must
+  have the same amp-hour rating, or else some of the batteries will become depleted
+  sooner than others, compromising the capacity of the whole bank</italic>.  Please
+  note that the total amp-hour capacity of this series battery bank is not affected
+  by the number of batteries.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Nous savons que le courant est égal à tous les points dans un circuit
+    en série, donc quel que soit quantité de courant, il est dans l&#39;une des batteries
+    connectées en série doivent être les mêmes pour tous les autres. <italic> Pour
+    cette raison, chaque batterie doit avoir la même ampère heures, ou bien quelques-unes
+    des batteries deviendra épuisées plus tôt que les autres, ce qui compromet la
+    capacité de la banque entière </italic> . S&#39;il vous plaît noter que la capacité
+    totale ampères-heure de cette série de batteries est pas affectée par le nombre
+    de batteries.'}
+? 'We know that the voltage is equal across all branches of a parallel circuit, so
+  we must be sure that these batteries are of equal voltage.  If not, we will have
+  relatively large currents circulating from one battery through another, the higher-voltage
+  batteries overpowering the lower-voltage batteries.  This is not good.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Nous savons que la tension est égale dans toutes les branches d&#39;un
+    circuit parallèle, donc nous devons nous assurer que ces batteries sont de tension
+    égale. Sinon, nous aurons des courants relativement importants qui circulent d&#39;une
+    batterie par une autre, les batteries plus haute tension surpuissantes les batteries
+    basse tension. Ce n&#39;est pas bien.'}
+? 'When a lead-acid cell is charged by an external current source, the chemical reactions
+  experienced during discharge are reversed:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Quand une cellule plomb-acide est chargé par une source de courant
+    externe, les réactions chimiques ont connu lors de la décharge sont inversés:'}
+? 'When alchemists succeeded in changing the properties of a substance by heat, light,
+  friction, or mixture with other substances, they were really observing changes in
+  the types of molecules formed by atoms breaking and forming bonds with other atoms.  Chemistry
+  is the modern counterpart to alchemy, and concerns itself primarily with the properties
+  of these chemical bonds and the reactions associated with them.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Lorsque alchimistes ont réussi à modifier les propriétés d&#39;une
+    substance par la chaleur, la lumière, le frottement, ou d&#39;un mélange avec
+    d&#39;autres substances, ils ont été vraiment l&#39;observation des changements
+    dans les types de molécules formées par des atomes de rupture et former des liaisons
+    avec d&#39;autres atomes. La chimie est la contrepartie moderne à l&#39;alchimie,
+    et concerne surtout avec elle-même les propriétés de ces liaisons chimiques et
+    les réactions qui leur sont associées.'}
+? 'When atoms are joined by chemical bonds, they form materials with unique properties
+  known as <italic>molecules</italic>.  The dual-atom picture shown above is an example
+  of a simple molecule formed by two atoms of the same type.  Most molecules are unions
+  of different types of atoms.  Even molecules formed by atoms of the same type can
+  have radically different physical properties.  Take the element carbon, for instance:
+  in one form, <italic>graphite</italic>, carbon atoms link together to form flat
+  <quote>plates</quote>'
+: {tag: '<para>
+
+    ', xlate: 'Quand les atomes sont reliés par des liaisons chimiques, ils forment
+    des matériaux ayant des propriétés uniques appelées <italic> molécules </italic>
+    . L&#39;image à double atome ci-dessus est un exemple d&#39;une simple molécule
+    formée par deux atomes du même type. La plupart des molécules sont des syndicats
+    de différents types d&#39;atomes. Même les molécules formées par des atomes d&#39;un
+    même type peuvent avoir des propriétés physiques radicalement différentes. Prenez
+    l&#39;élément carbone, par exemple: sous une forme, <italic> graphite </italic>
+    Atomes de carbone lient ensemble pour former plat <quote> plaques </quote>'}
+? 'When connecting and disconnecting charging equipment to a battery, always make
+  the last connection (or first disconnection) at a location away from the battery
+  itself (such as at a point on one of the battery cables, at least a foot away from
+  the battery), so that any resultant spark has little or no chance of igniting hydrogen
+  gas.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Lors de la connexion et la déconnexion des équipements de charge à
+    une batterie, toujours la dernière connexion (ou première déconnexion) à un emplacement
+    éloigné de la batterie elle-même (par exemple à un point situé sur l&#39;un des
+    câbles de la batterie, au moins un pied de la batterie) , de sorte que toute étincelle
+    résultante a peu ou pas de chance d&#39;enflammer l&#39;hydrogène gazeux.'}
+When connecting batteries together to form larger <quote>banks</quote>: {tag: '<para>
+
+    ', xlate: !!python/unicode 'Lors de la connexion des batteries pour former plus
+    <quote> banques </quote>'}
+? When dealing with secondary-cell batteries, particular attention must be paid to
+  the method and timing of charging.  Different types and construction of batteries
+  have different charging needs, and the manufacturer's recommendations are probably
+  the best guide to follow when designing or maintaining a system.  Two distinct concerns
+  of battery charging are <italic>cycling</italic> and <italic>overcharging</italic>.  Cycling
+  refers to the process of charging a battery to a <quote>full</quote> condition and
+  then discharging it to a lower state.  All batteries have a finite (limited) cycle
+  life, and the allowable <quote>depth</quote> of cycle (how far it should be discharged
+  at any time) varies from design to design.  Overcharging is the condition where
+  current continues to be forced backwards through a secondary cell beyond the point
+  where the cell has reached full charge.  With lead-acid cells in particular, overcharging
+  leads to electrolysis of the water (<quote>boiling</quote>
+: {tag: '<para>
+
+    ', xlate: 'Lorsque vous traitez avec des piles de cellules secondaires, une attention
+    particulière doit être portée à la méthode et le calendrier de charge. Différents
+    types et la construction de batteries ont des besoins différents de charge, et
+    les recommandations du fabricant sont probablement le meilleur guide à suivre
+    lors de la conception ou le maintien d&#39;un système. Deux préoccupations distinctes
+    de charge de la batterie sont <italic> cyclisme </italic> et <italic> surcharge
+    </italic> . Faire du vélo fait référence au processus de charge d&#39;une batterie
+    à un <quote> plein </quote> état et ensuite l&#39;évacuer vers un état inférieur.
+    Toutes les batteries ont une durée de vie finie (limitée) et le permis <quote>
+    profondeur </quote> de cycles (dans quelle mesure il doit être évacué à tout moment)
+    varie de la conception à la conception. Est la condition surfacturation où le
+    courant continue d&#39;être forcé vers l&#39;arrière à travers une cellule secondaire
+    au-delà du point où la cellule a atteint la pleine charge. Avec des cellules au
+    plomb, en particulier, exigeante conduit à l&#39;électrolyse de l&#39;eau ( <quote>
+    ébullition </quote>'}
+? 'With a parallel battery bank, one fuse is adequate for protecting the wiring against
+  load overcurrent (between the parallel-connected batteries and the load), but we
+  have other concerns to protect against as well.  Batteries have been known to internally
+  short-circuit, due to electrode separator failure, causing a problem not unlike
+  that where batteries of unequal voltage are connected in parallel: the good batteries
+  will overpower the failed (lower voltage) battery, causing relatively large currents
+  within the batteries'' connecting wires.  To guard against this eventuality, we
+  should protect each and every battery against overcurrent with individual battery
+  fuses, in addition to the load fuse:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avec une banque de batterie parallèle, un fusible est suffisante pour
+    protéger le câblage contre les surintensités de charge (entre les batteries connectées
+    en parallèle et la charge), mais nous avons d&#39;autres préoccupations de protection
+    contre aussi bien. Les batteries ont été connus pour un court-circuit interne,
+    due à une défaillance de séparation des électrodes, ce qui provoque un problème
+    semblable à celui où les batteries de tension inégale sont connectées en parallèle:
+    les bonnes batteries noiera la batterie défectueuse (basse tension), ce qui provoque
+    des courants relativement importants à l&#39;intérieur les piles et accus fils
+    de connexion. Pour se prémunir contre cette éventualité, nous devons protéger
+    chaque batterie contre les surintensités avec des fusibles de batterie individuels,
+    en plus du fusible de charge:'}
+? Yet another type of special-purpose <quote>battery</quote> is the <italic>chemical
+  detection cell</italic>.  Simply put, these cells chemically react with specific
+  substances in the air to create a voltage directly proportional to the concentration
+  of that substance.  A common application for a chemical detection cell is in the
+  detection and measurement of oxygen concentration.  Many portable oxygen analyzers
+  have been designed around these small cells.  Cell chemistry must be designed to
+  match the specific substance(s) to be detected, and the cells do tend to <quote>wear
+  out,</quote>
+: {tag: '<para>
+
+    ', xlate: 'Un autre type de but particulier <quote> batterie </quote> est le <italic>
+    cellule de détection chimique </italic> . Autrement dit, ces cellules réagissent
+    chimiquement avec des substances spécifiques dans l&#39;air pour créer une tension
+    directement proportionnelle à la concentration de cette substance. Une application
+    courante pour une cellule de détection chimique est dans la détection et la mesure
+    de la concentration en oxygène. De nombreux analyseurs d&#39;oxygène portables
+    ont été conçus autour de ces petites cellules. chimie cellulaire doit être conçu
+    pour correspondre à la substance spécifique (s) à détecter, et les cellules ont
+    tendance à <quote> épuisé, </quote>'}

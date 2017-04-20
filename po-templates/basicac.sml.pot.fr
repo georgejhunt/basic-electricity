@@ -1,0 +1,1712 @@
+? '
+
+  '
+: {tag: '<para>
+
+    ', xlate: !!python/unicode ''}
+? "\n<image>02022.png</image> \n"
+: {tag: <item>, xlate: !!python/unicode '<image> 02022.png </image>'}
+? '<bold>A changing electric field produces a perpendicular magnetic field</bold>,
+  and
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Un changement de champ électrique produit un champ magnétique
+    perpendiculaire </bold> , et'}
+? '<bold>A changing magnetic field produces a perpendicular electric field</bold>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: <bold> Un changement de champ magnétique produit un champ électrique
+    perpendiculaire </bold> .}
+? '<bold>Duane Damiano</bold> (February 25, 2003): Pointed out magnetic polarity error
+  in DC generator illustration.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Duane Damiano </bold> (25 Février, 2003): Souligné erreur de
+    polarité magnétique générateur de courant continu illustration.'}
+? '<bold>Harvey Lew</bold> (February 7, 2004): Corrected typographical error: ``circuit''''
+  should have been ``circle''''.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Harvey Lew </bold> (7 Février, 2004): correction d&#39;erreur
+    typographique: `` circuit &#39;&#39; aurait dû être `` cercle &#39;&#39;.'}
+? '<bold>Jason Starck</bold> (June 2000): HTML document formatting, which led to a
+  much better-looking second edition.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Jason Starck </bold> (Juin 2000): la mise en forme de documents
+    HTML, ce qui a conduit à une deuxième édition beaucoup plus beau.'}
+? '<bold>John Symonds</bold> (March 28, 2002): Suggestion for improving explanation
+  of the unit ``Hertz.''''
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> John Symonds </bold> (28 Mars, 2002): Suggestions pour améliorer
+    explication de l&#39;unité `` Hertz &#39;&#39;.'}
+? '<bold>Mark D. Zarella</bold> (April 28, 2002): Suggestion for improving explanation
+  of ``average'''' waveform amplitude.
+
+  '
+: {tag: '<para>
+
+    ', xlate: '<bold> Mark D. Zarella </bold> (28 Avril, 2002): Suggestions pour améliorer
+    explication de `` moyenne &#39;&#39; amplitude de forme d&#39;onde.'}
+<bold>REVIEW:</bold>: {tag: <item>, xlate: !!python/unicode '<bold> LA REVUE: </bold>'}
+? <italic>Average</italic> amplitude is the mathematical ``mean'' of all a waveform's
+  points over the period of one cycle.  Technically, the average amplitude of any
+  waveform with equal-area portions above and below the ``zero'' line on a graph is
+  zero.  However, as a practical measure of amplitude, a waveform's average value
+  is often calculated as the mathematical mean of all the points' <italic>absolute
+  values</italic> (taking all the negative values and considering them as positive).  For
+  a sine wave, the average value so calculated is approximately 0.637 of its peak
+  value.
+: {tag: <item>, xlate: '<italic> Moyenne </italic> amplitude est la moyenne mathématique
+    `` « » de tous les points de la forme d&#39;onde sur la période d&#39;un cycle.
+    Techniquement, l&#39;amplitude moyenne de toute forme d&#39;onde avec des parties
+    égales de la région au-dessus et au-dessous de la ligne `` zéro « » sur un graphique
+    est égal à zéro. Cependant, en tant que mesure pratique de l&#39;amplitude, la
+    valeur moyenne d&#39;une forme d&#39;onde est souvent calculé comme la moyenne
+    mathématique de tous les points&#39; <italic> des valeurs absolues </italic> (En
+    prenant toutes les valeurs négatives et en les considérant comme positifs). Pour
+    une onde sinusoïdale, la valeur moyenne ainsi calculée est d&#39;environ 0,637
+    de sa valeur de crête.'}
+? <italic>Frequency</italic> is the number of complete cycles that a wave completes
+  in a given amount of time.  Usually measured in Hertz (Hz), 1 Hz being equal to
+  one complete wave cycle per second.
+: {tag: <item>, xlate: '<italic> La fréquence </italic> est le nombre de cycles complets
+    qu&#39;une vague vient compléter dans un laps de temps donné. Habituellement,
+    mesurée en Hertz (Hz), 1 Hz étant égale à un cycle complet d&#39;onde par seconde.'}
+? <italic>Peak-to-peak</italic> amplitude is the total height of an AC waveform as
+  measured from maximum positive to maximum negative peaks on a graph.  Often abbreviated
+  as ``P-P''.
+: {tag: <item>, xlate: '<italic> Crête-à-crête </italic> amplitude est la hauteur
+    totale d&#39;une forme d&#39;onde alternative, mesurée à partir positive maximale
+    de pics négatifs maximaux sur un graphique. Souvent abrégé en `` P-P &#39;&#39;.'}
+? <italic>Peak</italic> amplitude is the height of an AC waveform as measured from
+  the zero mark to the highest positive or lowest negative point on a graph.  Also
+  known as the <italic>crest</italic> amplitude of a wave.
+: {tag: <item>, xlate: <italic> De pointe </italic> amplitude est la hauteur d&#39;une
+    forme d&#39;onde AC telle que mesurée à partir du point zéro au point le plus
+    haut ou le plus bas positif négatif sur un graphique. Aussi connu sous le nom
+    <italic> crête </italic> amplitude d&#39;une onde.}
+<italic>Phase shift</italic> is where two or more waveforms are out of step with each other.: {
+  tag: <item>, xlate: <italic> décalage de phase </italic> est où deux ou plusieurs
+    formes d&#39;onde sont en décalage par rapport à l&#39;autre.}
+? 'A <italic>leading</italic> waveform is defined as one waveform that is ahead of
+  another in its evolution.  A <italic>lagging</italic> waveform is one that is behind
+  another.  Example:'
+: {tag: <item>, xlate: 'UNE <italic> de premier plan </italic> forme d&#39;onde est
+    définie comme étant une forme d&#39;onde qui est en avance sur l&#39;autre dans
+    son évolution. UNE <italic> calorifugeage </italic> la forme d&#39;onde est celle
+    qui se trouve derrière l&#39;autre. Exemple:'}
+? A <italic>transformer</italic> is a pair of mutually-inductive coils used to convey
+  AC power from one coil to the other.  Often, the number of turns in each coil is
+  set to create a voltage increase or decrease from the powered (primary) coil to
+  the unpowered (secondary) coil.
+: {tag: <item>, xlate: 'UNE <italic> transformateur </italic> est une paire de bobines
+    d&#39;induction mutuellement utilisé pour acheminer l&#39;alimentation secteur
+    d&#39;une bobine à l&#39;autre. Souvent, le nombre de spires de chaque bobine
+    est réglé pour créer une augmentation de la tension ou la diminution de la bobine
+    à la bobine non alimentée (secondaire) motorisé (primaire).'}
+? 'A more popular measure for describing the alternating rate of an AC voltage or
+  current wave than <italic>period</italic> is the rate of that back-and-forth oscillation.  This
+  is called <italic>frequency</italic>.  The modern unit for frequency is the Hertz
+  (abbreviated Hz), which represents the number of wave cycles completed during one
+  second of time.  In the United States of America, the standard power-line frequency
+  is 60 Hz, meaning that the AC voltage oscillates at a rate of 60 complete back-and-forth
+  cycles every second.  In Europe, where the power system frequency is 50 Hz, the
+  AC voltage only completes 50 cycles every second.  A radio station transmitter broadcasting
+  at a frequency of 100 MHz generates an AC voltage oscillating at a rate of 100 <italic>million</italic>
+  cycles every second.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une mesure plus populaire pour décrire le taux d&#39;alternance d&#39;une
+    tension alternative ou une onde de courant que <italic> période </italic> est
+    le taux de cette oscillation en va-et-vient. C&#39;est appelé <italic> la fréquence
+    </italic> . L&#39;unité moderne de fréquence est le Hertz (Hz abrégé), qui représente
+    le nombre de cycles d&#39;ondes accomplies au cours d&#39;une seconde de temps.
+    Aux États-Unis d&#39;Amérique, la fréquence standard en ligne d&#39;alimentation
+    est de 60 Hz, ce qui signifie que la tension AC oscille à une vitesse de 60 retours-et-vient
+    des cycles par seconde. En Europe, où la fréquence du système d&#39;alimentation
+    est de 50 Hz, la tension alternative complète à seulement 50 cycles par seconde.
+    Un émetteur de radiodiffusion de la station radio à une fréquence de 100 MHz génère
+    une oscillation de tension alternative à une vitesse de 100 <italic> million </italic>
+    cycles par seconde.'}
+? A twin set of electric and magnetic fields, oscillating at right angles to each
+  other and traveling at the speed of light, constitutes an <italic>electromagnetic
+  wave</italic>.
+: {tag: <item>, xlate: 'Un ensemble double de champs électriques et magnétiques, oscillant
+    à angle droit par rapport à l&#39;autre et se déplaçant à la vitesse de la lumière,
+    constitue un <italic> onde électromagnétique </italic> .'}
+AC and DC motor design follows respective generator design principles very closely.: {
+  tag: <item>, xlate: AC et la conception du moteur à courant continu suivant les
+    principes de conception du générateur respectifs de très près.}
+? AC electromechanical generators, known as <italic>alternators</italic>, are of simpler
+  construction than DC electromechanical generators.
+: {tag: <item>, xlate: 'des générateurs électromécaniques à courant alternatif, connu
+    sous le nom <italic> alternateurs </italic> , Sont de construction plus simple
+    que les générateurs à courant continu électromécaniques.'}
+AC phase: {tag: <sectiontitle>, xlate: !!python/unicode 'phase de courant alternatif'}
+AC produced by an electromechanical alternator follows the graphical shape of a sine wave.: {
+  tag: <item>, xlate: AC produite par un alternateur électromécanique suit la forme
+    graphique d&#39;une onde sinusoïdale.}
+? AC stands for ``Alternating Current,'' meaning voltage or current that changes polarity
+  or direction, respectively, over time.
+: {tag: <item>, xlate: 'AC signifie `` courant alternatif, « » qui signifie tension
+    ou de courant qui change la polarité ou la direction, respectivement, au fil du
+    temps.'}
+AC waveforms: {tag: <sectiontitle>, xlate: !!python/unicode 'formes d&#39;onde AC'}
+? 'All of this can take place in open space, the alternating electric and magnetic
+  fields supporting each other as they travel through space at the speed of light.  This
+  dynamic structure of electric and magnetic fields propagating through space is better
+  known as an <italic>electromagnetic wave</italic>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tout cela peut avoir lieu dans un espace ouvert, les champs électriques
+    et magnétiques alternatifs se soutenant mutuellement lorsqu&#39;ils se déplacent
+    à travers l&#39;espace à la vitesse de la lumière. mieux connu est cette structure
+    dynamique des champs électriques et magnétiques se propageant dans l&#39;espace
+    comme <italic> onde électromagnétique </italic> .'}
+? All the old rules and laws of DC (Kirchhoff's Voltage and Current Laws, Ohm's Law)
+  still hold true for AC.  However, with more complex circuits, we may need to represent
+  the AC quantities in more complex form.  More on this later, I promise!
+: {tag: <item>, xlate: 'Toutes les anciennes règles et les lois de DC (tension de
+    Kirchhoff et lois actuelles, la loi d&#39;Ohm) tiennent toujours pour AC. Cependant,
+    avec des circuits plus complexes, nous devrons peut-être représenter les quantités
+    AC sous une forme plus complexe. Plus sur le sujet plus tard, je vous le promets!'}
+? An <italic>antenna</italic> is a device made of wire, designed to radiate a changing
+  electric field or changing magnetic field when powered by a high-frequency AC source,
+  or intercept an electromagnetic field and convert it to an AC voltage or current.
+: {tag: <item>, xlate: 'Un <italic> antenne </italic> est un dispositif en fil de
+    fer, destinée à rayonner un champ électrique changeant ou en modifiant le champ
+    magnétique lorsqu&#39;il est alimenté par une source de courant alternatif à haute
+    fréquence, ou intercepter un champ électromagnétique et de le convertir en une
+    tension alternative ou de courant.'}
+? 'An antenna is nothing more than a device built to produce a dispersing electric
+  or magnetic field.  Two fundamental types of antennae are the <italic>dipole</italic>
+  and the <italic>loop</italic>: Figure<ref>02023.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une antenne est rien de plus un dispositif construit pour produire
+    un champ électrique ou magnétique de dispersion. Deux types fondamentaux d&#39;antennes
+    du <italic> dipôle </italic> et le <italic> boucle </italic> : Figure <ref> 02023.png
+    ci-dessous </ref>'}
+? 'An instrument called an <italic>oscilloscope</italic>, Figure<ref>02410.png below</ref>,
+  is used to display a changing voltage over time on a graphical screen.  You may
+  be familiar with the appearance of an <italic>ECG</italic> or <italic>EKG</italic>
+  (electrocardiograph) machine, used by physicians to graph the oscillations of a
+  patient''s heart over time.  The ECG is a special-purpose oscilloscope expressly
+  designed for medical use.  General-purpose oscilloscopes have the ability to display
+  voltage from virtually any voltage source, plotted as a graph with time as the independent
+  variable.  The relationship between period and frequency is very useful to know
+  when displaying an AC voltage or current waveform on an oscilloscope screen.  By
+  measuring the period of the wave on the horizontal axis of the oscilloscope screen
+  and reciprocating that time value (in seconds), you can determine the frequency
+  in Hertz.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Un instrument appelé <italic> oscilloscope </italic> , Figure <ref>
+    02410.png ci-dessous </ref> , Est utilisé pour afficher une tension de changement
+    au fil du temps sur un écran graphique. Vous connaissez peut-être avec l&#39;apparition
+    d&#39;un <italic> ECG </italic> ou <italic> EKG </italic> (Électrocardiographe)
+    machine utilisée par les médecins pour représenter graphiquement les oscillations
+    du cœur d&#39;un patient au fil du temps. L&#39;ECG est un oscilloscope à usage
+    spécial expressément conçu pour un usage médical. oscilloscopes usage général
+    ont la possibilité d&#39;afficher la tension de pratiquement toute source de tension,
+    tracées sous forme de graphique avec le temps comme variable indépendante. La
+    relation entre la période et la fréquence est très utile de savoir lors de l&#39;affichage
+    d&#39;une tension alternative ou forme d&#39;onde sur un écran de l&#39;oscilloscope.
+    En mesurant la période de l&#39;onde sur l&#39;axe horizontal de l&#39;écran de
+    l&#39;oscilloscope et alternatif que la valeur de temps (en secondes), vous pouvez
+    déterminer la fréquence en Hertz.'}
+? 'Analog, electromechanical meter movements respond proportionally to the <italic>average</italic>
+  value of an AC voltage or current.  When RMS indication is desired, the meter''s
+  calibration must be ``skewed'''' accordingly.  This means that the accuracy of an
+  electromechanical meter''s RMS indication is dependent on the purity of the waveform:
+  whether it is the exact same waveshape as the waveform used in calibrating.'
+: {tag: <item>, xlate: 'Analogique, les mouvements des compteurs électromécaniques
+    répond proportionnellement à la <italic> moyenne </italic> La valeur d&#39;une
+    tension alternative ou de courant. Lorsque l&#39;indication RMS est souhaitée,
+    l&#39;étalonnage du compteur doit être biaisé `` « » en conséquence. Cela signifie
+    que la précision de l&#39;indication RMS d&#39;un compteur électromécanique dépend
+    de la pureté de la forme d&#39;onde: que ce soit la même exacte que waveshape
+    la forme d&#39;onde utilisée dans l&#39;étalonnage.'}
+? 'Another method of deriving an aggregate value for waveform amplitude is based on
+  the waveform''s ability to do useful work when applied to a load resistance.  Unfortunately,
+  an AC measurement based on work performed by a waveform is not the same as that
+  waveform''s ``average'''' value, because the <italic>power</italic> dissipated by
+  a given load (work performed per unit time) is not directly proportional to the
+  magnitude of either the voltage or current impressed upon it.  Rather, power is
+  proportional to the <italic>square</italic> of the voltage or current applied to
+  a resistance (P = E<superscript>2</superscript>/R, and P = I<superscript>2</superscript>R).  Although
+  the mathematics of such an amplitude measurement might not be straightforward, the
+  utility of it is.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une autre méthode consistant à dériver une valeur globale pour l&#39;amplitude
+    de forme d&#39;onde est basée sur la capacité de la forme d&#39;onde pour effectuer
+    un travail utile lorsqu&#39;il est appliqué à une résistance de charge. Malheureusement,
+    une mesure AC basée sur le travail effectué par une forme d&#39;onde est pas la
+    même que la valeur moyenne `` « » de cette forme d&#39;onde, parce que la <italic>
+    Puissance </italic> dissipée par une charge donnée (travail effectué par unité
+    de temps) ne soit pas directement proportionnel à l&#39;amplitude de la tension
+    ou courant imposé sur elle. Au contraire, la puissance est proportionnelle à la
+    <italic> carré </italic> de la tension ou de courant appliqué à une résistance
+    (P = E <superscript> 2 </superscript> / R, et P = I <superscript> 2 </superscript>
+    R). Bien que les mathématiques d&#39;une telle mesure d&#39;amplitude pourrait
+    ne pas être simple, l&#39;utilité de c&#39;est.'}
+? 'Another way is to measure the total height between opposite peaks.  This is known
+  as the <italic>peak-to-peak</italic> (P-P) value of an AC waveform:  Figure<ref>02012.png
+  below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une autre manière consiste à mesurer la hauteur totale entre les sommets
+    opposés. Ceci est connu sous le nom <italic> crête-à-crête </italic> (PP) valeur
+    d&#39;une forme d&#39;onde AC: Figure <ref> 02012.png ci-dessous </ref>'}
+? 'As the powered dipole radiates its changing electric field into space, a changing
+  magnetic field is produced at right angles, thus sustaining the electric field further
+  into space, and so on as the wave propagates at the speed of light.  As the powered
+  loop antenna radiates its changing magnetic field into space, a changing electric
+  field is produced at right angles, with the same end-result of a continuous electromagnetic
+  wave sent away from the antenna.  Either antenna achieves the same basic task: the
+  controlled production of an electromagnetic field.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Comme le dipôle alimenté rayonne son changement de champ électrique
+    dans l&#39;espace, un champ magnétique variable est réalisée à angle droit, soutenant
+    ainsi le champ électrique plus loin dans l&#39;espace, et ainsi de suite tant
+    que l&#39;onde se propage à la vitesse de la lumière. Comme l&#39;antenne en boucle
+    alimenté rayonne son champ magnétique variable dans l&#39;espace, un changement
+    de champ électrique est produit à angle droit, avec le même résultat final d&#39;une
+    onde électromagnétique continue envoyé vers l&#39;antenne. Soit antenne réalise
+    la même tâche de base: la production contrôlée d&#39;un champ électromagnétique.'}
+? 'As useful and as easy to understand as DC is, it is not the only ``kind'''' of
+
+  electricity in use.  Certain sources of electricity (most notably, rotary
+
+  electro-mechanical generators) naturally produce voltages alternating in
+
+  polarity, reversing positive and negative over time.  Either as a voltage
+
+  switching polarity or as a current switching direction back and forth, this
+
+  ``kind'''' of electricity is known as Alternating Current (AC): Figure<ref>02001.png
+  below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Aussi utile et facile à comprendre que DC est, ce n&#39;est pas le
+    seul type `` « » d&#39;électricité en cours d&#39;utilisation. Certaines sources
+    d&#39;électricité (en particulier, les générateurs électro-mécaniques rotatives)
+    produisent naturellement des tensions alternatives de polarité, positive et négative
+    d&#39;inversion dans le temps. Soit en tant que polarité de commutation de tension
+    ou en tant que direction de commutation de courant dans les deux sens, ce genre
+    `` « » de l&#39;électricité que l&#39;on appelle le courant alternatif (AC): Figure
+    <ref> 02001.png ci-dessous </ref>'}
+? 'As useful as transformers are, they only work with AC, not DC.  Because the phenomenon
+  of mutual inductance relies on <italic>changing</italic> magnetic fields, and direct
+  current (DC) can only produce steady magnetic fields, transformers simply will not
+  work with direct current.  Of course, direct current may be interrupted (pulsed)
+  through the primary winding of a transformer to create a changing magnetic field
+  (as is done in automotive ignition systems to produce high-voltage spark plug power
+  from a low-voltage DC battery), but pulsed DC is not that different from AC.  Perhaps
+  more than any other reason, this is why AC finds such widespread application in
+  power systems.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Aussi utile que les transformateurs sont, ils ne fonctionnent qu&#39;avec
+    AC, DC non. Parce que le phénomène de l&#39;inductance mutuelle repose sur la
+    <italic> en changeant </italic> champs magnétiques, et en courant continu (DC)
+    ne peut produire des champs magnétiques stables, les transformateurs simplement
+    ne fonctionnent pas avec le courant continu. Bien entendu, le courant continu
+    peut être interrompu (pulsé) à travers l&#39;enroulement primaire d&#39;un transformateur
+    pour créer un champ magnétique variable (comme cela se fait dans les systèmes
+    d&#39;allumage de l&#39;automobile pour produire une puissance de bougie d&#39;allumage
+    à haute tension d&#39;une batterie à basse tension à courant continu), mais DC
+    pulsé est pas si différente de AC. Peut-être plus que toute autre raison, c&#39;est
+    pourquoi AC trouve cette application très répandue dans les systèmes d&#39;alimentation.'}
+? "As you can see, one octave is equal to <italic>seven</italic> white keys' worth\
+  \ of distance on a piano keyboard.  The familiar musical mnemonic (doe-ray-mee-fah-so-lah-tee)\
+  \ -- yes, the same pattern immortalized in the whimsical Rodgers and Hammerstein\
+  \ song sung in <underline>The Sound of Music</underline> -- covers one octave from\
+  \ C to C. \n"
+: {tag: '<para>
+
+    ', xlate: 'Comme vous pouvez le voir, une octave est égale à <italic> Sept </italic>
+    la valeur de la distance de touches blanches sur un clavier de piano. Le mnémonique
+    musical familier (DOE-ray-mee-Fah-so-lah-T) - oui, le même modèle immortalisé
+    dans la chanson Rodgers et Hammerstein fantasque chanté en <underline> Le son
+    de la musique </underline> - couvre une octave de C à C.'}
+? 'Astute observers will notice that all notes on the table bearing the same letter
+  designation are related by a frequency ratio of 2:1.  For example, the first frequency
+  shown (designated with the letter ``A'''') is 220 Hz.  The next highest ``A''''
+  note has a frequency of 440 Hz -- exactly twice as many sound wave cycles per second.  The
+  same 2:1 ratio holds true for the first A sharp (233.08 Hz) and the next A sharp
+  (466.16 Hz), and for all note pairs found in the table.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'observateurs avisés remarqueront que toutes les notes sur la table
+    portant la même lettre sont liés par un rapport de fréquence de 2: 1. Par exemple,
+    la première fréquence représenté (désigné par la lettre A `` « ») est de 220 Hz.
+    Le plus élevé suivant `` A « » note a une fréquence de 440 Hz - exactement deux
+    fois plus de cycles d&#39;ondes sonores par seconde. Le même rapport de 2: 1 est
+    vrai pour la première Une forte (233,08 Hz) et l&#39;autre A forte (466,16 Hz),
+    et pour toutes les paires de note trouvée dans la table.'}
+? 'Audibly, two notes whose frequencies are exactly double each other sound remarkably
+  similar.  This similarity in sound is musically recognized, the shortest span on
+  a musical scale separating such note pairs being called an <italic>octave</italic>.  Following
+  this rule, the next highest ``A'''' note (one  octave above 440 Hz) will be 880
+  Hz, the next lowest ``A'''' (one octave below 220 Hz) will be 110 Hz.  A view of
+  a piano keyboard helps to put this scale into  perspective: Figure<ref>02277.png
+  below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Audiblement, deux notes dont les fréquences sont exactement le double
+    de l&#39;autre son remarquablement similaire. Cette similitude dans son est musicalement
+    reconnu, la durée la plus courte sur une échelle musicale qui sépare ces paires
+    de notes étant appelée <italic> octave </italic> . Suite à cette règle, le plus
+    élevé suivant `` A &#39;&#39; note (une octave au-dessus de 440 Hz) sera 880 Hz,
+    la plus basse suivante `` A &#39;&#39; (une octave en dessous de 220 Hz) sera
+    de 110 Hz. Une vue d&#39;un clavier de piano permet de mettre cette échelle en
+    perspective: Figure <ref> 02277.png ci-dessous </ref>'}
+BASIC AC THEORY: {tag: <chaptertitle>, xlate: BASIC AC THÉORIE}
+? 'Bear in mind that the conversion constants shown here for peak, RMS, and average
+  amplitudes of sine waves, square waves, and triangle waves hold true only for <italic>pure</italic>
+  forms of these waveshapes.  The RMS and average values of distorted waveshapes are
+  not related by the same ratios: Figure<ref>02017.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Gardez à l&#39;esprit que les constantes de conversion présentées ici
+    pour le pic, RMS et amplitudes moyennes des ondes sinusoïdales, ondes carrées,
+    et les ondes triangle tiennent vrai que pour <italic> pur </italic> formes de
+    ces formes d&#39;ondes. Le RMS et les valeurs moyennes de ne sont pas déformées
+    formes d&#39;ondes liées par les mêmes rapports: Figure <ref> 02017.png ci-dessous
+    </ref>'}
+? 'Because all these mathematical relationships still hold true, we can make use of
+  our familiar ``table'''' method of organizing circuit values just as with DC:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Parce que toutes ces relations mathématiques sont toujours vraies,
+    nous pouvons utiliser notre familier `` méthode de table « » d&#39;organiser des
+    valeurs de circuit tout comme avec DC:'}
+? 'Because the subject of complex numbers is so essential to the understanding of
+  AC circuits, the next chapter will be devoted to that subject alone.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Parce que le sujet des nombres complexes est si essentielle à la compréhension
+    des circuits en courant alternatif, le prochain chapitre sera consacré à ce sujet
+    seul.'}
+? 'Because the waveforms in the above examples are at the same frequency, they will
+  be out of step by the same angular amount at every point in time.  For this reason,
+  we can express phase shift for two or more waveforms of the same frequency as a
+  constant quantity for the entire wave, and not just an expression of shift between
+  any two particular points along the waves.  That is, it is safe to say something
+  like, ``voltage ''A'' is 45 degrees out of phase with voltage ''B''.''''  Whichever
+  waveform is ahead in its evolution is said to be <italic>leading</italic> and the
+  one behind is said to be <italic>lagging</italic>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Parce que les formes d&#39;onde dans les exemples ci-dessus sont à
+    la même fréquence, ils seront déphasé par la même quantité angulaire à chaque
+    moment. Pour cette raison, nous pouvons exprimer décalage de phase pour deux formes
+    d&#39;onde ou plus de la même fréquence que une quantité constante de l&#39;onde
+    entière, et non pas seulement une expression de décalage entre deux points quelconques
+    particulier le long des vagues. Autrement dit, il est sûr de dire quelque chose
+    comme, `` tension « A » est de 45 degrés en opposition de phase avec la tension
+    « B ». « » Quelle que soit la forme d&#39;onde est en avance dans son évolution
+    est dit <italic> de premier plan </italic> et l&#39;une derrière est dit être
+    <italic> calorifugeage </italic> .'}
+? Calculations for AC circuit analysis must take into consideration both amplitude
+  and phase shift of voltage and current waveforms to be completely accurate.  This
+  requires the use of a mathematical system called <italic>complex numbers</italic>.
+: {tag: <item>, xlate: Les calculs pour l&#39;analyse des circuits AC doit prendre
+    en considération à la fois l&#39;amplitude et le déphasage de la tension et les
+    formes d&#39;onde de courant pour être tout à fait exact. Cela nécessite l&#39;utilisation
+    d&#39;un système mathématique appelé <italic> nombres complexes </italic> .}
+? 'Consider a bandsaw and a jigsaw, two pieces of modern woodworking equipment.  Both
+  types of saws cut with a thin, toothed, motor-powered metal blade to cut wood.  But
+  while the bandsaw uses a continuous motion of the blade to cut, the  jigsaw uses
+  a back-and-forth motion.  The comparison of alternating current (AC) to direct current
+  (DC) may be likened to the comparison of these two saw types: Figure<ref>02014.png
+  below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pensez à une scie à ruban et une scie sauteuse, deux pièces d&#39;équipement
+    du bois moderne. Les deux types de scies avec une lame métallique mince, dentée,
+    actionné par un moteur pour couper le bois. Mais alors que la scie à ruban utilise
+    un mouvement continu de la lame pour couper, la scie sauteuse utilise un mouvement
+    de va-et-vient. La comparaison de courant (AC) en courant continu (DC) en alternance
+    peut être comparée à la comparaison de ces deux types de scie: Figure <ref> 02014.png
+    ci-dessous </ref>'}
+Contributors: {tag: <sectiontitle>, xlate: !!python/unicode 'Collaborateurs'}
+? 'Contributors to this chapter are listed in chronological order of their contributions,
+  from most recent to first.  See Appendix 2 (Contributor List) for dates and contact
+  information.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ont contribué à ce chapitre sont classés par ordre chronologique de
+    leurs contributions, du plus récent au premier. Voir l&#39;annexe 2 (Contributor
+    Liste) pour connaître les dates et les coordonnées.'}
+? DC stands for ``Direct Current,'' meaning voltage or current that maintains constant
+  polarity or direction, respectively, over time.
+: {tag: <item>, xlate: 'DC signifie `` Courant, « » sens de tension ou de courant
+    qui maintient la polarité ou la direction constante, respectivement, au fil du
+    temps.'}
+? 'Electronic meters specifically designed for RMS measurement are best for the task.  Some
+  instrument manufacturers have designed ingenious methods for determining the RMS
+  value of any waveform.  One such manufacturer produces ``True-RMS'''' meters with
+  a tiny resistive heating element powered by a voltage proportional to that being
+  measured.  The heating effect of that resistance element is measured thermally to
+  give a true RMS value with no mathematical calculations whatsoever, just the laws
+  of physics in action in fulfillment of the definition of RMS.  The accuracy of this
+  type of RMS measurement is independent of waveshape.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les compteurs électroniques spécialement conçus pour la mesure RMS
+    sont mieux pour la tâche. Certains fabricants d&#39;instruments ont conçu des
+    méthodes ingénieuses pour déterminer la valeur efficace de toute forme d&#39;onde.
+    Un tel fabricant produit `` mètres « True-RMS » avec un élément chauffant résistif
+    minuscule alimenté par une tension proportionnelle à celle mesuré. L&#39;effet
+    de chauffage de cet élément de résistance est mesurée thermiquement pour donner
+    une valeur efficace vraie sans calcul mathématique que ce soit, seulement les
+    lois de la physique en action en application de la définition de RMS. La précision
+    de ce type de mesure RMS est indépendante de waveshape.'}
+? 'For ``pure'''' waveforms, simple conversion coefficients exist for equating Peak,
+  Peak-to-Peak, Average (practical, not algebraic), and RMS measurements to one another:
+  Figure<ref>02016.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Pour `` pur « » formes d&#39;onde, les coefficients de conversion simples
+    existent pour assimilant Peak, crête à crête, moyenne (pratique, non algébrique),
+    et les mesures de RMS à l&#39;autre: Figure <ref> 02016.png ci-dessous </ref>'}
+Frequency = 1/(period in seconds): {tag: <item>, xlate: Fréquence = 1 / (période en
+    secondes)}
+? 'However, we encounter a measurement problem if we try to express how large or small
+  an AC quantity is.  With DC, where quantities of voltage and current are generally
+  stable, we have little trouble expressing how much voltage or current we have in
+  any part of a circuit.  But how do you grant a single measurement of magnitude to
+  something that is constantly changing?
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cependant, nous rencontrons un problème de mesure si nous essayons
+    d&#39;exprimer comment grand ou petit une quantité AC est. Avec DC, où des quantités
+    de tension et de courant sont généralement stables, nous avons peu de mal à exprimer
+    à quel point la tension ou le courant que nous avons dans une partie d&#39;un
+    circuit. Mais comment voulez-vous accorder une seule mesure de grandeur à quelque
+    chose qui est en constante évolution?'}
+? 'If a machine is constructed to rotate a magnetic field around a set of stationary
+  wire coils with the turning of a shaft, AC voltage will be produced across the wire
+  coils as that shaft is rotated, in accordance with Faraday''s Law of electromagnetic
+  induction.  This is the basic operating principle of an AC generator, also known
+  as an <italic>alternator</italic>: Figure<ref>02002.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si une machine est construite pour faire tourner un champ magnétique
+    autour d&#39;un ensemble de bobines de fil fixes avec la rotation d&#39;un arbre,
+    une tension alternative est produite à travers les bobines de fil en tant que
+    l&#39;arbre est mis en rotation, conformément à la loi de Faraday de l&#39;induction
+    électromagnétique. Tel est le principe de fonctionnement de base d&#39;un générateur
+    de courant alternatif, également connu comme <italic> alternateur </italic> :
+    Figure <ref> 02002.png ci-dessous </ref>'}
+? 'If the winding ratio is reversed so that the primary coil has less turns than
+
+  the secondary coil, the transformer ``steps up'''' the voltage from the source
+
+  level to a higher level at the load: Figure<ref>02006.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si le rapport d&#39;enroulement est inversé de telle sorte que la bobine
+    primaire a moins de spires que l&#39;enroulement secondaire du transformateur,
+    `` intensifie « » la tension du niveau de la source à un niveau supérieur à la
+    charge: Figure <ref> 02006.png ci-dessous </ref>'}
+? 'If we were to follow the changing voltage produced by a coil in an alternator from
+  any point on the sine wave graph to that point when the wave shape begins to repeat
+  itself, we would have marked exactly one <italic>cycle</italic> of that wave.  This
+  is most easily shown by spanning the distance between identical peaks, but may be
+  measured between any corresponding points on the graph.  The degree marks on the
+  horizontal axis of the graph represent the domain of the trigonometric sine function,
+  and also the angular position of our simple two-pole alternator shaft as it rotates:
+  Figure<ref>02009.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Si nous devions suivre la tension de changement produit par une bobine
+    dans un alternateur de tout point sur le graphique d&#39;onde sinusoïdale à ce
+    point lorsque la forme d&#39;onde commence à se répéter, nous aurions marqué exactement
+    un <italic> cycle </italic> de cette onde. Ceci est le plus facile de montrer
+    en enjambant la distance entre les pics identiques, mais peut être mesurée entre
+    les points correspondants sur le graphique. Les marques de degrés sur l&#39;axe
+    horizontal du graphique représentent le nom de domaine de la fonction sinus trigonométrique,
+    et aussi la position angulaire de notre arbre simple alternateur à deux pôles
+    lors de sa rotation: Figure <ref> 02009.png ci-dessous </ref>'}
+? 'In addition to RMS, average, peak (crest), and peak-to-peak measures of an AC waveform,
+  there are ratios expressing the proportionality between some of these fundamental
+  measurements.  The <italic>crest factor</italic> of an AC waveform, for instance,
+  is the ratio of its peak (crest) value divided by its RMS value.  The <italic>form
+  factor</italic> of an AC waveform is the ratio of its RMS value divided by its average
+  value. Square-shaped waveforms always have crest and form factors equal to 1, since
+  the peak is the same as the RMS and average values. Sinusoidal waveforms have an
+  RMS value of 0.707 (the reciprocal of the square root of 2) and a form factor of
+  1.11 (0.707/0.636). Triangle- and sawtooth-shaped waveforms have RMS values of 0.577
+  (the reciprocal of square root of 3) and  form factors of 1.15 (0.577/0.5).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En plus de RMS, moyenne, pic (crête), et des mesures de crête à crête
+    d&#39;une forme d&#39;onde AC, il y a des rapports exprimant la proportionnalité
+    entre certaines de ces mesures fondamentales. le <italic> facteur de crête </italic>
+    d&#39;une forme d&#39;onde alternative, par exemple, est le rapport entre sa valeur
+    de crête (crête) divisée par la valeur RMS. le <italic> facteur de forme </italic>
+    d&#39;une forme d&#39;onde AC est le rapport entre sa valeur de RMS divisée par
+    sa valeur moyenne. les formes d&#39;onde de forme carrée ont toujours des facteurs
+    de crête et forme égale à 1, étant donné que le pic est le même que le RMS et
+    les valeurs moyennes. formes d&#39;onde sinusoïdales ont une valeur RMS de 0,707
+    (l&#39;inverse de la racine carrée de deux) et un facteur de forme de 1,11 (0,707
+    / 0,636). Triangle- et des formes d&#39;ondes en dents de scie ont des valeurs
+    efficaces de 0,577 (l&#39;inverse de la racine carrée de 3) et forment des facteurs
+    de 1,15 (0,577 / 0,5).'}
+? 'In musical terms, frequency is equivalent to <italic>pitch</italic>.  Low-pitch
+  notes such as those produced by a tuba or bassoon consist of air molecule  vibrations
+  that are relatively slow (low frequency).  High-pitch notes such as those produced
+  by a flute or whistle consist of the same type of vibrations in the air, only vibrating
+  at a much faster rate (higher frequency). Figure<ref>02276.png below</ref> is a
+  table showing the actual frequencies for a range of common musical notes.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'En ce qui concerne la musique, la fréquence est équivalente à <italic>
+    pas </italic> . notes à faible hauteur tels que ceux produits par un tuba ou basson
+    consistent en des vibrations de molécules d&#39;air qui sont relativement lent
+    (basse fréquence). notes haut tangage tels que ceux produits par une flûte ou
+    d&#39;un sifflet sont constitués du même type de vibrations dans l&#39;air, vibrant
+    seulement à une vitesse beaucoup plus rapide (fréquence plus élevée). Figure <ref>
+    02276.png ci-dessous </ref> est un tableau indiquant les fréquences réelles pour
+    une série de notes musicales communes.'}
+? 'In the two circuits above, we have the same amount of load resistance (2 <OMEGA>)
+  dissipating the same amount of power in the form of heat (50 watts), one powered
+  by AC and the other by DC.  Because the AC voltage source pictured above is equivalent
+  (in terms of power delivered to a load) to a 10 volt DC battery, we would call this
+  a ``10 volt'''' AC source.  More specifically, we would denote its voltage value
+  as being 10 volts <italic>RMS</italic>.  The qualifier ``RMS'''' stands for <italic>Root
+  Mean Square</italic>, the algorithm used to obtain the DC equivalent value from
+  points on a graph (essentially, the procedure consists of squaring all the positive
+  and negative points on a waveform graph, averaging those squared values, then taking
+  the square root of that average to obtain the final answer).  Sometimes the alternative
+  terms <italic>equivalent</italic> or <italic>DC equivalent</italic> are used instead
+  of ``RMS,'''' but the quantity and principle are both the same.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans les deux circuits ci-dessus, nous avons la même quantité de résistance
+    de charge (2 <OMEGA> ) De dissipation de la même quantité d&#39;énergie sous forme
+    de chaleur (50 watts), alimenté par une AC et DC par l&#39;autre. Parce que la
+    source de tension alternative photo ci-dessus est équivalent (en termes de puissance
+    délivrée à une charge) à une batterie à courant continu de 10 volts, nous appelons
+    cela une source de courant alternatif `` 10 volts « ». Plus précisément, nous
+    indiqueraient sa valeur de tension étant de 10 volts <italic> RMS </italic> .
+    Le qualificatif `` RMS « » représente <italic> Root Mean Square </italic> L&#39;algorithme
+    utilisé pour obtenir le DC-valeur à partir de points sur un graphique (essentiellement,
+    la procédure consiste à élever au carré de tous les points positifs et négatifs
+    sur un graphique de forme d&#39;onde, la moyenne de ces valeurs au carré, puis
+    en prenant la racine carrée de cette moyenne pour obtenir la réponse finale).
+    Parfois, les termes alternatifs <italic> équivalent </italic> ou <italic> équivalent
+    DC </italic> sont utilisés à la place de RMS `` de, « » mais la quantité et le
+    principe sont à la fois la même chose.'}
+? 'In the voltage plot from an electromechanical alternator, the change from one polarity
+  to the other is a smooth one, the voltage level changing most rapidly at the zero
+  (``crossover'''') point and most slowly at its peak.  If we were to graph the trigonometric
+  function of ``sine'''' over a horizontal range of 0 to 360 degrees, we would find
+  the exact same pattern as in Table<ref>sine.tbl below</ref>.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Dans le tracé de la tension d&#39;un alternateur électromécanique,
+    le passage d&#39;une polarité à l&#39;autre est une lisse, le niveau de tension
+    changeant plus rapidement au niveau du point zéro ( `` croisé « ») et plus lentement
+    à son apogée. Si nous devions représenter graphiquement la fonction trigonométrique
+    de sinus `` « » sur une plage horizontale de 0 à 360 degrés, nous trouvons le
+    même schéma exact que dans le tableau <ref> sine.tbl ci-dessous </ref> .'}
+? James Maxwell discovered that changing electric fields produce perpendicular magnetic
+  fields, and vice versa, even in empty space.
+: {tag: <item>, xlate: 'James Maxwell a découvert que la modification des champs électriques
+    produisent des champs magnétiques perpendiculaires, et vice-versa, même dans l&#39;espace
+    vide.'}
+Measurements of AC magnitude: {tag: <sectiontitle>, xlate: !!python/unicode 'Mesures
+    de grandeur AC'}
+? 'Most students of electricity begin their study with what is known as <italic>direct
+  current</italic> (DC), which is electricity flowing in a constant direction, and/or
+  possessing a voltage with constant polarity.  DC is the kind of electricity made
+  by a battery (with definite positive and negative terminals), or the kind of charge
+  generated by rubbing certain types of materials against each other.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La plupart des étudiants d&#39;électricité commencent leur étude avec
+    ce qu&#39;on appelle <italic> courant continu </italic> (DC), qui est de l&#39;électricité
+    circulant dans une direction constante, et / ou possédant une tension avec une
+    polarité constante. DC est le genre de l&#39;électricité faite par une batterie
+    (avec des bornes définies positives et négatives), ou le type de charge générée
+    par le frottement de certains types de matériaux contre l&#39;autre.'}
+? 'Notice how the polarity of the voltage across the wire coils reverses as the opposite
+  poles of the rotating magnet pass by.  Connected to a load, this reversing voltage
+  polarity will create a reversing current direction in the circuit.  The faster the
+  alternator''s shaft is turned, the faster the magnet will spin, resulting in an
+  alternating voltage and current that switches directions more often in a given amount
+  of time.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Notez que la polarité de la tension aux bornes des bobines de fil métallique
+    inverse les pôles opposés de l&#39;aimant rotatif passent. Connecté à une charge,
+    cette inversion de polarité de la tension permettra de créer une direction de
+    courant d&#39;inversion dans le circuit. Plus vite l&#39;arbre de l&#39;alternateur
+    tourne, plus vite l&#39;aimant tourner, entraînant une tension et courant alternatif
+    qui passe des directions plus souvent dans un laps de temps donné.'}
+? One <italic>cycle</italic> of a wave is one complete evolution of its shape until
+  the point that it is ready to repeat itself.
+: {tag: <item>, xlate: Un <italic> cycle </italic> d&#39;une vague est une évolution
+    complète de sa forme jusqu&#39;au point qu&#39;il est prêt à se répéter.}
+? 'One major caveat needs to be given here: all measurements of AC voltage and current
+  must be expressed in the same terms (peak, peak-to-peak, average, or RMS).  If the
+  source voltage is given in peak AC volts, then all currents and voltages subsequently
+  calculated are cast in terms of peak units.  If the source voltage is given in AC
+  RMS volts, then all calculated currents and voltages are cast in AC RMS units as
+  well.  This holds true for <italic>any</italic> calculation based on Ohm''s Laws,
+  Kirchhoff''s Laws, etc.  Unless otherwise stated, all values of voltage and current
+  in AC circuits are generally assumed to be RMS rather than peak, average, or peak-to-peak.  In
+  some areas of electronics, peak measurements are assumed, but in most applications
+  (especially industrial electronics) the assumption is RMS.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une mise en garde importante doit être donnée ici: toutes les mesures
+    de tension et de courant alternatif doivent être exprimés dans les mêmes termes
+    (pointe, crête à crête, moyenne ou RMS). Si la tension de source est donnée en
+    pointe volts AC, tous les courants et les tensions calculées par la suite sont
+    exprimés en termes d&#39;unités de pointe. Si la tension de source est donnée
+    en volts AC RMS, courants puis tous calculés et les tensions sont exprimés en
+    unités AC RMS ainsi. Cela est vrai pour <italic> tout </italic> calcul basé sur
+    les lois d&#39;Ohm, les lois de Kirchhoff, etc. Sauf indication contraire, toutes
+    les valeurs de tension et de courant dans les circuits AC sont généralement supposé
+    RMS plutôt que le pic, moyenne ou crête à crête. Dans certains domaines de l&#39;électronique,
+    les mesures de pointe sont supposées, mais dans la plupart des applications (en
+    particulier de l&#39;électronique industrielle) l&#39;hypothèse est RMS.'}
+? 'One might wonder why anyone would bother with such a thing as AC.  It is true that
+  in some cases AC holds no practical advantage over DC.  In applications where electricity
+  is used to dissipate energy in the form of heat, the polarity or direction of current
+  is irrelevant, so long as there is enough voltage and current to the load to produce
+  the desired heat (power dissipation).  However, with AC it is possible to build
+  electric generators, motors and power distribution systems that are far more efficient
+  than DC, and so we find AC used predominately across the world in high power applications.  To
+  explain the details of why this is so, a bit of background knowledge about AC is
+  necessary.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'On peut se demander pourquoi quelqu&#39;un se soucierait d&#39;une
+    telle chose comme AC. Il est vrai que dans certains cas, AC ne détient aucun avantage
+    pratique sur DC. Dans les applications où l&#39;électricité est utilisée pour
+    dissiper l&#39;énergie sous forme de chaleur, la polarité ou le sens du courant
+    est sans importance, pourvu qu&#39;il y ait suffisamment de tension et de courant
+    à la charge pour produire la chaleur voulue (dissipation de puissance). Cependant,
+    avec AC, il est possible de construire des générateurs électriques, des moteurs
+    et des systèmes de distribution d&#39;énergie qui sont beaucoup plus efficaces
+    que DC, et ainsi nous trouvons AC utilisé principalement à travers le monde dans
+    les applications de haute puissance. Pour expliquer les détails de pourquoi il
+    en est ainsi, un peu de connaissances de base sur AC est nécessaire.'}
+? 'One of the more fascinating applications of electricity is in the generation of
+  invisible ripples of energy called <italic>radio waves</italic>.  The limited scope
+  of this lesson on alternating current does not permit full exploration of the concept,
+  some of the basic principles will be covered.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;une des applications les plus fascinantes de l&#39;électricité
+    est dans la génération d&#39;ondulations invisibles de l&#39;énergie appelée <italic>
+    les ondes radio </italic> . La portée limitée de cette leçon sur le courant alternatif
+    ne permet pas complète l&#39;exploration du concept, quelques-uns des principes
+    de base seront couverts.'}
+? 'One way of expressing the amplitude of different waveshapes in a more equivalent
+  fashion is to mathematically average the values of all the points on a waveform''s
+  graph to a single, aggregate number.  This amplitude measure is known simply as
+  the <italic>average</italic> value of the waveform.  If we average all the points
+  on the waveform algebraically (that is, to consider  their <italic>sign</italic>,
+  either positive or negative), the average value for most waveforms is technically
+  zero, because all the positive points cancel out all the negative points over a
+  full cycle: Figure<ref>02412.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Une façon d&#39;exprimer l&#39;amplitude des différentes formes d&#39;ondes
+    de façon plus équivalente à la moyenne est mathématiquement les valeurs de tous
+    les points sur le graphique d&#39;une forme d&#39;onde à un seul nombre total.
+    Cette mesure d&#39;amplitude est simplement connu sous le nom <italic> moyenne
+    </italic> La valeur de la forme d&#39;onde. Si nous avons en moyenne tous les
+    points de la forme d&#39;onde algébriquement (qui est, à considérer leur <italic>
+    signe </italic> , Positive ou négative), la valeur moyenne pour la plupart des
+    formes d&#39;onde est techniquement zéro, parce que tous les points positifs annulent
+    tous les points négatifs sur un cycle complet: la figure <ref> 02412.png ci-dessous
+    </ref>'}
+? 'One way to express the intensity, or magnitude (also called the <italic>amplitude</italic>),
+  of an AC quantity is to measure its peak height on  a waveform graph.  This is known
+  as the <italic>peak</italic> or    <italic>crest</italic> value of an AC waveform:
+  Figure<ref>02011.png below</ref>'
+: {tag: '<para>
+
+    ', xlate: 'Une façon d&#39;exprimer l&#39;intensité ou l&#39;ampleur (aussi appelé
+    <italic> amplitude </italic> ), D&#39;une quantité AC est de mesurer la hauteur
+    du pic d&#39;un diagramme de forme d&#39;onde. Ceci est connu sous le nom <italic>
+    de pointe </italic> ou <italic> crête </italic> La valeur d&#39;une forme d&#39;onde
+    AC: Figure <ref> 02011.png ci-dessous </ref>'}
+? Over the course of the next few chapters, you will learn that AC circuit measurements
+  and calculations can get very complicated due to the complex nature of alternating
+  current in circuits with inductance and capacitance. However, with simple circuits
+  (figure<ref>02018.png below</ref>) involving nothing more than an AC power source
+  and resistance, the same laws and rules of DC apply simply and directly.
+: {tag: '<para>
+
+    ', xlate: 'Au cours des prochains chapitres, vous apprendrez que les mesures de
+    circuit AC et les calculs peuvent être très compliquée en raison de la nature
+    complexe de courant alternatif dans les circuits avec inductance et capacité.
+    Cependant, avec des circuits simples (figure <ref> 02018.png ci-dessous </ref>
+    ) Impliquant rien de plus qu&#39;une source d&#39;alimentation et de la résistance,
+    les mêmes lois et règles de DC appliquent simplement et directement.'}
+? 'Peak and peak-to-peak measurements are best performed with an oscilloscope, which
+  can capture the crests of the waveform with a high degree of accuracy due to the
+  fast action of the cathode-ray-tube in response to changes in voltage.  For RMS
+  measurements, analog meter movements (D''Arsonval, Weston, iron vane, electrodynamometer)
+  will work so long as they have been calibrated in RMS figures.  Because the mechanical
+  inertia and dampening effects of an electromechanical meter movement makes the deflection
+  of the needle naturally proportional to the <italic>average</italic> value of the
+  AC, not the true RMS value, analog meters must be specifically calibrated (or mis-calibrated,
+  depending on how you look at it) to indicate voltage or current in RMS units.  The
+  accuracy of this calibration depends on an assumed waveshape, usually a sine wave.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'mesures de pointe et de crête à crête sont mieux réalisées avec un
+    oscilloscope, qui peut capturer les crêtes de la forme d&#39;onde avec un degré
+    élevé de précision grâce à l&#39;action rapide du rayon du tube de cathode en
+    réponse aux variations de tension. Pour les mesures RMS, les mouvements des compteurs
+    analogiques (D&#39;Arsonval, Weston, palettes de fer, électrodynamomètre) travailleront
+    aussi longtemps qu&#39;ils ont été calibrés en chiffres RMS. Du fait de l&#39;inertie
+    mécanique et les effets d&#39;amortissement d&#39;un mouvement de compteur électromécanique
+    rend la déviation de l&#39;aiguille naturellement proportionnelle à la <italic>
+    moyenne </italic> valeur de l&#39;AC, et non la vraie valeur efficace, les compteurs
+    analogiques doit être spécifiquement calibré (ou mal calibré, selon la façon dont
+    vous regardez) pour indiquer la tension ou de courant dans les unités RMS. La
+    précision de cet étalonnage dépend d&#39;un waveshape supposé, habituellement
+    une onde sinusoïdale.'}
+? 'Period and frequency are mathematical reciprocals of one another.  That is to say,
+  if a wave has a period of 10 seconds, its frequency will be 0.1 Hz, or 1/10 of a
+  cycle per second:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Période et fréquence sont mathématiques d&#39;une inverses autre. En
+    d&#39;autres termes, si une onde a une durée de 10 secondes, la fréquence sera
+    de 0,1 Hz ou 1/10 d&#39;un cycle par seconde:'}
+? 'Phase shift, like voltage, is always a measurement relative between two things.  There''s
+  really no such thing as a waveform with an <italic>absolute</italic> phase measurement
+  because there''s no known universal reference for phase.  Typically in the analysis
+  of AC circuits, the voltage waveform of the power supply is used as a reference
+  for phase, that voltage stated as ``xxx volts at 0 degrees.''''  Any other AC voltage
+  or current in that circuit will have its phase shift expressed in terms relative
+  to that source voltage.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'changement de phase, comme la tension, est toujours une mesure relative
+    entre deux choses. Il n&#39;y a vraiment pas une telle chose comme une forme d&#39;onde
+    avec un <italic> absolu </italic> mesure de phase, car il n&#39;y a pas de référence
+    universel connu pour la phase. Typiquement, dans l&#39;analyse de circuits à courant
+    alternatif, la forme d&#39;onde de tension de l&#39;alimentation est utilisée
+    comme référence pour la phase, que la tension indiquée comme `` volts xxx à 0
+    degrés. « » Toute autre tension alternative ou de courant dans ce circuit aura
+    sa phase déplacer exprimée en termes relatifs à cette tension de source.'}
+? 'Picture a jigsaw and bandsaw side-by-side, equipped with identical blades (same
+  tooth pitch, angle, etc.), equally capable of cutting the same thickness of the
+  same type of wood at the same rate.  We might say that the two saws were equivalent
+  or equal in their cutting capacity.  Might this comparison be used to assign a ``bandsaw
+  equivalent'''' blade speed to the jigsaw''s back-and-forth blade motion; to relate
+  the wood-cutting effectiveness of one to the other?  This is the general idea used
+  to assign a ``DC equivalent'''' measurement to any AC voltage or current: whatever
+  magnitude of DC voltage or current would produce the same amount of heat energy
+  dissipation through an equal resistance:Figure<ref>02015.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Image d&#39;une scie sauteuse et side-by-side scie à ruban, équipé
+    de lames identiques (même pas de dents, l&#39;angle, etc.), également capables
+    de couper la même épaisseur du même type de bois à la même vitesse. On pourrait
+    dire que les deux scies étaient équivalentes ou égales à leur capacité de coupe.
+    Pourrait cette comparaison permet d&#39;attribuer un `` équivalent scie à ruban
+    « vitesse de la lame » à dos-et-vient le mouvement de la lame de la scie sauteuse;
+    de relier l&#39;efficacité de coupe du bois de l&#39;un à l&#39;autre? Telle est
+    l&#39;idée générale utilisée pour affecter une `` mesure DC équivalent « » l&#39;une
+    quelconque tension alternative ou de courant: quelle que soit l&#39;ampleur de
+    la tension ou du courant continu produirait la même quantité de dissipation de
+    l&#39;énergie thermique à travers une résistance égale: Figure <ref> 02015.png
+    ci-dessous </ref>'}
+? 'Polarity-insensitive mechanical meter movements (meters designed to respond equally
+  to the positive and negative half-cycles of an alternating voltage or current) register
+  in proportion to the waveform''s (practical) average value, because the inertia
+  of the pointer against the tension of the spring naturally averages the force produced
+  by the varying voltage/current values over time.  Conversely, polarity-sensitive
+  meter movements vibrate uselessly if exposed to AC voltage or current, their needles
+  oscillating rapidly about the zero mark, indicating the true (algebraic) average
+  value of zero for a symmetrical waveform.  When the ``average'''' value of a waveform
+  is referenced in this text, it will be assumed that the ``practical'''' definition
+  of average is intended unless otherwise specified.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'les mouvements de compteurs mécaniques sans polarité (mètres conçus
+    pour répondre également à des demi-cycles positifs et négatifs de la tension alternative
+    ou de courant) enregistrer en proportion de la valeur moyenne (pratique) de la
+    forme d&#39;onde, car l&#39;inertie de l&#39;aiguille contre la tension de la
+    ressort moyennes naturellement la force produite par les différentes valeurs de
+    courant / tension au fil du temps. En revanche, les mouvements du compteur sensible
+    à la polarité vibrent inutilement si elle est exposée à une tension alternative
+    ou de courant, leurs aiguilles oscillant rapidement sur le repère zéro, ce qui
+    indique la valeur réelle moyenne (algébrique) de zéro pour une forme d&#39;onde
+    symétrique. Lorsque la `` moyenne « » valeur d&#39;une forme d&#39;onde est référencée
+    dans ce texte, on supposera que la `` pratique « définition » de la moyenne est
+    prévue, sauf indication contraire.'}
+Principles of radio: {tag: <sectiontitle>, xlate: !!python/unicode 'Principes de la
+    radio'}
+? 'Prior to the canonization of the Hertz unit, frequency was simply expressed as
+  ``cycles per second.''''  Older meters and electronic equipment often bore frequency
+  units of ``CPS'''' (Cycles Per Second) instead of Hz.  Many people believe the change
+  from self-explanatory units like CPS to Hertz constitutes a step backward in clarity.  A
+  similar change occurred when the unit of ``Celsius'''' replaced that of ``Centigrade''''
+  for metric temperature measurement.  The name Centigrade was based on a 100-count
+  (``Centi-'''') scale (``-grade'''') representing the melting and boiling points
+  of H<subscript>2</subscript>O, respectively.  The name Celsius, on the other hand,
+  gives no hint as to the unit''s origin or meaning.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avant la canonisation de l&#39;unité Hertz, la fréquence a été exprimée
+    par des `` cycles par seconde. « » Anciens compteurs et le matériel électronique
+    portaient souvent des unités de fréquence de `` CPS « » (cycles par seconde) au
+    lieu de Hz. Beaucoup de gens croient que le changement des unités explicites comme
+    CPS Hertz constitue un pas en arrière dans la clarté. Un changement similaire
+    a eu lieu lorsque l&#39;unité de `` C « » a remplacé celle de `` Centigrade «
+    » pour la mesure de température métrique. Le nom Centigrade était basé sur un
+    nombre de 100 ( `` centi- « ») échelle ( `` pentatonique « ») représentant les
+    points de fusion et d&#39;ébullition de H <subscript> 2 </subscript> O, respectivement.
+    Le Celsius nom, d&#39;autre part, ne donne aucune indication quant à l&#39;origine
+    ou la signification de l&#39;unité.'}
+? 'RMS amplitude measurement is the best way to relate AC quantities to DC quantities,
+  or other AC quantities of differing waveform shapes, when dealing with measurements
+  of electric power.  For other considerations, peak or peak-to-peak measurements
+  may be the best to employ.  For instance, when determining the proper size of wire
+  (ampacity) to conduct electric power from a source to a load, RMS current measurement
+  is the best to use, because the principal concern with current is overheating of
+  the wire, which is a function of power dissipation caused by current through the
+  resistance of the wire.  However, when rating insulators for service in high-voltage
+  AC applications, peak voltage measurements are the most appropriate, because the
+  principal concern here is insulator ``flashover'''' caused by brief spikes of voltage,
+  irrespective of time.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'mesure d&#39;amplitude RMS est la meilleure façon de rapporter des
+    quantités AC à des quantités DC, ou d&#39;autres quantités AC de différentes formes
+    d&#39;onde, lorsqu&#39;ils traitent avec des mesures de l&#39;énergie électrique.
+    Pour d&#39;autres considérations, de pointe ou des mesures de crête à crête peut
+    être le meilleur d&#39;employer. Par exemple, pour déterminer la taille appropriée
+    du fil (ampacité) pour conduire l&#39;énergie électrique à partir d&#39;une source
+    à une charge, RMS mesure de courant est le meilleur à utiliser, parce que la principale
+    préoccupation actuelle est la surchauffe du fil, qui est fonction de la dissipation
+    de puissance provoquée par le courant à travers la résistance du fil. Cependant,
+    au moment d&#39;évaluer les isolants pour le service dans les applications à courant
+    alternatif haute tension, des mesures de pointe de tension sont les plus appropriés,
+    car la principale préoccupation est ici isolant `` flashover »causée par de brèves
+    pointes de tension, quel que soit le temps.'}
+Secondary current = Primary current (primary turns / secondary turns): {tag: <item>,
+  xlate: !!python/unicode 'current = courant primaire secondaire (spires primaires
+    / secondaires spires)'}
+Secondary voltage = Primary voltage (secondary turns / primary turns): {tag: <item>,
+  xlate: !!python/unicode 'Tension secondaire = tension primaire (spires secondaires
+    / spires primaires)'}
+? 'Series resistances still add, parallel resistances still diminish, and the Laws
+  of Kirchhoff and Ohm still hold true.  Actually, as we will discover later on, these
+  rules and laws <italic>always</italic> hold true, its just that we have to express
+  the quantities of voltage, current, and opposition to current in more advanced mathematical
+  forms.  With purely resistive circuits, however, these complexities of AC are of
+  no practical consequence, and so we can treat the numbers as though we were dealing
+  with simple DC quantities.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'résistances de la série ajoutent encore, les résistances parallèles
+    diminuent encore, et les lois de Kirchhoff et Ohm tiennent toujours. En fait,
+    comme nous découvrirons plus tard, ces règles et lois <italic> toujours </italic>
+    être vrai, juste que nous devons exprimer les quantités de tension, le courant
+    et l&#39;opposition à un courant à des formes mathématiques plus avancées. Avec
+    des circuits purement résistives, cependant, ces complexités de AC sont sans conséquence
+    pratique, et donc nous pouvons traiter les chiffres comme si nous avions affaire
+    à des quantités simples DC.'}
+Simple AC circuit calculations: {tag: <sectiontitle>, xlate: !!python/unicode 'De
+    simples calculs de circuit AC'}
+? 'Since the horizontal axis of this graph can mark the passage of time as well as
+  shaft position in degrees, the dimension marked for one cycle is often measured
+  in a unit of time, most often seconds or fractions of a second.  When expressed
+  as a measurement, this is often called the <italic>period</italic> of a wave.  The
+  period of a wave in degrees is <italic>always</italic> 360, but the amount of time
+  one period occupies depends on the rate voltage oscillates back and forth.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Etant donné que l&#39;axe horizontal de ce graphique peut marquer le
+    passage du temps ainsi que la position de l&#39;arbre en degrés, la dimension
+    marquée pendant un cycle est souvent mesurée en une unité de temps, le plus souvent
+    quelques secondes ou fractions de seconde. Exprimée en mesure, ce qui est souvent
+    appelé <italic> période </italic> d&#39;une vague. La période d&#39;une onde en
+    degrés est <italic> toujours </italic> 360, mais la quantité de temps d&#39;une
+    période occupe dépend de la tension de fréquence oscille d&#39;avant en arrière.'}
+? 'Since the sine-wave shape is most common in electrical measurements, it is the
+  waveshape assumed for analog meter calibration, and the small multiple used in the
+  calibration of the meter is 1.1107 (the form factor: 0.707/0.636: the ratio of RMS
+  divided by average for a sinusoidal waveform).  Any waveshape other than a pure
+  sine wave will have a different ratio of RMS and average values, and thus a meter
+  calibrated for sine-wave voltage or current will not indicate true RMS when reading
+  a non-sinusoidal wave.  Bear in mind that this limitation applies only to simple,
+  analog AC meters not employing ``True-RMS'''' technology.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Etant donné que la forme d&#39;onde sinusoïdale est plus fréquente
+    chez les mesures électriques, il est la forme d&#39;onde supposé pour l&#39;étalonnage
+    du compteur analogique, et le petit multiple utilisé dans l&#39;étalonnage de
+    l&#39;appareil de mesure est 1,1107 (le facteur de forme: 0,707 / 0,636: le rapport
+    de RMS divisé en moyenne pour une forme d&#39;onde sinusoïdale). Toute forme d&#39;onde
+    autre qu&#39;une onde sinusoïdale pure aura un rapport différent de RMS et des
+    valeurs moyennes, et donc un compteur calibré pour la tension ou le courant à
+    onde sinusoïdale ne sera pas efficace vraie indiquer lors de la lecture d&#39;une
+    onde non sinusoïdale. Gardez à l&#39;esprit que cette limitation ne s&#39;applique
+    qu&#39;aux simples compteurs analogiques AC ne pas employer la technologie ``
+    TRMS « ».'}
+? 'So far we know that AC voltage alternates in polarity and AC current alternates
+  in direction.  We also know that AC can alternate in a variety of different ways,
+  and by tracing the alternation over time we can plot it as a ``waveform.''''  We
+  can measure the rate of alternation by measuring the time it takes for a wave to
+  evolve before it repeats itself (the ``period''''), and express this as cycles per
+  unit time, or ``frequency.''''  In music, frequency is the same as <italic>pitch</italic>,
+  which is the essential property distinguishing one note from another.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Jusqu&#39;à présent, nous savons que alterne tension alternative polarité
+    et alterne courant alternatif dans la direction. Nous savons aussi que l&#39;AC
+    peut alterner dans une variété de façons différentes, et en traçant l&#39;alternance
+    au fil du temps, nous pouvons tracer comme un `` forme d&#39;onde. « » On peut
+    mesurer le taux d&#39;alternance en mesurant le temps qu&#39;il faut pour une
+    vague de évoluer avant qu&#39;il ne se répète (la période `` « »), et d&#39;exprimer
+    ce que les cycles par unité de temps, ou `` fréquence. « » Dans la musique, la
+    fréquence est la même que <italic> pas </italic> , Qui est la propriété essentielle
+    de distinguer une note d&#39;un autre.'}
+? 'So we know that AC generators and AC motors tend to be simpler than DC
+
+  generators and DC motors.  This relative simplicity translates into greater
+
+  reliability and lower cost of manufacture.  But what else is AC good for?
+
+  Surely there must be more to it than design details of generators and motors!
+
+  Indeed there is.  There is an effect of electromagnetism known as
+
+  <italic>mutual induction</italic>, whereby two or more coils of wire placed so
+
+  that the changing magnetic field created by one induces a voltage in the
+
+  other.  If we have two mutually inductive coils and we energize one coil with
+
+  AC, we will create an AC voltage in the other coil.  When used as such, this
+
+  device is known as a <italic>transformer</italic>: Figure<ref>02004.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Nous savons donc que les générateurs à courant alternatif et moteurs
+    à courant alternatif ont tendance à être plus simples que les générateurs à courant
+    continu et moteurs à courant continu. Cette relative simplicité se traduit par
+    une plus grande fiabilité et à moindre coût de fabrication. Mais quoi d&#39;autre
+    est bon pour AC? Certes, il doit y avoir plus à ce que les détails de conception
+    de générateurs et moteurs! En effet, il est. Il y a un effet de l&#39;électromagnétisme
+    connu sous le nom <italic> induction mutuelle </italic> , De sorte que deux ou
+    plusieurs bobines de fil placées de telle sorte que le champ magnétique variable
+    créé par une induit une tension dans l&#39;autre. Si nous avons deux bobines d&#39;induction
+    mutuellement et nous activons avec une bobine AC, nous allons créer une tension
+    alternative dans l&#39;autre bobine. Lorsqu&#39;il est utilisé en tant que tel,
+    ce dispositif est connu comme <italic> transformateur </italic> : Figure <ref>
+    02004.png ci-dessous </ref>'}
+? The <italic>amplitude</italic> of an AC waveform is its height as depicted on a
+  graph over time.  An amplitude measurement can take the form of peak, peak-to-peak,
+  average, or RMS quantity.
+: {tag: <item>, xlate: 'le <italic> amplitude </italic> d&#39;une forme d&#39;onde
+    AC est sa hauteur, comme représenté sur un graphique dans le temps. Une mesure
+    d&#39;amplitude peut prendre la forme de pic, crête-à-crête, moyenne, ou la quantité
+    RMS.'}
+The <italic>crest factor</italic> of an AC waveform is the ratio of its peak (crest) to its RMS value.: {
+  tag: <item>, xlate: le <italic> facteur de crête </italic> d&#39;une forme d&#39;onde
+    AC est le rapport entre son sommet (crête) à sa valeur de RMS.}
+? The <italic>dipole</italic> antenna consists of two pieces of wire (not touching),
+  primarily generating an electric field when energized, and secondarily producing
+  a magnetic field in space.
+: {tag: <item>, xlate: 'le <italic> dipôle </italic> l&#39;antenne est constituée
+    de deux morceaux de fil (ne touchant pas), générant principalement un champ électrique
+    lorsqu&#39;il est excité, et secondairement produisant un champ magnétique dans
+    l&#39;espace.'}
+The <italic>form factor</italic> of an AC waveform is the ratio of its RMS value to its average value.: {
+  tag: <item>, xlate: le <italic> facteur de forme </italic> d&#39;une forme d&#39;onde
+    AC est le rapport de sa valeur efficace à sa valeur moyenne.}
+? The <italic>loop</italic> antenna consists of a loop of wire, primarily generating
+  a magnetic field when energized, and secondarily producing an electric field in
+  space.
+: {tag: <item>, xlate: 'le <italic> boucle </italic> l&#39;antenne se compose d&#39;une
+    boucle de fil, générant essentiellement un champ magnétique lorsqu&#39;il est
+    excité, et secondairement produire un champ électrique dans l&#39;espace.'}
+The <italic>period</italic> of a wave is the amount of time it takes to complete one cycle.: {
+  tag: <item>, xlate: le <italic> période </italic> d&#39;une onde est la quantité
+    de temps nécessaire pour compléter un cycle.}
+The ``table'' method of organizing circuit values is still a valid analysis tool for AC circuits.: {
+  tag: <item>, xlate: Le `` procédé table « » de l&#39;organisation des valeurs de
+    circuit est toujours un outil d&#39;analyse valable pour les circuits à courant
+    alternatif.}
+? The amount of phase shift between two waves can be expressed in terms of degrees,
+  as defined by the degree units on the horizontal axis of the waveform graph used
+  in plotting the trigonometric sine function.
+: {tag: <item>, xlate: 'La quantité de décalage de phase entre les deux ondes peut
+    être exprimé en termes de degrés, tel que défini par les unités de degrés sur
+    l&#39;axe horizontal du graphique de la forme d&#39;onde utilisée pour tracer
+    la fonction sinus trigonométrique.'}
+? 'The benefits of AC over DC with regard to generator design is also reflected in
+  electric motors.  While DC motors require the use of brushes to make electrical
+  contact with moving coils of wire, AC motors do not.  In fact, AC and DC motor designs
+  are very similar to their generator counterparts (identical for the sake of this
+  tutorial), the AC motor being dependent upon the reversing magnetic field produced
+  by alternating current through its stationary coils of wire to rotate the rotating
+  magnet around on its shaft, and the DC motor being dependent on the brush contacts
+  making and breaking connections to reverse current through the rotating coil every
+  1/2 rotation (180 degrees).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les avantages de l&#39;AC sur DC en ce qui concerne la conception du
+    générateur se reflète également dans les moteurs électriques. Bien que les moteurs
+    à courant continu nécessitent l&#39;utilisation de brosses pour établir un contact
+    électrique avec le déplacement des bobines de fil, moteurs à courant alternatif
+    ne le font pas. En fait, les conceptions de moteur à courant alternatif et à courant
+    continu sont très similaires à leurs homologues du générateur (identique au nom
+    de ce tutoriel), le moteur à courant alternatif dépendant du champ magnétique
+    d&#39;inversion produite par un courant alternatif à travers ses bobines stationnaires
+    de fil pour faire tourner l&#39;aimant tournant autour de son axe, et le moteur
+    à courant continu dépendant des contacts balais établir et interrompre des connexions
+    de courant inverse à travers la bobine en rotation à chaque rotation 1/2 (180
+    degrés).'}
+? 'The fundamental significance of a transformer is its ability to step voltage up
+
+  or down from the powered coil to the unpowered coil.  The AC voltage induced in
+
+  the unpowered (``secondary'''') coil is equal to the AC voltage across the powered
+
+  (``primary'''') coil multiplied by the ratio of secondary coil turns to primary
+
+  coil turns.  If the secondary coil is powering a load, the current through the
+
+  secondary coil is just the opposite: primary coil current multiplied by the
+
+  ratio of primary to secondary turns.  This relationship has a very close
+
+  mechanical analogy, using torque and speed to represent voltage and current,
+
+  respectively: Figure<ref>02005.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'L&#39;importance fondamentale d&#39;un transformateur est sa capacité
+    à renforcer la tension vers le haut ou vers le bas à partir de la bobine alimentée
+    à la bobine non alimentée. La tension alternative induite dans la unpowered (
+    `` secondaire « ») la bobine est égale à la tension alternative à travers le sous
+    tension ( `` primaire « bobine ») multipliée par le rapport de la bobine secondaire
+    se transforme en spires d&#39;enroulement primaire. Si la bobine secondaire est
+    mise sous tension d&#39;une charge, le courant à travers la bobine secondaire
+    est tout le contraire: courant de la bobine primaire multipliée par le rapport
+    de primaire à spires secondaires. Cette relation a une analogie mécanique très
+    proche, en utilisant le couple et la vitesse pour représenter tension et de courant,
+    respectivement: Figure <ref> 02005.png ci-dessous </ref>'}
+? 'The generator shown above will produce two pulses of voltage per revolution of
+  the shaft, both pulses in the same direction (polarity).  In order for a DC generator
+  to produce <italic>constant</italic> voltage, rather than brief pulses of voltage
+  once every 1/2 revolution, there are multiple sets of coils making intermittent
+  contact with the brushes.  The diagram shown above is a bit more simplified than
+  what you would see in real life.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le générateur illustré ci-dessus va produire deux impulsions de tension
+    par rotation de l&#39;arbre, les deux impulsions dans le même sens (polarité).
+    Pour qu&#39;un générateur de courant continu pour produire <italic> constante
+    </italic> tension, plutôt que de brèves impulsions de tension une fois par révolution
+    1/2, il y a plusieurs ensembles de bobines entrant en contact intermittent avec
+    les brosses. Le schéma ci-dessus est un peu plus simple que ce que vous verriez
+    dans la vie réelle.'}
+? 'The problem of trying to describe the changing quantities of AC voltage or current
+  in a single, aggregate measurement is also present in this saw analogy: how might
+  we express the speed of a jigsaw blade?  A bandsaw blade moves with a constant speed,
+  similar to the way DC voltage pushes or DC current moves with a constant magnitude.  A
+  jigsaw blade, on the other hand, moves back and forth, its blade speed constantly
+  changing.  What is more, the back-and-forth motion of any two jigsaws may not be
+  of the same type, depending on the mechanical design of the saws.  One jigsaw might
+  move its blade with a sine-wave motion, while another with a triangle-wave motion.  To
+  rate a jigsaw based on its <italic>peak</italic> blade speed would be quite misleading
+  when comparing one jigsaw to another (or a jigsaw with a bandsaw!).  Despite the
+  fact that these different saws move their blades in different manners, they are
+  equal in one respect: they all cut wood, and a quantitative comparison of this common
+  function can serve as a common basis for which to rate blade speed.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le problème d&#39;essayer de décrire les quantités de tension alternative
+    ou le courant en une seule mesure globale évolution est également présent dans
+    cette analogie de scie: comment pourrait-on exprimer la vitesse d&#39;une lame
+    de scie sauteuse? Une lame de scie à ruban se déplace à une vitesse constante,
+    semblable à la façon dont la tension continue pousse courant ou à courant continu
+    se déplace avec une amplitude constante. Une lame de scie sauteuse, d&#39;autre
+    part, va et vient, sa vitesse de lame en constante évolution. De plus, l&#39;arrière-et-vient
+    le mouvement de tout deux sauteuses peut ne pas être du même type, en fonction
+    de la conception mécanique des scies. Une scie sauteuse peut déplacer sa lame
+    avec un mouvement sinusoïdal, tandis qu&#39;un autre avec un mouvement de triangle
+    vague. Pour évaluer un puzzle en fonction de sa <italic> de pointe </italic> la
+    vitesse de la lame serait tout à fait induire en erreur lorsque l&#39;on compare
+    un puzzle à un autre (ou d&#39;une scie sauteuse avec une scie à ruban!). En dépit
+    du fait que ces différentes scies déplacent leurs lames de différentes manières,
+    ils sont égaux en un point: ils sont tous coupés en bois, et une comparaison quantitative
+    de cette fonction commune peut servir de base commune pour laquelle pour évaluer
+    la vitesse de la lame.'}
+? 'The problems involved with making and breaking electrical contact with a moving
+  coil should be obvious (sparking and heat), especially if the shaft of the generator
+  is revolving at high speed.  If the atmosphere surrounding the machine contains
+  flammable or explosive vapors, the practical problems of spark-producing brush contacts
+  are even greater.  An AC generator (alternator) does not require brushes and commutators
+  to work, and so is immune to these problems experienced by DC generators.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les problèmes liés à la fabrication et rompre le contact électrique
+    avec une bobine mobile devrait être évident (étincelles et de la chaleur), surtout
+    si l&#39;arbre du générateur tourne à grande vitesse. Si l&#39;atmosphère entourant
+    la machine contient des vapeurs inflammables ou explosives, les problèmes pratiques
+    des contacts balais produisant des étincelles sont encore plus grandes. Un générateur
+    de courant alternatif (alternateur) ne nécessite pas des brosses et au travail
+    des collecteurs, et est donc à l&#39;abri de ces problèmes rencontrés par les
+    générateurs de courant continu.'}
+? 'The reason why an electromechanical alternator outputs sine-wave AC is due to the
+  physics of its operation.  The voltage produced by the stationary coils by the motion
+  of the rotating magnet is proportional to the rate at which the magnetic flux is
+  changing perpendicular to the coils (Faraday''s Law of Electromagnetic Induction).  That
+  rate is greatest when the magnet poles are closest to the coils, and least when
+  the magnet poles are furthest away from the coils.  Mathematically, the rate of
+  magnetic flux change due to a rotating magnet follows that of a sine function, so
+  the voltage produced by the coils follows that same function.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La raison pour laquelle une sortie de l&#39;alternateur électromécanique
+    d&#39;onde sinusoïdale AC est due à la physique de son fonctionnement. La tension
+    produite par les bobines fixes par le mouvement de l&#39;aimant rotatif est proportionnelle
+    à la vitesse à laquelle le flux magnétique évolue perpendiculairement aux bobines
+    (loi de Faraday de l&#39;induction électromagnétique). Ce taux est le plus grand
+    lorsque les pôles magnétiques sont les plus proches des bobines, et moins lorsque
+    les pôles magnétiques sont les plus éloignés des bobines. Mathématiquement, le
+    taux de variation de flux magnétique due à un aimant rotatif qui suit d&#39;une
+    fonction sinusoïdale, de sorte que la tension produite par les bobines suit la
+    même fonction.'}
+? 'The shift between these two waveforms is about 45 degrees, the ``A'''' wave being
+  ahead of the ``B'''' wave.  A sampling of different phase shifts is given in the
+  following graphs to better illustrate this concept: Figure<ref>02021.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Le décalage entre ces deux formes d&#39;onde est d&#39;environ 45 degrés,
+    l&#39;onde `` A « » onde étant en avance sur le `` B « ». Un échantillonnage de
+    différents décalages de phase est donnée dans les graphiques suivants pour mieux
+    illustrer ce concept: Figure <ref> 02021.png ci-dessous </ref>'}
+? 'The transformer''s ability to step AC voltage up or down with ease gives AC an
+  advantage unmatched by DC in the realm of power distribution in figure<ref>02007.png
+  below</ref>.  When transmitting electrical power over long distances, it is far
+  more efficient to do so with stepped-up voltages and stepped-down currents (smaller-diameter
+  wire with less resistive power losses), then step the voltage back down and the
+  current back up for industry, business, or consumer use.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La capacité du transformateur à l&#39;étape tension alternative vers
+    le haut ou vers le bas avec facilité donne AC un avantage inégalé par DC dans
+    le domaine de la distribution d&#39;énergie dans la figure <ref> 02007.png ci-dessous
+    </ref> . Lors de la transmission de puissance électrique sur de longues distances,
+    il est beaucoup plus efficace de le faire avec des tensions intensification des
+    courants et abaissée (fil de plus petit diamètre avec des pertes de puissance
+    moins résistifs), puis l&#39;étape de la tension vers le bas et l&#39;arrière
+    en cours pour l&#39;industrie, les entreprises ou les consommateurs.'}
+? 'The two waves shown above (A versus B) are of the same amplitude and frequency,
+  but they are out of step with each other.  In technical terms, this is called a
+  <italic>phase shift</italic>.  Earlier we saw how we could plot a ``sine wave''''
+  by calculating the trigonometric sine function for angles ranging from 0 to 360
+  degrees, a full circle.  The starting point of a sine wave was zero amplitude at
+  zero degrees, progressing to full positive amplitude at 90 degrees, zero at 180
+  degrees, full negative at 270 degrees, and back to the starting point of zero at
+  360 degrees.  We can use this angle scale along the horizontal axis of our waveform
+  plot to express just how far out of step one wave is with another: Figure<ref>02020.png
+  below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Les deux ondes indiquées ci-dessus (A par rapport à B) sont de même
+    amplitude et fréquence, mais ils ne sont pas en phase avec l&#39;autre. En termes
+    techniques, on appelle cela un <italic> décalage de phase </italic> . Plus tôt
+    nous avons vu comment nous pourrions tracer un `en calculant` onde sinusoïdale
+    « » la fonction sinus trigonométrique pour des angles allant de 0 à 360 degrés,
+    un cercle complet. Le point de départ d&#39;une onde sinusoïdale a une amplitude
+    nulle à zéro degré, en progressant à pleine amplitude positif à 90 degrés, zéro
+    à 180 degrés, négatif complet à 270 degrés, et de retour au point de départ de
+    zéro à 360 degrés. Nous pouvons utiliser cette échelle d&#39;angle le long de
+    l&#39;axe horizontal de notre parcelle de forme d&#39;onde pour exprimer à quel
+    point déphasé une vague est avec une autre: la figure <ref> 02020.png ci-dessous
+    </ref>'}
+? 'There are many kinds of natural radiative energy composed of electromagnetic waves.  Even
+  light is electromagnetic in nature.  So are X-rays and ``gamma'''' ray radiation.  The
+  only difference between these kinds of electromagnetic radiation is the frequency
+  of their oscillation (alternation of the electric and magnetic fields back and forth
+  in polarity).  By using a source of AC voltage and a special device called an <italic>antenna</italic>,
+  we can create electromagnetic waves (of a much lower frequency than that of light)
+  with ease.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Il existe plusieurs types d&#39;énergie radiative naturel composé d&#39;ondes
+    électromagnétiques. Même la lumière est de nature électromagnétique. Ainsi sont
+    les rayons X et le rayonnement `` rayons gamma « ». La seule différence entre
+    ces types de rayonnement électromagnétique est la fréquence de leur oscillation
+    (alternance des champs électriques et magnétiques dans les deux sens de polarité).
+    En utilisant une source de tension alternative et un dispositif spécial appelé
+    <italic> antenne </italic> , Nous pouvons créer des ondes électromagnétiques (d&#39;une
+    fréquence beaucoup plus faible que celle de la lumière) avec facilité.'}
+? 'These waveforms are by no means the only kinds of waveforms in existence.  They''re
+  simply a few that are common enough to have been given distinct names.  Even in
+  circuits that are supposed to manifest ``pure'''' sine, square, triangle, or sawtooth
+  voltage/current waveforms, the real-life result is often a distorted version of
+  the intended waveshape.  Some waveforms are so complex that they defy classification
+  as a particular ``type'''' (including waveforms associated with many kinds of musical
+  instruments).  Generally speaking, any waveshape bearing close resemblance to a
+  perfect sine wave is termed <italic>sinusoidal</italic>, anything different being
+  labeled as <italic>non-sinusoidal</italic>.  Being that the waveform of an AC voltage
+  or current is crucial to its impact in a circuit, we need to be aware of the fact
+  that AC waves come in a variety of shapes.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ces formes d&#39;ondes ne sont nullement les seuls types de formes
+    d&#39;ondes dans l&#39;existence. Ils sont tout simplement quelques-unes qui sont
+    assez fréquentes pour avoir été donné des noms distincts. Même dans les circuits
+    qui sont censés manifester `` pur « » sinus, carré, triangle, ou des formes d&#39;ondes
+    de tension / courant en dents de scie, le résultat de la vie réelle est souvent
+    une version déformée de la forme d&#39;onde prévu. Certaines formes d&#39;onde
+    sont si complexes qu&#39;elles défient toute classification comme un type particulier
+    `` « » (y compris les formes d&#39;onde associées à de nombreux types d&#39;instruments
+    de musique). D&#39;une manière générale, toute forme d&#39;onde de palier étroite
+    ressemblance avec une onde sinusoïdale idéale est appelée <italic> sinusoïdal
+    </italic> , Quelque chose de différent étant étiqueté comme <italic> non sinusoïdal
+    </italic> . Etant donné que la forme d&#39;onde d&#39;une tension alternative
+    ou courant est cruciale pour son impact dans un circuit, nous devons être conscients
+    du fait que les ondes AC sont disponibles dans une variété de formes.'}
+? "Things start to get complicated when we need to relate two or more AC voltages\
+  \ or currents that are out of step with each other.  By ``out of step,'' I mean\
+  \ that the two waveforms are not synchronized: that their peaks and zero points\
+  \ do not match up at the same points in time.  The graph in figure<ref>02019.png\
+  \ below</ref>  illustrates an example of this. \n"
+: {tag: '<para>
+
+    ', xlate: 'Les choses commencent à se compliquer quand nous avons besoin de relier
+    deux ou plusieurs tensions AC ou à des courants déphasé par rapport à l&#39;autre.
+    Par `` déphasé, « » Je veux dire que les deux formes d&#39;onde ne sont pas synchronisées:
+    que leurs sommets et points zéro ne correspondent pas aux mêmes points dans le
+    temps. Le graphique de la figure <ref> 02019.png ci-dessous </ref> illustre un
+    exemple.'}
+? 'This breakthrough in physics is hard to overstate.  The man responsible for this
+  conceptual revolution was the Scottish physicist James Clerk Maxwell (1831-1879),
+  who ``unified'''' the study of electricity and magnetism in four relatively tidy
+  equations.  In essence, what he discovered was that electric and magnetic <italic>fields</italic>
+  were intrinsically related to one another, with or without the presence of a conductive
+  path for electrons to flow.  Stated more formally, Maxwell''s discovery was this:
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Cette percée en physique est difficile d&#39;exagérer. L&#39;homme
+    responsable de cette révolution conceptuelle était le physicien écossais James
+    Clerk Maxwell (1831-1879), qui `` unifié « » l&#39;étude de l&#39;électricité
+    et le magnétisme dans quatre équations relativement bien rangé. Essentiellement,
+    ce qu&#39;il a découvert était que électrique et magnétique <italic> des champs
+    </italic> sont intrinsèquement liées les unes aux autres, avec ou sans la présence
+    d&#39;un chemin conducteur pour les électrons à l&#39;écoulement. De façon plus
+    formelle, la découverte de Maxwell était le suivant:'}
+? "This is a very important concept to understand when using an analog D'Arsonval\
+  \ meter movement to measure AC voltage or current.  An analog D'Arsonval movement,\
+  \ calibrated to indicate sine-wave RMS amplitude, will only be accurate when measuring\
+  \ pure sine waves.  If the waveform of the voltage or current being measured is\
+  \ anything but a pure sine wave, the indication given by the meter will not be the\
+  \ true RMS value of the waveform, because the degree of needle deflection in an\
+  \ analog D'Arsonval meter movement is proportional to the <italic>average</italic>\
+  \ value of the waveform, not the RMS.  RMS meter calibration is obtained by ``skewing''\
+  \ the span of the meter so that it displays a small multiple of the average value,\
+  \ which will be equal to be the RMS value for a particular waveshape and <italic>a\
+  \ particular waveshape only</italic>.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Ce concept est très important de comprendre lors de l&#39;utilisation
+    d&#39;un mouvement de compteur analogique D&#39;Arsonval pour mesurer la tension
+    AC ou courant. D&#39;un analogue mouvement Arsonval, calibré pour indiquer l&#39;amplitude
+    RMS sinusoïdale, sera seulement une précision lors de la mesure des ondes sinusoïdales
+    pures. Si la forme d&#39;onde de la tension ou le courant mesuré est tout sauf
+    une onde sinusoïdale pure, l&#39;indication donnée par l&#39;appareil de mesure
+    ne sera pas la vraie valeur efficace de la forme d&#39;onde, car le degré de déviation
+    de l&#39;aiguille dans un mouvement de mesure analogique D&#39;Arsonval est proportionnel
+    à la <italic> moyenne </italic> valeur de la forme d&#39;onde, et non le RMS.
+    étalonnage du compteur RMS est obtenu par `` « » inclinaison de la portée de l&#39;appareil
+    afin qu&#39;il affiche un petit multiple de la valeur moyenne, qui sera égal à
+    la valeur RMS pour une forme d&#39;onde particulière et <italic> un particulier
+    ne waveshape </italic> .'}
+? 'This is what makes AC circuit calculations more complicated than DC.  When applying
+  Ohm''s Law and Kirchhoff''s Laws, quantities of AC voltage and current must reflect
+  phase shift as well as amplitude.  Mathematical operations of addition, subtraction,
+  multiplication, and division must operate on these quantities of phase shift as
+  well as amplitude.  Fortunately, there is a mathematical system of quantities called
+  <italic>complex numbers</italic> ideally suited for this task of representing amplitude
+  and phase.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ce qui fait des calculs de circuit alternatif plus compliqué que DC.
+    Lors de l&#39;application du droit et des lois de Kirchhoff, les quantités de
+    tension et de courant alternatif d&#39;Ohm doivent refléter le déphasage, ainsi
+    que l&#39;amplitude. des opérations mathématiques de l&#39;addition, la soustraction,
+    la multiplication et la division doivent fonctionner sur ces quantités de décalage
+    de phase ainsi que l&#39;amplitude. Heureusement, il existe un système mathématique
+    des quantités appelé <italic> nombres complexes </italic> idéalement adapté à
+    cette tâche de représenter l&#39;amplitude et de phase.'}
+? 'This, of course, will be true for any waveform having equal-area portions above
+  and below the ``zero'''' line of a plot.  However, as a <italic>practical</italic>
+  measure of a waveform''s aggregate value, ``average'''' is usually defined as the
+  mathematical mean of all the points'' <italic>absolute values</italic> over a cycle.  In
+  other words, we calculate the practical average value of the waveform by considering
+  all points on the wave as positive quantities, as if the waveform looked like this:
+  Figure<ref>02413.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Ceci, bien entendu, sera vrai pour toute forme d&#39;onde ayant des
+    parties égales de la région au-dessus et au-dessous de la ligne `` zéro « » d&#39;une
+    parcelle. Cependant, comme <italic> pratique </italic> mesure de `moyenne « valeur
+    globale d&#39;une forme d&#39;onde, ` » est généralement définie comme la moyenne
+    mathématique de tous les points&#39; <italic> des valeurs absolues </italic> sur
+    un cycle. En d&#39;autres termes, on calcule la valeur moyenne pratique de la
+    forme d&#39;onde en tenant compte de tous les points sur la vague comme des quantités
+    positives, comme si la forme d&#39;onde ressemblait à ceci: Figure <ref> 02413.png
+    ci-dessous </ref>'}
+? 'Transformer technology has made long-range electric power distribution practical.  Without
+  the ability to efficiently step voltage up and down, it would be cost-prohibitive
+  to construct power systems for anything but close-range (within a few miles at most)
+  use.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'La technologie de transformateur a longue portée distribution d&#39;énergie
+    électrique pratique. Sans la capacité de pas efficace tension et vers le bas,
+    ce serait un coût prohibitif pour construire des systèmes d&#39;alimentation pour
+    quoi que ce soit, mais à courte portée (quelques miles au plus) utiliser.'}
+? 'Unfortunately, either one of these expressions of waveform amplitude can be misleading
+  when comparing two different types of waves.  For example, a square wave peaking
+  at 10 volts is obviously a greater amount of voltage for a greater amount of time
+  than a triangle wave peaking at 10 volts.  The effects of these two AC voltages
+  powering a load would be quite different: Figure<ref>02013.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Malheureusement, l&#39;une de ces expressions d&#39;amplitude de forme
+    d&#39;onde peut induire en erreur lorsque l&#39;on compare deux types d&#39;ondes
+    différentes. Par exemple, un pic d&#39;onde carrée à 10 volts est évidemment une
+    plus grande quantité de tension pour une plus grande quantité de temps qu&#39;un
+    pic d&#39;onde triangulaire à 10 volts. Les effets de ces deux tensions AC alimentant
+    une charge serait tout à fait différente: Figure <ref> 02013.png ci-dessous </ref>'}
+? 'Voltage and current are by no means the only physical variables subject to variation
+  over time.  Much more common to our everyday experience is <italic>sound</italic>,
+  which is nothing more than the alternating compression and decompression (pressure
+  waves) of air molecules, interpreted by our ears as a physical sensation.  Because
+  alternating current is a wave phenomenon, it shares many of the properties of other
+  wave phenomena, like sound.  For this reason, sound (especially structured music)
+  provides an excellent analogy for relating AC concepts.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Tension et courant ne sont nullement les seules variables physiques
+    soumises à des variations au fil du temps. Beaucoup plus fréquent à notre expérience
+    quotidienne est <italic> du son </italic> , Qui est autre chose que la compression
+    et la décompression en alternance (ondes de pression) des molécules d&#39;air,
+    interprété par les oreilles comme une sensation physique. Parce que le courant
+    alternatif est un phénomène d&#39;onde, il partage plusieurs des propriétés d&#39;autres
+    phénomènes d&#39;onde, comme le son. Pour cette raison, son (en particulier la
+    musique structurée) offre une excellente analogie pour relier les concepts AC.'}
+What is alternating current (AC)?: {tag: <sectiontitle>, xlate: !!python/unicode 'Qu&#39;est-ce
+    que le courant alternatif (AC)?'}
+? 'When an alternator produces AC voltage, the voltage switches polarity over time,
+  but does so in a very particular manner.  When graphed over time, the ``wave''''
+  traced by this voltage of alternating polarity from an alternator takes on a distinct
+  shape, known as a <italic>sine wave</italic>: Figure<ref>02008.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Lorsqu&#39;un alternateur produit une tension alternative, la tension
+    commute la polarité au cours du temps, mais le fait d&#39;une manière très particulière.
+    Lorsque la représentation graphique dans le temps, le tracé `` onde « » par cette
+    tension de polarité alternée à partir d&#39;un alternateur prend une forme distincte,
+    appelée <italic> onde sinusoïdale </italic> : Figure <ref> 02008.png ci-dessous
+    </ref>'}
+? 'When attached to a source of high-frequency AC power, an antenna acts as a <italic>transmitting</italic>
+  device, converting AC voltage and current into electromagnetic wave energy.  Antennas
+  also have the ability to intercept electromagnetic waves and convert their energy
+  into AC voltage and current.  In this mode, an antenna acts as a <italic>receiving</italic>
+  device: Figure<ref>02024.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Lorsqu&#39;il est fixé à une source d&#39;alimentation en courant alternatif
+    à haute fréquence, une antenne agit en tant que <italic> transmission </italic>
+    dispositif de conversion de tension et de courant alternatif en une énergie d&#39;onde
+    électromagnétique. Les antennes ont également la possibilité d&#39;intercepter
+    des ondes électromagnétiques et de convertir leur énergie en une tension et un
+    courant alternatif. Dans ce mode, une antenne agit comme un <italic> recevoir
+    </italic> dispositif: Figure <ref> 02024.png ci-dessous </ref>'}
+? 'Whereas the familiar battery symbol is used as a generic symbol for any DC voltage
+  source, the circle with the wavy line inside is the generic symbol for any AC voltage
+  source.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Alors que le symbole de la batterie familière est utilisée comme symbole
+    générique pour toute source de tension continue, le cercle avec la ligne ondulée
+    est à l&#39;intérieur du symbole générique pour toute source de tension alternative.'}
+? 'While DC generators work on the same general principle of electromagnetic
+
+  induction, their construction is not as simple as their AC counterparts.  With
+
+  a DC generator, the coil of wire is mounted in the shaft where the magnet is on
+
+  the AC alternator, and electrical connections are made to this spinning coil
+
+  via stationary carbon ``brushes'''' contacting copper strips on the rotating
+
+  shaft.  All this is necessary to switch the coil''s changing output polarity to
+
+  the external circuit so the external circuit sees a constant polarity:
+
+  Figure<ref>02003.png below</ref>
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Alors que générateurs de courant continu fonctionnent sur le même principe
+    général de l&#39;induction électromagnétique, leur construction est pas aussi
+    simple que leurs homologues AC. Avec un générateur de courant continu, la bobine
+    de fil est monté dans l&#39;arbre, où l&#39;aimant est de l&#39;alternateur de
+    courant alternatif, et des connexions électriques sont réalisées à cette bobine
+    de filage par l&#39;intermédiaire de carbone stationnaire `` brosses « » en contact
+    avec des bandes de cuivre sur l&#39;arbre tournant. Tout cela est nécessaire pour
+    commuter la polarité changeant de sortie de la bobine au circuit externe de sorte
+    que le circuit externe voit une polarité constante: Figure <ref> 02003.png ci-dessous
+    </ref>'}
+? 'While electromechanical alternators and many other physical phenomena naturally
+
+  produce sine waves, this is not the only kind of alternating wave in
+
+  existence.  Other ``waveforms'''' of AC are commonly produced within electronic
+
+  circuitry.  Here are but a few sample waveforms and their common designations
+
+  in figure<ref>02010.png below</ref>'
+: {tag: '<para>
+
+    ', xlate: 'Alors que de nombreux électromécaniques et alternateurs d&#39;autres
+    phénomènes physiques produisent naturellement des ondes sinusoïdales, ce n&#39;est
+    pas le seul type d&#39;onde en alternance dans l&#39;existence. D&#39;autres formes
+    d&#39;ondes `` « » AC sont couramment produites dans les circuits électroniques.
+    Voici que quelques formes d&#39;ondes d&#39;échantillons et leurs désignations
+    communes dans la figure <ref> 02010.png ci-dessous </ref>'}
+? "While the dipole looks like nothing more than an open circuit, and the loop a short\
+  \ circuit, these pieces of wire are effective radiators of electromagnetic fields\
+  \ when connected to AC sources of the proper frequency.  The two open wires of the\
+  \ dipole act as a sort of capacitor (two conductors separated by a dielectric),\
+  \ with the electric field open to dispersal instead of being concentrated between\
+  \ two closely-spaced plates.  The closed wire path of the loop antenna acts like\
+  \ an inductor with a large air core, again providing ample opportunity for the field\
+  \ to disperse away from the antenna instead of being concentrated and contained\
+  \ as in a normal inductor.  \n"
+: {tag: '<para>
+
+    ', xlate: 'Alors que le dipôle ressemble à rien de plus qu&#39;un circuit ouvert,
+    et la boucle d&#39;un court-circuit, ces morceaux de fil sont des radiateurs efficaces
+    des champs électromagnétiques lorsqu&#39;ils sont connectés à des sources alternatives
+    de la fréquence appropriée. Les deux fils ouverts de la loi dipolaire comme une
+    sorte de condensateur (deux conducteurs séparés par un diélectrique), avec le
+    champ électrique ouvert à la dispersion au lieu d&#39;être concentrée entre deux
+    plaques étroitement espacés. Le chemin de câbles fermée de l&#39;antenne cadre
+    agit comme un inducteur avec un important noyau d&#39;air, en fournissant encore
+    une fois de nombreuses occasions pour le domaine de disperser de l&#39;antenne
+    au lieu d&#39;être concentrée et contenue comme dans un inducteur normal.'}
+? 'While there is <italic>much</italic> more that may be said about antenna technology,
+  this brief introduction is enough to give you the general idea of what''s going
+  on (and perhaps enough information to provoke a few experiments).
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Bien qu&#39;il y ait <italic> beaucoup </italic> plus qui peut être
+    dit au sujet de la technologie d&#39;antenne, cette brève introduction est assez
+    pour vous donner l&#39;idée générale de ce qui se passe (et l&#39;information
+    peut-être suffisant pour provoquer quelques expériences).'}
+? 'With Oersted''s accidental discovery of electromagnetism, it was realized that
+  electricity and magnetism were related to each other.  When an electric current
+  was passed through a conductor, a magnetic field was generated perpendicular to
+  the axis of flow.  Likewise, if a conductor was exposed to a change in magnetic
+  flux perpendicular to the conductor, a voltage was produced along the length of
+  that conductor.  So far, scientists knew that electricity and magnetism always seemed
+  to affect each other at right angles.  However, a major discovery lay hidden just
+  beneath this seemingly simple concept of related perpendicularity, and its unveiling
+  was one of the pivotal moments in modern science.
+
+  '
+: {tag: '<para>
+
+    ', xlate: 'Avec la découverte accidentelle de l&#39;électromagnétisme de Oersted,
+    on a réalisé que l&#39;électricité et le magnétisme étaient liés les uns aux autres.
+    Lorsqu&#39;un courant électrique est passé à travers un conducteur, un champ magnétique
+    a été générée perpendiculaire à l&#39;axe de l&#39;écoulement. De même, si un
+    conducteur a été exposé à un changement de flux magnétique perpendiculaire au
+    conducteur, une tension a été produite le long de la longueur de ce conducteur.
+    Jusqu&#39;à présent, les scientifiques savaient que l&#39;électricité et le magnétisme
+    ont toujours semblé affecter à angle droit. Cependant, une mise de découverte
+    importante caché juste en dessous de ce concept apparemment simple de perpendicularité
+    lié, et son inauguration a été l&#39;un des moments clés de la science moderne.'}
+? '``RMS'''' stands for <italic>Root Mean Square</italic>, and is a way of expressing
+  an AC quantity of voltage or current in terms functionally equivalent to DC.  For
+  example, 10 volts AC RMS is the amount of voltage that would produce the same amount
+  of heat dissipation across a resistor of given value as a 10 volt DC power supply.  Also
+  known as the ``equivalent'''' or ``DC equivalent'''' value of an AC voltage or current.  For
+  a sine wave, the RMS value is approximately 0.707 of its peak value.'
+: {tag: <item>, xlate: '`` RMS &#39;&#39; représente <italic> Root Mean Square </italic>
+    Et est une manière d&#39;exprimer une quantité AC de tension ou de courant en
+    termes fonctionnellement équivalent à courant continu. Par exemple, 10 volts en
+    courant alternatif RMS est la quantité de tension qui produirait la même quantité
+    de dissipation de la chaleur à travers une résistance de valeur donnée à titre
+    d&#39;alimentation en courant continu de 10 volts. Également connu sous le ``
+    équivalent « valeur » ou `` DC équivalent « » d&#39;une tension alternative ou
+    de courant. Pour une onde sinusoïdale, la valeur RMS est d&#39;environ 0,707 de
+    sa valeur maximale.'}
