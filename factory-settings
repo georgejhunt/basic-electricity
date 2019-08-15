@@ -2,7 +2,7 @@
 # config for the translation tools for Lessons In Electric Circuits (LIEC)
 
 # NOTICE: This repo needs to know where the source LIEC is located - EDIT THIS!
-   BE_LIEC_DIR=/home/ghunt/electricity/liec
+   BE_LIEC_DIR=/root/liec
    export BE_LIEC_DIR
 
 # the basic-electricity repo will fail to function, if it cannot find source
@@ -21,7 +21,8 @@ export BE_DIR=$(cd `dirname $0`;pwd)
 mkdir -p $BE_LIEC_DIR/build
 
 # list of languages -- edit (add or subtract) to specify languages of interest
-    export BE_LANGUAGES_LIST="es fr"
+#    export BE_LANGUAGES_LIST="es fr"
+    export BE_LANGUAGES_LIST="en"
 
 # list of volumes -- comprehensive list of places to search for chapters
 #    edit to create a subset of volumes to be operated upon
@@ -30,10 +31,11 @@ mkdir -p $BE_LIEC_DIR/build
 
 # list of sml files to translate -- empty list does all languages, volumes in
 #     previous two lists
-    export BE_LIST="dsl"
-#    export BE_LIST="basiccon ohm safety dsl batt basicac s_and_p "
+#    export BE_LIST="dsl"
+    export BE_LIST="basiccon ohm safety dsl batt basicac s_and_p "
 
-
+# list of volumes (output lesson names) corresponding to above BE_list
+    export BE_LESSONS="DC_1 DC_2 DC_3 DC_5 DC_11 AC_1 AC_A1 AC_A3"
 
 # set up a logfile to record significant events
     export BE_LOGFILE=$BE_DIR/translate.log

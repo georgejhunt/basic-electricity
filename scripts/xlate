@@ -16,11 +16,30 @@ liec_dir = os.environ["BE_LIEC_DIR"]
 be_dir = os.environ["BE_DIR"]
 be_logfile = os.environ["BE_LOGFILE"]
 
+if len(sys.argv) < 3:
+  print "input parameters <full path of sml file> <volume> <language>"
+  sys.exit(1)
+
+# split apart identifier from full path
+basename = os.path.basename(sys.argv[1])
+
+# volume is second parameter
+volume = sys.argv[2]
+
+# target language is third parameter
+tlang = sys.argv[3]
+
 # individual google cloud authentication seem easiest (first $300 of service is free)
-API_KEY = os.environ["BE_API_KEY"]
-service = build('translate', 'v2', developerKey=API_KEY)
+if tlang != 'en':
+    API_KEY = os.environ["BE_API_KEY"]
+    service = build('translate', 'v2', developerKey=API_KEY)
 
 def gtranslate(text,slang='en',targetlanguage='es'):
+    # if source is english, do not translate, but let the rest of the code work
+    if slang == targetlanguage:
+           retn ={}
+           retn["translations"] = [ { "translatedText" : text},]
+           return retn
     return service.translations().list(
            source=slang, 
            target=targetlanguage,
@@ -47,19 +66,6 @@ def add_quote_tags(inp):
       return inp
    return outstr
    
-if len(sys.argv) < 3:
-  print "input parameters <full path of sml file> <volume> <language>"
-  sys.exit(1)
-
-# split apart identifier from full path
-basename = os.path.basename(sys.argv[1])
-
-# volume is second parameter
-volume = sys.argv[2]
-
-# target language is third parameter
-tlang = sys.argv[3]
-
 # Look to see if we already have translation going for this sml file
 inputFilename = be_dir + '/po-templates/' + basename +'.pot.' + tlang
 try: # to load the portable object translation file
@@ -128,6 +134,7 @@ if dict_changed:
 rawmap.sort()
 #print rawmap
 outstr = u''
+xlated = u''
 for startnibble, endnibble in rawmap:
     outstr += raw[index:startnibble]
     dictkey = raw[startnibble:endnibble]
