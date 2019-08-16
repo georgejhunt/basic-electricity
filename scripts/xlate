@@ -28,6 +28,8 @@ volume = sys.argv[2]
 
 # target language is third parameter
 tlang = sys.argv[3]
+if tlang == 'en':
+    sys.exit(0)
 
 # individual google cloud authentication seem easiest (first $300 of service is free)
 if tlang != 'en':

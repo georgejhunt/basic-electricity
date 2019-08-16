@@ -35,7 +35,7 @@ mkdir -p $BE_LIEC_DIR/build
     export BE_LIST="basiccon ohm safety dsl batt basicac s_and_p "
 
 # list of volumes (output lesson names) corresponding to above BE_list
-    export BE_LESSONS="DC_1 DC_2 DC_3 DC_5 DC_11 AC_1 AC_A1 AC_A3"
+    export BE_LESSONS="DC_1 DC_2 DC_3 DC_5 DC_11 AC_1 DC_A1 DC_A3"
 
 # set up a logfile to record significant events
     export BE_LOGFILE=$BE_DIR/translate.log

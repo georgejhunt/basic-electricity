@@ -11,7 +11,7 @@ for lang in $BE_LANGUAGES_LIST; do
 
    # copy the whole source context to build directory
    for volume in $BE_VOLUMES; do
-      rsync -a --exclude=*.sml $BE_LIEC_DIR/$volume $BE_LIEC_DIR/build/$lang
+      rsync -a --exclude=*.sml --exclude=*.eps $BE_LIEC_DIR/$volume $BE_LIEC_DIR/build/$lang
       cp $BE_DIR/scripts/mk${volume}htmlSubset $BE_LIEC_DIR/build/$lang/$volume
       # substitute our own sed script that knows about <quote> and </quote>
       cp $BE_DIR/scripts/sml2html.sed $BE_LIEC_DIR/build/$lang/$volume
@@ -58,15 +58,35 @@ for lang in $BE_LANGUAGES_LIST; do
    done
    # done with this smlfile
    # process the sml file to html and collect all html together
-   pushd $BE_LIEC_DIR/build/$lang/DC
-       ./mkDChtmlSubset
-       ls DC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
-       cp DC_*.html $BE_LIEC_DIR/build/output/DC
-   popd
-   pushd $BE_LIEC_DIR/build/$lang/AC
-       ./mkAChtmlSubset
-       ls AC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
-       cp AC_*.html $BE_LIEC_DIR/build/output/AC
-   popd
+   if [ "$lang" != "en" ];then
+      source=$BE_LIEC_DIR/build/$lang/DC
+      mkdir -p $BE_LIEC_DIR/build/output/$lang/DC
+      mkdir -p $source
+      pushd $source
+          ./mkDChtmlSubset
+          ls DC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
+          cp DC_*.html $BE_LIEC_DIR/build/output/$lang/DC
+      popd
+      source=$BE_LIEC_DIR/build/$lang/AC
+      mkdir -p $BE_LIEC_DIR/build/output/$lang/AC
+      pushd $source
+          ./mkAChtmlSubset
+          ls AC_*.html | xargs sed -i -e "s/&amp;#39;/'/g" 
+          cp AC_*.html $BE_LIEC_DIR/build/output/$lang/AC
+      popd
+   else
+      for f in $BE_LESSONS; do
+         if [ ${f:0:2} == "DC" ];then
+            target=$BE_LIEC_DIR/build/$lang/DC
+            mkdir -p $target
+            cp $BE_LIEC_DIR/DC/$f.html $BE_LIEC_DIR/build/$lang/DC/
+         fi
+         if [ ${f:0:2} == "AC" ];then
+            target=$BE_LIEC_DIR/build/$lang/AC
+            mkdir -p $target
+            cp $BE_LIEC_DIR/AC/$f.html $BE_LIEC_DIR/build/$lang/AC/
+         fi
+      done
+   fi
 done
 # done with all languages
